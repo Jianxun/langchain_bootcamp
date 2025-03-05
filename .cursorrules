@@ -1,0 +1,208 @@
+# Instructions
+
+During your interaction with the user, if you find anything reusable in this project (e.g. version of a library, model name), especially about a fix to a mistake you made or a correction you received, you should take note in the `Lessons` section in the `.cursorrules` file so you will not make the same mistake again. 
+
+You should also use the `.cursorrules` file as a Scratchpad to organize your thoughts. Especially when you receive a new task, you should first review the content of the Scratchpad, clear old different task if necessary, first explain the task, and plan the steps you need to take to complete the task. You can use todo markers to indicate the progress, e.g.
+[X] Task 1
+[ ] Task 2
+
+Also update the progress of the task in the Scratchpad when you finish a subtask.
+Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
+The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
+
+# Tools
+
+Note all the tools are in python. So in the case you need to do batch processing, you can always consult the python files and write your own script.
+
+## Screenshot Verification
+
+The screenshot verification workflow allows you to capture screenshots of web pages and verify their appearance using LLMs. The following tools are available:
+
+1. Screenshot Capture:
+```bash
+venv/bin/python tools/screenshot_utils.py URL [--output OUTPUT] [--width WIDTH] [--height HEIGHT]
+```
+
+2. LLM Verification with Images:
+```bash
+venv/bin/python tools/llm_api.py --prompt "Your verification question" --provider {openai|anthropic} --image path/to/screenshot.png
+```
+
+Example workflow:
+```python
+from screenshot_utils import take_screenshot_sync
+from llm_api import query_llm
+
+# Take a screenshot
+
+screenshot_path = take_screenshot_sync('https://example.com', 'screenshot.png')
+
+# Verify with LLM
+
+response = query_llm(
+    "What is the background color and title of this webpage?",
+    provider="openai",  # or "anthropic"
+    image_path=screenshot_path
+)
+print(response)
+```
+
+## LLM
+
+You always have an LLM at your side to help you with the task. For simple tasks, you could invoke the LLM by running the following command:
+```
+venv/bin/python ./tools/llm_api.py --prompt "What is the capital of France?" --provider "anthropic"
+```
+
+The LLM API supports multiple providers:
+- OpenAI (default, model: gpt-4o)
+- Azure OpenAI (model: configured via AZURE_OPENAI_MODEL_DEPLOYMENT in .env file, defaults to gpt-4o-ms)
+- DeepSeek (model: deepseek-chat)
+- Anthropic (model: claude-3-sonnet-20240229)
+- Gemini (model: gemini-pro)
+- Local LLM (model: Qwen/Qwen2.5-32B-Instruct-AWQ)
+
+But usually it's a better idea to check the content of the file and use the APIs in the `tools/llm_api.py` file to invoke the LLM if needed.
+
+## Web browser
+
+You could use the `tools/web_scraper.py` file to scrape the web.
+```
+venv/bin/python ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
+```
+This will output the content of the web pages.
+
+## Search engine
+
+You could use the `tools/search_engine.py` file to search the web.
+```
+venv/bin/python ./tools/search_engine.py "your search keywords"
+```
+This will output the search results in the following format:
+```
+URL: https://example.com
+Title: This is the title of the search result
+Snippet: This is a snippet of the search result
+```
+If needed, you can further use the `web_scraper.py` file to scrape the web page content.
+
+# User Learning Topics and Progress
+This is a learning project where the user learns new skills by building prototypes.
+Organize the user's learning plans here. If the user ask you to explain a concept, answer it, then leave a note here that the user is interested in the subject matter and may revisit or learn more about it later. 
+
+Help the user to progress through his/her learning plan, adjust it when the user would like to move faster or slower. 
+
+## Current Learning Plan
+### Day 1: LangChain Fundamentals
+- [X] Set up project structure
+- [X] Create basic chatbot implementation
+- [ ] Core LangChain Concepts:
+  - [X] LLM (Language Model) integration
+    - [X] Use `langchain-openai` instead of `langchain_community.chat_models`
+    - [X] Use `ChatOpenAI` for chat-based interactions
+  - [X] Prompt Templates and their importance
+    - [X] Basic templates
+    - [X] Chat templates
+    - [X] Different styles and formats
+  - [X] Basic Chains and how they work
+    - [X] Use new pipe operator pattern (`prompt | llm`) instead of `LLMChain`
+    - [X] Use `invoke()` instead of deprecated `run()`
+  - [X] Environment setup and configuration
+- [ ] Experiment with different parameters:
+  - [ ] Temperature and its effect on responses
+  - [ ] Max tokens and response length
+  - [ ] Different model options (GPT-3.5 vs GPT-4)
+
+### Day 2: Advanced Prompting and Chains
+- [ ] Prompt Engineering:
+  - [ ] Different types of prompt templates
+  - [ ] Few-shot learning examples
+  - [ ] Chain of thought prompting
+- [ ] Chain Types:
+  - [ ] Sequential chains
+  - [ ] Parallel chains
+  - [ ] Custom chains
+- [ ] Project: Build a text summarizer with different summarization styles
+
+### Day 3: RAG (Retrieval Augmented Generation)
+- [ ] Document Processing:
+  - [ ] Document loaders
+  - [ ] Text splitters
+  - [ ] Vector stores
+- [ ] Embeddings:
+  - [ ] Different embedding models
+  - [ ] Vector similarity search
+- [ ] Project: Build a document Q&A system
+
+### Day 4: Agents and Tools
+- [ ] Agent Types:
+  - [ ] ReAct agents
+  - [ ] Plan-and-execute agents
+  - [ ] Custom agents
+- [ ] Tool Integration:
+  - [ ] Built-in tools
+  - [ ] Custom tools
+  - [ ] Tool selection strategies
+- [ ] Project: Build an AI assistant with multiple capabilities
+
+### Day 5: Memory and Context
+- [ ] Memory Types:
+  - [ ] Buffer memory
+  - [ ] Summary memory
+  - [ ] Vector store memory
+- [ ] Context Management:
+  - [ ] Conversation history
+  - [ ] Context window optimization
+- [ ] Project: Enhance chatbot with memory
+
+### Day 6: Advanced Workflows
+- [ ] Complex Chains:
+  - [ ] Multi-step workflows
+  - [ ] Error handling
+  - [ ] Retry mechanisms
+- [ ] External Integration:
+  - [ ] API calls
+  - [ ] Database integration
+  - [ ] Web scraping
+- [ ] Project: Build a research assistant
+
+### Day 7: Deployment and Production
+- [ ] Application Deployment:
+  - [ ] Streamlit integration
+  - [ ] API endpoints
+  - [ ] Error handling
+- [ ] Production Considerations:
+  - [ ] Rate limiting
+  - [ ] Cost optimization
+  - [ ] Monitoring
+- [ ] Project: Deploy chatbot as a web application
+
+## Interested Subject Matters
+- LangChain framework architecture and components
+- Prompt engineering best practices
+- Vector databases and embeddings
+- Agent-based AI systems
+- Production deployment of LLM applications
+- Python package management and environment variables (python-dotenv)
+- 12-factor app methodology and best practices for application configuration
+- Security best practices for handling API keys and sensitive data
+
+# Lessons
+
+## User Specified Lessons
+
+- You have a python venv in ./venv. Use it.
+- Include info useful for debugging in the program output.
+- Read the file before you try to edit it.
+- Due to Cursor's limit, when you use `git` and `gh` and need to submit a multiline commit message, first write the message in a file, and then use `git commit -F <filename>` or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+
+## Cursor learned
+
+- For search results, ensure proper handling of different character encodings (UTF-8) for international queries
+- Add debug information to stderr while keeping the main output clean in stdout for better pipeline integration
+- When using seaborn styles in matplotlib, use 'seaborn-v0_8' instead of 'seaborn' as the style name due to recent seaborn version changes
+- Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
+- Use langchain-community package for third-party integrations (like OpenAI, Anthropic, etc.) as they have been moved from the main langchain package
+- Use ChatOpenAI from langchain_community.chat_models instead of OpenAI from langchain_community.llms for chat-based interactions with GPT models
+
+# Scratchpad
