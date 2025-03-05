@@ -1,0 +1,8 @@
+[Cursor] Day 2: Document Summarizer with Streamlit App
+
+- Added Streamlit web interface for document summarizer
+- Implemented multiple summary styles (narrative, bullet points, structured data)
+- Added default text loading from finite_state_machine.txt
+- Updated documentation and README
+- Reorganized project structure
+- Updated requirements.txt 

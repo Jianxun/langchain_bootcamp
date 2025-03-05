@@ -1,44 +1,82 @@
-# Day 1: Simple LLM-Powered Chatbot
+# Day 1: LangChain Fundamentals
 
-This project implements a basic chatbot using LangChain and OpenAI's GPT models. It demonstrates fundamental LangChain concepts including:
-- LLM initialization and configuration
-- Prompt templates
-- Basic chains
+## Learning Objectives
+1. Core LangChain Concepts
+   - LLM (Language Model) integration
+   - Prompt Templates and their importance
+   - Basic Chains and how they work
+   - Environment setup and configuration
 
-## Setup
+2. Experiment with different parameters:
+   - Temperature and its effect on responses
+   - Max tokens and response length
+   - Different model options (GPT-3.5 vs GPT-4)
 
-1. Make sure you have Python 3.8+ installed
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Create a `.env` file in the parent directory with your OpenAI API key:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
+## Key Concepts
 
-## Usage
+### LLM Integration
+- Using `langchain-openai` for OpenAI integration
+- ChatOpenAI vs OpenAI models
+- Model parameters and configuration
 
-Run the chatbot:
+### Prompt Templates
+- Basic templates
+- Chat templates
+- Different styles and formats
+
+### Basic Chains
+- Chain composition
+- Pipe operator pattern
+- Input/output handling
+
+## Running the Applications
+
+### Command Line Chatbot
+To run the command line version:
 ```bash
-python simple_chatbot.py
+python day1_simple_chatbot.py
 ```
 
-The chatbot will:
-- Accept user input
-- Generate responses using GPT-3.5-turbo
-- Continue until you type 'quit'
+### Streamlit Web App
+To run the web interface version:
+```bash
+streamlit run day1_simple_chatbot_app.py
+```
 
-## Key Concepts Demonstrated
+The Streamlit app provides:
+- A dropdown menu to select conversation styles
+- A modern chat interface
+- Persistent chat history
+- Clear chat functionality
+- Helpful sidebar with information
 
-- **LLM**: Using OpenAI's GPT model through LangChain
-- **PromptTemplate**: Creating structured prompts for the LLM
-- **LLMChain**: Combining prompts and LLM into a workflow
-- **Environment Variables**: Managing API keys securely
+## Project Structure
+```
+day1/
+├── day1_simple_chatbot.py      # Command line chatbot
+├── day1_simple_chatbot_app.py  # Streamlit web interface
+└── README.md                   # This file
+```
 
-## Customization
+## Dependencies
+Make sure you have the required packages installed:
+```bash
+pip install -r requirements.txt
+```
 
-You can modify the following parameters in `simple_chatbot.py`:
-- `temperature`: Controls response randomness (0.0 to 1.0)
-- `max_tokens`: Maximum length of responses
-- `model_name`: The GPT model to use 
+## Environment Setup
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up your environment variables in `.env`:
+```
+OPENAI_API_KEY=your_api_key_here
+``` 

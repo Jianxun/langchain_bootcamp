@@ -96,7 +96,7 @@ Help the user to progress through his/her learning plan, adjust it when the user
 ### Day 1: LangChain Fundamentals
 - [X] Set up project structure
 - [X] Create basic chatbot implementation
-- [ ] Core LangChain Concepts:
+- [X] Core LangChain Concepts:
   - [X] LLM (Language Model) integration
     - [X] Use `langchain-openai` instead of `langchain_community.chat_models`
     - [X] Use `ChatOpenAI` for chat-based interactions
@@ -108,21 +108,40 @@ Help the user to progress through his/her learning plan, adjust it when the user
     - [X] Use new pipe operator pattern (`prompt | llm`) instead of `LLMChain`
     - [X] Use `invoke()` instead of deprecated `run()`
   - [X] Environment setup and configuration
-- [ ] Experiment with different parameters:
-  - [ ] Temperature and its effect on responses
-  - [ ] Max tokens and response length
-  - [ ] Different model options (GPT-3.5 vs GPT-4)
+- [X] Experiment with different parameters:
+  - [X] Temperature and its effect on responses
+  - [X] Max tokens and response length
+  - [X] Different model options (GPT-3.5 vs GPT-4)
 
 ### Day 2: Advanced Prompting and Chains
-- [ ] Prompt Engineering:
-  - [ ] Different types of prompt templates
-  - [ ] Few-shot learning examples
-  - [ ] Chain of thought prompting
-- [ ] Chain Types:
-  - [ ] Sequential chains
-  - [ ] Parallel chains
-  - [ ] Custom chains
-- [ ] Project: Build a text summarizer with different summarization styles
+- [X] Prompt Engineering:
+  - [X] Different types of prompt templates
+  - [X] Few-shot learning examples
+    - [X] Basic few-shot learning
+    - [X] Example selection strategies
+    - [X] Impact of example size
+  - [X] Chain of thought prompting
+    - [X] Basic chain of thought
+    - [X] Different problem types (math, logic, code)
+    - [X] Few-shot chain of thought
+- [X] Chain Types:
+  - [X] Sequential chains
+    - [X] Basic sequential execution
+    - [X] Data flow between steps
+  - [X] Parallel chains
+    - [X] Running multiple chains simultaneously
+    - [X] Collecting results from parallel execution
+  - [X] Branching chains
+    - [X] Conditional execution
+    - [X] Different paths based on input
+  - [X] Combined patterns
+    - [X] Sequential with branching
+    - [X] Parallel with sequential
+- [X] Project: Build a text summarizer with different summarization styles
+  - [X] Multiple summarization styles (bullet points, narrative, structured data)
+  - [X] Chain composition and patterns
+  - [X] Prompt engineering for different formats
+  - [X] File input/output handling
 
 ### Day 3: RAG (Retrieval Augmented Generation)
 - [ ] Document Processing:
@@ -206,3 +225,37 @@ Help the user to progress through his/her learning plan, adjust it when the user
 - Use ChatOpenAI from langchain_community.chat_models instead of OpenAI from langchain_community.llms for chat-based interactions with GPT models
 
 # Scratchpad
+
+Current Task: RAG (Retrieval Augmented Generation) Tools
+[ ] Document Processing Tools
+  - [ ] Document loaders (PDF, TXT, etc.)
+  - [ ] Text splitters (chunking strategies)
+  - [ ] Vector stores (FAISS, Chroma)
+[ ] Embedding Tools
+  - [ ] Different embedding models
+  - [ ] Vector similarity search
+[ ] Project Planning
+  - [ ] Document Q&A system requirements
+  - [ ] Architecture design
+  - [ ] Implementation steps
+
+Key Tools to Learn:
+1. Document Processing:
+   - LangChain document loaders
+   - Text splitting strategies
+   - Vector store integrations
+
+2. Embedding Models:
+   - OpenAI embeddings
+   - Sentence transformers
+   - Vector similarity calculations
+
+3. Vector Stores:
+   - FAISS
+   - Chroma
+   - Pinecone (optional)
+
+4. RAG Components:
+   - Document retrieval
+   - Context augmentation
+   - Response generation

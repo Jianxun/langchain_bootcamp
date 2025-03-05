@@ -1,5 +1,5 @@
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate, FewShotPromptTemplate
+from langchain.prompts import ChatPromptTemplate, FewShotPromptTemplate, PromptTemplate
 from langchain.prompts.example_selector import LengthBasedExampleSelector
 import os
 from dotenv import load_dotenv
@@ -31,24 +31,25 @@ def few_shot_example():
         {"input": "The bird flew in the sky", "output": "A bird is flying in the sky"}
     ]
     
+    # Create example prompt template
+    example_prompt = PromptTemplate(
+        input_variables=["input", "output"],
+        template="Input: {input}\nOutput: {output}"
+    )
+    
     # Create example selector
     example_selector = LengthBasedExampleSelector(
         examples=examples,
-        max_length=50
+        max_length=50,
+        example_prompt=example_prompt
     )
-    
-    # Create prompt template
-    example_prompt = ChatPromptTemplate.from_messages([
-        ("human", "{input}"),
-        ("assistant", "{output}")
-    ])
     
     # Create few-shot prompt
     prompt = FewShotPromptTemplate(
         example_selector=example_selector,
         example_prompt=example_prompt,
         prefix="Translate the following sentences to a more descriptive form:",
-        suffix="Human: {input}\nAssistant:",
+        suffix="Input: {input}\nOutput:",
         input_variables=["input"]
     )
     

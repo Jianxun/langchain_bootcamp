@@ -1,43 +1,62 @@
 # Day 2: Advanced Prompting and Chains
 
-## Overview
-This module focuses on advanced techniques in prompt engineering and chain composition in LangChain.
-
 ## Learning Objectives
-1. Master different types of prompt templates
-2. Understand and implement few-shot learning
-3. Explore chain of thought prompting
-4. Work with different chain types (sequential, parallel, custom)
-5. Build a text summarizer with different styles
-
-## Project Structure
-- `advanced_prompting.py`: Examples of different prompt engineering techniques
-- `chain_types.py`: Demonstrations of different chain patterns
-- `text_summarizer.py`: Project implementing a text summarizer with different styles
-- `day2_summary.md`: Progress tracking and key learnings
+- Advanced prompting techniques
+- Chain types and patterns
+- Document summarizer project
 
 ## Key Concepts
-1. **Advanced Prompting**
-   - Few-shot learning examples
-   - Chain of thought prompting
-   - Different prompt template types
-   - Prompt optimization techniques
-
-2. **Chain Types**
+1. Few-shot learning
+2. Chain of thought
+3. Chain patterns:
    - Sequential chains
    - Parallel chains
-   - Custom chains
-   - Chain composition patterns
+   - Branching chains
+   - Combined patterns
 
-## Getting Started
-1. Ensure you have completed Day 1 materials
-2. Review the basic concepts in each file
-3. Follow the examples and exercises
-4. Complete the text summarizer project
+## Project: Document Summarizer
+A flexible document summarizer that can generate summaries in multiple styles:
+- Bullet points
+- Narrative
+- Structured data (JSON format)
 
-## Project: Text Summarizer
-The final project will be a text summarizer that can:
-- Generate different types of summaries (concise, detailed, technical)
-- Use different prompting techniques
-- Implement various chain patterns
-- Handle different input formats 
+### Features
+- Multiple summarization styles
+- Parallel chain processing
+- Configurable output formats
+- Error handling
+- Streamlit web interface
+
+### Technical Details
+- Uses LangChain's parallel chains
+- Implements different prompt templates for each style
+- Handles various input lengths
+- Provides structured output options
+
+### Usage
+#### Command Line
+```bash
+python day2_document_summarizer.py
+```
+
+#### Streamlit App
+```bash
+streamlit run day2_document_summarizer_app.py
+```
+
+The Streamlit app provides:
+- Interactive web interface
+- Style selection dropdown
+- Input text area with default sample text
+- Real-time summary generation
+- Sidebar with usage tips and technical details
+- Sample text loading option
+
+### Next Steps
+1. Add more summarization styles
+2. Implement error handling
+3. Add file upload support
+4. Create a web interface
+5. Add support for different languages
+6. Implement caching for better performance
+7. Add export options for summaries 
