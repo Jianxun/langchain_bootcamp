@@ -144,14 +144,18 @@ Help the user to progress through his/her learning plan, adjust it when the user
   - [X] File input/output handling
 
 ### Day 3: RAG (Retrieval Augmented Generation)
-- [ ] Document Processing:
-  - [ ] Document loaders
-  - [ ] Text splitters
-  - [ ] Vector stores
-- [ ] Embeddings:
-  - [ ] Different embedding models
-  - [ ] Vector similarity search
-- [ ] Project: Build a document Q&A system
+- [X] Document Processing:
+  - [X] Document loaders (PDF, TXT, etc.)
+  - [X] Text splitters (chunking strategies)
+  - [X] Vector stores (FAISS, Chroma)
+- [X] Embeddings:
+  - [X] Different embedding models
+  - [X] Vector similarity search
+- [X] Project: Build a document Q&A system
+  - [X] Document loading and preprocessing
+  - [X] Vector store setup
+  - [X] Question answering chain
+  - [X] User interface
 
 ### Day 4: Agents and Tools
 - [ ] Agent Types:
@@ -163,6 +167,10 @@ Help the user to progress through his/her learning plan, adjust it when the user
   - [ ] Custom tools
   - [ ] Tool selection strategies
 - [ ] Project: Build an AI assistant with multiple capabilities
+  - [ ] Tool selection and execution
+  - [ ] Agent reasoning and planning
+  - [ ] Error handling and recovery
+  - [ ] User interface for tool interaction
 
 ### Day 5: Memory and Context
 - [ ] Memory Types:
@@ -226,36 +234,33 @@ Help the user to progress through his/her learning plan, adjust it when the user
 
 # Scratchpad
 
-Current Task: RAG (Retrieval Augmented Generation) Tools
-[ ] Document Processing Tools
-  - [ ] Document loaders (PDF, TXT, etc.)
-  - [ ] Text splitters (chunking strategies)
-  - [ ] Vector stores (FAISS, Chroma)
-[ ] Embedding Tools
-  - [ ] Different embedding models
-  - [ ] Vector similarity search
+Current Task: Agents and Tools (Day 4)
+[ ] Agent Types
+  - [ ] ReAct agents
+  - [ ] Plan-and-execute agents
+  - [ ] Custom agents
+[ ] Tool Integration
+  - [ ] Built-in tools
+  - [ ] Custom tools
+  - [ ] Tool selection strategies
 [ ] Project Planning
-  - [ ] Document Q&A system requirements
-  - [ ] Architecture design
-  - [ ] Implementation steps
+  - [ ] AI assistant requirements
+  - [ ] Tool selection
+  - [ ] Interface design
 
 Key Tools to Learn:
-1. Document Processing:
-   - LangChain document loaders
-   - Text splitting strategies
-   - Vector store integrations
+1. Agent Types:
+   - ReAct agents for reasoning and acting
+   - Plan-and-execute agents for complex tasks
+   - Custom agent development
 
-2. Embedding Models:
-   - OpenAI embeddings
-   - Sentence transformers
-   - Vector similarity calculations
+2. Tool Integration:
+   - LangChain's built-in tools
+   - Custom tool creation
+   - Tool selection and execution
 
-3. Vector Stores:
-   - FAISS
-   - Chroma
-   - Pinecone (optional)
-
-4. RAG Components:
-   - Document retrieval
-   - Context augmentation
-   - Response generation
+3. Project Components:
+   - Agent reasoning system
+   - Tool management
+   - User interface
+   - Error handling
