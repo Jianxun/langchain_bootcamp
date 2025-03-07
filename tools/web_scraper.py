@@ -25,8 +25,26 @@ async def fetch_page(url: str, context) -> Optional[str]:
     page = await context.new_page()
     try:
         logger.info(f"Fetching {url}")
-        await page.goto(url)
-        await page.wait_for_load_state('networkidle')
+        # Set common headers
+        await page.set_extra_http_headers({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'DNT': '1',
+        })
+        
+        # Set shorter timeout and wait for specific elements
+        await page.goto(url, timeout=15000)  # 15 seconds timeout
+        try:
+            # Wait for temperature-related elements with a short timeout
+            await page.wait_for_selector('text=/°[CF]|temp|temperature/i', timeout=5000)
+        except:
+            # Continue even if we don't find temperature elements
+            pass
+        
+        # Wait briefly for dynamic content
+        await page.wait_for_timeout(2000)
+        
         content = await page.content()
         logger.info(f"Successfully fetched {url}")
         return content
@@ -126,21 +144,40 @@ def parse_html(html_content: Optional[str]) -> str:
 async def process_urls(urls: List[str], max_concurrent: int = 5) -> List[str]:
     """Process multiple URLs concurrently."""
     async with async_playwright() as p:
-        browser = await p.chromium.launch()
+        browser = await p.chromium.launch(
+            args=['--disable-http2']  # Disable HTTP/2 to avoid protocol errors
+        )
         try:
-            # Create browser contexts
+            # Create browser contexts with specific viewport and permissions
             n_contexts = min(len(urls), max_concurrent)
-            contexts = [await browser.new_context() for _ in range(n_contexts)]
+            contexts = []
+            for _ in range(n_contexts):
+                context = await browser.new_context(
+                    viewport={'width': 1280, 'height': 720},
+                    permissions=['geolocation']  # Some weather sites need this
+                )
+                # Add rate limiting delay between context creation
+                await asyncio.sleep(0.5)
+                contexts.append(context)
             
-            # Create tasks for each URL
+            # Create tasks for each URL with rate limiting
             tasks = []
             for i, url in enumerate(urls):
                 context = contexts[i % len(contexts)]
+                # Add delay between requests to avoid rate limiting
+                await asyncio.sleep(1)
                 task = fetch_page(url, context)
                 tasks.append(task)
             
-            # Gather results
-            html_contents = await asyncio.gather(*tasks)
+            # Gather results with timeout
+            try:
+                html_contents = await asyncio.wait_for(
+                    asyncio.gather(*tasks),
+                    timeout=45  # 45 seconds total timeout
+                )
+            except asyncio.TimeoutError:
+                logger.error("Timeout while fetching pages")
+                html_contents = [None] * len(urls)
             
             # Parse HTML contents in parallel
             with Pool() as pool:
