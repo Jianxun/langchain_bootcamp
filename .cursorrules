@@ -253,6 +253,8 @@ Help the user to progress through his/her learning plan, adjust it when the user
 - Use 'gpt-4o' as the model name for OpenAI's GPT-4 with vision capabilities
 - Use langchain-community package for third-party integrations (like OpenAI, Anthropic, etc.) as they have been moved from the main langchain package
 - Use ChatOpenAI from langchain_community.chat_models instead of OpenAI from langchain_community.llms for chat-based interactions with GPT models
+- Always use 'gpt-4o' model when using OpenAI LLM unless specifically instructed otherwise
+- When using LLMMathChain, ensure numexpr package is installed for mathematical calculations
 
 # Scratchpad
 

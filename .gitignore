@@ -29,3 +29,7 @@ build/
 # Local development settings
 *.log
 .DS_Store 
+
+arxiv
+chip_relationship_parser/catalog_output
+chip_relationship_parser/debug_output

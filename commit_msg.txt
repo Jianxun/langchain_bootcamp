@@ -1,1 +1,0 @@
-[Cursor] Remove unused tool implementations | - Removed unused calculator, scraper, and search tools - ReAct agent uses its own tool implementations
