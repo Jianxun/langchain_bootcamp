@@ -33,3 +33,5 @@ build/
 arxiv
 chip_relationship_parser/catalog_output
 chip_relationship_parser/debug_output
+
+*.bak
