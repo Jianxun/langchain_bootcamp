@@ -1,0 +1,1534 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+    
+    
+
+
+    <!-- *** FE html start -->
+    <meta charset="utf-8">
+
+                <title>Single-Ended to Differential Amplifiers | Analog Devices</title>
+                <meta name="robots" content="follow, index" />
+                <meta name="description" content="Analog Devices has developed a broad portfolio of single-ended to differential amplifiers that help designers meet their high performance requirements. ADI single-ended to differential amplifiers enab" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+                        <meta name="yandex-verification" content="86a60d9bcaab43f0" />
+                        <meta name="google-site-verification" content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" />
+                        <meta name="baidu-site-verification" content="cSddD8r1N7" />
+                        <meta name="msvalidate.01" content="381E86BC7EF76D19F9365D26D8BFCD35" />
+                                <link rel="alternate" hreflang=en-US href="https://www.analog.com/en/product-category/single-ended-differential-amplifiers.html" />
+                                <link rel="alternate" hreflang=zh-Hans-CN href="https://www.analog.com/cn/product-category/single-ended-differential-amplifiers.html" />
+                                <link rel="alternate" hreflang=ja-JP href="https://www.analog.com/jp/product-category/single-ended-differential-amplifiers.html" />
+                            <link rel="canonical" href="https://www.analog.com/en/product-category/single-ended-differential-amplifiers.html" />
+
+        <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Amplifiers","item":"https://www.analog.com/en/product-category/amplifiers.html"},{"@type":"ListItem","position":2,"name":"Differential Amplifiers and ADC Drivers","item":"https://www.analog.com/en/product-category/differential-amplifiers-and-adc-drivers.html"},{"@type":"ListItem","position":3,"name":"Single-Ended to Differential Amplifiers","item":"https://www.analog.com/en/product-category/single-ended-differential-amplifiers.html"}]};
+        </script>
+
+
+    <script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+
+    <script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+
+        <link rel="icon" href="https://www.analog.com/media/favicon/favicon.ico">
+        <link rel="apple-touch-icon" href="https://www.analog.com/media/favicon/apple_favicon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png ">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png ">
+        <link rel="apple-touch-icon" sizes="167x167" href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png ">
+        <link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon" />
+    
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"></noscript>
+    <style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+
+
+
+
+
+
+    <!-- Font-awesome -->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Optional theme -->
+    <!-- owl-slider -->
+    <!-- Algolia Instant Search Theme -->
+    <!-- Autocomplete Theme -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+
+
+
+    <link rel="preload" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/app.bundle.css"></noscript>
+    <link rel="preload" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css"></noscript>
+        <link rel="preload" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css"></noscript>
+                    <link rel="preload" href="https://assets2.analog.com/cms-assets/css/pages/styles/pcppage.bundle.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/pcppage.bundle.css"></noscript>
+    <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+
+    
+    <link rel="stylesheet" href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css">
+    
+    
+
+    <link rel="stylesheet" type="text/css" href="https://assets2.analog.com/header-footer/index.css">
+    <script src="https://assets2.analog.com/header-footer/index.js" type="module" defer></script>
+
+    <script src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js" async></script>
+    <!-- *** FE html end -->
+</head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+
+    
+
+    
+
+<!-- #wrapper -->
+<div id="wrapper" class="page-wrap">
+    <!-- #header -->
+    <header>
+        <div id="header" class="container-fluid">
+            <div class="row">
+                <div>
+        <adi-header>            
+            <adi-account></adi-account>
+        </adi-header>
+            <adi-menu divided>
+                <adi-cart slot="buttons"></adi-cart>
+                <adi-search slot="drawer">
+                    <div slot="search"></div>
+                    <div slot="results"></div>
+                </adi-search>
+            </adi-menu>
+        <adi-dispatch></adi-dispatch>
+</div>
+            </div>
+        </div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main role="main" id="main" tabindex="-1" class="main-content content">
+        <div id="content" class="container-fluid">
+            <div class="row">
+<div>
+
+
+
+
+<div class="component Global-Breadcrumb">
+    <div class="component-content">
+        <!-- Breadcrumb component : start -->
+
+        <article class="breadcrumb app-js__breadcrumb ">
+
+            <div class="breadcrumb__container" aria-label="Breadcrumb" role="navigation">
+                            <div class="breadcrumb__container__section body-small">
+                                            <a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+                                                <span class="breadcrumb__container__section_item" aria-current="page">Home</span>
+
+                                            </a>
+
+
+
+                            </div>
+                            <div class="breadcrumb__container__section body-small">
+                                            <a class="breadcrumb__container__section_item text-underline" href="/en/product-category.html">
+                                                <span class="breadcrumb__container__section_item" aria-current="page">Products</span>
+                                            </a>
+
+
+
+                            </div>
+                            <div class="breadcrumb__container__section body-small">
+                                            <a class="breadcrumb__container__section_dropdown-item" href="/en/product-category/amplifiers.html" aria-label="Amplifiers">
+                                                Amplifiers
+                                            </a>
+<img src="/en/_/media/project/analogweb/analogweb/reference-design/chevron-bottom-xs.svg?rev=3bc6fd969838464fb5cb0cd54cadc196&amp;la=en&amp;h=12&amp;w=12&amp;hash=D4DABF8F8734925EA0E8AEF564AF1B00" class="breadcrumb__dropdown_icon collapsed" alt="dropdown of Amplifiers" tabindex="0" aria-expanded="false" role="button" />                                            <ul class="breadcrumb__dropdown__content d-none" role="list">
+
+                                                        <li role="listitem" data-url=/en/product-category/analog-to-digital-converters.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/analog-to-digital-converters.html">A/D Converters (ADC)</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/analog-functions.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/analog-functions.html">Analog Functions</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/audio-products.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/audio-products.html">Audio Products</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/clock-and-timing.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/clock-and-timing.html">Clock and Timing</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/digital-to-analog-converters.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/digital-to-analog-converters.html">D/A Converters (DAC)</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/embedded-security.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/embedded-security.html">Embedded Security</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/high-speed-logic.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/high-speed-logic.html">High Speed Logic and Data Path Management</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/ibutton-and-memory.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/ibutton-and-memory.html">iButton and Memory</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/industrial-ethernet.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/industrial-ethernet.html">Industrial Ethernet Solutions</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/interface-isolation.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/interface-isolation.html">Interface and Isolation</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/motor-and-motion-control.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/motor-and-motion-control.html">Motor and Motion Control</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/optical.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/optical.html">Optical Communications and Sensing</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/power-management.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/power-management.html">Power Management</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/monitor-control-protection.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/monitor-control-protection.html">Power Monitor, Control, and Protection</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/processors-microcontrollers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/processors-microcontrollers.html">Processors and Microcontrollers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/obsolete.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/obsolete.html">Product</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/rf-microwave.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/rf-microwave.html">RF and Microwave</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/sensors-mems.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/sensors-mems.html">Sensors and MEMS</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/switches-multiplexers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/switches-multiplexers.html">Switches and Multiplexers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/video-products.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/video-products.html">Video Products</a>
+                                                        </li>
+
+
+                                            </ul>
+
+
+
+                            </div>
+                            <div class="breadcrumb__container__section body-small">
+                                            <a class="breadcrumb__container__section_dropdown-item" href="/en/product-category/differential-amplifiers-and-adc-drivers.html" aria-label="Differential Amplifiers and ADC Drivers">
+                                                Differential Amplifiers and ADC Drivers
+                                            </a>
+<img src="/en/_/media/project/analogweb/analogweb/reference-design/chevron-bottom-xs.svg?rev=3bc6fd969838464fb5cb0cd54cadc196&amp;la=en&amp;h=12&amp;w=12&amp;hash=D4DABF8F8734925EA0E8AEF564AF1B00" class="breadcrumb__dropdown_icon collapsed" alt="dropdown of Differential Amplifiers and ADC Drivers" tabindex="0" aria-expanded="false" role="button" />                                            <ul class="breadcrumb__dropdown__content d-none" role="list">
+
+                                                        <li role="listitem" data-url=/en/product-category/instrumentation-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/instrumentation-amplifiers.html">Instrumentation Amplifiers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/isolation-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/isolation-amplifiers.html">Isolation Amplifiers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/operational-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/operational-amplifiers.html">Operational Amplifiers (Op Amps)</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/rf-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/rf-amplifiers.html">RF Amplifiers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/specialty-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/specialty-amplifiers.html">Specialty Amplifiers</a>
+                                                        </li>
+                                                        <li role="listitem" data-url=/en/product-category/variable-gain-amplifiers.html class="breadcrumb__dropdown__content_item body-small">
+                                                            <a href="/en/product-category/variable-gain-amplifiers.html">Variable Gain Amplifiers (VGA)</a>
+                                                        </li>
+
+
+                                            </ul>
+
+
+
+                            </div>
+                            <div class="breadcrumb__container__section body-small">
+Single-Ended to Differential Amplifiers
+
+
+                            </div>
+
+            </div>
+        </article>
+      
+
+        <!-- Previous page link component : start -->
+
+
+        <article class="previous-page-link app-js__previous-page-link">
+                        <a class="previous-page-link__link button-small" href="/en/product-category/differential-amplifiers-and-adc-drivers.html">
+                            <span class="previous-page-link__icon">
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" class="previous-page-link__arrow-left" height="16" alt="left arrow" width="16" />                            </span>
+                            <span class="previous-page-link__label">
+Back to Differential Amplifiers and ADC Drivers
+
+                            </span>
+                        </a>
+
+        </article>
+
+
+        <!-- Previous page link component : end -->
+
+        <div class="">
+
+
+        </div>
+    </div>
+</div>
+
+<div class="component product-category">
+    <div class="component-content">
+            <!-- pcp-description component : start -->
+            <article class="pcp-description app-js__pcp-description">
+                <div class="pcp-header__sticky">
+                    <div class="pcp-header__sticky__heading title-extraSmall">Single-Ended to Differential Amplifiers</div>
+                            <div class="search-icon">
+                                <img src="/en/_/media/project/analogweb/analogweb/standardheader/search-icon.svg?rev=3fcca8d05c2f4494b1f22760a157e4fc&amp;la=en&amp;h=24&amp;w=24&amp;hash=D8A9C56DB21D4FD9B0B60F3CE2A7ADC1" height="24" alt="searchIcon" width="24" />
+                            </div>
+                </div>
+                <div class="pcp-description__container category-detail__container " data-show-more="Show More" data-show-less="Show Less">
+<img src="/en/_/media/project/analogweb/analogweb/solutions-overview/herobanner2.svg?rev=5562080595d74a8d9515cccfe02e1c2e&amp;la=en&amp;h=10&amp;w=10&amp;hash=A9DAA491B36AD23FC36C7768F97B5582" class="pcp-description__container-image" alt="banner background image" loading="lazy" />                    <div class="vertical-inverse-gradient"></div>
+                    <div class="pcp-description__category_header">
+                        <h1 class="pcp-description__category_title title-extraLarge-inverse component-title" id="category-detail" data-name="Category Details">
+                            Single-Ended to Differential Amplifiers
+                        </h1>
+                        <div class="horizontal-inverse-gradient"></div>
+                    </div>
+                    <div class="pcp-description__container_content" aria-hidden="false">
+                        <div class="pcp-description__category">
+                            <div class="pcp-description__category_infodescription add-ellipsis body-medium-inverse">
+Analog Devices has developed a broad portfolio of single-ended to differential amplifiers that help designers meet their high performance requirements. ADI single-ended to differential amplifiers enable the processing of both single-ended inputs to complementary differential outputs or differential inputs to differential outputs. This provides a convenient solution when interfacing with analog-to-digital converters (ADCs). ADI also offers a series of differential receiver products that convert differential input signals to single-ended output.
+                            </div>
+
+                            <div class="pcp-description__button-center">
+                                <a href="javascript:void(0)" class="pcp-description__showMoreBtn button-medium" role="button" tab-index="0" aria-label=" Expands to show more details" data-label-expand="Show More: Expands to show more about Single-Ended to Differential Amplifiers" data-label-collapse="Collapses to show less about Single-Ended to Differential Amplifiers" aria-expanded="false" data-aria-expanded="false">Show More</a>
+<img src="/en/_/media/project/analogweb/analogweb/global/footer/chevron-down-s.svg?rev=3506ef50bfd7412e8d5c1d4e2d9b6fdb&amp;la=en&amp;hash=F646A98C405237E69F9599C19798BFA7" class="pcp-description__showmore-arrow" alt="Arrow image" tabindex="-1" />                            </div>
+                            <div class="pcp-description__category_subinfodescription body-medium">
+                                Analog Devices has developed a broad portfolio of single-ended to differential amplifiers that help designers meet their high performance requirements. ADI single-ended to differential amplifiers enable the processing of both single-ended inputs to complementary differential outputs or differential inputs to differential outputs. This provides a convenient solution when interfacing with analog-to-digital converters (ADCs). ADI also offers a series of differential receiver products that convert differential input signals to single-ended output.
+
+                            </div>
+                        </div>
+
+                        <div class="pcp-description__categoryallparts_btn button-medium">
+                                <a href="/en/parametricsearch/11157" class="pcp-description__categoryallparts_btn-content">
+                                    <img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productcategory/vector.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=62f1219bdf884d53b02c50d0eef69ae9&amp;la=en&amp;h=18&amp;w=20&amp;hash=9DB5AF201FBE1B982296898D611AD961" height="24px" alt="viewall" width="24px" />
+                                    <span class="pcp-description__categoryallparts-viewall">View All Parts in Subcategory</span>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- pcp-description component : end -->
+    </div>
+</div>
+
+    <!<!-- Navigation Index component : start -->
+    <article class="navigation-index app-js__navigation-index">
+        <div class="navigation-index__container">
+            <div class="dropdown">
+                <div class="dropbtn">
+                    <div class="section-title">
+                        <span class="button-medium-dark">Viewing: </span>
+                        <span class="subtitle-small" id="sectionTitle">Category Details</span>
+                    </div>
+                    <div class="dropdown-icon">
+<img src="/en/_/media/project/analogweb/analogweb/icons/chevron-down.svg?rev=47fc62c32e1d4cb58ba110bb38f70e67&amp;la=en&amp;hash=A1BE08E64BC96491BA895EF34A4C1BAD" class="arrow-icon arrow-down" alt="arrow-icon" />                    </div>
+                </div>
+                <div class="navigation-index__dropdown-container nav-index-dropdown-content">
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- Navigation Index component : end -->
+
+
+
+
+<div class="component product-productsincategory">
+    <div class="component-content">
+            <!-- Products in Category component : start -->
+            <article class="products-in-category app-js__products-in-category component-title products-in-category__container" id="products-in-category" data-name="Products in Category">
+                <div class="vertical"></div>
+                <div class="slider-container app-js__base-slider">
+                    <h2 class="slider-container__header title-Large">
+                        Products in Category
+                    </h2>
+                   
+                        <div class="slider-container__cards" aria-label="Products in Category carousel section" role="section">
+                            <div class="slider-container__owl-slider owl-slider cardCount">
+                                <div id="carousel-two" class="owl-carousel arrows slider-container__count" data-desktopcount="3"
+                                     data-mobilecount="1.1">
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4930-2.html" aria-label="ADA4930-2 - RECOMMENDED FOR NEW DESIGNS - Ultralow Noise Drivers for Low Voltage ADCs">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4930-2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Noise Drivers for Low Voltage ADCs</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4930-1.html" aria-label="ADA4930-1 - RECOMMENDED FOR NEW DESIGNS - Ultralow Noise Drivers for Low Voltage ADCs">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4930-1
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Noise Drivers for Low Voltage ADCs</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/lt6350.html" aria-label="LT6350 - RECOMMENDED FOR NEW DESIGNS - Low Noise Single-Ended to Differential Converter/ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    LT6350
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Low Noise Single-Ended to Differential Converter/ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4940-2.html" aria-label="ADA4940-2 - PRODUCTION - Ultralow Power, Low Distortion ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4940-2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+PRODUCTION                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="At least one model within this product family is in production and available for purchase. The product is appropriate for new designs but newer alternatives may exist." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Power, Low Distortion ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4940-1.html" aria-label="ADA4940-1 - PRODUCTION - Ultralow Power, Low Distortion ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4940-1
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+PRODUCTION                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="At least one model within this product family is in production and available for purchase. The product is appropriate for new designs but newer alternatives may exist." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Power, Low Distortion ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4950-1.html" aria-label="ADA4950-1 - RECOMMENDED FOR NEW DESIGNS - Low Power Selectable Gain Differential ADC Driver, G = 1, 2, 3">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4950-1
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Low Power Selectable Gain Differential ADC Driver, G = 1, 2, 3</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4950-2.html" aria-label="ADA4950-2 - RECOMMENDED FOR NEW DESIGNS - Low Power Selectable Gain Differential ADC Driver, G = 1, 2, 3">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4950-2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Low Power Selectable Gain Differential ADC Driver, G = 1, 2, 3</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4927-1.html" aria-label="ADA4927-1 - RECOMMENDED FOR NEW DESIGNS - Ultralow Distortion Current Feedback Differential ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4927-1
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Distortion Current Feedback Differential ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4927-2.html" aria-label="ADA4927-2 - RECOMMENDED FOR NEW DESIGNS - Ultralow Distortion Current Feedback Differential ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4927-2
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Ultralow Distortion Current Feedback Differential ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <div class="item slider-container__card">
+                                            <article class="product-card app-js__product-card">
+                                                <a class="product-card__container" href="/en/products/ada4932-1.html" aria-label="ADA4932-1 - RECOMMENDED FOR NEW DESIGNS - Low Power Differential ADC Driver">
+
+                                                    <div class="product-card__container__content-container">
+                                                        <div class="product-card__container__content-container__header">
+                                                            <div class="card__container__content-container__header__titles">
+                                                                <p  class="title-extraSmall card__container__content-container__header__title">
+                                                                    ADA4932-1
+                                                                </p>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div  class="web-overline-ExtraSmall-inverse bg-success flag-extra-small">
+                                                            <p  class="web-overline-ExtraSmall-inverse product-card__container__content-container__subheader__title">
+RECOMMENDED FOR NEW DESIGNS                                                            </p>
+                                                            <img src="/en/_/media/project/analogweb/analogweb/product/product_tooltip.svg?rev=1593882a2e3f4a9db734163d2f7f893d&amp;la=en&amp;h=12px&amp;w=12px&amp;hash=5583DEFB0440BEA47F51BB6E64DF59CB" class="product-card__container__content-container__subheader__info adi-tooltip" height="12px" data-tooltip-title="This product has been released to the market. The data sheet contains all final specifications and operating conditions. For new designs, ADI recommends utilization of these products." data-toggle="tooltip" alt="info icon for product card" width="12px" tabindex="0" data-placement="top-start" role="tooltip" />
+                                                        </div>
+
+                                                        <div class="product-card__container__content-container__details">
+                                                            <p class="body-medium product-card__container__content-container__details__paragraph"> Low Power Differential ADC Driver</p>
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/productsincategory/right-arrow-link.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=b6b738adef3248048a63ba53f50527cb&amp;la=en&amp;h=32&amp;w=32&amp;hash=BBBF672B27B9181B64AD7A16C0D8E0D0" class="product-card__container__content-container__details__arrow" height="24px" alt="right arrow link icon for product card" width="24px" />                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </article>
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="horizontal"></div>
+            </article>
+            <!-- Products in Category component : end -->
+    </div>
+
+</div>
+
+
+<div class="component product-RelatedResources">
+    <div class="component-content">
+            <!-- related resources component : start -->
+        <article class="related-resources related-resources__container app-js__related-resources component-title" id="related-resources" data-name="Related Resources">
+            <div class="vertical"></div>
+            <div class="slider-container app-js__base-slider">
+                <h2 class="slider-container__header title-Large">
+                    Related Resources
+                </h2>
+                <div class="slider-container__cards" aria-label="Related Resources carousel section" role="section">
+                    <div class="slider-container__owl-slider owl-slider cardCount ">
+                        <div id="carousel" class="owl-carousel arrows slider-container__count" data-desktopcount="4"
+                             data-mobilecount="1.1">
+                            <div class="item slider-container__card">
+                                <div>
+                                    <div class="media-card__container__media-player__thumbnail">
+<img src="/en/_/media/project/analogweb/analogweb/media-center/media-thumbnail.png?rev=32b194c97980401e859f363aacb08e03&amp;la=en&amp;h=180&amp;w=262&amp;hash=4083084C61E83E0895F8DCB46659B7FA" class="thumbnail-img" height="180" alt="downloadbutton" loading="lazy" width="262" />                                    </div>
+                                    <div class="slider-container__card-content">
+
+                                        <div class="slider-container__media-header">
+                                            <p class="overline thumbnail-title">Analog Dialogue</p>
+                                            <p class="body-extra-small date"><span aria-hidden="true" class="video-bullet">&#46;</span><span>May 15, 2024</span></p>
+                                        </div>
+                                        <p class="subtitle-medium thumbnail-para">Fully Differential Amplifier Provides High Voltage and Low Noise Signal to Precision Data Acquisition Signal Chain</p>
+                                    </div>
+
+                                </div>
+<a class="button-medium more-details" href="/en/resources/analog-dialogue/articles/fully-differential-amplifier.html" aria-label="Learn More -Fully Differential Amplifier Provides High Voltage and Low Noise Signal to Precision Data Acquisition Signal Chain">
+                                    Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                </a>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div>
+                                    <div class="media-card__container__media-player__thumbnail">
+<img src="/en/_/media/project/analogweb/analogweb/media-center/media-thumbnail.png?rev=32b194c97980401e859f363aacb08e03&amp;la=en&amp;h=180&amp;w=262&amp;hash=4083084C61E83E0895F8DCB46659B7FA" class="thumbnail-img" height="180" alt="downloadbutton" loading="lazy" width="262" />                                    </div>
+                                    <div class="slider-container__card-content">
+
+                                        <div class="slider-container__media-header">
+                                            <p class="overline thumbnail-title">Analog Dialogue</p>
+                                            <p class="body-extra-small date"><span aria-hidden="true" class="video-bullet">&#46;</span><span>Feb 01, 2023</span></p>
+                                        </div>
+                                        <p class="subtitle-medium thumbnail-para">Practical Input-Referred Calculations in Precision Systems</p>
+                                    </div>
+
+                                </div>
+<a class="button-medium more-details" href="/en/resources/analog-dialogue/articles/practical-input-referred-calculations-in-precision-systems.html" aria-label="Learn More -Practical Input-Referred Calculations in Precision Systems">
+                                    Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                </a>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div>
+                                    <div class="media-card__container__media-player__thumbnail">
+<img src="/en/_/media/project/analogweb/analogweb/default-images/application-note.svg?rev=c2370b70358a42dd82c1849d9e2fe05c&amp;la=en&amp;hash=8889E583239072C8DD868227FD417683" class="thumbnail-img" alt="downloadbutton" loading="lazy" />                                    </div>
+                                    <div class="slider-container__card-content">
+
+                                        <div class="slider-container__media-header">
+                                            <p class="overline thumbnail-title">Application Note</p>
+                                            <p class="body-extra-small date"><span aria-hidden="true" class="video-bullet">&#46;</span><span>Jun 10, 2022</span></p>
+                                        </div>
+                                        <p class="subtitle-medium thumbnail-para">ADI’s Medical Ultrasound Solutions</p>
+                                    </div>
+
+                                </div>
+<a class="button-medium more-details" href="https://www.analog.com/en/lp/002/intelligence/adis-medical-ultrasound-solutions.html" aria-label="Learn More -ADI’s Medical Ultrasound Solutions">
+                                    Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                </a>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div>
+                                    <div class="media-card__container__media-player__thumbnail">
+<img src="/en/_/media/project/analogweb/analogweb/default-images/application-note.svg?rev=c2370b70358a42dd82c1849d9e2fe05c&amp;la=en&amp;hash=8889E583239072C8DD868227FD417683" class="thumbnail-img" alt="downloadbutton" loading="lazy" />                                    </div>
+                                    <div class="slider-container__card-content">
+
+                                        <div class="slider-container__media-header">
+                                            <p class="overline thumbnail-title">Application Note</p>
+                                            <p class="body-extra-small date"><span aria-hidden="true" class="video-bullet">&#46;</span><span>Jun 10, 2022</span></p>
+                                        </div>
+                                        <p class="subtitle-medium thumbnail-para">Analog Devices Electrophysiology 3D Cardiac Mapping Systems Solutions</p>
+                                    </div>
+
+                                </div>
+<a class="button-medium more-details" href="https://www.analog.com/en/lp/002/intelligence/adis-electrophysiology-3d-cardiac-mapping-systems-solutions-apm.html" aria-label="Learn More -Analog Devices Electrophysiology 3D Cardiac Mapping Systems Solutions">
+                                    Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                </a>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div class="item slider-container__card">
+                                    <div>
+                                        <div class="media-card__container__media-player slider-container__card__media-player" data-video-player="6264630553001" data-add-link="https://google.com" data-share-link="https://google.com">
+                                            <div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+                                                <img src="/_/media/images/videoimages/en/video-still-6264630553001.jpg?rev=7d130f5f1a1f466aaef6c1014f20bbeb&amp;hash=6D580F4A25A1C2A5DD227BF115599BB3&amp;isUpdated=true&amp;updatedDateTime=6%2f10%2f2024+3%3a19%3a23+PM" alt="thumbnail image" class="thumbnail-img" loading="lazy" />
+                                                <button class="play-btn slider-container__slider-play-btn" tabindex="0" id="openModalButton" aria-haspopup="dialog" aria-controls="videoModal" aria-label="ADL5580 Fully Differential 10 GHz ADC Driver with 10 dB Gain play">
+<img src="/en/_/media/project/analogweb/analogweb/media-center/play-icon.svg?rev=eac9f94973ea4b24bd2afb852d1a6f95&amp;la=en&amp;h=40&amp;w=40&amp;hash=6AAA7CF93094BE81684D5F1C33ECD9F1" class="play-btn-img" height="40px" alt="play button" width="40px" onerror="this.style.display=&#39;none&#39;" tabindex="-1" />                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="slider-container__card-content">
+
+                                            <div class="slider-container__media-header">
+                                                <p class="overline thumbnail-title">Video</p>
+                                                <p class="body-extra-small date">
+                                                    <span aria-hidden="true" class="video-bullet">&#46;</span>
+                                                    <span>Jul 22, 2021</span>
+                                                </p>
+                                                <span class="body-extra-small time-stamp">01:01</span>
+                                            </div>
+                                            <p class="subtitle-medium thumbnail-para">ADL5580 Fully Differential 10 GHz ADC Driver with 10 dB Gain</p>
+                                        </div>
+                                    </div>
+                                    <a class="button-medium more-details" href="/en/resources/media-center/videos/6264630553001.html" aria-label="link: Learn more about ADL5580 Fully Differential 10 GHz ADC Driver with 10 dB Gain">
+                                        Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div class="item slider-container__card">
+                                    <div>
+                                        <div class="media-card__container__media-player slider-container__card__media-player" data-video-player="6263012358001" data-add-link="https://google.com" data-share-link="https://google.com">
+                                            <div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+                                                <img src="http://wcm2.cldnet.analog.com:80/_/media/images/videoimages/en/video-still-6263012358001.jpg?rev=edcc0ed360d042e483167ad11017fbf7&amp;hash=8982313A6EC495C2544B237988722C92&amp;isUpdated=true&amp;updatedDateTime=8%2f27%2f2024+6%3a08%3a21+PM" alt="thumbnail image" class="thumbnail-img" loading="lazy" />
+                                                <button class="play-btn slider-container__slider-play-btn" tabindex="0" id="openModalButton" aria-haspopup="dialog" aria-controls="videoModal" aria-label="ADI &amp; Mouser Chalk Talk: CbM Impact on Smart Manufacturing play">
+<img src="/en/_/media/project/analogweb/analogweb/media-center/play-icon.svg?rev=eac9f94973ea4b24bd2afb852d1a6f95&amp;la=en&amp;h=40&amp;w=40&amp;hash=6AAA7CF93094BE81684D5F1C33ECD9F1" class="play-btn-img" height="40px" alt="play button" width="40px" onerror="this.style.display=&#39;none&#39;" tabindex="-1" />                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="slider-container__card-content">
+
+                                            <div class="slider-container__media-header">
+                                                <p class="overline thumbnail-title">Video</p>
+                                                <p class="body-extra-small date">
+                                                    <span aria-hidden="true" class="video-bullet">&#46;</span>
+                                                    <span>Jul 09, 2021</span>
+                                                </p>
+                                                <span class="body-extra-small time-stamp">17:29</span>
+                                            </div>
+                                            <p class="subtitle-medium thumbnail-para">ADI & Mouser Chalk Talk: CbM Impact on Smart Manufacturing</p>
+                                        </div>
+                                    </div>
+                                    <a class="button-medium more-details" href="/en/resources/media-center/videos/6263012358001.html" aria-label="link: Learn more about ADI &amp; Mouser Chalk Talk: CbM Impact on Smart Manufacturing">
+                                        Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div class="item slider-container__card">
+                                    <div>
+                                        <div class="media-card__container__media-player slider-container__card__media-player" data-video-player="6261013138001" data-add-link="https://google.com" data-share-link="https://google.com">
+                                            <div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+                                                <img src="/_/media/images/videoimages/en/video-still-6261013138001.jpg?rev=6fecaf40ae2c4eb29f28860951458b67&amp;hash=CDCF884579FC4B89C063CC19ECAA5AA0&amp;isUpdated=true&amp;updatedDateTime=5%2f24%2f2024+2%3a41%3a48+PM" alt="thumbnail image" class="thumbnail-img" loading="lazy" />
+                                                <button class="play-btn slider-container__slider-play-btn" tabindex="0" id="openModalButton" aria-haspopup="dialog" aria-controls="videoModal" aria-label="ADC Driver Design Considerations for LTC2387-18 play">
+<img src="/en/_/media/project/analogweb/analogweb/media-center/play-icon.svg?rev=eac9f94973ea4b24bd2afb852d1a6f95&amp;la=en&amp;h=40&amp;w=40&amp;hash=6AAA7CF93094BE81684D5F1C33ECD9F1" class="play-btn-img" height="40px" alt="play button" width="40px" onerror="this.style.display=&#39;none&#39;" tabindex="-1" />                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="slider-container__card-content">
+
+                                            <div class="slider-container__media-header">
+                                                <p class="overline thumbnail-title">Video</p>
+                                                <p class="body-extra-small date">
+                                                    <span aria-hidden="true" class="video-bullet">&#46;</span>
+                                                    <span>Jun 25, 2021</span>
+                                                </p>
+                                                <span class="body-extra-small time-stamp">09:32</span>
+                                            </div>
+                                            <p class="subtitle-medium thumbnail-para">ADC Driver Design Considerations for LTC2387-18</p>
+                                        </div>
+                                    </div>
+                                    <a class="button-medium more-details" href="/en/resources/media-center/videos/6261013138001.html" aria-label="link: Learn more about ADC Driver Design Considerations for LTC2387-18">
+                                        Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="item slider-container__card">
+                                <div>
+                                    <div class="media-card__container__media-player__thumbnail">
+<img src="/en/_/media/project/analogweb/analogweb/default-images/video-default-image.svg?rev=5e41536167364b589f61e0fcf28427e3&amp;la=en&amp;hash=68268D72170B93D4B7033FC210E1AC8C" class="thumbnail-img" alt="Video Default Image" loading="lazy" />                                    </div>
+                                    <div class="slider-container__card-content">
+
+                                        <div class="slider-container__media-header">
+                                            <p class="overline thumbnail-title"></p>
+                                            <p class="body-extra-small date"><span aria-hidden="true" class="video-bullet">&#46;</span><span></span></p>
+                                        </div>
+                                        <p class="subtitle-medium thumbnail-para"></p>
+                                    </div>
+
+                                </div>
+<a class="button-medium more-details" aria-label="Learn More -">
+                                    Learn More
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DD3A347D7EF288D1D8471DAAFBA6C562" height="24px" alt="more-details-link" tabindex="-1" width="24px" />                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-container__videomodal modal-closed" aria-hidden="true" tabIndex="-1" role="dialog" id="videoModal"
+                     role="dialog" aria-labelledby="modalTitle" aria-modal="false">
+                    <article class="videoplayer-modal app-js__videoplayer-modal" id="videoModal">
+                        <div class="videoplayer-modal__container">
+                            <div class="videoplayer-modal__container__header">
+                                <div class="modal-title" id="modalTitle">
+                                    <h4 class="modal-title__title title-medium"></h4>
+                                    <div class="modal-title__date-desktop web-title-medium-grey "></div>
+                                    <div class="modal-title__date-mobile body-medium-greyscale "></div>
+                                </div>
+                                <button class="modal-closebtn" aria-label="Close" role="button" tabindex="0" id="modal-closebtn" autofocus>
+<img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8&amp;la=en&amp;h=24&amp;w=24&amp;hash=55A6B8EDA6E4D57A78802D5595C3BB65" height="24" alt="close" width="24" tabindex="-1" />                                </button>
+                            </div>
+
+                            <div class="videoplayer-modal__container__video">
+
+                                <video data-account="706011717001" data-player="AQ1ZKQZJE" data-video-name data-embed="default" controls=""
+                                       id=modalVideoPlayerRelatedRsc data-application-id data-video-id="" class="video-js modal-video videoplayer-modal__videoSelector"
+                                       style="width: 100%; top: 0px; bottom: 0px; right: 0px; left: 0px;"></video>
+                            </div>
+
+                            <div class="videoplayer-modal__container__footer">
+                                <a class="video-more-details" href=# tabindex="0" aria-label="Learn More">
+                                    <div class="button-medium-dark">Learn More</div>
+<img src="/en/_/media/project/analogweb/analogweb/videomodalicons/arrow.svg?rev=9c5ad9ab95944554859def6942dd73f9&amp;la=en&amp;h=16&amp;w=16&amp;hash=4C8E74B6AD0305F10E71BAB1200CB1FF" height="16" alt="arrow" loading="lazy" width="16" tabindex="-1" />                                </a>
+                                <div class="video-right-btns">
+                                    <button aria-label="Add to My Analog button: Opens a dialog box" role="button" class="videoplayer-modal__add-btn video-action-btn video-add-link add-to-myanalog-modal-media-center" href="javascript:void(0)" tabindex="0">
+<img src="/en/_/media/project/analogweb/analogweb/videomodalicons/addtomyanalog.svg?rev=ae496862595847cfbe93b274915812b1&amp;la=en&amp;h=20&amp;w=20&amp;hash=88F25AF9A773117763D885E4454B9D7C" height="20" alt="icon" loading="lazy" width="20" tabindex="-1" />                                        <div class="button-medium-dark">Add to myAnalog</div>
+                                    </button>
+                                    <div class="share-button app-js__share-button">
+                                        <button class="button-medium-dark share-button__btn" aria-expanded="false">
+<img src="/en/_/media/project/analogweb/analogweb/videomodalicons/share.svg?rev=352987ccd93e44bda98c7d31f9ebeb02&amp;la=en&amp;h=20&amp;w=20&amp;hash=67EE7AA9A64F08603CE9F8599FF097E8" height="20" alt="share" loading="lazy" width="20" tabindex="-1" />                                            Share
+                                        </button>
+                                        <div class="share-button__dropdown" role="list">
+                                            <div class="share-button__dropdown__btn body-small share-button__copy-btn" role="listitem">Copy Link</div>
+                                            <div class="share-button__dropdown__btn body-small share-button__mail-btn" role="listitem" data-subject="Single-Ended to Differential Amplifiers">Send to Mail </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <a class="button-medium-dark bottom-view-more-link" href="https://www.analog.com/en/search.html?siteSection=Resource Library&amp;sortby=newest&amp;prodCats=Amplifiers~Differential%20Amplifiers%20and%20ADC%20Drivers">
+                    Explore All Resources
+<img src="https://www.analog.com/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;hash=57682CFE4DE17EB7B80D1DB200959B71" alt="link" />                </a>
+            </div>
+            <div class="horizontal"></div>
+        </article>
+ <!-- related resources component : end -->
+
+    </div>
+</div>
+
+<div class="component product-certification">
+    <div class="component-content">
+    </div>
+</div>
+
+
+<div class="component ProductTool">
+    <div class="component-content">
+    </div>
+</div>
+
+<div class="component promotion-campaign">
+    <div class="component-content">
+    </div>
+</div>
+
+    <script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Single-Ended to Differential Amplifiers","itemId":"a413106f-0d76-4fbd-8506-e7834d712831","pageUrl":"https://www.analog.com/en/product-category/single-ended-differential-amplifiers.html","pageCategory":"Category Page","previousPageUrl":null,"pageType":"Category Page","isProduct":false}};
+    </script>
+    <script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+
+
+<div class="component-content">
+    <article class="anchors-bar app-js__anchors-bar">
+        <div class="anchors-bar__container" aria-live="polite">
+            <div class="anchors-bar__container__wrapper">
+
+                        <a class="button-medium-dark anchor-item" href="#category-detail" data-name="Category Details" data-section="category-detail" aria-live="polite">
+                            <div>
+                                Category Details
+                            </div>
+                        </a>
+                        <a class="button-medium-dark anchor-item" href="#products-in-category" data-name="Products in Category" data-section="products-in-category" aria-live="polite">
+                            <div>
+                                Products in Category
+                            </div>
+                        </a>
+                        <a class="button-medium-dark anchor-item" href="#related-resources" data-name="Related Resources" data-section="related-resources" aria-live="polite">
+                            <div>
+                                Related Resources
+                            </div>
+                        </a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var navigationJson = {"title":null,"drop-down-icon":null,"navigation-index-list":[{"label":"Category Details","id":"category-detail","desktopId":"category-detail"},{"label":"Products in Category","id":"products-in-category","desktopId":"products-in-category"},{"label":"Related Resources","id":"related-resources","desktopId":"related-resources"}]};
+        </script>
+    </article>
+    <div class="off-screen sr-only" aria-live="assertive" aria-atomic="true" role="alert"></div>
+
+</div>
+
+
+
+
+    <script type="text/x-handlebars-template" id="add-to-myanalog-hbs-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+    <script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+    <div id="add-to-myanalog-container">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 width='24'
+                                                 height='24'
+                                                 loading="lazy"/>
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+
+</div>
+
+            </div>
+        </div>
+    </main>
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer role="contentinfo">
+        <div id="footer" class="container-fluid">
+            <div class=" row">
+                <div>
+        <adi-footer></adi-footer>
+</div>
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+
+
+    
+        
+
+
+    <!-- /#wrapper -->
+                <script src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js" defer></script>
+
+    <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+    <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+    <script async src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+    <script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+    <script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+
+    <!-- Latest compiled and minified JS -->
+
+            <script src="https://assets2.analog.com/cms-assets/js/pages/scripts/pcppage.bundle.js"></script>
+
+    <script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+
+    <div class="rte-control">
+        <div class="modal fade product-modal image-rte-modal" id="image-rte-modal" tabindex="-1" role="dialog" aria-labelledby="product-modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript"  src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB"></script></body>
+</html>
