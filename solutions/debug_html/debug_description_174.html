@@ -1,0 +1,1174 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- *** FE html start -->
+<meta charset="utf-8"/>
+<title>A2B Audio Bus | Analog Devices</title>
+<meta content="follow, index" name="robots">
+<meta content="Analog's Audio Bus (A2B) offers many advantages such as superior audio quality. Learn more about it and the challenges it solves. " name="description"/>
+<meta content="audio bus, audiobus, a2b" name="keywords"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer">
+<meta content="86a60d9bcaab43f0" name="yandex-verification"/>
+<meta content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" name="google-site-verification"/>
+<meta content="cSddD8r1N7" name="baidu-site-verification"/>
+<meta content="381E86BC7EF76D19F9365D26D8BFCD35" name="msvalidate.01"/>
+<link href="https://www.analog.com/en/solutions/a2b-audio-bus.html" hreflang="en-US" rel="alternate"/>
+<link href="https://www.analog.com/cn/solutions/a2b-audio-bus.html" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="https://www.analog.com/jp/solutions/a2b-audio-bus.html" hreflang="ja-JP" rel="alternate"/>
+<link href="https://www.analog.com/en/solutions/a2b-audio-bus.html" rel="canonical"/>
+<script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+<script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+<link href="https://www.analog.com/media/favicon/favicon.ico" rel="icon"/>
+<link href="https://www.analog.com/media/favicon/apple_favicon.png" rel="apple-touch-icon"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png " rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png " rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png " rel="apple-touch-icon" sizes="167x167"/>
+<link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon">
+<link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/></noscript>
+<style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+<!-- Font-awesome -->
+<!-- Latest compiled and minified CSS -->
+<!-- Optional theme -->
+<!-- owl-slider -->
+<!-- Algolia Instant Search Theme -->
+<!-- Autocomplete Theme -->
+<!-- Latest compiled and minified JavaScript -->
+<link as="style" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/app.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" rel="stylesheet"/></noscript>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-applications.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css" rel="stylesheet"/>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l1techsolutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l1techsolutionspage.bundle.css" rel="stylesheet"/></noscript>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/header-footer/index.css" rel="stylesheet" type="text/css"/>
+<script defer="" src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+<script async="" src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js"></script>
+<!-- *** FE html end -->
+</link></meta></meta></meta></meta></head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+<!-- #wrapper -->
+<div class="page-wrap" id="wrapper">
+<!-- #header -->
+<header>
+<div class="container-fluid" id="header">
+<div class="row">
+<div>
+<adi-header>
+<adi-account></adi-account>
+</adi-header>
+<adi-menu divided="">
+<adi-cart slot="buttons"></adi-cart>
+<adi-search slot="drawer">
+<div slot="search"></div>
+<div slot="results"></div>
+</adi-search>
+</adi-menu>
+<adi-dispatch></adi-dispatch>
+</div>
+</div>
+</div>
+</header>
+<!-- /#header -->
+<!-- #content -->
+<main class="main-content content" id="main" role="main" tabindex="-1">
+<div class="container-fluid" id="content">
+<div class="row">
+<div>
+<div class="component Global-Breadcrumb">
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.analog.com/en/index.html"},{"@type":"ListItem","position":2,"name":"Solutions Overview","item":"https://www.analog.com/en/solutions.html"},{"@type":"ListItem","position":3,"name":"A2B Audio Bus","item":"https://www.analog.com/en/solutions/a2b-audio-bus.html"}]};
+        </script>
+<div class="component-content">
+<!-- Breadcrumb component : start -->
+<article class="breadcrumb app-js__breadcrumb">
+<div aria-label="Breadcrumb" class="breadcrumb__container" role="navigation">
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Home</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Solutions Overview</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+A2B Audio Bus
+
+
+                            </div>
+</div>
+</article>
+<!-- Previous page link component : start -->
+<article class="previous-page-link app-js__previous-page-link">
+<a class="previous-page-link__link button-small" href="/en/solutions.html">
+<span class="previous-page-link__icon">
+<img alt="left arrow" class="previous-page-link__arrow-left" height="16" src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" width="16"/> </span>
+<span class="previous-page-link__label">
+Back to Solutions Overview
+
+                            </span>
+</a>
+</article>
+<!-- Previous page link component : end -->
+<div class="horizontal">
+</div>
+</div>
+</div>
+<div class="component Solution-Overview">
+<div class="component-content">
+<article class="industry-solutionsl1-description app-js__industry-solutionsl1-description">
+<div class="industry-solutionsl1-description__container industry-solutionsl1-description__transparent" data-show-less="Show Less" data-show-more="Show More">
+<img alt="banner background image" class="industry-solutionsl1-description__container-image" src="/en/_/media/project/analogweb/analogweb/solutionpageimages/technology-solutions-l1-page_.png?rev=2aa8653a78df4979bcb773ef2f80f852&amp;la=en&amp;h=908&amp;w=2720&amp;hash=25CCE267CA7596DF9A1E5E3E44245787"/> <div class="industry-solutionsl1-description__category_header">
+<h1 class="industry-solutionsl1-description__category_title web-title component-title" id="category-detail">
+                                    A<sup>2</sup>B Audio Bus Technology
+                                </h1>
+<div class="horizontal"></div>
+</div>
+<div class="industry-solutionsl1-description__container_content">
+<div class="industry-solutionsl1-description__category solution-header-content">
+<div class="adi-rte">
+<p> Analog Devices A<sup>2</sup>B<sup>TM</sup> audio bus is a simple, flexible, and cost-effective audio connectivity solution. A<sup>2</sup>B has been specifically designed for a wide variety of <strong>automotive, consumer, and industrial</strong> applications such as Road Noise Cancellation (RNC), In-Car Communications (ICC) and Unified Communications Systems (UCS), where low and deterministic latency are key system design criteria. With millions of links on the road from over 35 automotive manufacturers, A<sup>2</sup>B has established itself as the de facto digital audio data bus standard<sup>1</sup>. </p>
+</div>
+<div class="industry-solutionsl1-description__button-center">
+<a class="industry-solutionsl1-description__showMoreBtn button-medium" href="javascript:void(0)">Show More</a>
+<img alt="Arrow image" class="industry-solutionsl1-description__showmore-arrow" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-down-white.svg?rev=7a6c987b562b4f71b6949e30b9fed900&amp;la=en&amp;hash=5FFFC28A78F4F08669F6DEA4AC52AC26"/> </div>
+</div>
+<div class="industry-solutionsl1-description__categoryallparts_btn">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="component solutions-tab">
+<div class="component-content">
+<!-- Explore Applications component : start -->
+<article class="explore-applications app-js__explore-applications">
+<div class="vertical"></div>
+<div class="horizontal"></div>
+<div class="explore-applications__container">
+<h2 class="explore-applications__container__title title-large">Explore Applications in A<sup>2</sup>B Audio Bus</h2>
+<div class="explore-applications__container__desktop">
+<div class="left explore-applications__container__left">
+<ul aria-label="Explore Applications in" class="left-container explore-applications__container__left-container" style="position: static; width: 100%; top: 0px;">
+<li>
+<div aria-label=" A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus" class="tabs-option explore-applications__container__tabs-options selected-tab" id="option_0" role="button" tabindex="0">
+<span class="body-small"> A<sup>2</sup>B Audio Bus</span>
+<img alt="right arrow" class="" height="12" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-right-xs.svg?rev=2d6f51f2753445e4a03cdf8a570fa5d3&amp;la=en&amp;h=12&amp;w=12&amp;hash=6F684C7F61898043488A9908B6EE93D1" width="12"/>
+</div>
+</li>
+</ul>
+</div>
+<div class="right">
+<div class="right-container explore-applications__container__right-container show-content" id="option_0">
+<span aria-atomic="true" aria-live="assertive" class="sr-only explore-0" role="alert"> A<sup>2</sup>B Audio Bus</span>
+<div class="right-container-top">
+<div class="content-and-cta">
+<h3 class="title-small"> A<sup>2</sup>B Audio Bus</h3>
+<p class="body-medium">A<sup>2</sup>B<sup> </sup>audio connectivity solutions including evaluation kits, design and development tools, and software drivers.</p>
+<a aria-label="Learn More about  A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus" class="content-and-cta__learnmore" href="/en/solutions/a2b-audio-bus/a2b-audio-bus-solutions.html">
+<button aria-label="Learn More about  A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus" class="learn-more-button button-medium-inverse" tabindex="-1">Learn More</button>
+</a>
+</div>
+<img alt="image" height="211" loading="lazy" src="/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/a2b-spotlight-l1.jpg?rev=5ab3ddcaf2aa4359b6ddeea28907a76f&amp;sc_lang=en&amp;la=en&amp;h=211&amp;w=351&amp;hash=0143C9744C7A59DF4A7192CA79FD9F2A" width="351"/>
+</div>
+</div>
+</div>
+</div>
+<div class="explore-applications__container__mobile">
+<article class="accordion app-js__accordion">
+<section class="accordion__section">
+<div class="accordion__content__accordions">
+<div class="accordion__content__accordions__accordion">
+<div aria-expanded="false" aria-label="Toggle section:  A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus " class="accordion__content__accordions__accordion__title subtitle-medium" role="button" tabindex="0">
+<div aria-level="2" class="body-small" role="heading"> A<sup>2</sup>B Audio Bus</div>
+<img alt="Arrow image" aria-expanded="false" class="accordion-down-arrow" height="12" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-bottom-extra-small.svg?rev=bcf09f22ecd3434884d4872ecaa72ef5&amp;la=en&amp;h=12&amp;w=12&amp;hash=EBA4955A62F908E91CB2F5548CC43C28" tabindex="0" width="12"/>
+</div>
+<div class="accordion__content__accordions__accordion__content">
+<article class="explore-applications-accordion app-js__explore-applications-accordion">
+<img alt="image" class="" height="346" src="/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/a2b-spotlight-l1.jpg?rev=5ab3ddcaf2aa4359b6ddeea28907a76f&amp;sc_lang=en&amp;la=en&amp;h=346&amp;w=576&amp;hash=88107897F7D72985BE2E8358CA293DFE" width="576"/> <h5 class="title-small accordion-section-title"> A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus</h5>
+<p class="body-medium">A<sup>2</sup>B<sup> </sup>audio connectivity solutions including evaluation kits, design and development tools, and software drivers.</p>
+<a aria-label="Learn More about  A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus" class="content-and-cta__learnmore" href="/en/solutions/a2b-audio-bus/a2b-audio-bus-solutions.html" role="button">
+<button aria-label="Learn More about  A&lt;sup&gt;2&lt;/sup&gt;B Audio Bus" class="learn-more-button button-medium-inverse" tabindex="-1">Learn More</button>
+</a>
+</article>
+</div>
+</div>
+</div>
+</section>
+</article>
+</div>
+</div>
+</article>
+<!-- Explore Applications component : end -->
+</div>
+</div>
+<div class="component Value-Prop">
+<div class="component-content">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"></div>
+<div class="value-prop-component__content-wrapper">
+<div class="value-prop-component__solutions-header content-header">
+<h3 class="content-title title-large">Advantages of ADI’s A<sup>2</sup>B Audio Bus</h3>
+<p class="body-medium content-para"><style>
+    ul.solutions-list li {
+    margin-left: 30px;
+    list-style-type: disc;
+    }
+</style>
+<p>At its core, A<sup>2</sup>B is a high-bandwidth (50Mbps), low-latency digital audio bus suitable for a variety of end markets and applications. However, there are many additional factors that contribute to A<sup>2</sup>B’s design-in success:</p>
+<br/>
+<ul class="solutions-list">
+<li>Single main, multiple sub-node daisy chain architecture greatly simplifies wiring complexity (by up to 75%) and associated costs.</li>
+<li>Simple and easy-to-use architecture with zero software overhead reduces overall development time and investment.</li>
+<li>Expansive ecosystem of development tools and partners speeds time to market.</li>
+<li>Fully meets stringent automotive EMC/EMI and quality requirements.</li>
+</ul>
+<br/>
+<p>At its inception, A<sup>2</sup>B audio bus technology was targeted to automotive audio and acoustics applications, including ANC/RNC, Personal Audio Zones (PAZ), eCall and other telematics systems. Today, A<sup>2</sup>B is seeing increased deployment in tangential consumer/industrial audio markets.</p>
+<br/>
+<p>For example, in the Consumer market, A<sup>2</sup>B enables applications in unified communications and ProAV, hearables, and home theater. For Intelligent Buildings, it can play a key role in elevating security and surveillance. In Avionics, it offers a lightweight alternative for enabling inflight entertainment and cabin connectivity.</p>
+<br/>
+<p style="font-size:12px;"><sup>1</sup> TechInsights, A<sup>2</sup>B Digital Audio Bus: Solving the Challenges of EMI and NVH, Nov2020.</p></p>
+</div>
+<div class="value-prop-component__solutions solutions__content">
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="component legacy-component component-content" data-horizontal="False" data-vertical="False">
+<div class="row">
+<div class="container">
+<section class="spotlight spotlight--padded-medium-bottom">
+<div class="spotlight__container spotlight__container--one">
+<div class="spotlight__container__column">
+<div class="spotlight__container__column__content">
+<a name="partner-wall"></a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<section class="band" id="partner-logos-sectionband">
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="row">
+<div class="">
+<div class="section-heading clearfix">
+<h3>A<sup>2</sup>B Ecosystem</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="component legacy-component component-content" data-horizontal="False" data-vertical="False">
+<div class="row">
+<div class="container">
+<section class="spotlight spotlight--padded-light-top spotlight--padded-light-bottom">
+<div class="spotlight__container spotlight__container--one">
+<div class="spotlight__container__column">
+<div class="spotlight__container__column__content">
+<div class="PartnerList" style="width: 100%; height: 100%; padding-left: 28px; padding-right: 28px; padding-top: 10px; padding-bottom: 40px; background: #F5F5F5; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 37px; display: inline-flex">
+<div class="Frame843590180" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<div class="OriginalEquipmentManufacturersOem" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Original Equipment Manufacturers (OEM)</div>
+<div class="Row1" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590182" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Behringer Logo" class="Frame843590150" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/behringer-a2b.jpg?rev=3592fbcb43264cb495ccb7d495a2db9a&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590175" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Biamp Logo" class="Frame843590143" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/biamp.jpg?rev=691a8e08129a42e2bfa4f2bbb0dc0155&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590178" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="B&amp;O Logo" class="Frame843590146" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/b-and-o.jpg?rev=c4c9c37e514d40e4ab79117781fa404e&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590180" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Bose Logo" class="Frame843590148" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/bose.jpg?rev=1521dd176ba04a4d8db353d4ada9c613&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590176" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Crestron Logo" class="Frame843590144" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/crestron.jpg?rev=280a5945940c4dc19b44a84196176f2e&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590181" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="OriginalEquipmentManufacturersOem" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Original Equipment Manufacturers (OEM)</div> -->
+<div class="Row2" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590177" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Dolby Logo" class="Frame843590145" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/dolby.jpg?rev=f9a90011a66346a28057d140adb8f27d&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590184" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Klark Teknik Logo" class="Frame843590152" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/klark-tek-a2b.jpg?rev=66dea6da8b1342539ac4afafc7ae4222&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590183" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Midas Logo" class="Frame843590151" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/midas-a2b.jpg?rev=2f31736ace224fb7aa0a08d7d233de5f&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590179" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Midi Association Logo" class="Frame843590147" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/midi-association.jpg?rev=63e112989f8c4b088d876c86633062f8&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590181" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Music Tribe Logo" class="Frame843590149" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/music-tribe-a2b.jpg?rev=04641acbc91a4f97be8e2029c3e8b480&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590181" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="OriginalEquipmentManufacturersOem" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Original Equipment Manufacturers (OEM)</div> -->
+<div class="Row3" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590175" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="STELLANTIS Logo" class="Frame843590143" src="/en/_/media/analog/en/technologies/gigabit-multimedia-serial-link/logos/stellantis_logo.png?rev=be9909c99f4a43b082e75945b5c242c7&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%);"/>
+</div>
+</div>
+</div>
+<div class="Frame843590182" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<div class="SiliconPartners" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Silicon Partners</div>
+<div class="Row4" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590187" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Ambarella Logo" class="Frame843590155" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/ambarella.jpg?rev=dd3958902a2c4644a36f363eeff8b543&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%); border: 3px white solid"/>
+</div>
+<div class="Frame843590185" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="NVIDIA Logo" class="Frame843590153" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/nvidia.jpg?rev=d36da8ca2fba4581968dc26c258b2e1c&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%); border: 3px white solid"/>
+</div>
+<div class="Frame843590186" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Qualcomm Logo" class="Frame843590154" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/qualcomm.jpg?rev=509f45728cac47ceae157c006f1e2a15&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590183" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<div class="OriginalDesignManufacturersOdm" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Original Design Manufacturers (ODM)</div>
+<div class="Row5" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590190" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Elytone Logo" class="Frame843590158" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/elytone.jpg?rev=d8260c2c5b994516890507440f516b01&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590189" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Tymphany Logo" class="Frame843590157" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/tymphany.jpg?rev=cfcfe0fc7373466ea11459ed0eb9b639&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590188" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Wistron Logo" class="Frame843590156" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/wistron.jpg?rev=3e895ff025784152b38e5c42f3f7e290&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590184" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<div class="DesignPartners" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Design Partners</div>
+<div class="Row6" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590195" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="AmeNote Logo" class="Frame843590164" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/amenote-logo.jpg?rev=d0888543efb34a60a505acd8af7b9ab2&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Cardinal Peak Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/cardinalpeak.png?rev=831a368cf48f4e71a326da7539d930f8&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590192" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Clockworks Logo" class="Frame843590161" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/clockworks.jpg?rev=c4481343a8ad4c83bd384e6389ae38b3&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590201" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Coilcraft Logo" class="Frame843590163" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/coilcraft-a2b.jpg?rev=a04e6c5fefeb4cd7ab01175a8e69909a&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590191" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Danville Signal Logo" class="Frame843590160" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/danville.jpg?rev=1bd966fe593f49568dc472bafffb3568&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590185" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="DesignPartners" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Design Partners</div> -->
+<div class="Row7" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="E3 Compliance Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/gigabit-multimedia-serial-link/logos/e3-compliance-partner.jpg?rev=48d2b78e08904f25abfc54f106d6ec88&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="GG Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/gg_logo.png?rev=da54b9e0f7d24d8a9b8c2c77647f21a3&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590197" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Koneko Logo" class="Frame843590166" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/kaneko-logo.jpg?rev=56f1894311444ae299ff0280f72098b5&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590193" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Leoni Logo" class="Frame843590162" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/leoni.jpg?rev=810d5b52c1f242e394f329112420bae4&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590196" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Lundinova Logo" class="Frame843590165" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/lundinova-logo.jpg?rev=743290cb35044e7fb8afaace177d8e91&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590186" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="DesignPartners" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Design Partners</div> -->
+<div class="Row8" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="MD ELEKTRONIK Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/md-elektronik-logo-a2b.jpg?rev=a51bb673ee0d4ad7b2ce82a07f9ab131&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590200" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Murata Logo" class="Frame843590162" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/murata-a2b.jpg?rev=473ac7cc1c6c4b258f76d2fd7b44b507&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590190" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Neutrik Logo" class="Frame843590159" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/neutrik.jpg?rev=2ca8bf6007f94614874b0c127f508c54&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%); border: 3px white solid"/>
+</div>
+<div class="Frame843590194" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Rosenberger Logo" class="Frame843590163" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/rosenberger.jpg?rev=6e9e23524dda4c1e8892b76a94f6c0cf&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="TDK Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/tdk-a2b.jpg?rev=9bedded94768488a93848cb9de9dd701&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590186" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="DesignPartners" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Design Partners</div> -->
+<div class="Row9" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590199" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="WURTH ELEKTRONIK Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/wurth-elektronik-logo-a2b.jpg?rev=36019e51fb9840c898921e61a0230e74&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590187" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<div class="TestSolutions" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Test Solutions</div>
+<div class="Row10" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590204" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="alfamation Logo" class="Frame843590166" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/alfamation-logo-a2b.jpg?rev=8bef90b29a5f4787b1dbb9e9be185299&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590204" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="AP Logo" class="Frame843590166" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/ap-logo.jpg?rev=705e8a0deb5842baa98b3d89157ffb51&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590210" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Flex-Tech Logo" class="Frame843590162" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/flextech-a2b.jpg?rev=a849f5a0c9bd41769d0186088b165229&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590208" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="HEAD Acoustics Logo" class="Frame843590160" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/head-ac-a2b.jpg?rev=8ae0b86d21fc43a2815bf19a8be40c55&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590202" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Intrepid Logo" class="Frame843590164" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/intrepid.jpg?rev=d9de4cd637304a2a8bc98d4cec3b0566&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590188" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="TestSolutions" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Test Solutions</div> -->
+<div class="Row11" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590203" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Keysight Logo" class="Frame843590165" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/keysight.jpg?rev=2699f0453a15488fa4bc9a85acf8bd2e&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590206" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="mk messtechnik" class="Frame843590168" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/messtechnik-logo.jpg?rev=81e556b6a9c246299d4a41f6a0052055&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590209" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="NOFFZ Logo" class="Frame843590161" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/noffz-a2b.jpg?rev=a261e7c9b70741c6ad7921763adc6fcf&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590207" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Rhode &amp; Schwarz Logo" class="Frame843590159" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/rohde-a2b.jpg?rev=a14d135df5c64bfda21d916aadbc05a6&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+<div class="Frame843590205" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="Tektronix Logo" class="Frame843590167" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/tektronix-logo.jpg?rev=eefdb1f2c34b4529aac7449f7d46bcf5&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+<div class="Frame843590188" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+<!-- <div class="TestSolutions" style="color: black; font-size: 18px; font-family: Barlow; font-weight: 400; word-wrap: break-word">Test Solutions</div> -->
+<div class="Row12" style="justify-content: center; align-items: center; gap: 32px; display: inline-flex">
+<div class="Frame843590203" style="width: 147px; height: 75px; padding: 8px; background: white; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+<img alt="TSN SYSTEMS Logo" class="Frame843590165" src="/en/_/media/analog/en/technologies/a2b-industrial/partner-logos/tsn-systems-logo-a2b.jpg?rev=0ebf39dcce6b4019bf638ed0134e38a6&amp;sc_lang=en" style="align-self: stretch; flex: 1 1 0; background: linear-gradient(0deg, white 0%, white 100%)"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+</div>
+</div>
+</div>
+<div class="component Solution-Image-component">
+<div class="component-content">
+</div>
+</div>
+<div class="component component-content">
+<div class="component-content">
+<article class="resource-card-component app-js__resource-card-component">
+<div class="vertical"></div>
+<div class="resource-card-component__container">
+<h2 class="section-heading">
+<img alt="ResourceIcon" class="image-container" src="/en/_/media/project/analogweb/analogweb/resource-library/numbers-line.svg?rev=69a93bb137974aebb68fbff313800d1b&amp;la=en&amp;hash=6A20E4A9AFFE8DD48AEA9F11B0395DED"> <span class="title-Large packaging-symbol-heading">
+                            Industry Applications 
+
+                        </span>
+</img></h2>
+<h3 class="section-title">
+<span class="title-extraSmall">
+</span>
+</h3>
+<p class="body-medium section-description">
+</p><div class="card-container">
+<a class="anchor-card" href="/en/solutions/automotive/cabin-experience-and-infotainment.html" target="_self">
+<div class="card">
+<h4 class="subtitle-medium top-head">
+<span>Automotive</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8" target="_blank"> </img></h4>
+<div class="bottom-content">
+<span class="body-medium">Enabling a more immersive, personalized, and safer mobility experience by delivering next-gen audio, acoustic and voice-based applications.</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8"> </img></div>
+</div>
+</a>
+<a class="anchor-card" href="/en/solutions/consumer.html" target="_self">
+<div class="card">
+<h4 class="subtitle-medium top-head">
+<span>Consumer</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8" target="_blank"> </img></h4>
+<div class="bottom-content">
+<span class="body-medium">Analog Devices enhances human sensory experiences by developing innovations that change the way we live, work, and interact.</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8"> </img></div>
+</div>
+</a>
+<a class="anchor-card" href="/en/solutions/intelligent-buildings.html" target="_self">
+<div class="card">
+<h4 class="subtitle-medium top-head">
+<span>Intelligent Building </span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8" target="_blank"> </img></h4>
+<div class="bottom-content">
+<span class="body-medium">Buildings throughout the world are experiencing unprecedented growth in safer, more energy-efficient, and sustainable structures. Analog Devices’ solutions for intelligent buildings are at the forefront of unlocking insights for the smart building digital transformation.</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8"> </img></div>
+</div>
+</a>
+<a class="anchor-card" href="/en/solutions/aerospace-and-defense/avionics.html" target="_self">
+<div class="card">
+<h4 class="subtitle-medium top-head">
+<span>Avionics</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8" target="_blank"> </img></h4>
+<div class="bottom-content">
+<span class="body-medium">Analog Devices offers a broad range of avionics solutions to elevate your next innovations in guidance, navigation, flight control, data acquisition, power distribution, engine control, and motor control systems. Our portfolio includes precision data converters, amplifiers, measurement, RF/microwave, and MEMS products. Our beamformers and T/R modules address AESA weather radar while our large power and BMS portfolios drive industry-leading eVTOL BMS and power solutions.</span>
+<img alt="ResourceCardIcon" class="card-right-arrow" src="/en/_/media/project/analogweb/analogweb/resource-library/arrow-right-m-dark.svg?rev=e8c05bf636104f398bed6fef91c9796c&amp;la=en&amp;hash=774C502A27B21E5A0E14D30371E1E9A8"> </img></div>
+</div>
+</a>
+</div>
+</div>
+<div class="horizontal"></div> </article>
+</div>
+</div>
+<!-- How ADI component : start -->
+<article class="adi-partners-reliabilty app-js__adi-partners-reliabilty">
+<div class="vertical"></div>
+<div class="how-adi-section__container">
+<div class="how-adi-section__container__left">
+<h2 class="top-section">
+<span class="title-small media-title">How ADI Partners with Others to Provide Solutions</span>
+</h2>
+<p class="body-medium-dark">See our resources for media to access details about media contact, authorization requests, and available downloads.</p>
+<a aria-label="Find Partners" href="/en/search.html?siteSection=Partners">
+<button class="media-resource-button button-medium-dark" tabindex="-1">
+            Find Partners
+          </button>
+</a>
+</div>
+<div class="how-adi-section__container__right">
+<h2 class="top-section title-small stayInformed-title">
+            How ADI ensures quality and reliability of its products
+          </h2>
+<p class="body-medium-dark">See our resources for media to access details about media contact, authorization requests, and available downloads.</p>
+<a aria-label="Learn More opens in a new tab" class="signup" href="/en/support/quality-and-reliability.html">
+<button class="signup-button button-medium-dark">
+              Learn More
+            </button>
+</a>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+<!-- How ADI component : end -->
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+<script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"A<sup>2</sup>B Audio Bus Technology","itemId":"25c168b0-bb2d-4c83-aeb2-f0950b996d37","pageUrl":"https://www.analog.com/en/solutions/a2b-audio-bus.html","pageCategory":"Technology Solution Page","previousPageUrl":"https://www.ecosia.org/","pageType":"Technology Solution Page","isProduct":false}};
+    </script>
+<script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+<script id="add-to-myanalog-hbs-template" type="text/x-handlebars-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+<script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+<div id="add-to-myanalog-container">
+<article class="add-to-myanalog-modal app-js__add-to-myanalog-modal" data-add-to-my-analog-api="{{addToMyAnalogAPI}}" data-artifact-api="{{artifactAPI}}" data-body-data="{{bodyData}}" data-class-name="{{className}}" data-create-project-api="{{createProjectAPI}}" data-is-table-product="{{isTableProduct}}" data-modal-added-icon="{{modalAddedIcon}}" data-modal-error-icon="{{modalErrorIcon}}" data-translations-api="{{translationsAPI}}" id="add-to-myanalog-modal-apis">
+<div class="add-to-myanalog-modal__container">
+<div aria-label="{{dropdownTitle}} Modal" class="modal-container">
+<div class="modal-container__header">
+<div class="modal-container__header__title">
+<img alt="modal bookmark icon" class="modal-container__header__title__icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f" width="24">
+<h2 class="modal-container__header__title__text title-extraSmall">{{modalTitle}}</h2>
+</img></div>
+<img alt="modal close icon" aria-label="Close Modal" class="modal-container__header__close" height="24" loading="lazy" role="button" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8" tabindex="0" width="24">
+</img></div>
+<div class="modal-container__content__error__content" role="alert">
+</div>
+<div class="modal-container__content">
+<p class="modal-container__content__description body-medium-inverse">{{modalDescription}}</p>
+<div class="modal-container__content__products">
+<h2 class="modal-container__content__products__title body-small">{{dropdownTitle}}</h2>
+<div class="modal-container__content__products__dropdown-container">
+<div class="dropdown-wrapper">
+<div class="dropdown-wrapper__input-container">
+<input aria-autocomplete="list" aria-expanded="false" aria-label="{{dropdownTitle}}" class="body-small dropdown-wrapper__input-container__box" role="combobox" tabindex="0" type="text" value="{{defaultSelectedText}}"/>
+<span class="dropdown-wrapper__input-container__down-arrow" id="arrow-input-dropdown">
+<img alt="input down arrow" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142" width="24">
+</img></span>
+<p aria-atomic="true" aria-live="assertive" class="sr-only" data-navigate-text="Navigate into the list items using tab key" id="dropdown-aria-label" role="alert"></p>
+<p aria-atomic="true" aria-live="assertive" class="sr-only sr-only-input" data-navigate-text="Use Down arrow key to open the drodpown" id="input-aria-label" role="alert"></p>
+</div>
+<div class="dropdown-wrapper__content" id="dropdownContent">
+<ul class="dropdown-content__lists" data-default-selected-text="{{defaultSelectedText}}" data-new-project-plus-icon="{{newProjectPlusIcon}}" data-new-project-text="{{newProjectText}}" data-project-names="{{projectNames}}" role="listbox">
+<li aria-label="{{defaultSelectedText}}" role="button" tabindex="0">
+<span class="body-small dropdown-content__list__border">{{defaultSelectedText}}</span>
+</li>
+                                            {{#each projectNames}}
+                                            <li aria-label="{{name}}" role="button" tabindex="0"><span class="body-small dropdown-content__list__border">{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li aria-label="{{newProjectText}}" class="dropdown-content__list__new-product" role="button" tabindex="0">
+<img alt="plus icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" width="24">
+<span class="body-small">{{newProjectText}}</span>
+</img></li>
+                                            {{/if}}
+                                        </ul>
+</div>
+</div>
+</div>
+</div>
+                        {{#if toggleButtonDescription}}
+                        <div class="modal-container__content__toggle-button-container">
+<div class="modal-container__content__toggle-button-container__wrapper">
+<label aria-checked="false" aria-label="Toggle Button for {{toggleButtonDescription}}" class="toggle-button-wrapper" tabindex="0">
+<input class="toggle-button-wrapper__box" id="add-to-myanalog-toggle-button" tabindex="-1" type="checkbox"/>
+<span class="toggle-button-wrapper__slider"></span>
+</label>
+<div class="modal-container__content__toggle-button-container__wrapper__text body-medium">{{toggleButtonDescription}}</div>
+</div>
+</div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class="modal-container__content__new-project-container">
+<div class="modal-container__content__new-project-container__wrapper">
+<h3 class="modal-container__content__new-project-container__wrapper__title subtitle-small">
+                                    {{newProjectTitle}}
+                                </h3>
+<div class="modal-container__content__new-project-container__wrapper__name">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__name__text" for="">{{newProjectNameText}}</label>
+<input aria-invalid="false" aria-label="{{newProjectNameText}}" class="modal-container__content__new-project-container__wrapper__name__input body-small" type="text"/>
+<div class="modal-container__content__new-project-container__wrapper__name__error">
+<img class="modal-container__content__new-project-container__wrapper__name__error__icon" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c" width="16">
+<p class="modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall">{{projectNameErrorText}}</p>
+</img></div>
+</div>
+<div class="modal-container__content__new-project-container__wrapper__description">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__description__text" for="">{{newProjectDescriptionText}}</label>
+<input aria-label="{{newProjectDescriptionText}}" class="modal-container__content__new-project-container__wrapper__description__input body-small" type="text"/>
+</div>
+</div>
+</div>
+                        {{/if}}
+                    </div>
+<div class="modal-container__footer">
+<div class="modal-container__footer__button">
+<button aria-label="{{cancelButtonText}}" class="modal-container__footer__button__cancel button-medium" role="button">
+                                {{cancelButtonText}}
+                            </button>
+<button aria-label="{{confirmButtonText}}" class="modal-container__footer__button__confirm button-medium" role="button">
+                                {{confirmButtonText}}
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- /#content -->
+<!-- #footer -->
+<footer role="contentinfo">
+<div class="container-fluid" id="footer">
+<div class="row">
+<div>
+<adi-footer></adi-footer>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+<!-- /#wrapper -->
+<script defer="" src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+<script async="" src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+<script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-page-applications.bundle.js"></script>
+<div class="legacy-component">
+<script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal" id="image-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div class="modal" id="adi-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade product-modal modal-video-window" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Modal title</h4>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+</div>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/solutionsl1page.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l1techsolutionspage.bundle.js"></script>
+<script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+<div class="rte-control">
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal image-rte-modal" id="image-rte-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+</div>
+<script src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB" type="text/javascript"></script></body>
+</html>

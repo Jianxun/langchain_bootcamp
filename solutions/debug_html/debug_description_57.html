@@ -1,0 +1,2374 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- *** FE html start -->
+<meta charset="utf-8"/>
+<title>Extended Reality (XR) Solution for Edge Devices | Analog Devices</title>
+<meta content="follow, index" name="robots">
+<meta content="Extended Reality (XR)* Devices are the gatekeepers between the physical and digital worlds. With one foot in the local network and one foot in the cloud, XR devices at the edge are essential hardware " name="description"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer">
+<meta content="86a60d9bcaab43f0" name="yandex-verification"/>
+<meta content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" name="google-site-verification"/>
+<meta content="cSddD8r1N7" name="baidu-site-verification"/>
+<meta content="381E86BC7EF76D19F9365D26D8BFCD35" name="msvalidate.01"/>
+<link href="https://www.analog.com/en/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html" hreflang="en-US" rel="alternate"/>
+<link href="https://www.analog.com/cn/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html" hreflang="en-CN" rel="alternate"/>
+<link href="https://www.analog.com/jp/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html" hreflang="ja-JP" rel="alternate"/>
+<link href="https://www.analog.com/en/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html" rel="canonical"/>
+<script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+<script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+<link href="https://www.analog.com/media/favicon/favicon.ico" rel="icon"/>
+<link href="https://www.analog.com/media/favicon/apple_favicon.png" rel="apple-touch-icon"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png " rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png " rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png " rel="apple-touch-icon" sizes="167x167"/>
+<link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon">
+<link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/></noscript>
+<style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+<!-- Font-awesome -->
+<!-- Latest compiled and minified CSS -->
+<!-- Optional theme -->
+<!-- owl-slider -->
+<!-- Algolia Instant Search Theme -->
+<!-- Autocomplete Theme -->
+<!-- Latest compiled and minified JavaScript -->
+<link as="style" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/app.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" rel="stylesheet"/></noscript>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-applications.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css" rel="stylesheet"/>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" rel="stylesheet"/></noscript>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/header-footer/index.css" rel="stylesheet" type="text/css"/>
+<script defer="" src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+<script async="" src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js"></script>
+<!-- *** FE html end -->
+</link></meta></meta></meta></head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+<!-- #wrapper -->
+<div class="page-wrap" id="wrapper">
+<!-- #header -->
+<header>
+<div class="container-fluid" id="header">
+<div class="row">
+<div>
+<adi-header>
+<adi-account></adi-account>
+</adi-header>
+<adi-menu divided="">
+<adi-cart slot="buttons"></adi-cart>
+<adi-search slot="drawer">
+<div slot="search"></div>
+<div slot="results"></div>
+</adi-search>
+</adi-menu>
+<adi-dispatch></adi-dispatch>
+</div>
+</div>
+</div>
+</header>
+<!-- /#header -->
+<!-- #content -->
+<main class="main-content content" id="main" role="main" tabindex="-1">
+<div class="container-fluid" id="content">
+<div class="row">
+<div>
+<div class="component Global-Breadcrumb">
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.analog.com/en/index.html"},{"@type":"ListItem","position":2,"name":"Solutions Overview","item":"https://www.analog.com/en/solutions.html"},{"@type":"ListItem","position":3,"name":"Consumer Technology","item":"https://www.analog.com/en/solutions/consumer.html"},{"@type":"ListItem","position":4,"name":"Hearables and Wearables ","item":"https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html"},{"@type":"ListItem","position":5,"name":"Extended Reality Solution for Edge Devices","item":"https://www.analog.com/en/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html"}]};
+        </script>
+<div class="component-content">
+<!-- Breadcrumb component : start -->
+<article class="breadcrumb app-js__breadcrumb">
+<div aria-label="Breadcrumb" class="breadcrumb__container" role="navigation">
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Home</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Solutions Overview</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Consumer Technology</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer/hearables-and-wearables.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Hearables and Wearables </span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+Extended Reality Solution for Edge Devices
+
+
+                            </div>
+</div>
+</article>
+<!-- Previous page link component : start -->
+<article class="previous-page-link app-js__previous-page-link">
+<a class="previous-page-link__link button-small" href="/en/solutions/consumer/hearables-and-wearables.html">
+<span class="previous-page-link__icon">
+<img alt="left arrow" class="previous-page-link__arrow-left" height="16" src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" width="16"/> </span>
+<span class="previous-page-link__label">
+Back to Hearables and Wearables 
+
+                            </span>
+</a>
+</article>
+<!-- Previous page link component : end -->
+<div class="horizontal">
+</div>
+</div>
+</div>
+<div class="component Solution-Overview">
+<div class="component-content">
+<article class="industry-solutionsl1-description app-js__industry-solutionsl1-description">
+<div class="industry-solutionsl1-description__container industry-solutionsl1-description__transparent" data-show-less="Show Less" data-show-more="Show More">
+<img alt="banner background image" class="industry-solutionsl1-description__container-image" src="/en/_/media/project/analogweb/analogweb/solutionpageimages/industry-solutions-l3-page.png?rev=98ce5de8111d4fbfbfcdb929e969c401&amp;la=en&amp;h=908&amp;w=2720&amp;hash=2FBEAECAE410AB14F72D16BD2E049FB0"/> <div class="industry-solutionsl1-description__category_header">
+<h1 class="industry-solutionsl1-description__category_title web-title component-title" id="category-detail">
+                                    Extended Reality (XR) Solution for Edge Devices
+                                </h1>
+<div class="horizontal"></div>
+</div>
+<div class="industry-solutionsl1-description__container_content">
+<div class="industry-solutionsl1-description__category solution-header-content">
+<div class="adi-rte">
+<p> Extended Reality (XR)* Devices are the gatekeepers between the physical and digital worlds. With one foot in the local network and one foot in the cloud, XR devices at the edge are essential hardware for enabling the next evolution of today’s internet: the metaverse.<br/>
+<br/>
+The metaverse has the capability to take users beyond 2D browsing, delivering immersive experiences in gaming, healthcare, education, commerce, and industrial applications. <br/>
+<p style="font-size:14px;">* XR is a catch-all term for the different yet related technologies (and Acronyms) which include virtual reality (VR), augmented reality (AR), and mixed reality (MR).</p> </p>
+</div>
+<div class="industry-solutionsl1-description__button-center">
+<a class="industry-solutionsl1-description__showMoreBtn button-medium" href="javascript:void(0)">Show More</a>
+<img alt="Arrow image" class="industry-solutionsl1-description__showmore-arrow" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-down-white.svg?rev=7a6c987b562b4f71b6949e30b9fed900&amp;la=en&amp;hash=5FFFC28A78F4F08669F6DEA4AC52AC26"/> </div>
+</div>
+<div class="industry-solutionsl1-description__categoryallparts_btn">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Value and Benefits Container Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"></div>
+<div class="value-prop-component__content-wrapper">
+<!-- Value and Benefits Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"> </div>
+<div class="value-prop-component__content-wrapper">
+<div class="value-prop-component__solutions-header valueandBenfitsSection content-header variation-header">
+<h3 class="content-title title-large">Value and Benefits</h3>
+<p class="body-medium content-para value-para">Intelligent edge devices are the portal to the metaverse. Building the metaverse will require a combination of superior hardware and systems that go beyond the architectures and inner workings of devices used today. We provide a portfolio of leading-edge biosensors, haptics, technologies to support functions like 3D sensing and immersive audio, and power parts ideal for XR devices. <br/>
+<br/>
+Our technologies for edge devices include: <br/>
+<br/>
+</p>
+• Time of Flight<br/>
+• Wearable Vital Signs Monitoring <br/>
+• Battery Management  <br/>
+• Audio Solutions  <br/>
+• Human Machine Interface
+<p> </p>
+</div>
+<div class="benefits-section-container">
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Support 3D sensing</p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Monitor wearable vital signs</p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Support immersive audio</p>
+</div>
+</div>
+</div>
+</article>
+</article> <!-- Value and Benefits Component : end -->
+<div class="component Value-Prop">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+</article>
+<!-- Value and Benefits Container Component : end -->
+<div class="component SolutionL2PageProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionReferenceDesignProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionEvaluationBoardsCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionSoftwareProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="legacy-component">
+<div class="row vertical-tab adi-scd-isc" data-less="See Less Rows" data-more="See More Rows" data-rows="4" id="rd-signalchains">
+<script data-locale="en" data-name="AdiISC" data-path="/packages/isc" src="https://assets2.analog.com/js/adi/adi.isc-7.js" type="text/javascript"></script>
+<div class="section-bar band" data-enhanced-view="false" id="Signal_Chains">
+<div class="container">
+<div class="row">
+<div class="">
+<div class="section-heading clearfix pavillion-heading">
+<h3>Signal Chains</h3>
+<h3>(1)</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="options-bar" data-listshown-default="2">
+<div class="container">
+<div class="row">
+<div>
+<ul class="list-unstyled options-list options-list-campaign tabAccordion hidden-xs">
+<li>
+<a data-target="ISC-0675" data-toggle="tab" href="#">
+<h3>XR Headset</h3>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="product-section">
+<div class="tab-header">
+<h3 id="signalChaintitle"></h3>
+<div class="textpager pavillion-textpager"></div>
+</div>
+<span class="popup-label-span">Click on a part in the diagram below</span>
+<div class="bx-wrapper" id="waveformGenerator">
+<div class="popUp">
+<h3>
+<span class="popup-header-label">Interactive Signal Chains</span>
+<span class="popUp-header"> <img loading="lazy" src="/lib/img/round_close.png"/></span>
+</h3>
+<div><span class="popup-label-body">Click on the part for more details</span></div>
+<div class="image-container">
+<img loading="lazy" src="/lib/img/signalchainarrow.png"/>
+</div>
+</div>
+</div>
+<div class="scd-noPartsSelected">
+</div>
+</div>
+</div>
+</div>
+<div id="scd-view-renderer"></div>
+<script id="scd-view" type="text/x-handlebars-template">
+                    <div class="scd-partsSelected">
+                        <div class="container">
+                            <div class=''>
+                                {{#if title}}
+                                <div class="scd-partTitle">{{title}} <span><a href="#" class="close-icon">X</a><a href="#" class="expand-icon">+</a></span></div>
+                                {{/if}}
+                                {{#if tables}}
+                                {{#each tables}}
+                                <div class="scd-partTable table-responsive">
+                                    {{#if title}}
+                                    <div class="scd-tablename">{{title}}</div>
+                                    {{/if}}
+                                    <table class="table">
+                                        {{#if columns}}
+                                        <tr>
+                                            {{#each columns}}
+                                            <th>
+                                                {{external_name}}
+                                                {{#if defaultUOM}}
+                                                <br>
+                                                {{simplifyTyp defaultUOM}}
+                                                {{/if}}
+                                            </th>
+                                            {{/each}}
+                                        </tr>
+                                        {{/if}}
+                                        {{#if rows}}
+                                        {{#each rows}}
+                                        <tr class="scd-part-row">
+                                            {{#each this}}
+                                            {{#if url}}
+                                            <td><a href="{{url}}" target="_blank">{{displayValue}}</a></td>
+                                            {{else}}
+                                            <td>{{displayValue}}</td>
+                                            {{/if}}
+                                            {{/each}}
+                                        </tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        {{#if columns}}
+                                        <tfoot class="hide">
+                                            <tr>
+                                                <td colspan="{{columns.length}}" class="text-center"><a href="#" class="less"></a></td>
+                                            </tr>
+                                        </tfoot>
+                                        {{/if}}
+                                    </table>
+                                </div>
+                                {{/each}}
+                                {{/if}}
+                            </div>
+                        </div>
+                        {{#if linkset}}
+                        {{#with linkset}}
+                        {{#if links}}
+                        <div class="scd-linksets">
+                            <div class="container">
+                                <div class="">
+                                    {{#if title}}
+                                    <div class="scd-linkset-title">{{title}}</div>
+                                    {{/if}}
+                                    <div class="scd-linkset-links">
+                                        {{#each links}}
+                                        <a class="btn btn-primary scd-linkset-link" href="{{url}}" target="_blank">{{text}}</a>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{/with}}
+                        {{/if}}
+                    </div>
+                </script>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Time of Flight Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADSD3030</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">VGA, CMOS, Time of Flight, Backside Illumination Sensor</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adsd3030.html"> ADSD3030 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/chip/adsd3030.png?rev=7b4fa78cfd5343d6a7a9fb8ec647422c&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADSD3030 is a CMOS 3D Time of Flight (ToF)-based 3D depth and 2D visual light imager that is available for integration into 3D sensor systems. The functional blocks required for read out, which include analog-to-digital converters (ADCs), amplifiers, pixel biasing circuitry, and sensor control logic, are built into the chip to enable a
+cost-effective and simple implementation into systems.</p>
+<p>The ADSD3030 interfaces electrically to a host system over a mobile industry processor interface (MIPI), Camera Serial Interface 2 (CSI-2) interface. A lens plus optical band-pass filter for the imager and an infrared light source plus an associated driver are required to complete the working subsystem.</p>
+<p><strong>APPLICATIONS</strong></p>
+<ul>
+<li>Smartphones</li>
+<li>Augmented reality (AR) and virtual reality (VR)</li>
+<li>Machine vision systems (logistics and inventory)</li>
+<li>Robotics (consumer and industrial)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3030.html" name="ADSD3030_ae13795d-f375-4de7-8afe-f020d6dfa80f">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3030.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+<li>Surveillance Camera Solutions</li>
+</ul>
+<h4>Instrumentation and Measurement Solutions</h4>
+<ul>
+<li>Precision Measurement Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Industrial Robotics Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADSD3100</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">1 MP, CMOS, Time of Flight, Backside Illumination Sensor</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adsd3100.html"> ADSD3100 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/chip/adsd3100-label-chip-illustration.png?rev=173f7d2447364b6b938bb46bad46cab3"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADSD3100 is a CMOS 3D Time of Flight (ToF)-based 3D depth and 2D visual light imager that is available for integration into 3D sensor systems. The functional blocks required for read out, which include an analog to digital converter (ADC), pixel biasing circuitry, and sensor control logic, are built into the chip to enable a cost effective and simple implementation into systems.</p>
+<p>The ADSD3100 interfaces electrically to a host system over a mobile industry processor interface (MIPI), Camera Serial Interface 2 (CSI-2) interface. A lens plus optical band-pass filter for the imager and an infrared light source plus an associated driver are required to complete the working subsystem.</p>
+<p><strong>APPLICATIONS</strong> </p>
+<ul><li>Smartphones </li>
+<li>Augmented reality (AR)/virtual reality (VR) </li>
+<li>Machine vision systems (logistics and inventory)</li>
+<li>Robotics (consumer and industrial) </li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3100.html" name="ADSD3100_b8140961-09ba-4b90-99b3-4955dce32e7b">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3100.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Home Theater and Gaming Solutions</li>
+<li>Personal Electronics Solutions</li>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+<h4>Industrial Vision Technology</h4>
+<ul>
+<li>3D Time of Flight (ToF)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADSD3500</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Time-of-Flight Depth Image Signal Processor</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adsd3500.html"> ADSD3500 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/chip/adsd3500-chip-image.png?rev=97cdb2ee6d7c450987f6e255ffe2ef47"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADSD3500 is a Time-of-Flight (ToF) Depth Image Signal Processor (ISP) for Analog Devices ToF products such as the ADTF3175 and ADSD3030. The Depth ISP processes the raw phase frames from the ToF imager, generating the final radial depth, active brightness (AB), and confidence frames. The ADSD3500 supports full computation of depth, active brightness and confidence data for 640x480 resolution, and partial depth computation (pre-phase unwrap) for 1024x1024 resolution. Data and processing flow is controlled using the integrated ARM<sup>®</sup> Cortex<sup>®</sup>-M33. Computation is performed using dedicated hardware and memory, enabling a low power ToF depth ISP solution. The ADSD3500 also controls the boot-up of the image sensor module, loading of calibration data, and triggering of frames.</p>
+<p>The image data receiver (Rx) and transmitter (Tx) ports use standard Mobile Industry Processor Interface (MIPI) Camera Serial Link 2 (CSI-2) interfaces. Processor programming and operation are controlled through 4-wire QSPI, I<sup>2</sup>C, and I<sup>3</sup>C serial interfaces.</p>
+<p>The ADSD3500 is available in a 3.47mm x 3.47mm WLCSP, and is specified over an operating temperature range of -25°C to +85°C.</p>
+<p><strong>APPLICATIONS</strong></p>
+<ul>
+<li>Augmented reality (AR) systems</li>
+<li>Robotics</li>
+<li>Building automation</li>
+<li>Machine vision systems</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3500.html" name="ADSD3500_49d2045a-2b98-4d64-81cd-2e90e1758df6">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adsd3500.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+<li>Smart Building Automation Systems</li>
+<li>Building Automation Controllers and Network Solutions</li>
+<li>Building Fire Safety and Surveillance Solutions</li>
+<li>Smart Building Sustainability Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Industrial Robotics Solutions</li>
+<li>Intelligent Motion Control Solutions</li>
+</ul>
+<h4>Instrumentation and Measurement Solutions</h4>
+<ul>
+<li>Automated Test Equipment</li>
+<li>Analytical Instruments</li>
+<li>Electronic Test and Measurement Solutions</li>
+<li>Parametric Measurement Solutions</li>
+</ul>
+<h4>Industrial Vision Technology</h4>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADTF3175</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">1 MegaPixel Time-of-Flight Module</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adtf3175.html"> ADTF3175 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/functional-block-diagrams/adtf3175-fbl.png?rev=57cf77d928e84b21bc060ea6696490ae&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADTF3175 is a complete Time-of-Flight (ToF) module for high resolution 3D depth sensing and vision systems. Based on the ADSD3100, a 1 Megapixel CMOS indirect Time-of-Flight (iToF) imager, the ADTF3175 also integrates the lens and optical bandpass filter for the imager, an infrared illumination source containing optics, laser diode, laser diode driver and photodetector, a flash memory, and power regulators to generate local supply voltages. The module is fully calibrated at multiple range and resolution modes. To complete the depth sensing system, the raw image data from the ADTF3175 is processed externally by the host system processor or depth ISP.</p>
+<p>The ADTF3175 image data output interfaces electrically to the host system over a 4-lane mobile industry processor interface (MIPI), Camera Serial Interface 2 (CSI-2) Tx interface. The module programming and operation are controlled through 4-wire SPI and I<sup>2</sup>C serial interfaces.</p>
+<p>The ADTF3175 has module dimensions of 42mm × 31mm × 15.1mm, and is specified over an operating temperature range of -20°C to 65°C.</p>
+<p><strong>APPLICATIONS</strong></p>
+<ul>
+<li>Machine vision systems</li>
+<li>Robotics</li>
+<li>Building automation</li>
+<li>Augmented reality (AR) systems</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adtf3175.html" name="ADTF3175_25c10bb9-5627-4c14-bc92-29bf2554a2d5">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adtf3175.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+<li>Building Fire Safety and Surveillance Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Home Theater and Gaming Solutions</li>
+<li>Personal Electronics Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Body Composition, Hydration, and Bioimpedance Analysis Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Industrial Robotics Solutions</li>
+</ul>
+<h4>Instrumentation and Measurement Solutions</h4>
+<ul>
+<li>Electronic Test and Measurement Solutions</li>
+<li>Precision Measurement Solutions</li>
+</ul>
+<h4>Industrial Vision Technology</h4>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Vital Signs Monitoring Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX30208</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">±0.1°C Accurate, I<sup>2</sup>C Digital Temperature Sensor</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max30208.html"> MAX30208 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10119.png?rev=1fcf4806d2654be8864bc7a227a9a8cf"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>
+The MAX30208 operates from a 1.7V to 3.6V supply voltage, and is a low-power, high-accuracy digital temperature sensor with ±0.1°C accuracy from +30°C to +50°C and ±0.15°C accuracy from 0°C to +70° C. The MAX30208 has 16-bit resolution (0.005°C).</p>
+<p>
+The device uses a standard I<sup>2</sup>C serial interface to communicate with a host controller. Two GPIO pins are available. GPIO1 can be configured to trigger a temperature conversion, while GPIO0 can be configured to generate an interrupt for selectable status bits.
+</p>
+<p>
+The MAX30208 includes a 32-word FIFO for the temperature data and also includes high and low threshold digital temperature alarms. The device is available in a 2mm x 2mm x 0.75mm, 10-pin Thin LGA package.
+</p><p></p><p><strong>Applications</strong></p><ul><li>Internet of Things (IoT) Sensors</li><li>Medical Thermometers</li><li>Wearable Body Temperature Monitors</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max30208.html" name="MAX30208_eeed33b6-60a5-433a-a7c8-6a6471ed1606">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max30208.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Hearable and Wearable Solutions</li>
+<li>Wearable Vital Signs Monitoring Solutions</li>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Body Temperature Measurement Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX32664</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Ultra-Low Power Biometric Sensor Hub</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max32664.html"> MAX32664 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max32664-simplified-block-diagram.png?rev=f8975e5f6c0c4d7686de122d330d881b"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX32664 is a sensor hub family with embedded firmware and world-class algorithms for wearables. It seamlessly enables customer-desired sensor functionality, including communication with Analog Devices' optical sensor solutions and delivering raw or calculated data to the outside world. This is achieved while keeping overall system power consumption in check. The device family interfaces to a microcontroller host through a fast-mode slave I<sup>2</sup>C interface for access to raw and processed sensor data as well as field updates. A firmware bootloader is also provided.</p>
+<p>The MAX32664 Version A supports the <a href="/en/products/MAX30101">MAX30101</a>/<a href="/en/products/MAX30102">MAX30102</a> high-sensitivity pulse oximeter and heart-rate sensor for wearable health for finger-based applications. A master mode I<sup>2</sup>C interface for communication with sensors is provided.</p>
+<p>The MAX32664 Version B supports the <a href="/en/products/MAX86140">MAX86140</a>/<a href="/en/products/MAX86141">MAX86141</a> for wrist-based applications. A master mode SPI interface for communication with sensors is provided.</p>
+<p>The MAX32664 Version C supports the MAX86140/MAX86141 for wrist-based applications and MAXM86161 for ear-based applications. The device provides either a master mode SPI or an I<sup>2</sup>C interface for communication with sensors.</p>
+<p>The MAX32664Version D supports the MAX30101/MAX30102 high-sensitivity pulse oximeter and heart-rate sensor for wearable health for finger-based applications. A master mode I<sup>2</sup>C interface for communication with sensors is provided. Version D also supports estimated blood pressure monitoring.</p>
+<p>The wearable algorithms in the MAX32664 sensor hub support a directly connected accelerometer. They also allow feeding of X, Y, and Z samples from a host-connected accelerometer. This architecture provides robust detection and compensation of motion artifacts in captured samples.</p>
+<p>The tiny form factor 1.6mm x 1.6mm WLP or 3mm x 3mm TQFN allows for integration into extremely small application devices.</p>
+<p><strong>Applications</strong></p>
+<ul>
+<li><!--01-->Wearable Fitness</li>
+<li><!--02-->Hearables</li>
+<li><!--03-->Wearable Medical</li>
+<li><!--04-->Portable Medical</li>
+<li><!--05-->Mobile Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32664.html" name="MAX32664_30e12dd4-d4db-43f9-8848-6b37755ebded">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32664.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Hearable and Wearable Solutions</li>
+<li>Wearable Vital Signs Monitoring Solutions</li>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX86178</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Ultra-Low-Power, Clinical-Grade Vital-Sign AFE</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max86178.html"> MAX86178 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/image-unavailable/pdp-image-unavailable.svg?rev=46fb87b23e2d456d983cdb1d9cbc060c&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX86178 is a highly integrated, multiple vital-sign monitoring device with a complete photoplethysmogram (PPG), electrocardiogram (ECG) and biopotential (BioZ) analog front end (AFE) for wearable applications. The MAX86178 offers high performance for wellness and clinical applications with low power for long battery life.</p>
+<p>The PPG data acquisition system supports up to 6 LEDs and 4 photodiode inputs. The LEDs are programmable from two high-current, 8-bit LED drivers. The receive path has two low-noise, high-resolution readout channels that each include independent 20-bit ADCs and industry-leading ambient light cancellation (ALC) circuits, producing the highest performing integrated optical data acquisition system on the market today.</p>
+<p>The ECG channel has EMI filtering, internal lead biasing, right-leg drive, and extensive calibration voltages for built-in self-test. The ECG channel also has high-input impedance, low noise, high CMRR, programmable gain, an anti-aliasing low-pass filter, and a high-resolution ADC. It is designed to meet IEC 60601-2-47 Ambulatory ECG Systems monitoring compliance requirements.</p>
+<p>The BioZ receive channel has EMI filtering and extensive calibration features. The BioZ receive channel also has high input impedance, low noise, programmable gain, low-pass and high-pass filter options, and a high-resolution ADC. There are several modes for generating input stimulus: balanced square-wave source/sink current, sine-wave current, and both sine-wave and square-wave voltage stimuli. A wide range of stimulus magnitudes and frequencies is available.</p>
+<p>The MAX86178 has DC and AC lead-off detection, a flexible timing system, and a PLL. All three sensor channels are synchronized. The MAX86178 is available in a 7 x 7 49-bump wafer-level package (WLP) with package dimensions of 2.77mm x 2.57mm, and operates over -40°C to +85°C temperature range.</p><p></p><p><strong>Applications</strong></p><ul><li>Ambulatory Heart Monitors</li><li>Impedance Cardiography/Hemodynamic Monitors</li><li>Pulse Arrival Time (PAT), Pulse Travel Time (PTT), Pulse Wave Velocity (PWV) Assessments</li><li>Pulse-Oximetry Devices</li><li>Single- and Multi-Frequency Bioimpedance Analysis</li><li>Smart-Clothing Applications</li><li>Wearable Vital-Sign Monitors</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max86178.html" name="MAX86178_b95e66c2-d53a-4d5d-9659-0cd889d768ff">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max86178.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Body Composition, Hydration, and Bioimpedance Analysis Solutions</li>
+<li>Non-Invasive Blood Pressure (NIBP) Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Wearable Vital Signs Monitoring Solutions</li>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Battery Management Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX17332</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">AccuCharge + ModelGauge m5 EZ 1-Cell Charger, Fuel Gauge, and Protector</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max17332.html"> MAX17332 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max17332-simplified-block-diagram.png?rev=1b127aea90ed41b8a76c56c8b619c5e4&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX17332 is a 35μA I<sub>Q</sub> stand-alone charger, fuel gauge, protector, and battery internal self-discharge detection IC for 1-cell lithium-ion/polymer batteries. When a voltage source is present, the IC regulates charging by modulating the charge N-FET, using AccuCharge™charger technology. The IC regulates charge voltage, current, and FET temperature. Stand-alone charging is supported by flexible configuration in nonvolatile memory. The IC supports the following applications:</p>
+<ul>
+<li>Low-Power Charging
+<ul><li>1mA to 500mA directly from universal 5V USB 
+<li>No USB identification/coordination needed </li></li></ul>
+<li>High-Power Parallel Packs (&gt;1000mA)
+<ul><li>Independently charges parallel packs 
+<li>Prevents cross-charging for parallel batteries
+<li> Coordinates external DC-DC with alerts 
+<li>Minimizes dropout and heat </li></li></li></li></ul>
+<li>Protection and Charging Control—pack or host side</li></li></li></ul>
+<p>The IC ideal diode circuit supports a quick response to system transients and adapter removal with low voltage drop across the CHG FET.</p>
+<p>The IC uses the ModelGauge™ m5 EZ algorithm that combines the short-term accuracy and linearity of a coulomb counter with the long-term stability of a voltage-based fuel gauge to provide industry-leading accuracy. The IC automatically compensates for cell aging, temperature, and discharge rate while providing accurate state-of-charge (SOC) in milliampere-hours (mAh) or percentage (%) over a wide range of operating conditions.</p>
+<p>The IC monitors the voltage, current, temperature, and state of the battery to provide protection against over/undervoltage, overcurrent, short-circuit, over/undertemperature and overcharge conditions, and internal self-discharge protection using external high-side N-FETs to ensure that the lithium-ion/polymer battery operates under safe conditions which prolongs the life of the battery.</p>
+<p><b>APPLICATIONS</b></p>
+<ul>
+<li>USB PPS and Direct Charging 
+<li>Smart Batteries and Hybrid Supercap Batteries
+<li> Dual Screen Smartphones, Tablets 
+<li>Hearables, Wearables, Smartwatches 
+<li>Medical Devices, Health, Fitness Monitors 
+<li>Handheld Radios, Computers, Accessories
+<li>Home/Building Automation, Sensors, Cameras 
+<li>Parallel Battery AR/VR Systems</li></li></li></li></li></li></li></li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17332.html" name="MAX17332_bd96d815-5c50-472c-a30f-a903cad278fb">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17332.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX20303</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">PMIC with Ultra Low I<sub>Q</sub> Voltage Regulators, Battery Charger and Fuel Gauge
+for Small Lithium Ion Systems</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max20303.html"> MAX20303 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/9242.png?rev=74cd8b2d21b544c19a24920f0588561a"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX20303 is a highly integrated and programmable power management solution designed for ultra-low-power wearable applications. It is optimized for size and efficiency
+to enhance the value of the end product by extending battery life and shrinking the overall solution size. A flexible set of power-optimized voltage regulators, including multiple bucks, boost, buck-boost, and linear regulators, provides a high level of integration and the ability to create a fully optimized power architecture. The quiescent current of each regulator is specifically suited for 1µA (typ) to extend battery life in always-on applications.</p>
+<p>The MAX20303 includes a complete battery management solution with battery seal, charger, power path, and fuel gauge. Both thermal management and input protection are built into the charger.</p>
+<p>The device also includes a factory programmable button controller with multiple inputs that are customizable to fit specific product UX requirements.</p>
+<p>Three integrated LED current sinks are included for indicator or backlighting functions, and an ERM/LRA driver with automatic resonance tracking is capable of providing sophisticated haptic feedback to the user.</p>
+<p>The device is configurable through an I<sup>2</sup>C interface that allows for programming various functions and reading device status, including the ability to read temperature and supply voltages with the integrated ADC.</p>
+<p>This device is available in a 56-bump, 0.5mm pitch 3.71mm x 4.21mm, wafer-level package (WLP) and operates over the -40°C to +85°C extended temperature range.</p>
+<p><strong>Applications</strong></p>
+<ul>
+<li>IoT</li>
+<li>Wearable Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20303.html" name="MAX20303_01979d58-cd59-45ce-8468-fa93da77c8f8">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20303.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX20360</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">PMIC with Ultra-Low I<sub>Q</sub> Regulators, Charger, Fuel Gauge, and Haptic Driver for Small Li+ System</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max20360.html"> MAX20360 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10659.png?rev=8022353b02b94335b1f33c619e20884a"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX20360 is a highly integrated and programmable
+power management solution designed for ultra-low-power
+wearable applications. It is optimized for size and efficiency
+to enhance the value of the end product by extending
+battery life and shrinking the overall solution size. A flexible
+set of power-optimized voltage regulators, including
+multiple buck, boost and buck-boost converters, and linear
+regulators, provides a high level of integration and the
+ability to create a fully optimized power architecture. The
+quiescent current of each regulator is ultra-low targeted at
+extending battery life in always-on applications.</p>
+The MAX20360 includes a complete battery management
+solution with battery seal, charger, power path, and fuel
+gauge. Both thermal management and input protection
+are built into the charger. The device also includes a factory
+programmable button controller with multiple inputs that
+are customizable to fit specific product UX requirements.
+Three integrated LED current sinks are included for indicator
+or backlighting functions, and an ERM/LRA driver with
+automatic resonance tracking is capable of providing sophisticated
+haptic feedback to the user. A low noise, 1.5W
+buck-boost converter provides a clean way to power LEDs
+commonly used in optical heart-rate systems. The device
+is configurable through an I<sup>2</sup>C interface that allows for programming
+various functions and reading the device status,
+including the ability to read temperature and supply voltages
+with the integrated ADC. This device is available in
+a 72-bump, 0.5mm pitch, 4.88mm x 4.19mm, wafer-level
+package (WLP) and operates over the -40°C to +85°C extended
+temperature range.<p></p><p><strong>Applications</strong></p><ul><li><!--01-->Wearable Devices</li><li><!--02-->IoT</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20360.html" name="MAX20360_a52935fe-1a82-4024-8086-f7c6c030bcb6">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20360.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Power and Battery Management Solutions for Hearables and Wearables</li>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77714</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Complete System PMIC, Featuring 13
+Regulators, 8 GPIOs, RTC, and Flexible Power
+Sequencing for Multicore Applications</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77714.html"> MAX77714 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max77714-simplified-block-diagram.png?rev=e7126098ba284559be10ce3979301368&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77714 is a complete power-management IC
+(PMIC) for portable devices using System-on-Chip (SoC)
+applications processors.</p>
+<p>Two 2A (SD2/3), one 3A (SD1), and one 4A (SD0) stepdown
+regulator switch at 2MHz, allowing the use of small
+magnetic components. The output voltages for SD0 and
+SD1 are programmable from 0.26V to 1.52V in 10mV
+steps. The output voltage for SD2 is programmable from
+0.6V to 2.194V in 6.5mV steps. The output voltage for SD3
+is programmable from 0.6V to 3.78V in 12.5mV steps.</p>
+<p>Nine low-dropout (LDO) linear regulators supply power to
+various system blocks. Each LDO features a programmable
+active-discharge circuit in shutdown. All LDOs feature
+two soft-start rates to limit inrush current during start up.</p>
+<p>Eight programmable GPIOs can be programmed as general
+purpose inputs (GPI), general purpose outputs
+(GPO), or alternate modes for additional functionalities.</p>
+<p>The real-time clock (RTC) with an external crystal oscillator
+provides time keeping and alarm wake-up functions.
+An internal silicon oscillator is available for systems that
+do not want to use the crystal oscillator. In addition, a
+watchdog timer is integrated for system monitoring purposes.</p>
+<p>An integrated ON/OFF controller, in combination with flexible
+power sequencer (FPS), provides maximum flexibility
+in setting power-up/down sequences with minimal intervention
+from the applications processor.</p>
+<p>The 70-bump, 4.1mm x 3.25mm x 0.7mm, 0.4mm pitch
+wafer-level package (WLP) is ideal for space constrained
+applications.</p>
+<p>Factory-programmable options allow the MAX77714 to be
+tailored for many applications. Contact the factory for
+more information about programmable options; minimum
+order quantities may apply.</p>
+<p><a href="https://www.maximintegrated.com/content/dam/files/design/technical-documents/design-solutions/DS120-Power-Your-Computationally-Intensive-Application-Processor-with-a-Single-PMIC.pdf"><img src="https://www.maximintegrated.com/content/dam/images/icon/search/design-design-solution.png" width="20"/> Design Solution: Power Your Computationally Intensive Application Processor with a Single PMIC ›</a></p><p></p><p><strong>Applications</strong></p><ul><li>AR/VR Headsets</li><li>Automotive Aftermarket Accessories</li><li>Digital Cameras</li><li>Drones</li><li>Handheld Gaming Devices</li><li>Home Automation Hubs</li><li>Smartphones/Tablet PCs</li><li>Streaming Devices/Set-Top Boxes</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77714.html" name="MAX77714_b676fdc2-21dc-4e27-8e4c-d2dd8d0f8b31">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77714.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Audio Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX98304</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Mono 3.2W Class D Amplifier</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max98304.html"> MAX98304 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/6993.gif?rev=e78aca1964b34cdabf2dd6d75c8461ae"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX98304 mono 3.2W Class D amplifier provides Class AB audio performance with Class D efficiency. This device offers five selectable gain settings (0dB, 3dB, 6dB, 9dB, and 12dB) set by a single gain-select input (GAIN).</p><p>
+
+Active emissions-limiting, edge-rate, and overshoot control circuitry greatly reduces EMI. A filterless spread-spectrum modulation scheme eliminates the need for output filtering found in traditional Class D devices. These features reduce application component count.</p><p>
+
+The IC's 0.95mA at 3.7V (1.2mA at 5V) quiescent current extends battery life in portable applications.</p><p>
+
+The IC is available in a 9-bump (1.0mm x 1.0mm) WLP with 0.3mm pitch that is specified over the extended -40°C to +85°C temperature range.</p><p></p><p><strong>Applications</strong></p><ul><li>Cellular Phones</li><li>MP3 Players</li><li>Notebook and Netbook Computers</li><li>Portable Audio Players</li><li>Tablets</li><li>VoIP Phones</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98304.html" name="MAX98304_62814846-51ac-48ed-813a-ed2318ed2221">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98304.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX98360A/B/C/D</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Tiny, Cost-Effective, Plug-and-Play Digital Class-D Amplifier</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max98360a.html"> MAX98360A/B/C/D </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10344.png?rev=d05faa2c0e7845f6817c39481d4b53e5"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX98360A/B/C/D is an easy-to-use, low-cost, digital pulse-code modulation (PCM) input Class-D amplifier that provides industry-leading, Class-AB audio performance with Class-D efficiency. The digital audio interface automatically recognizes different PCM and TDM clocking schemes which eliminates the need for I<sup>2</sup>C programming. Simply supply power, LRCLK, BCLK, and digital audio to generate audio. Furthermore, a novel pinout allows customers to use the cost-effective WLP package with no need for expensive vias.</p>
+<p>The digital audio interface is highly flexible. The devices support I<sup>2</sup>S, left-justified, and 8-channel time division multiplexed (TDM) data formats. The digital audio interface accepts 8kHz, 16kHz, 32kHz, 44.1kHz, 48kHz, 88.2kHz, and 96kHz sample rates. Data words can be 16-bit, 24-bit, or 32-bit in I<sup>2</sup>S and left-justified modes and 16-bit or 32-bit in TDM mode.</p>
+<p>Digital audio interface input thresholds are ideal for interfacing to 1.2V and 1.8V logic. The devices can tolerate logic input voltages up to 5.5V.</p>
+<p>The MAX98360A and MAX98360B have fast 1ms turn-on times while the MAX98360C and MAX98360D ramp the volume over 13ms during turn-on and turn-off.</p>
+<p>The devices eliminate the need for the external MCLK signal that is typically used for PCM communication. This reduces EMI and possible board coupling issues in addition to reducing the size and pin count. The devices also feature a very high wideband jitter tolerance (12ns, typ) on BCLK and LRCLK to provide robust operation.</p>
+<p>Active emissions-limiting, edge-rate limiting, and overshoot control circuitry greatly reduce EMI. A filterless spread-spectrum modulation scheme eliminates the need for output filtering found in traditional Class-D devices and reduces the component count of the solution.</p>
+<p>The devices are specified over the -40°C to +85°C temperature range.</p>
+<h4>MAX98360 Version Management</h4>
+<table class="table table-hover table-condensed">
+<thead>
+<tr>
+<th rowspan="2"></th>
+<th colspan="2">Ramping</th>
+<th colspan="2">Frame Sync Pulse on LRCLK</th>
+<th colspan="2">50% Duty Cycle on LRCLK</th>
+</tr>
+<tr><th>Turn-On/Off Ramp</th>
+<th>Start-Up Time</th>
+<th>Format</th>
+<th>BCLK Active Edge</th>
+<th>Format</th>
+<th>BCLK Active Edge</th>
+</tr>
+</thead>
+<tr>
+<td class="table-subhead"><a href="/products/MAX98360A">MAX98360A</a></td>
+<td>Ramp Disabled</td>
+<td>1ms</td>
+<td>TDM</td>
+<td>rising</td>
+<td>I<sup>2</sup>S</td>
+<td>rising</td>
+</tr>
+<tr>
+<td class="table-subhead"><a href="/products/MAX98360B">MAX98360B</a></td>
+<td>Ramp Disabled</td>
+<td>1ms</td>
+<td>TDM</td>
+<td>falling</td>
+<td>LJ</td>
+<td>rising</td>
+</tr>
+<tr>
+<td class="table-subhead"><a href="/products/MAX98360C">MAX98360C</a></td>
+<td>Ramp Enabled</td>
+<td>13ms</td>
+<td>TDM</td>
+<td>rising</td>
+<td>I<sup>2</sup>S</td>
+<td>rising</td>
+</tr>
+<tr>
+<td class="table-subhead"><a href="/products/MAX98360D">MAX98360D</a></td>
+<td>Ramp Enabled</td>
+<td>13ms</td>
+<td>TDM</td>
+<td>falling</td>
+<td>LJ</td>
+<td>rising</td>
+</tr>
+</table><p></p><p><strong>Applications</strong></p><ul><li><!--01-->Single Li-ion Cell/5V Devices</li><li><!--02-->Smart Speakers</li><li><!--03-->Notebook Computers</li><li><!--04-->IoT Devices</li><li><!--05-->Gaming Devices (Audio and Haptics)</li><li><!--06-->Smartphones</li><li><!--07-->Tablets</li><li><!--08-->Cameras</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98360a.html" name="MAX98360A/B/C/D_0c060f24-4178-407d-967c-3d7665a3e22e">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98360a.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX98390</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Boosted Class-D Amplifier with Integrated Dynamic Speaker Management</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max98390.html"> MAX98390 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10101.png?rev=651267118f9c45c8b34439ef5473faeb"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p><a href="https://www.maximintegrated.com/en/design/technical-documents/userguides-and-manuals/dsm-user-guide.html"><img class="img-responsive" src="https://www.maximintegrated.com/content/dam/images/featured/promotions/DSM-Banner.jpg"/></a></p>
+<p>The MAX98390 is a high-efficiency mono Class-D DSM smart amplifier that features an integrated boost converter, integrated Dynamic Speaker Management<sup>™</sup>, and FET scaling for higher-efficiency at low output power.</p>
+<p>The maximum boost converter output voltage is programmable from 6.5V to 10V in 0.125V increments from a battery voltage as low as 2.65V. The boost converter supports bypass mode for lower quiescent current and improved mid-power efficiency as well as envelope tracking which automatically adjusts the output voltage for maximum efficiency. The boosted supply efficiently delivers up to 6.2W at 10% THD+N into a 4Ω load.</p>
+<p>Integrated IV sense and Dynamic Speaker Management allows louder, fuller audio while protecting the speaker against damage and improving sound quality.</p>
+<p>The PCM interface supports I<sup>2</sup>S, left-justified, and 16-channel TDM formats as a slave or master device with I<sup>2</sup>C control. Either BCLK or MCLK can be used as the internal clock source providing system level flexibility.</p>
+<p>Thermal and other status data can also be read from the I<sup>2</sup>C interface.</p>
+<p>Patented active emissions limiting edge rate and overshoot control circuitry minimizes EMI and eliminates the need for output filtering found in traditional Class-D devices.</p>
+<p>A flexible brownout-detection engine (BDE) can be programmed to initiate various current limiting, signal limiting, and clip functions to prevent dips in battery voltage. Threshold, hysteresis, and attack-and-release rates are programmable.</p>
+<p>The MAX98390C is available in a 0.4mm pitch, 36-bump wafer-level package. The MAX98390D is available in a 0.5mm pitch, 30-bump wafer-level package. They are specified over the extended -40°C to +85°C temperature range.</p>
+<p><a href="/en/resources/technical-articles/unleash-the-full-potential-of-your-micro-speakers.html"><img src="https://www.maximintegrated.com/content/dam/images/icon/search/design-design-solution.png" width="20"/> Design Solution: Unleash the Full Potential of Your Micro Speakers ›</a></p>
+<p><a href="https://8fsic.app.link/aGZb9B7vd9"><img alt="Mobile App" class="img-responsive" src="https://www.maximintegrated.com/content/dam/images/markets/essential-analog/mobile-app-670x170.jpg"/></a></p>
+<p> </p>
+<p><strong>Applications</strong></p>
+<ul>
+<li><!--01-->Smartphones</li>
+<li><!--02-->Tablets</li>
+<li><!--03-->Notebook Computers</li>
+<li><!--04-->Single Li-ion Cell Devices</li>
+<li><!--05-->IoT Devices</li>
+<li><!--06-->Toys</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98390.html" name="MAX98390_01179e6b-8adb-4a3c-835b-64660983886e">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max98390.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Therapy Device Solutions for Healthcare</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+<h4>Dynamic Speaker Management (DSM) Solutions</h4>
+<ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Human Machine Interface Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>AD8233</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">50 μA, 2 mm × 1.7 mm WLCSP, Low Noise, Heart Rate Monitor for Wearable Products</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/ad8233.html"> AD8233 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/functional-block-diagrams/ad8233-fbl.png?rev=9aadf3b948404b7799d80166bcde8c9d&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The AD8233 is an integrated signal conditioning block for electrocardiogram (ECG) and other biopotential measurement applications. It is designed to extract, amplify, and filter small biopotential signals in the presence of noisy conditions, such as those created by motion or remote electrode placement. This design allows an ultralow power analog-to-digital converter (ADC) or an embedded microcontroller to easily acquire the output signal.</p>
+<p>The AD8233 implements a two-pole, high-pass filter for eliminating motion artifacts and the electrode half cell potential. This filter is tightly coupled with the instrumentation amplifier architecture to allow both large gain and high-pass filtering in a single stage, thereby saving space and cost.</p>
+<p>An uncommitted operational amplifier enables the AD8233 to create a three-pole, low-pass filter to remove additional noise. The user can select the frequency cutoff of all filters to suit different types of applications.</p>
+<p>To improve the common-mode rejection of the line frequencies in the system and other undesired interferences, the AD8233 includes a right leg drive (RLD) amplifier for driven electrode applications.</p>
+<p>The AD8233 includes a fast restore function that reduces the duration of the otherwise long settling tails of the high-pass filters. After an abrupt signal change that rails the amplifier (such as a leads off condition), the AD8233 automatically adjusts to a higher filter cutoff. This feature allows the AD8233 to recover quickly, and therefore, to take valid measurements soon after connecting the electrodes to the subject.</p>
+<p>The AD8233 is available in a 2 mm × 1.7 mm, 20-ball WLCSP package and a 150 μm thin die for height constrained applications. Performance is specified from 0°C to 70°C and is operational from −40°C to +85°C.</p>
+<p><span class="analog-text-bold">APPLICATIONS</span></p>
+<ul>
+<li>Fitness and activity heart rate monitors</li>
+<li>Portable ECG</li>
+<li>Wearable and remote health monitors</li>
+<li>Gaming peripherals</li>
+<li>Biopotential signal acquisition, such as EMG or EEG</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/ad8233.html" name="AD8233_e1280377-ab1d-4dcf-8c4e-c2dbe94835d7">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/ad8233.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Therapy Device Solutions for Healthcare</li>
+<li>Vital Signs Monitoring Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Non-Invasive Blood Pressure (NIBP) Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Programmable Logic Controllers (PLC) and Distributed Control Systems (DCS)</li>
+<li>Field Instrument Systems</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+<h4>Precision Technology Solutions</h4>
+<ul>
+<li>Precision Low Power Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADAU1860/ADAU1860-1</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Three ADCs, One DAC, Low Power Codec with Audio DSPs</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adau1860.html"> ADAU1860/ADAU1860-1 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/functional-block-diagrams/adau1860-fbl.png?rev=14f6cc50d0374b21a0b8ae1b3ba57776&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADAU1860/ADAU1860-1 are codecs with three inputs and
+one output that incorporate two digital signal processors (DSPs).
+The path from the analog input to the DSP core to the analog
+output is optimized for low latency and is ideal for noise canceling
+earphones. With the addition of just a few passive components, the
+ADAU1860/ADAU1860-1 provide a complete earphone solution.
+</p>
+<p><strong>APPLICATIONS</strong></p>
+<ul>
+<li>Noise canceling handsets, headsets, and headphones</li>
+<li>Bluetooth active noise canceling (ANC) handsets, headsets, and headphones</li>
+<li>Personal navigation devices</li>
+<li>Digital still and video cameras</li>
+<li>Musical instrument effect processors</li>
+<li>Multimedia speaker systems</li>
+<li> Smartphones</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adau1860.html" name="ADAU1860/ADAU1860-1_55a65ff3-cd6c-4df2-8722-11c02362bd33">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adau1860.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Smart Home Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+<h4>Aerospace and Defense Systems</h4>
+<ul>
+<li>Military Communication Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>ADIS16500</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Precision, Miniature MEMS IMU </span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/adis16500.html"> ADIS16500 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/products/image/functional-block-diagrams/adis16500-fbl.png?rev=e205983774b04d61b7613f713ee65f32&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The ADIS16500 is a precision, miniature microelectromechanical system (MEMS) inertial measurement unit (IMU) that includes a triaxial gyroscope and a triaxial accelerometer. Each inertial sensor in the ADIS16500 combines with signal conditioning that optimizes dynamic performance. The factory calibration characterizes each sensor for sensitivity, bias, alignment, linear acceleration (gyroscope bias), and point of percussion (accelerometer location). As a result, each sensor has dynamic compensation formulas that provide accurate sensor measurements over a broad set of conditions. </p>
+<p>The ADIS16500 provides a simplified, cost effective method for integrating accurate, multi-axis inertial sensing into industrial systems, especially when compared with the complexity and investment associated with discrete designs. All necessary motion testing and calibration are part of the production process at the factory, greatly reducing system integration time. Tight orthogonal alignment simplifies inertial frame alignment in navigation systems. The serial peripheral interface (SPI) and register structure provide a simple interface for data collection and configuration control. </p>
+<p>The ADIS16500 is available in a 100-ball, ball grid array (BGA) package that is approximately 15 mm × 15 mm × 5 mm.</p>
+<p><strong>Applications </strong></p>
+<ul>
+<li>Navigation, stabilization, and instrumentation</li>
+<li>Unmanned and autonomous vehicles</li>
+<li>Smart agriculture and construction machinery</li>
+<li>Factory/industrial automation, robotics</li>
+<li>Virtual/augmented reality</li>
+<li>Internet of Moving Things</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adis16500.html" name="ADIS16500_3cd5df26-59f1-456c-9af5-9c1cde39397e">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/adis16500.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Aerospace and Defense Systems</h4>
+<ul>
+<li>Avionic Systems</li>
+<li>Missiles and Precision Munitions</li>
+<li>Phased Array Technology</li>
+<li>Aerospace and Defense Radar Systems</li>
+<li>Unmanned Aerial Vehicles (UAV)</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Medical Imaging Solutions</li>
+<li>Ultrasound Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Extended Reality (XR) Solution for Edge Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<article class="solution-resources app-js__solution-resources">
+<div class="vertical"></div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+</article>
+<!-- developer-tools-resources component : start -->
+<article class="developer-tools-resources app-js__developer-tools-resources">
+<div class="developer-tools-resources__container">
+<div class="vertical"></div>
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+<div class="developer-tools-resources__content">
+<div class="developer-tools-resources__left">
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+<!-- developer-tools-resources component : end -->
+<div class="component Solution-Image-component">
+<div class="component-content">
+</div>
+</div>
+<article class="explore-solutions app-js__explore-solutions">
+<div class="vertical"></div>
+<div></div>
+<div></div>
+<div class="horizontal"></div>
+</article>
+<article class="thought-leadership app-js__thought-leadership">
+<div class="vertical"></div>
+<div class="horizontal"></div>
+<div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="component Solution-FilesAndDownloads">
+<div class="component-content">
+</div>
+</div>
+<div>
+<div class="component Solution-GetSupport">
+<div class="component-content">
+<article class="adi-support app-js__adi-support">
+<div class="adi-support__content" style="background-image: url(
+    /en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-bg.png?rev=3ce51334aac04d9a95ab6dffb8ddca61 )">
+<h2 class="title-extraSmall">ADI Support</h2>
+<p class="body-medium adi-support__content__para">Let us know what you need help with, and we will share the best answers from the ADI knowledge database. </p>
+<a class="adi-support__content__link" href="https://ez.analog.com/search" rel="noopener noreferrer" target="_blank"><img alt="button icon" class="" height="24" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-info.svg?rev=c0577a0c95684088b637b22ca123fcb6&amp;la=en&amp;h=24&amp;w=24&amp;hash=06CB6030E70EB494EFC8D52ED380A4D9" width="24"> <p class="button-medium-blue">Get Help</p>
+</img></a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</article>
+<script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Extended Reality (XR) Solution for Edge Devices","itemId":"97186376-d9df-42dc-93fe-cb7bbf134f5f","pageUrl":"https://www.analog.com/en/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html","pageCategory":"Industry Solutions L3 Page","previousPageUrl":null,"pageType":"Industry Solutions L3 Page","isProduct":false}};
+    </script>
+<script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+<script id="add-to-myanalog-hbs-template" type="text/x-handlebars-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+<script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+<div id="add-to-myanalog-container">
+<article class="add-to-myanalog-modal app-js__add-to-myanalog-modal" data-add-to-my-analog-api="{{addToMyAnalogAPI}}" data-artifact-api="{{artifactAPI}}" data-body-data="{{bodyData}}" data-class-name="{{className}}" data-create-project-api="{{createProjectAPI}}" data-is-table-product="{{isTableProduct}}" data-modal-added-icon="{{modalAddedIcon}}" data-modal-error-icon="{{modalErrorIcon}}" data-translations-api="{{translationsAPI}}" id="add-to-myanalog-modal-apis">
+<div class="add-to-myanalog-modal__container">
+<div aria-label="{{dropdownTitle}} Modal" class="modal-container">
+<div class="modal-container__header">
+<div class="modal-container__header__title">
+<img alt="modal bookmark icon" class="modal-container__header__title__icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f" width="24">
+<h2 class="modal-container__header__title__text title-extraSmall">{{modalTitle}}</h2>
+</img></div>
+<img alt="modal close icon" aria-label="Close Modal" class="modal-container__header__close" height="24" loading="lazy" role="button" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8" tabindex="0" width="24">
+</img></div>
+<div class="modal-container__content__error__content" role="alert">
+</div>
+<div class="modal-container__content">
+<p class="modal-container__content__description body-medium-inverse">{{modalDescription}}</p>
+<div class="modal-container__content__products">
+<h2 class="modal-container__content__products__title body-small">{{dropdownTitle}}</h2>
+<div class="modal-container__content__products__dropdown-container">
+<div class="dropdown-wrapper">
+<div class="dropdown-wrapper__input-container">
+<input aria-autocomplete="list" aria-expanded="false" aria-label="{{dropdownTitle}}" class="body-small dropdown-wrapper__input-container__box" role="combobox" tabindex="0" type="text" value="{{defaultSelectedText}}"/>
+<span class="dropdown-wrapper__input-container__down-arrow" id="arrow-input-dropdown">
+<img alt="input down arrow" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142" width="24">
+</img></span>
+<p aria-atomic="true" aria-live="assertive" class="sr-only" data-navigate-text="Navigate into the list items using tab key" id="dropdown-aria-label" role="alert"></p>
+<p aria-atomic="true" aria-live="assertive" class="sr-only sr-only-input" data-navigate-text="Use Down arrow key to open the drodpown" id="input-aria-label" role="alert"></p>
+</div>
+<div class="dropdown-wrapper__content" id="dropdownContent">
+<ul class="dropdown-content__lists" data-default-selected-text="{{defaultSelectedText}}" data-new-project-plus-icon="{{newProjectPlusIcon}}" data-new-project-text="{{newProjectText}}" data-project-names="{{projectNames}}" role="listbox">
+<li aria-label="{{defaultSelectedText}}" role="button" tabindex="0">
+<span class="body-small dropdown-content__list__border">{{defaultSelectedText}}</span>
+</li>
+                                            {{#each projectNames}}
+                                            <li aria-label="{{name}}" role="button" tabindex="0"><span class="body-small dropdown-content__list__border">{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li aria-label="{{newProjectText}}" class="dropdown-content__list__new-product" role="button" tabindex="0">
+<img alt="plus icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" width="24">
+<span class="body-small">{{newProjectText}}</span>
+</img></li>
+                                            {{/if}}
+                                        </ul>
+</div>
+</div>
+</div>
+</div>
+                        {{#if toggleButtonDescription}}
+                        <div class="modal-container__content__toggle-button-container">
+<div class="modal-container__content__toggle-button-container__wrapper">
+<label aria-checked="false" aria-label="Toggle Button for {{toggleButtonDescription}}" class="toggle-button-wrapper" tabindex="0">
+<input class="toggle-button-wrapper__box" id="add-to-myanalog-toggle-button" tabindex="-1" type="checkbox"/>
+<span class="toggle-button-wrapper__slider"></span>
+</label>
+<div class="modal-container__content__toggle-button-container__wrapper__text body-medium">{{toggleButtonDescription}}</div>
+</div>
+</div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class="modal-container__content__new-project-container">
+<div class="modal-container__content__new-project-container__wrapper">
+<h3 class="modal-container__content__new-project-container__wrapper__title subtitle-small">
+                                    {{newProjectTitle}}
+                                </h3>
+<div class="modal-container__content__new-project-container__wrapper__name">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__name__text" for="">{{newProjectNameText}}</label>
+<input aria-invalid="false" aria-label="{{newProjectNameText}}" class="modal-container__content__new-project-container__wrapper__name__input body-small" type="text"/>
+<div class="modal-container__content__new-project-container__wrapper__name__error">
+<img class="modal-container__content__new-project-container__wrapper__name__error__icon" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c" width="16">
+<p class="modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall">{{projectNameErrorText}}</p>
+</img></div>
+</div>
+<div class="modal-container__content__new-project-container__wrapper__description">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__description__text" for="">{{newProjectDescriptionText}}</label>
+<input aria-label="{{newProjectDescriptionText}}" class="modal-container__content__new-project-container__wrapper__description__input body-small" type="text"/>
+</div>
+</div>
+</div>
+                        {{/if}}
+                    </div>
+<div class="modal-container__footer">
+<div class="modal-container__footer__button">
+<button aria-label="{{cancelButtonText}}" class="modal-container__footer__button__cancel button-medium" role="button">
+                                {{cancelButtonText}}
+                            </button>
+<button aria-label="{{confirmButtonText}}" class="modal-container__footer__button__confirm button-medium" role="button">
+                                {{confirmButtonText}}
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- /#content -->
+<!-- #footer -->
+<footer role="contentinfo">
+<div class="container-fluid" id="footer">
+<div class="row">
+<div>
+<adi-footer></adi-footer>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+<!-- /#wrapper -->
+<script defer="" src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+<script async="" src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+<script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-page-applications.bundle.js"></script>
+<div class="legacy-component">
+<script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal" id="image-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div class="modal" id="adi-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade product-modal modal-video-window" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Modal title</h4>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+</div>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/solutionsl1page.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l3solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2techsolutionspage.bundle.js"></script>
+<script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+<div class="rte-control">
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal image-rte-modal" id="image-rte-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+</div>
+<script src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB" type="text/javascript"></script></body>
+</html>

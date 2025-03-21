@@ -74,29 +74,29 @@ def normalize_url(url: str) -> str:
 
 def is_valid_solution_url(url: str) -> bool:
     """
-    Check if the URL is a valid solution URL from Analog Devices.
+    Check if a URL is a valid solution URL.
     
     Args:
         url (str): URL to check
         
     Returns:
-        bool: True if URL is valid, False otherwise
+        bool: True if the URL is a valid solution URL
     """
-    try:
-        url = normalize_url(url)
-        parsed = urlparse(url)
-        # Check if it's an analog.com URL
-        if not parsed.netloc.endswith('analog.com'):
-            return False
-        # Check if it's a solutions page
-        if '/solutions/' not in parsed.path:
-            return False
-        # Exclude certain paths
-        if any(x in parsed.path for x in ['/media-center/', '/videos/', '/index.html']):
-            return False
-        return True
-    except:
+    # Normalize the URL
+    url = normalize_url(url)
+    
+    # Check if it's a valid solution URL
+    if "/en/solutions/" not in url:
+        logger.debug(f"Invalid solution URL (no /en/solutions/): {url}")
         return False
+        
+    # Skip media and resource files
+    if any(x in url for x in ['/media-center/', '/videos/', '/index.html']):
+        logger.debug(f"Invalid solution URL (media/resource): {url}")
+        return False
+        
+    logger.debug(f"Valid solution URL: {url}")
+    return True
 
 def create_session() -> requests.Session:
     """Create a requests session with retry strategy."""
@@ -167,33 +167,36 @@ def fetch_html(url: str, timeout: int = 30) -> str:
     logger.error(f"Failed to fetch {url} after {max_retries} attempts")
     return ""
 
-def parse_solution_description(url: str, timeout: int = 30) -> str:
+def parse_solution_description(url: str, content: Optional[str] = None, timeout: int = 30) -> str:
     """
-    Fetch and parse the description from a solution's page.
+    Parse the description from a solution's page.
     
     Args:
         url (str): URL of the solution page or path to local HTML file
+        content (Optional[str]): Pre-fetched HTML content. If None, will fetch the page.
         timeout (int): Timeout in seconds
         
     Returns:
         str: Description of the solution
     """
     try:
-        # Check if this is a local file
-        if url.startswith('file://') or not url.startswith(('http://', 'https://')):
-            # Remove file:// prefix if present
-            file_path = url.replace('file://', '')
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-        else:
-            # Create a session with retry logic
-            session = create_session()
-            
-            # Fetch the page with timeout and retries
-            content = fetch_html(url, timeout)
-            if not content:
-                logger.error(f"Failed to fetch content from {url}")
-                return ""
+        # Use provided content or fetch it
+        if content is None:
+            # Check if this is a local file
+            if url.startswith('file://') or not url.startswith(('http://', 'https://')):
+                # Remove file:// prefix if present
+                file_path = url.replace('file://', '')
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+            else:
+                # Create a session with retry logic
+                session = create_session()
+                
+                # Fetch the page with timeout and retries
+                content = fetch_html(url, timeout)
+                if not content:
+                    logger.error(f"Failed to fetch content from {url}")
+                    return ""
                 
         # Parse the HTML
         soup = BeautifulSoup(content, 'html.parser')
@@ -395,8 +398,9 @@ def parse_solutions(url: str, depth: int = 0, max_depth: int = 3) -> List[Dict[s
     # Normalize the URL
     url = normalize_url(url)
     
-    # Skip if we've already visited this URL or reached max depth
-    if url in visited_urls or depth >= max_depth:
+    # Skip if we've reached max depth
+    if depth >= max_depth:
+        logger.debug(f"Skipping {url}: depth={depth}>=max_depth={max_depth}")
         return []
     
     # Check if we've reached the maximum number of pages
@@ -404,7 +408,9 @@ def parse_solutions(url: str, depth: int = 0, max_depth: int = 3) -> List[Dict[s
         logger.warning(f"Reached maximum number of pages ({MAX_PAGES})")
         return []
     
-    visited_urls.add(url)
+    # Only add to visited_urls if this is a top-level URL
+    if depth == 0:
+        visited_urls.add(url)
     processed_urls.add(url)
     
     # Add delay between requests
@@ -418,7 +424,7 @@ def parse_solutions(url: str, depth: int = 0, max_depth: int = 3) -> List[Dict[s
     solutions = []
     
     # Debug: Save the HTML content
-    debug_file = Path(__file__).parent / f"debug_content_{depth}_{len(visited_urls)}.html"
+    debug_file = Path(__file__).parent / f"debug_content_{depth}_{len(processed_urls)}.html"
     with open(debug_file, 'w', encoding='utf-8') as f:
         f.write(content)
     logger.info(f"Saved HTML content to {debug_file}")
@@ -496,7 +502,7 @@ def parse_solutions(url: str, depth: int = 0, max_depth: int = 3) -> List[Dict[s
             
             # Get description from the solution's own page
             logger.info(f"Fetching description for: {title}")
-            description = parse_solution_description(link)
+            description = parse_solution_description(link, content=content if link == url else None)
             
             solution = {
                 'title': title,
@@ -521,6 +527,7 @@ def parse_solutions(url: str, depth: int = 0, max_depth: int = 3) -> List[Dict[s
                     sub_solutions = parse_solutions(link, depth + 1, max_depth)
                     if sub_solutions:
                         solution['sub_solutions'] = sub_solutions
+                        logger.info(f"Added {len(sub_solutions)} sub-solutions to {title}")
     
     return solutions
 

@@ -1,0 +1,1671 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- *** FE html start -->
+<meta charset="utf-8"/>
+<title>Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes | Analog Devices</title>
+<meta content="follow, index" name="robots">
+<meta content="Analog Devices low power artificial intelligence (AI) microcontroller units (MCUs) combine microcontroller class hardware with low-power AI hardware to allow applications to perform at the level of so" name="description"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer">
+<meta content="86a60d9bcaab43f0" name="yandex-verification"/>
+<meta content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" name="google-site-verification"/>
+<meta content="cSddD8r1N7" name="baidu-site-verification"/>
+<meta content="381E86BC7EF76D19F9365D26D8BFCD35" name="msvalidate.01"/>
+<link href="https://www.analog.com/en/solutions/consumer/smart-home/low-power-mcus-and-iot.html" hreflang="en-US" rel="alternate"/>
+<link href="https://www.analog.com/cn/solutions/consumer/smart-home/low-power-mcus-and-iot.html" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="https://www.analog.com/jp/solutions/consumer/smart-home/low-power-mcus-and-iot.html" hreflang="ja-JP" rel="alternate"/>
+<link href="https://www.analog.com/en/solutions/consumer/smart-home/low-power-mcus-and-iot.html" rel="canonical"/>
+<script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+<script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+<link href="https://www.analog.com/media/favicon/favicon.ico" rel="icon"/>
+<link href="https://www.analog.com/media/favicon/apple_favicon.png" rel="apple-touch-icon"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png " rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png " rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png " rel="apple-touch-icon" sizes="167x167"/>
+<link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon">
+<link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/></noscript>
+<style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+<!-- Font-awesome -->
+<!-- Latest compiled and minified CSS -->
+<!-- Optional theme -->
+<!-- owl-slider -->
+<!-- Algolia Instant Search Theme -->
+<!-- Autocomplete Theme -->
+<!-- Latest compiled and minified JavaScript -->
+<link as="style" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/app.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" rel="stylesheet"/></noscript>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-applications.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css" rel="stylesheet"/>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" rel="stylesheet"/></noscript>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/header-footer/index.css" rel="stylesheet" type="text/css"/>
+<script defer="" src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+<script async="" src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js"></script>
+<!-- *** FE html end -->
+</link></meta></meta></meta></head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+<!-- #wrapper -->
+<div class="page-wrap" id="wrapper">
+<!-- #header -->
+<header>
+<div class="container-fluid" id="header">
+<div class="row">
+<div>
+<adi-header>
+<adi-account></adi-account>
+</adi-header>
+<adi-menu divided="">
+<adi-cart slot="buttons"></adi-cart>
+<adi-search slot="drawer">
+<div slot="search"></div>
+<div slot="results"></div>
+</adi-search>
+</adi-menu>
+<adi-dispatch></adi-dispatch>
+</div>
+</div>
+</div>
+</header>
+<!-- /#header -->
+<!-- #content -->
+<main class="main-content content" id="main" role="main" tabindex="-1">
+<div class="container-fluid" id="content">
+<div class="row">
+<div>
+<div class="component Global-Breadcrumb">
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.analog.com/en/index.html"},{"@type":"ListItem","position":2,"name":"Solutions Overview","item":"https://www.analog.com/en/solutions.html"},{"@type":"ListItem","position":3,"name":"Consumer Technology","item":"https://www.analog.com/en/solutions/consumer.html"},{"@type":"ListItem","position":4,"name":"Smart Home Solutions","item":"https://www.analog.com/en/solutions/consumer/smart-home.html"},{"@type":"ListItem","position":5,"name":"Ultra Low Power (ULP) MCUs and IoT Security for Smart Homes","item":"https://www.analog.com/en/solutions/consumer/smart-home/low-power-mcus-and-iot.html"}]};
+        </script>
+<div class="component-content">
+<!-- Breadcrumb component : start -->
+<article class="breadcrumb app-js__breadcrumb">
+<div aria-label="Breadcrumb" class="breadcrumb__container" role="navigation">
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Home</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Solutions Overview</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Consumer Technology</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer/smart-home.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Smart Home Solutions</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+Ultra Low Power (ULP) MCUs and IoT Security for Smart Homes
+
+
+                            </div>
+</div>
+</article>
+<!-- Previous page link component : start -->
+<article class="previous-page-link app-js__previous-page-link">
+<a class="previous-page-link__link button-small" href="/en/solutions/consumer/smart-home.html">
+<span class="previous-page-link__icon">
+<img alt="left arrow" class="previous-page-link__arrow-left" height="16" src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" width="16"/> </span>
+<span class="previous-page-link__label">
+Back to Smart Home Solutions
+
+                            </span>
+</a>
+</article>
+<!-- Previous page link component : end -->
+<div class="horizontal">
+</div>
+</div>
+</div>
+<div class="component Solution-Overview">
+<div class="component-content">
+<article class="industry-solutionsl1-description app-js__industry-solutionsl1-description">
+<div class="industry-solutionsl1-description__container industry-solutionsl1-description__transparent" data-show-less="Show Less" data-show-more="Show More">
+<img alt="banner background image" class="industry-solutionsl1-description__container-image" src="/en/_/media/project/analogweb/analogweb/solutionpageimages/industry-solutions-l3-page.png?rev=98ce5de8111d4fbfbfcdb929e969c401&amp;la=en&amp;h=908&amp;w=2720&amp;hash=2FBEAECAE410AB14F72D16BD2E049FB0"/> <div class="industry-solutionsl1-description__category_header">
+<h1 class="industry-solutionsl1-description__category_title web-title component-title" id="category-detail">
+                                    Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes
+                                </h1>
+<div class="horizontal"></div>
+</div>
+<div class="industry-solutionsl1-description__container_content">
+<div class="industry-solutionsl1-description__category solution-header-content">
+<div class="adi-rte">
+<p> Analog Devices’ low power artificial intelligence (AI) microcontroller units (MCUs) combine microcontroller class hardware with low-power AI hardware to allow applications to perform at the level of solutions running on graphics processors. The hardware executes convolutional layers using only microjoules of energy, while the model extracts features and resolves them to make actionable and valuable local decisions.<br/>
+<br/>
+Our MCUs for the internet of things (IoT) are as smart as they are power efficient, combining the biggest embedded memories in their class with ultralow power technology. Our hardware-based embedded security features leverage physical unclonable functions (PUF) to withstand all known invasive cyberattack methods, with a core set of fixed-function crypto features to simplify implementation. </p>
+</div>
+<div class="industry-solutionsl1-description__button-center">
+<a class="industry-solutionsl1-description__showMoreBtn button-medium" href="javascript:void(0)">Show More</a>
+<img alt="Arrow image" class="industry-solutionsl1-description__showmore-arrow" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-down-white.svg?rev=7a6c987b562b4f71b6949e30b9fed900&amp;la=en&amp;hash=5FFFC28A78F4F08669F6DEA4AC52AC26"/> </div>
+</div>
+<div class="industry-solutionsl1-description__categoryallparts_btn">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Value and Benefits Container Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"></div>
+<div class="value-prop-component__content-wrapper">
+<!-- Value and Benefits Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"> </div>
+<div class="value-prop-component__content-wrapper">
+<div class="value-prop-component__solutions-header valueandBenfitsSection content-header variation-header">
+<h3 class="content-title title-large">Value and Benefits </h3>
+<p class="body-medium content-para value-para">Our innovative system-on-chip (SoC) packages are built on the powerful 32-bit ARM Cortex-M platforms with many versatile MCU offerings for low-power and space-constrained applications. Our MCUs bring deep learning and artificial intelligence (AI) to the edge, and offer robust security features and optimized power management in a compact solution. Our ultralow power MCUs are trusted around the world and excel in low-power applications. As Smart Home devices and systems such as appliances, surveillance, HVAC, lighting, and switches become increasingly connected and must store and manipulate local data, our secure authentication ICs provide a secure and low-cost solution to safeguarding users’ privacy. Our hardware-based turnkey solutions are easy to integrate into smart accessories and embedded devices, with a core set of fixed-function crypto features that are ready to plug and play. </p>
+</div>
+<div class="benefits-section-container">
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Offers robust security features with optimized power management </p>
+<p> </p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Allows for compact design </p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Integrates seamlessly into smart accessories and embedded devices for plug and play </p>
+</div>
+</div>
+</div>
+</article>
+</article> <!-- Value and Benefits Component : end -->
+<div class="component Value-Prop">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+</article>
+<!-- Value and Benefits Container Component : end -->
+<div class="component SolutionL2PageProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Featured Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX78000</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Artificial Intelligence Microcontroller with Ultra-Low-Power Convolutional Neural Network Accelerator</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max78000.html"> MAX78000 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max78000-block-diagram.png?rev=e6dcaa3e49e949d99e6f982bd2b9130c&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>Artificial intelligence (AI) requires extreme computational horsepower, but Maxim is cutting the power cord from AI insights. The MAX78000 is a new breed of AI microcontroller built to enable neural networks to execute at ultra-low power and live at the edge of the IoT. This product combines the most energy-efficient AI processing with Maxim's proven ultra-low power microcontrollers. Our
+hardware-based convolutional neural network (CNN) accelerator enables battery-powered applications to execute AI inferences while spending only microjoules of energy.</p>
+<p>The MAX78000 is an advanced system-on-chip featuring an Arm<sup>®</sup> Cortex<sup>®</sup>-M4 with FPU CPU for efficient system control with an ultra-low-power deep neural network accelerator. The CNN engine has a weight storage memory of 442KB, and can support 1-, 2-, 4-, and 8-bit weights (supporting networks of up to 3.5 million weights). The CNN weight memory is SRAM-based, so AI network updates can be made on the fly. The CNN engine also has 512KB of data memory. The CNN architecture is highly flexible, allowing networks to be trained in conventional toolsets like PyTorch<sup>®</sup> and TensorFlow<sup>®</sup>, then converted for execution on the MAX78000 using tools provided by Maxim.</p>
+<p>In addition to the memory in the CNN engine, the MAX78000 has large on-chip system memory for the microcontroller core, with 512KB flash and up to 128KB SRAM. Multiple high-speed and low-power communications interfaces are supported, including I<sup>2</sup>S and a parallel camera interface (PCIF).</p>
+<p>The device is available in a 81-pin CTBGA (8mm x 8mm, 0.8mm pitch) package.</p>
+<p><strong>Applications</strong></p>
+<ul>
+<li>Audio Processing: Multi-Keyword Recognition, Sound Classification, Noise Cancellation</li>
+<li>Facial Recognition</li>
+<li>Object Detection and Classification</li>
+<li>Time-Series Data Processing: Heart Rate/Health Signal Analysis, Multi-Sensor Analysis, Predictive Maintenance</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max78000.html" name="MAX78000_656a5de5-7e66-4e31-b56b-8bfca4350e0f">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max78000.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+<li>Home Theater and Gaming Audio Video Solutions</li>
+<li>Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Mobile Robotics Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX32655</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Low-Power, Arm Cortex-M4 Processor with FPU-Based Microcontroller and Bluetooth 5.2</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max32655.html"> MAX32655 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max32655-simplified-block-diagram.png?rev=b7080ff4fd7148b38f4c1794257b8c78&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX32655 microcontroller (MCU) is an advanced
+system-on-chip (SoC) featuring an Arm<sup>®</sup> Cortex<sup>®</sup>-M4F
+CPU for efficient computation of complex functions and
+algorithms that is qualified to operate at a temperature
+range of -40°C to +105°C. The SoC integrates power regulation and management with a single inductor multiple-output (SIMO) buck regulator system. The latest generation Bluetooth<sup>®</sup> 5.2 Low Energy (LE) radio is on board, supporting long-range (coded) and high-throughput
+modes and medical body area network (MBAN). </p>
+<p>The device offers large onboard memory with 512KB flash
+and 128KB SRAM, with optional error correction coding
+(ECC) on one 32KB SRAM bank. This 32KB bank can be
+optionally retained in BACKUP mode. An 8KB user OTP
+area is available.</p>
+<p>The MAX32655 supports multiple high-speed peripherals,
+such as I<sup>2</sup>C, 50MHz SPI, and UART, plus one I<sup>2</sup>S port
+for connecting to an audio codec. An eight-input, 10-bit
+ADC is available to monitor analog input from external
+analog sources. In addition, a low-power UART (LPUART)
+is available for operation in the lowest power sleep modes
+to facilitate wake-up activity without any data loss. A total
+of six timers with I/O capability are provided, including two
+low-power timers to enable pulse counting, capture/compare, and pulse-width modulation (PWM) generation, even
+in the lowest power sleep modes. </p>
+<p>The MAX32655 is available in two different packages:</p>
+<ul>
+<li> 81 CTBGA package (8mm × 8mm, 0.8mm pitch). </li>
+<li>51 WLP (3.09mm × 3.09mm, 0.35mm pitch)</li>
+</ul>
+<br/>
+<p><strong>Applications</strong></p>
+<ul>
+<li>Asset Tracking</li>
+<li>Fitness/Health and Medical Wearables</li>
+<li>Hearables</li>
+<li>Industrial Sensors</li>
+<li>Wireless Computer Peripherals and I/O Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32655.html" name="MAX32655_e4203f92-60ec-4d57-815d-5e437267fb65">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32655.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Energy Solutions</h4>
+<ul>
+<li>Smart Meter Technology</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Low Power and High Security Solutions for Personal Electronics</li>
+<li>Smart Home Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Therapy Device Solutions for Healthcare</li>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Surveillance Camera Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX32520</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">ChipDNA Secure Arm Cortex M4 Microcontroller</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max32520.html"> MAX32520 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10258.png?rev=8cce7dce90ad45988c60285c745471e1"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>DeepCover® embedded security solutions cloak sensitive data under multiple layers of advanced physical security to provide the most secure key storage possible.
+</p><p>
+The DeepCover secure microcontroller MAX32520 provides an interoperable, secure, and cost-effective solution to build new generations of trusted embedded systems and communication devices such as IoT, IoT gateways, and wireless access points.
+</p><p>
+The MAX32520 incorporates Maxim's patented ChipDNA™ PUF technology. ChipDNA technology involves a physically unclonable function (PUF) that enables cost-effective protection against invasive physical attacks. Using the random variation of semiconductor device characteristics that naturally occur during wafer fabrication, the ChipDNA circuit generates a unique output value that is repeatable over time, temperature, and operating voltage. Attempts to probe or observe ChipDNA operation modifies the underlying circuit characteristics, preventing discovery of the unique value used by the chip cryptographic functions. The MAX32520 utilizes the ChipDNA output as key content to cryptographically secure all device stored data including user firmware. User firmware encryption provides ultimate software IP protection. The ChipDNA can also generate a private key for the ECDSA signing operation.
+</p><p>
+The MAX32520 integrates an Arm® Cortex® -M4 processor, 2MB of Flash, 136KB of system RAM + 34KB ECC, 8KB of one-time-programmable (OTP) memory and 128KB of boot ROM.
+</p><p>
+The MAX32520 provides a FIPS/NIST compliant TRNG, environmental and tamper detection circuitry to facilitate system-level security.
+</p><p>
+Multiple high-speed interfaces are supported including SPI, UART, and an I²C. The four on-chip timers also support PWM output generation for direct control of external devices. One of the SPI ports has a serial flash emulation mode allowing direct code fetching enabling secure boot for a host microcontroller.</p><p></p><p><strong>Applications</strong></p><ul><li>Embedded Communication Equipment (Routers, Gateways, etc.)</li><li>Embedded Connected Systems</li><li>IoT Nodes and Gateways</li><li>Secure Industrial Appliances, Sensors, and Controllers</li><li>Set-Top Boxes</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32520.html" name="MAX32520_bc4c02c8-665b-485a-8207-15af4dbd50ab">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max32520.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="component SolutionProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionReferenceDesignProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionEvaluationBoardsCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionSoftwareProductCard">
+<div class="component-content">
+</div>
+</div>
+<article class="solution-resources app-js__solution-resources">
+<div class="vertical"></div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+<div class="component Solution-GetSupport">
+<div class="component-content">
+<div class="solution-resources__keywords">
+<div class="tech-solutions-resources__keywords">
+<h3 class="title-extraSmall tech-solutions-resources__keywords__title">Key Resources</h3>
+<div class="tech-solutions-resources__keywords__container">
+<div class="tech-solutions-resources__keywords__container__column">
+<h4 class="subtitle-small tech-solutions-resources__keywords__container__column__title">Technical Articles</h4>
+<ul class="tech-solutions-resources__keywords__container__column__items">
+<li class="tech-solutions-resources__keywords__container__column__items__link-container">
+<div class="tech-solutions-resources__keywords__container__column__items__link">
+<img alt="round-pin-link" class="links__list__link__icon" src="/en/_/media/project/analogweb/analogweb/icons/round-pin-link.svg?rev=900e3ffdfcfc4b07b432bc07fddd0f44&amp;la=en&amp;h=16&amp;w=16&amp;hash=3F2CAFB89164771180E0725EC3AEA581">
+<a class="link-small tech-solutions-resources__keywords__container__column__items__link__url" href="/en/resources/technical-articles/face-identification-using-max78000.html">
+                                                           Face Identification Using MAX78000
+                                                        </a>
+</img></div>
+</li>
+<li class="tech-solutions-resources__keywords__container__column__items__link-container">
+<div class="tech-solutions-resources__keywords__container__column__items__link">
+<img alt="round-pin-link" class="links__list__link__icon" src="/en/_/media/project/analogweb/analogweb/icons/round-pin-link.svg?rev=900e3ffdfcfc4b07b432bc07fddd0f44&amp;la=en&amp;h=16&amp;w=16&amp;hash=3F2CAFB89164771180E0725EC3AEA581">
+<a class="link-small tech-solutions-resources__keywords__container__column__items__link__url" href="/en/resources/technical-articles/the-max32655-why-two-cores-are-better-than-one.html">
+                                                           The MAX32655: Why Two Cores Are Better Than One
+                                                        </a>
+</img></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Evaluation Boards</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX78000FTHR</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Evaluation Kit for the MAX78000</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max78000fthr.html"> MAX78000FTHR </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/evaluation-board-maxim-images/max78000fthr.jpg?rev=0bb58b7b193f40c8936e01e6330d36c6"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX78000FTHR is a rapid development platform to
+help engineers quickly implement ultra low-power, artificial
+intelligence (AI) solutions using the MAX78000 Arm<sup>®</sup>
+Cortex<sup>®</sup> M4F processor with an integrated Convolutional
+Neural Network accelerator. The board also includes the
+MAX20303 PMIC for battery and power management.
+The form factor is 0.9in x 2.6in dual-row header footprint
+that is compatible with Adafruit Feather Wing peripheral
+expansion boards. The board includes a variety of
+peripherals, such as a CMOS VGA image sensor, digital
+microphone, low-power stereo audio CODEC, 1MB QSPI
+SRAM, micro SD card connector, RGB indicator LED,
+and pushbutton. The MAX78000FTHR provides a power-optimized
+flexible platform for quick proof-of-concepts and
+early software development to enhance time to market.</p>
+<p>Go to https://www.maximintegrated.com/en/products/MAX78000FTHR to get started developing with this board.</p><p></p><p><strong>Applications</strong></p><ul><li>Audio Processing: Multi-Keyword Recognition, Sound Classification, Noise Cancellation</li><li>Facial Recognition</li><li>Object Detection and Classification</li><li>Time-Series Data Processing: Heart Rate/Health Signal Analysis, Multi-Sensor Analysis, Predictive Maintenance</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max78000fthr.html" name="MAX78000FTHR_d4690a17-600d-46af-a313-7b53714a7473">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max78000fthr.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max78000.html" name="MAX78000_656a5de5-7e66-4e31-b56b-8bfca4350e0f">
+MAX78000						                                            </a>
+</h4>
+<p>Artificial Intelligence Microcontroller with Ultra-Low-Power Convolutional Neural Network Accelerator</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX32655FTHR</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Evaluation Kit for the MAX32655</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32655fthr.html"> MAX32655FTHR </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/evaluation-board-maxim-images/max78000fthr.jpg?rev=0bb58b7b193f40c8936e01e6330d36c6"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX32655FTHR is a rapid development platform to help engineers quickly implement ultra low-power wireless solutions using MAX32655 Arm<sup>©</sup> Cortex<sup>®</sup>-M4F and Bluetooth<sup>®</sup> 5.2 Low Energy (LE). The board also includes the MAX20303 PMIC for battery and power management.
+The form factor is a small 0.9in x 2.6in dual-row header footprint that is compatible with Adafruit Feather Wing peripheral expansion boards. The board includes a
+variety of peripherals, such as a digital microphone, low power stereo audio CODEC, 128MB QSPI Flash, micro SD card connector, RGB indicator LED, and pushbutton.
+The MAX32655FTHR provides a power-optimized flexible platform for quick proof-of-concepts and early software development to enhance time to market.</p>
+<p><strong>Applications</strong></p>
+<ul>
+<li>Asset Tracking</li>
+<li>Fitness/Health and Medical Wearables</li>
+<li>Hearables</li>
+<li>Industrial Sensors</li>
+<li>Wireless Computer Peripherals and I/O Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32655fthr.html" name="MAX32655FTHR_c21e0140-2daa-4b32-b3ed-0bd5509d0caa">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32655fthr.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32655.html" name="MAX32655_e4203f92-60ec-4d57-815d-5e437267fb65">
+MAX32655						                                            </a>
+</h4>
+<p>Low-Power, Arm Cortex-M4 Processor with FPU-Based Microcontroller and Bluetooth 5.2</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Energy Solutions</h4>
+<ul>
+<li>Smart Meter Technology</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Therapy Device Solutions for Healthcare</li>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Surveillance Camera Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Smart Home Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX32666FTHR</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Evaluation Kit for the MAX32666</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32666fthr.html"> MAX32666FTHR </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/evaluation-board-maxim-images/max78000fthr.jpg?rev=0bb58b7b193f40c8936e01e6330d36c6"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX32666FTHR board is a rapid development platform to help engineers quickly implement battery optimized Bluetooth® 5 solutions with the MAX32666 Arm<sup>®</sup> Cortex<sup>®</sup>-M4 processor with FPU. The board also includes the MAX1555 1-Cell Li+ battery charger for battery management. The form factor is a small 0.9in by 2.0in dual-row header footprint that is compatible with breadboards and off-the-shelf peripheral expansion boards. The board also includes a variety of peripherals, such as a micro SD card connector, 6-axis accelerometer/gyro, RGB indicator LED, and pushbutton. This platform provides power-optimized flexible for quick proof-of-concepts and early software development to enhance time to market.</p><p></p><p><strong>Applications</strong></p><ul><li>Connected Home</li><li>Gaming Devices</li><li>Hearables</li><li>Industrial Sensors</li><li>Payment/Fitness/Medical Wearables</li><li>Telemedicine</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32666fthr.html" name="MAX32666FTHR_435a8cdd-a857-4f6b-ae7d-2a7223b6910f">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max32666fthr.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32665.html" name="MAX32665_fe9f5c7f-7dbd-4cf9-9935-276fdf29d1ff">
+MAX32665						                                            </a>
+</h4>
+<p>Low-Power ARM Cortex-M4 with FPU-Based Microcontroller with Bluetooth 5 for Wearables</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32666.html" name="MAX32666_04e25b92-2db7-4773-952e-529cd60ef82d">
+MAX32666						                                            </a>
+</h4>
+<p>Low-Power ARM Cortex-M4 with FPU-Based Microcontroller with Bluetooth 5 for Wearables</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Therapy Device Solutions for Healthcare</li>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Continuous Glucose Monitor (CGM) Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Smart Home Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+<li>Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Reference Designs</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAXREFDES178</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Artificial Intelligence Applications</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/reference-designs/maxrefdes178.html"> MAXREFDES178 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/reference-design-maxim-images/maxrefdes178/7375fig01.jpg?rev=19381f0313bb44f1985a2ce41cfd0baa&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX78000 is an Arm Cortex M4F microcontroller with a Convolutional Neural Network (CNN) accelerator unit. The unique energy-efficient architecture of the MAX78000 enables battery-powered AI for at the edge applications such as face identification and keyword spotting. The MAXREFDES178 is a cube camera reference design based on the MAX78000 and MAX32666 microcontrollers to help AI at the edge device designers to accelerate their proof-of-concept to the market phase.</p>
+<p>The MAXREFDES178 hardware consists of a connectivity board based on the MAX32666 and AI board based on two MAX78000 chips. A short 33-position flex cable connects the boards to each other.</p>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes178.html" name="MAXREFDES178_3d4b83ea-4d9c-4baa-bcf7-fbfd0e947b80">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes178.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max78000.html" name="MAX78000_656a5de5-7e66-4e31-b56b-8bfca4350e0f">
+MAX78000						                                            </a>
+</h4>
+<p>Artificial Intelligence Microcontroller with Ultra-Low-Power Convolutional Neural Network Accelerator</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32666.html" name="MAX32666_04e25b92-2db7-4773-952e-529cd60ef82d">
+MAX32666						                                            </a>
+</h4>
+<p>Low-Power ARM Cortex-M4 with FPU-Based Microcontroller with Bluetooth 5 for Wearables</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAXREFDES9001</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Secured IoT LoRa Sensor Nodes using the DS28S60 and Amazon Web Services (AWS)</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/reference-designs/maxrefdes9001.html"> MAXREFDES9001 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/reference-design-maxim-images/maxrefdes9001/maxrefdes9001.png?rev=104b1635415c41ed9c32e3691115a357&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAXREFDES9001 is a complete internet-of-things
+(IoT) security reference design featuring a LoRa radio
+based, low-power, temperature sensor node secured with
+a DS28S60 secure coprocessor, a LoRa gateway, and
+a cloud application implemented in AWS infrastructure.
+This reference design highlights a robust and easy to
+manage end-to-end security scheme with authentication
+and confidentiality capabilities independent of the transmission link in use—the LoRaWAN protocol in this case.
+The MAXREFDES9001 is designed to easily integrate into
+embedded systems enabling confidentiality, authentication, and integrity of information. </p>
+<p>The sensor node is motioned by the tiny, low-power,
+Cortex-M4-based microcontroller MAX32660 which periodically measures the ambient temperature with the help
+of the DS7505, authenticates and encrypts the temperature value using AES-GCM with the DS28S60 secure
+coprocessor, and sends it to the AWS infrastructure over
+a LoRaWAN network, through a Raspberry Pi-powered
+gateway. To prevent rogue nodes from publishing data,
+joining the sensor nodes to the network requires a prior
+local verification using a convenient NFC-based strong
+authentication with the help of the MAX66242 Secure
+Authenticator and a dedicated Android application running
+on an NFC-enabled Android device. </p>
+<p>Once the authentication is successful, proving that the
+sensor node is genuine, the Android device communicates
+with the cloud application through the Internet to provision
+the sensor node; that is, to generate a certificate for the
+sensor node and perform an AES-GCM key exchange
+between that sensor node and the AWS infrastructure. The
+Android device uses the MAX66242 as an NFC bridge to
+communicate with the sensor node device’s microcontroller application and store the certificate into the DS28S60
+coprocessor, and to have the key exchange done between
+the DS28S60 and the cloud application using the Elliptic
+Curve Diffie-Hellman (ECDH) protocol. Once the key
+exchange is completed, the sensor node is ready to send
+its data to the cloud application using the negotiated
+AES-GCM key. Further sensor node authentication by
+the cloud application is possible using ECDSA since the
+sensor node now has a valid certificate with a matching
+key pair. Incidentally, the provisioning process also joins
+the end device to the LoRaWAN network implemented
+using the AWS IoT core, but this is not the main purpose
+of the reference design that shows a way to secure data
+without relying on the security of the various underlying
+communication links.</p>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes9001.html" name="MAXREFDES9001_781164f7-0a7b-4281-b218-b92b84a7d89d">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes9001.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/ds28s60.html" name="DS28S60_542151fe-4149-40d0-97ba-8aef814638ea">
+DS28S60						                                            </a>
+</h4>
+<p>DeepCover Cryptographic Coprocessor with ChipDNA</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32660.html" name="MAX32660_464049ee-6c8c-46cf-af6f-bf87003a6ce7">
+MAX32660						                                            </a>
+</h4>
+<p>Tiny, Ultra-Low-Power Arm Cortex-M4 Processor with FPU-Based Microcontroller (MCU) with 256KB Flash and 96KB SRAM</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/ds7505.html" name="DS7505_b6db1279-2a7b-4aaf-b74e-41b664542dc7">
+DS7505						                                            </a>
+</h4>
+<p>High-Precision Digital Thermometer and Thermostat</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max66242.html" name="MAX66242_68feb39e-6fe3-415f-90ad-0e06cc4b8020">
+MAX66242						                                            </a>
+</h4>
+<p>DeepCover Secure Authenticator with ISO 15693, I²C, SHA-256, and 4Kb User EEPROM</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAXREFDES9008</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">C-Source Reference for Operating the DS28E50 Combined with a DS2477 from a Cortex-M4 Microcontroller</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/reference-designs/maxrefdes9008.html"> MAXREFDES9008 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/reference-design-maxim-images/maxrefdes9008/maxrefdes9008.png?rev=9c3fd2b29c1a48a782fe0cd4b6beaf45&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The DS2477 is a 1-Wire<sup>®</sup> master that performs protocol conversion between the I<sup>2</sup>C master and any attached 1-Wire slaves. For 1-Wire line driving, the internal user-adjustable timers relieve the system host processor from generating time-critical 1-Wire waveforms, which supports both standard and overdrive communication speeds. The 1-Wire master has a selectable active or passive 1-Wire pullup. The strong pullup features support 1-Wire power delivery for 1-Wire devices that require additional current, such as electrically erasable programmable read-only memory (EEPROM) writes or cryptographic operations.</p>
+<p>The DS2477 is also a SHA-3 coprocessor designed to operate with 1-Wire SHA3-256 secure authenticators, such as the DS28E50. The DS28E50 secure authenticator combines FIPS202-compliant secure hash algorithm (SHA-3) challenge and response authentication with Maxim’s patented ChipDNA<sup>™</sup> technology, a physically unclonable function (PUF), to provide a cost-effective solution with the ultimate protection against security attacks. The DS28E50 communicates over the single-contact 1-Wire bus at both standard and overdrive speeds.</p>
+<p>The MAXREFDES9008 reference design shows how to develop a secure application using a DS28E50 and DS2477 authentication scheme. Featured is an Arm<sup>®</sup> Cortex<sup>®</sup>-M4 host microcontroller to be used as the system’s host processor. All hardware design files as well as C-code demonstration software are provided for this reference design in the Design Resources Section.</p>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes9008.html" name="MAXREFDES9008_04878790-eafd-4792-bd6e-928316162271">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/reference-designs/maxrefdes9008.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/ds28e50.html" name="DS28E50_8fbde00c-02bf-4065-81d9-20481c508a84">
+DS28E50						                                            </a>
+</h4>
+<p>DeepCover Secure SHA-3 Authenticator with ChipDNA PUF Protection</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/ds2477.html" name="DS2477_97f3823c-a82c-4146-a249-26221af166c9">
+DS2477						                                            </a>
+</h4>
+<p>DeepCover Secure SHA-3 Coprocessor with ChipDNA PUF Protection</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- developer-tools-resources component : start -->
+<article class="developer-tools-resources app-js__developer-tools-resources">
+<div class="developer-tools-resources__container">
+<div class="vertical"></div>
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+<div class="developer-tools-resources__content">
+<div class="developer-tools-resources__left">
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+<!-- developer-tools-resources component : end -->
+<div class="component Solution-Image-component">
+<div class="component-content">
+</div>
+</div>
+<article class="explore-solutions app-js__explore-solutions">
+<div class="vertical"></div>
+<div></div>
+<div></div>
+<div class="horizontal"></div>
+</article>
+<article class="thought-leadership app-js__thought-leadership">
+<div class="vertical"></div>
+<div class="horizontal"></div>
+<div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="component Solution-FilesAndDownloads">
+<div class="component-content">
+</div>
+</div>
+<div>
+<div class="component Solution-GetSupport">
+<div class="component-content">
+<article class="adi-support app-js__adi-support">
+<div class="adi-support__content" style="background-image: url(
+    /en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-bg.png?rev=3ce51334aac04d9a95ab6dffb8ddca61 )">
+<h2 class="title-extraSmall">ADI Support</h2>
+<p class="body-medium adi-support__content__para">Let us know what you need help with, and we will share the best answers from the ADI knowledge database. </p>
+<a class="adi-support__content__link" href="https://ez.analog.com/search" rel="noopener noreferrer" target="_blank"><img alt="button icon" class="" height="24" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-info.svg?rev=c0577a0c95684088b637b22ca123fcb6&amp;la=en&amp;h=24&amp;w=24&amp;hash=06CB6030E70EB494EFC8D52ED380A4D9" width="24"> <p class="button-medium-blue">Get Help</p>
+</img></a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</article>
+<script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes","itemId":"17cf7386-625d-4303-a11f-a7b9b4697121","pageUrl":"https://www.analog.com/en/solutions/consumer/smart-home/low-power-mcus-and-iot.html","pageCategory":"Industry Solutions L3 Page","previousPageUrl":null,"pageType":"Industry Solutions L3 Page","isProduct":false}};
+    </script>
+<script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+<script id="add-to-myanalog-hbs-template" type="text/x-handlebars-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+<script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+<div id="add-to-myanalog-container">
+<article class="add-to-myanalog-modal app-js__add-to-myanalog-modal" data-add-to-my-analog-api="{{addToMyAnalogAPI}}" data-artifact-api="{{artifactAPI}}" data-body-data="{{bodyData}}" data-class-name="{{className}}" data-create-project-api="{{createProjectAPI}}" data-is-table-product="{{isTableProduct}}" data-modal-added-icon="{{modalAddedIcon}}" data-modal-error-icon="{{modalErrorIcon}}" data-translations-api="{{translationsAPI}}" id="add-to-myanalog-modal-apis">
+<div class="add-to-myanalog-modal__container">
+<div aria-label="{{dropdownTitle}} Modal" class="modal-container">
+<div class="modal-container__header">
+<div class="modal-container__header__title">
+<img alt="modal bookmark icon" class="modal-container__header__title__icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f" width="24">
+<h2 class="modal-container__header__title__text title-extraSmall">{{modalTitle}}</h2>
+</img></div>
+<img alt="modal close icon" aria-label="Close Modal" class="modal-container__header__close" height="24" loading="lazy" role="button" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8" tabindex="0" width="24">
+</img></div>
+<div class="modal-container__content__error__content" role="alert">
+</div>
+<div class="modal-container__content">
+<p class="modal-container__content__description body-medium-inverse">{{modalDescription}}</p>
+<div class="modal-container__content__products">
+<h2 class="modal-container__content__products__title body-small">{{dropdownTitle}}</h2>
+<div class="modal-container__content__products__dropdown-container">
+<div class="dropdown-wrapper">
+<div class="dropdown-wrapper__input-container">
+<input aria-autocomplete="list" aria-expanded="false" aria-label="{{dropdownTitle}}" class="body-small dropdown-wrapper__input-container__box" role="combobox" tabindex="0" type="text" value="{{defaultSelectedText}}"/>
+<span class="dropdown-wrapper__input-container__down-arrow" id="arrow-input-dropdown">
+<img alt="input down arrow" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142" width="24">
+</img></span>
+<p aria-atomic="true" aria-live="assertive" class="sr-only" data-navigate-text="Navigate into the list items using tab key" id="dropdown-aria-label" role="alert"></p>
+<p aria-atomic="true" aria-live="assertive" class="sr-only sr-only-input" data-navigate-text="Use Down arrow key to open the drodpown" id="input-aria-label" role="alert"></p>
+</div>
+<div class="dropdown-wrapper__content" id="dropdownContent">
+<ul class="dropdown-content__lists" data-default-selected-text="{{defaultSelectedText}}" data-new-project-plus-icon="{{newProjectPlusIcon}}" data-new-project-text="{{newProjectText}}" data-project-names="{{projectNames}}" role="listbox">
+<li aria-label="{{defaultSelectedText}}" role="button" tabindex="0">
+<span class="body-small dropdown-content__list__border">{{defaultSelectedText}}</span>
+</li>
+                                            {{#each projectNames}}
+                                            <li aria-label="{{name}}" role="button" tabindex="0"><span class="body-small dropdown-content__list__border">{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li aria-label="{{newProjectText}}" class="dropdown-content__list__new-product" role="button" tabindex="0">
+<img alt="plus icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" width="24">
+<span class="body-small">{{newProjectText}}</span>
+</img></li>
+                                            {{/if}}
+                                        </ul>
+</div>
+</div>
+</div>
+</div>
+                        {{#if toggleButtonDescription}}
+                        <div class="modal-container__content__toggle-button-container">
+<div class="modal-container__content__toggle-button-container__wrapper">
+<label aria-checked="false" aria-label="Toggle Button for {{toggleButtonDescription}}" class="toggle-button-wrapper" tabindex="0">
+<input class="toggle-button-wrapper__box" id="add-to-myanalog-toggle-button" tabindex="-1" type="checkbox"/>
+<span class="toggle-button-wrapper__slider"></span>
+</label>
+<div class="modal-container__content__toggle-button-container__wrapper__text body-medium">{{toggleButtonDescription}}</div>
+</div>
+</div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class="modal-container__content__new-project-container">
+<div class="modal-container__content__new-project-container__wrapper">
+<h3 class="modal-container__content__new-project-container__wrapper__title subtitle-small">
+                                    {{newProjectTitle}}
+                                </h3>
+<div class="modal-container__content__new-project-container__wrapper__name">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__name__text" for="">{{newProjectNameText}}</label>
+<input aria-invalid="false" aria-label="{{newProjectNameText}}" class="modal-container__content__new-project-container__wrapper__name__input body-small" type="text"/>
+<div class="modal-container__content__new-project-container__wrapper__name__error">
+<img class="modal-container__content__new-project-container__wrapper__name__error__icon" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c" width="16">
+<p class="modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall">{{projectNameErrorText}}</p>
+</img></div>
+</div>
+<div class="modal-container__content__new-project-container__wrapper__description">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__description__text" for="">{{newProjectDescriptionText}}</label>
+<input aria-label="{{newProjectDescriptionText}}" class="modal-container__content__new-project-container__wrapper__description__input body-small" type="text"/>
+</div>
+</div>
+</div>
+                        {{/if}}
+                    </div>
+<div class="modal-container__footer">
+<div class="modal-container__footer__button">
+<button aria-label="{{cancelButtonText}}" class="modal-container__footer__button__cancel button-medium" role="button">
+                                {{cancelButtonText}}
+                            </button>
+<button aria-label="{{confirmButtonText}}" class="modal-container__footer__button__confirm button-medium" role="button">
+                                {{confirmButtonText}}
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- /#content -->
+<!-- #footer -->
+<footer role="contentinfo">
+<div class="container-fluid" id="footer">
+<div class="row">
+<div>
+<adi-footer></adi-footer>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+<!-- /#wrapper -->
+<script defer="" src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+<script async="" src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+<script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-page-applications.bundle.js"></script>
+<div class="legacy-component">
+<script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal" id="image-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div class="modal" id="adi-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade product-modal modal-video-window" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Modal title</h4>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+</div>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/solutionsl1page.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l3solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2techsolutionspage.bundle.js"></script>
+<script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+<div class="rte-control">
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal image-rte-modal" id="image-rte-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+</div>
+<script src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB" type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,2041 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- *** FE html start -->
+<meta charset="utf-8"/>
+<title>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions | Analog Devices</title>
+<meta content="follow, index" name="robots">
+<meta content="Fast charging, longer runtime, and extended battery lifetime have become baseline expectations for personal electronics that run on battery power. Analog Devices innovates power solutions that support" name="description"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer">
+<meta content="86a60d9bcaab43f0" name="yandex-verification"/>
+<meta content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" name="google-site-verification"/>
+<meta content="cSddD8r1N7" name="baidu-site-verification"/>
+<meta content="381E86BC7EF76D19F9365D26D8BFCD35" name="msvalidate.01"/>
+<link href="https://www.analog.com/en/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html" hreflang="en-US" rel="alternate"/>
+<link href="https://www.analog.com/cn/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="https://www.analog.com/jp/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html" hreflang="ja-JP" rel="alternate"/>
+<link href="https://www.analog.com/en/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html" rel="canonical"/>
+<script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+<script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+<link href="https://www.analog.com/media/favicon/favicon.ico" rel="icon"/>
+<link href="https://www.analog.com/media/favicon/apple_favicon.png" rel="apple-touch-icon"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png " rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png " rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png " rel="apple-touch-icon" sizes="167x167"/>
+<link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon">
+<link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/></noscript>
+<style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+<!-- Font-awesome -->
+<!-- Latest compiled and minified CSS -->
+<!-- Optional theme -->
+<!-- owl-slider -->
+<!-- Algolia Instant Search Theme -->
+<!-- Autocomplete Theme -->
+<!-- Latest compiled and minified JavaScript -->
+<link as="style" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/app.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" rel="stylesheet"/></noscript>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-applications.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css" rel="stylesheet"/>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" rel="stylesheet"/></noscript>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/header-footer/index.css" rel="stylesheet" type="text/css"/>
+<script defer="" src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+<script async="" src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js"></script>
+<!-- *** FE html end -->
+</link></meta></meta></meta></head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+<!-- #wrapper -->
+<div class="page-wrap" id="wrapper">
+<!-- #header -->
+<header>
+<div class="container-fluid" id="header">
+<div class="row">
+<div>
+<adi-header>
+<adi-account></adi-account>
+</adi-header>
+<adi-menu divided="">
+<adi-cart slot="buttons"></adi-cart>
+<adi-search slot="drawer">
+<div slot="search"></div>
+<div slot="results"></div>
+</adi-search>
+</adi-menu>
+<adi-dispatch></adi-dispatch>
+</div>
+</div>
+</div>
+</header>
+<!-- /#header -->
+<!-- #content -->
+<main class="main-content content" id="main" role="main" tabindex="-1">
+<div class="container-fluid" id="content">
+<div class="row">
+<div>
+<div class="component Global-Breadcrumb">
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.analog.com/en/index.html"},{"@type":"ListItem","position":2,"name":"Solutions Overview","item":"https://www.analog.com/en/solutions.html"},{"@type":"ListItem","position":3,"name":"Consumer Technology","item":"https://www.analog.com/en/solutions/consumer.html"},{"@type":"ListItem","position":4,"name":"Personal Electronics","item":"https://www.analog.com/en/solutions/consumer/personal-electronics.html"},{"@type":"ListItem","position":5,"name":"ULP, Space-Saving Power and Battery Management","item":"https://www.analog.com/en/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html"}]};
+        </script>
+<div class="component-content">
+<!-- Breadcrumb component : start -->
+<article class="breadcrumb app-js__breadcrumb">
+<div aria-label="Breadcrumb" class="breadcrumb__container" role="navigation">
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Home</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Solutions Overview</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Consumer Technology</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer/personal-electronics.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Personal Electronics</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+ULP, Space-Saving Power and Battery Management
+
+
+                            </div>
+</div>
+</article>
+<!-- Previous page link component : start -->
+<article class="previous-page-link app-js__previous-page-link">
+<a class="previous-page-link__link button-small" href="/en/solutions/consumer/personal-electronics.html">
+<span class="previous-page-link__icon">
+<img alt="left arrow" class="previous-page-link__arrow-left" height="16" src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" width="16"/> </span>
+<span class="previous-page-link__label">
+Back to Personal Electronics
+
+                            </span>
+</a>
+</article>
+<!-- Previous page link component : end -->
+<div class="horizontal">
+</div>
+</div>
+</div>
+<div class="component Solution-Overview">
+<div class="component-content">
+<article class="industry-solutionsl1-description app-js__industry-solutionsl1-description">
+<div class="industry-solutionsl1-description__container industry-solutionsl1-description__transparent" data-show-less="Show Less" data-show-more="Show More">
+<img alt="banner background image" class="industry-solutionsl1-description__container-image" src="/en/_/media/project/analogweb/analogweb/solutionpageimages/industry-solutions-l3-page.png?rev=98ce5de8111d4fbfbfcdb929e969c401&amp;la=en&amp;h=908&amp;w=2720&amp;hash=2FBEAECAE410AB14F72D16BD2E049FB0"/> <div class="industry-solutionsl1-description__category_header">
+<h1 class="industry-solutionsl1-description__category_title web-title component-title" id="category-detail">
+                                    Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions
+                                </h1>
+<div class="horizontal"></div>
+</div>
+<div class="industry-solutionsl1-description__container_content">
+<div class="industry-solutionsl1-description__category solution-header-content">
+<div class="adi-rte">
+<p> Fast charging, longer runtime, and extended battery lifetime have become baseline expectations for personal electronics that run on battery power. Analog Devices innovates power solutions that support safe, reliable, secure, and efficient battery management to maximize the life, health, and longevity of batteries used in personal electronics. </p>
+</div>
+<div class="industry-solutionsl1-description__button-center">
+<a class="industry-solutionsl1-description__showMoreBtn button-medium" href="javascript:void(0)">Show More</a>
+<img alt="Arrow image" class="industry-solutionsl1-description__showmore-arrow" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-down-white.svg?rev=7a6c987b562b4f71b6949e30b9fed900&amp;la=en&amp;hash=5FFFC28A78F4F08669F6DEA4AC52AC26"/> </div>
+</div>
+<div class="industry-solutionsl1-description__categoryallparts_btn">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Value and Benefits Container Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"></div>
+<div class="value-prop-component__content-wrapper">
+<!-- Value and Benefits Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"> </div>
+<div class="value-prop-component__content-wrapper">
+<div class="value-prop-component__solutions-header valueandBenfitsSection content-header variation-header">
+<h3 class="content-title title-large">Value and Benefits</h3>
+<p class="body-medium content-para value-para"> We offer best-in-class battery fuel gauge ICs, comprehensive lithium-ion protection technology, and switched capacitor converters with up to 98% efficiency. Our personal electronic solutions leverage ultralow quiescent current to maximize runtime, standby, shelf life, and overall battery longevity. In addition, our low-power power management ICs (PMICs) enable low operating current, high-efficiency power conversion, and compact form factors that are critical for space-constrained applications that run on small batteries. Unlock the full capacity of lithium-ion batteries with our personal electronic solutions.
+<br/>
+<br/>
+Our <a href="https://www.analog.com/en/technical-articles/accurate-fuel-gauging-without-battery-characterization-using-modelgauge-m5-ez-algorithm.html" rel="noopener noreferrer" target="_blank">fuel gauge algorithm</a> provides the highest accuracy state-of-charge reporting without the need for battery characterization. Our wide portfolio of <a href="https://www.analog.com/media/en/technical-documentation/tech-articles/usbc-and-usb-power-delivery-solutions.pdf" rel="noopener noreferrer" target="_blank">USB-C</a> chargers offers single chip solutions with integrated USB-C detection and chargers for fast charging and USB-PD. Additionally, <a href="https://ez.analog.com/webinar/m/recordings/2290" rel="noopener noreferrer" target="_blank">AccuCharge™</a> technology integrates fuel gauge and charger into a single chip to improve charging accuracy and simplify charge management. Our port protection portfolio offers overvoltage and surge protection, ensuring the device is protected from unsafe or defective power sources.
+<br/>
+<br/>
+Our DC-to-DC converters offer the highest power density, extremely low quiescent current, and maximum efficiency across the entire load range. Options for multi-rail/multiphase outputs and small packaging provide flexible solutions for personal electronic designs. Our <a href="https://www.analog.com/en/applications/technology/nanopower-technology.html#:~:text=Nanopower%20is%20a%20unique%20technology,consumption%20and%20increased%20battery%20life.#:~:text=Nanopower%20is%20a%20unique%20technology,consumption%20and%20increased%20battery%20life." rel="noopener noreferrer" target="_blank">nanoPower</a> DC-DC converters consume less than 1μA of quiescent current (IQ), resulting in dramatically reduced power consumption and increased battery life. </p>
+</div>
+<div class="benefits-section-container">
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Maximize runtime, standby, shelf life, and battery longevity </p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Improve charging accuracy </p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Reduce power consumption </p>
+</div>
+</div>
+</div>
+</article>
+</article> <!-- Value and Benefits Component : end -->
+<div class="component Value-Prop">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+</article>
+<!-- Value and Benefits Container Component : end -->
+<div class="component SolutionL2PageProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Featured Products</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX14699</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">High-Accuracy, Surge-Protected Overvoltage Protectors</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max14699.html"> MAX14699 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/8316.png?rev=fed2ca54c06348a8bebd91502ebf6dc6"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX14699 overvoltage protection (OVP) device features a low 38mΩ (typ) on-resistance (R<sub>ON</sub>) internal FET and protects low-voltage systems against voltage faults up to +28V<sub>DC</sub>. An internal clamp also protects the device from surges up to +100V. The MAX14699 features a 100ns (typ) overvoltage response time to minimize voltage rise on OUT during an overvoltage event. When the input voltage exceeds the overvoltage threshold, the internal FET is quickly turned off to prevent damage to the protected downstream components.
+</p><p>
+The overvoltage protection threshold can be adjusted with optional external resistors to any voltage between 4V and 20V. With the OVLO input set below the external OVLO select voltage, the MAX14699 automatically selects the accurate internal trip threshold. The internal over voltage threshold (OVLO) is preset to 13.75V (typ). The device features an open-drain active-low ACOK output, indicating a stable supply between minimum supply voltage and V<sub>OVLO</sub>. The MAX14699 is protected against overcurrent events by an internal thermal shutdown.
+</p><p>
+The MAX14699 is offered in a small, 12-bump WLP package and operates over the -40°C to +85°C extended temperature range.</p><p></p><p><strong>Applications</strong></p><ul><li>Portable Media Players</li><li>Smartphones</li><li>Tablet PCs</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max14699.html" name="MAX14699_23136d1f-7bcb-47c1-9d20-f57528f07dba">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max14699.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX17260</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">5.1µA 1-Cell Fuel Gauge with ModelGauge m5 EZ and Optional High-Side Current Sensing</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max17260.html"> MAX17260 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/9618.png?rev=cf58be2336bb4927afd7ea92ca885e93"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX17260 is an ultra-low power fuel gauge IC which implements the Maxim ModelGauge<sup>™</sup> m5 algorithm. The IC monitors a single-cell battery pack and supports both high-side and low-side current sensing. </p>
+<p>The ModelGauge m5 EZ algorithm makes fuel gauge implementation easy by eliminating battery characterization requirements and simplifying host software interaction. The algorithm provides tolerance against battery diversity for most lithium batteries and applications. The algorithm combines the short-term accuracy and linearity of a coulomb counter with the long-term stability of a voltage-based fuel gauge, along with temperature compensation to provide industry-leading fuel gauge accuracy. The IC automatically compensates for cell-aging, temperature, discharge rate, and provides accurate state-of-charge (SOC) in percentage (%) and remaining capacity in milliampere-hours (mAh) over a wide range of operating conditions.  As the battery approaches the critical region near empty, the algorithm invokes a special correction mechanism that eliminates any error. The IC provides accurate estimation of time-to-empty and time-to-full and provides three methods for reporting the age of the battery: reduction in capacity, increase in battery resistance, and cycle odometer. </p>
+<p>The IC provides precision measurements of current, voltage, and temperature. The temperature of the battery pack is measured using an internal temperature sensor or external thermistor. A 2-wire I<sup>2</sup>C interface provides access to data and control registers. The IC is available in tiny lead-free 0.4mm pitch, 1.5mm x 1.5mm, 9-pin WLP package and 3mm x 3mm, 14-pin TDFN package.</p>
+<p><a href="https://www.maximintegrated.com/content/dam/files/design/technical-documents/design-solutions/DS83-Choose-a-Fuel-Gauge-with-the-Right-Current-Sensing-for-Your-Battery-System.pdf"><img src="https://www.maximintegrated.com/content/dam/images/icon/search/design-design-solution.png" width="20"/> Design Solution: Choose a Fuel Gauge with the Right Current Sensing for Your Battery System ›</a></p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->Wearables, Smartwatches</li><li><!--02-->Tablets, 2-in-1 Laptops</li><li><!--03-->Bluetooth Headsets</li><li><!--04-->Health and Fitness Monitors</li><li><!--05-->Digital Still, Video, and Action Cameras</li><li><!--06-->Medical Devices</li><li><!--07-->Handheld Computers and Terminals</li><li><!--08-->Wireless Speakers</li><li><!--09-->Home and Building Automation, Sensors</li><li><!--10-->Portable Game Players</li><li><!--11-->Toys</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17260.html" name="MAX17260_c7450a04-38c3-4550-aaa2-e6906177b744">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17260.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX17320</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">2S-4S ModelGauge m5 EZ Fuel Gauge with Protector, Internal Self-Discharge Detection, and SHA-256 Authentication</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max17320.html"> MAX17320 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max17320-simplified-block-diagram.png?rev=32db6a1a1f7c472aa1afa0c72214da31&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX17320 is a 38µA I<sub>Q</sub> stand-alone pack-side fuel gauge IC with protector, battery internal self-discharge detection, and optional SHA-256 authentication for 2 to 4 series lithium-ion/polymer batteries.</p>
+<p>The IC monitors the voltage, current, temperature and state of the battery to provide protection against over/undervoltage, overcurrent, short-circuit, over/undertemperature, overcharge, and internal self-discharge conditions using external high-side N-FETs, and provides charging prescription to ensure that the battery operates under safe conditions, thereby prolonging the life of the battery. The IC balances the cells using internal FETs. During prequal charging, the IC uses the CHGFET to linearly control charging.</p>
+<p>To prevent battery pack cloning, the IC integrates SHA-256 authentication with a 160-bit secret key. Each IC incorporates a unique 64-bit ID.</p>
+<p>The fuel gauge uses Maxim ModelGauge™ m5 algorithm that combines the short-term accuracy and linearity of a coulomb counter with the long-term stability of a voltage-based fuel gauge to provide industry-leading fuel gauge accuracy. The IC automatically compensates for cell aging, temperature, and discharge rate, and provides accurate state-of-charge (SOC) in milliampere-hours (mAh) or percentage (%) over a wide range of operating conditions.</p>
+<p>The IC provides a configurable always-on LDO that can power small critical loads on the system side without overloading the cells even under fault conditions. Dynamic power functionality provides the instantaneous maximum battery output power which can be delivered to the system without violating the minimum system input voltage.</p>
+<p>A Maxim 1-Wire<sup>®</sup> or 2-wire I<sup>2</sup>C/SMBus interface provides access to data and control registers. The IC is available in a lead-free, 2.4mm x 2.6mm 30-bump 0.4mm pitch WLP and 4mm x 4mm 24-pin TQFN packages.</p><p></p><p><strong>Applications</strong></p><ul><li>Digital Still, Video, and Action Cameras</li><li>Handheld Computers, Radios, and Terminals</li><li>Medical Devices, Health and Fitness Monitors</li><li>Power Tools, Wireless Speakers, and Drones</li><li>Smart Batteries and Battery Backup</li><li>Smartphones, Tablets, and 2-in-1 Laptops</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17320.html" name="MAX17320_6e67625e-6987-4f9a-a6b1-1f9de5ed9961">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17320.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Therapy Device Solutions for Healthcare</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX17332</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">AccuCharge + ModelGauge m5 EZ 1-Cell Charger, Fuel Gauge, and Protector</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max17332.html"> MAX17332 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max17332-simplified-block-diagram.png?rev=1b127aea90ed41b8a76c56c8b619c5e4&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX17332 is a 35μA I<sub>Q</sub> stand-alone charger, fuel gauge, protector, and battery internal self-discharge detection IC for 1-cell lithium-ion/polymer batteries. When a voltage source is present, the IC regulates charging by modulating the charge N-FET, using AccuCharge™charger technology. The IC regulates charge voltage, current, and FET temperature. Stand-alone charging is supported by flexible configuration in nonvolatile memory. The IC supports the following applications:</p>
+<ul>
+<li>Low-Power Charging
+<ul><li>1mA to 500mA directly from universal 5V USB 
+<li>No USB identification/coordination needed </li></li></ul>
+<li>High-Power Parallel Packs (&gt;1000mA)
+<ul><li>Independently charges parallel packs 
+<li>Prevents cross-charging for parallel batteries
+<li> Coordinates external DC-DC with alerts 
+<li>Minimizes dropout and heat </li></li></li></li></ul>
+<li>Protection and Charging Control—pack or host side</li></li></li></ul>
+<p>The IC ideal diode circuit supports a quick response to system transients and adapter removal with low voltage drop across the CHG FET.</p>
+<p>The IC uses the ModelGauge™ m5 EZ algorithm that combines the short-term accuracy and linearity of a coulomb counter with the long-term stability of a voltage-based fuel gauge to provide industry-leading accuracy. The IC automatically compensates for cell aging, temperature, and discharge rate while providing accurate state-of-charge (SOC) in milliampere-hours (mAh) or percentage (%) over a wide range of operating conditions.</p>
+<p>The IC monitors the voltage, current, temperature, and state of the battery to provide protection against over/undervoltage, overcurrent, short-circuit, over/undertemperature and overcharge conditions, and internal self-discharge protection using external high-side N-FETs to ensure that the lithium-ion/polymer battery operates under safe conditions which prolongs the life of the battery.</p>
+<p><b>APPLICATIONS</b></p>
+<ul>
+<li>USB PPS and Direct Charging 
+<li>Smart Batteries and Hybrid Supercap Batteries
+<li> Dual Screen Smartphones, Tablets 
+<li>Hearables, Wearables, Smartwatches 
+<li>Medical Devices, Health, Fitness Monitors 
+<li>Handheld Radios, Computers, Accessories
+<li>Home/Building Automation, Sensors, Cameras 
+<li>Parallel Battery AR/VR Systems</li></li></li></li></li></li></li></li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17332.html" name="MAX17332_bd96d815-5c50-472c-a30f-a903cad278fb">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max17332.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX20340</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Bidirectional DC Powerline Communication Management IC</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max20340.html"> MAX20340 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10413.png?rev=b4dde5b79dc64331a79649184ef73ebb"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX20340 is a universal bidirectional DC powerline communication (PLC) management IC with a 166.7kbps maximum bit rate. The device is capable of a maximum of 1.2A charge current.</p>
+<p>The MAX20340 features a slave detection circuit that flags an interrupt to the system when the PLC master detects the presence of a PLC slave on the powerline. This function allows the system to remain in a low-power state until a slave device is connected.</p>
+<p>Many of the features of the MAX20340, such as master/slave mode, I<sup>2</sup>C address, dual/single PLC slave mode, and PLC slave address, are pin configurable.
+</p>
+<p>The device is available in a 9-bump, 0.4mm pitch, 1.358mm x 1.358mm wafer-level package (WLP).</p><p></p><p><strong>Applications</strong></p><ul><li>Game Controllers</li><li>Handheld Radios</li><li>Point of Sales Devices</li><li>Tethered Wireless Headphones Hearing Aids</li><li>Truly Wireless Earbuds</li><li>Wearables</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20340.html" name="MAX20340_231ddb36-0bd4-4c8e-b886-6c27883b8b21">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20340.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Hearable and Wearable Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX20342</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">USB Type-C Charger Detector with Integrated OVP</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max20342.html"> MAX20342 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10624.png?rev=49642a3fed5b408eb791eaff30a148d4"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX20342 is a USB Type-C<sup>®</sup> charger detector that is also capable of detecting chargers compliant with the USB Battery Charging Specification Revision 1.2. The USB Type-C charger detection circuitry functions as a UFP or DRP depending on factory configuration.</p>
+<p>The device implements USB Type-C detection logic and enables systems to support charging based on USB Type-C ports. The device also includes charger detection capability for BC1.2 compatible chargers and detects USB standard downstream ports (SDPs), USB charging downstream ports (CDPs), dedicated charger ports (DCPs), and other proprietary chargers. GPIO outputs allow the MAX20342 to control an external lithium-ion (Li+) battery charger based on charger detection results.</p>
+<p>The MAX20342 integrates a resistance detection block that can be used to automatically configure factory configuration states based upon attached resistors. Additionally, the resistance measurement can be configured to detect the presence of moisture in the USB Type-C connector.</p>
+<p>The MAX20342 also features an integrated low on-resistance, low-capacitance double-pole double-throw (DPDT) USB switch that can pass Hi-Speed USB, full-speed USB, low-speed USB, and UART signals. The switch position can be automatically configured by the USB detection logic or manually controlled.</p>
+<p>The MAX20342 features high-ESD protection up to ±15kV human-body model (HBM) on CC1, CC2, SBU1, and SBU2 pins. The CDP and CDN pins are protected against ESD up to ±6kV. The MAX20342 is specified for ±15kV Air-Gap and ±8kV Contact Discharge IEC 61000-4-2 on the CC1, CC2, SBU1, and SBU2 pins. The MAX20342 is available in a 24-bump, 0.4mm pitch, 2.62mm x 2.02mm wafer-level package (WLP) and operates over the -40°C to +85°C extended temperature range.</p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->DSCs and Camcorders</li><li><!--02-->Tablets</li><li><!--03-->Smartphones</li><li><!--04-->e-Readers</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20342.html" name="MAX20342_a06dcfd3-da04-4bef-83ee-020678f15742">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max20342.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77787</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">3.15A USB Type-C Autonomous Charger with JEITA for 1-Cell Li-ion/LiFePO4 Batteries</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77787.html"> MAX77787 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max77787-simplified-block-diagram.png?rev=35a750f6db09438cb03cc00ac433d19d&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77787 is a standalone, 3.15A charger with integrated USB Type-C<sup>®</sup> CC detection and reverse-boost capability. The fast-charge current and termination voltage is easily configured with resistors. The IC operates with an input voltage of 4.5V to 13.4V and has a maximum input current limit of 3A. The IC also implements the adaptive input current limit (AICL) function that regulates the input voltage by reducing input current to prevent the voltage of a weak adapter from collapsing or folding back.<br/>
+<br/>
+The USB Type-C Configuration Channel (CC) detection pins on the IC enable automatic USB Type-C power source detection and input current limit configuration without any software control as soon as the USB plug is inserted. The IC also integrates BC1.2 and proprietary adapter detection using the D+ and D- pins.<br/>
+<br/>
+The IC offers reverse-boost capability up to 5.1V, 1.5A, that can be enabled with the ENBST pin, also BYP reverse-boost that can be enabled with the ENBST and STBY pin combination. The STAT pin indicates charging status, while the INOKB pin indicates valid input voltage. Charging can be stopped by pulling the CHGENB pin low.<br/>
+<br/>
+The IC is equipped with a Smart Power Selector™ and a battery true-disconnect FET to control the charging and discharging of the battery or isolate the battery in case of a fault. The IC supports Li-ion batteries with JEITA compliance. It also has another option that supports LiFePO<sub>4</sub> batteries with non-JEITA compliance. The IC comes in a 2.758mm x 2.758mm, 0.4mm pitch, 6 x 6 wafer-level package (WLP) making it suitable for low-cost PCB assembly.</p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->Mobile Point-of-Sale (mPOS) Terminals</li><li><!--02-->Portable Medical Devices</li><li><!--03-->Wireless Headphones</li><li><!--04-->GPS Trackers</li><li><!--05-->Charging Cradles for Wearable Devices</li><li><!--06-->Power Banks</li><li><!--07-->Mobile Routers</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77787.html" name="MAX77787_fe7c0d2d-769a-4fed-8e2c-121a17ed88d0">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77787.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77818</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Dual Input, Power Path, 3A Switching Mode Charger with Fuel Gauge</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77818.html"> MAX77818 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/8725.png?rev=6d2b934ab821476ba7d8f38fd288ec14"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77818 integrates a high-performance 3A switching
+charger and proprietary ModelGauge™ m5 fuel gauge in a space saving WLP package, ideal for USB powered portable devices. The smart power path charger supports two inputs with reverse blocking and USB On-the-Go (OTG), integrates all power switches, operates at high-switching frequency with high efficiency, enabling low heat designs with small external components. The ModelGauge m5 algorithm combines the excellent short-term accuracy and linearity of a coulomb counter with the long-term stability of a voltage-based fuel gauge, along with temperature compensation to provide industry-leading fuel-gauge accuracy. The device also integrates two high voltage input LDOs and is highly programmable with I<sup>2</sup>C interface.</p><p></p><p><strong>Applications</strong></p><ul><li>Bluetooth Headsets</li><li>Handheld Devices</li><li>Industrial PCs</li><li>Internet of Things (IoT)</li><li>Portable Medical Devices</li><li>Smart Home Automation, Sensors</li><li>Wearable, Smart Watches</li><li>Wireless Speakers</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77818.html" name="MAX77818_96776963-e589-41be-9a19-cb19262dc8f7">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77818.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Smart Home Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77827</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">5.5V Input, 1.8A/3.1A Switch Buck-Boost Converter with 6μA I<sub>Q</sub></span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77827.html"> MAX77827 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10051.png?rev=2ba7850262bf4e67a90ae712bbf309bb"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77827 is a high-efficiency buck-boost regulator targeted for one-cell Li-ion powered applications with the lowest typical quiescent current in the industry of 6μA. It supports input voltages of 1.8V to 5.5V and an output voltage range of 2.3V to 5.3V. The IC provides two different switching current levels (1.8A and 3.1A) to optimize external component sizing based on given load current requirements. With the 1.8A switching current-limit option, the IC can support up to 1.0A load current in buck mode and 900mA in boost mode (V<sub>IN</sub> = 3.0V, V<sub>OUT</sub> = 3.3V).</p>
+<p>The peak efficiency of 96% makes the IC one of the best solutions as a DC/DC converter to supply a rail for battery-powered portable applications.</p>
+<p>The IC features an adjustable output voltage, which can be programmed from 2.3V to 5.3V through a single resistor. Two GPIO pins are available to support force PWM enable function and power-OK (POK) indicator. A unique control algorithm allows high-efficiency, outstanding line/load transient response, and seamless transition between buck and boost modes. These options provide design flexibility that allow the IC to cover a wide range of applications and use cases while minimizing board space.</p>
+<p>The MAX77827 is available in a 1.61mm x 2.01mm, 12-bump wafer-level package (WLP), and a 2.5mm x 2.5mm, 14-lead FC2QFN package.</p>
+<p><a href="https://8fsic.app.link/aGZb9B7vd9"><img alt="Mobile App" class="img-responsive" src="https://www.maximintegrated.com/content/dam/images/markets/essential-analog/mobile-app-670x170.jpg"/></a></p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->1-Cell Li+ Battery Powered Equipment</li><li><!--02-->Smartphones/Portable/Wearables</li><li><!--03-->Internet of Things (IoT) Devices</li><li><!--04-->LPWAN (LTE/NB-IoT, LTE/Cat-M1)</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77827.html" name="MAX77827_e7031c8f-436c-4dd9-977c-1f26aaebcd76">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77827.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Smart Home Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+</ul>
+<h4>Healthcare Solutions</h4>
+<ul>
+<li>Activity Tracking and Fall Detection Solutions</li>
+<li>Respiration Rate Measurement Solutions</li>
+<li>Electrocardiogram (ECG) Measurement Solutions</li>
+<li>Wearable Health Monitor Solutions</li>
+<li>Insulin Pump Solutions</li>
+<li>Diabetes Monitoring and Diagnostic Solutions</li>
+<li>Oxygen Saturation (SpO2) Measurement Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77857</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">2.5V to 16V Input, 7A Switching Current High-Efficiency Buck-Boost Converter</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77857.html"> MAX77857 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/max77857-simplified-application-circuit.png?rev=b6b6429935da4086a1761470a0c402f5&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77857 is a high-efficiency, high-performance buck-boost converter targeted for systems requiring a wide input voltage range (2.5V to 16V). It features 7A switching current and can supply up to 6A output current in buck mode and up to 4A in boost mode (Boost Ratio ≤ 1.3). It operates in PWM mode and implements an automatic SKIP mode to improve light-load efficiency.</p>
+<p>The default output voltage is 5V when using internal feedback resistors. It can also be configured to any default output voltages between 3V and 15V when using external feedback resistors. The output voltage is adjustable dynamically through the I<sup>2</sup>C serial interface (see the <em>Output Voltage Configuration</em> section).</p>
+<p>The SEL pin allows a single external resistor to program four different I<sup>2</sup>C interface slave addresses, four different switching current limit thresholds, and selection between external/internal feedback resistors. The different switching current limit thresholds allow the use of lower profile and smaller external components that are optimized for a particular application. The use of external feedback resistors allows for a wider output voltage range and customizable output voltages at startup.</p>
+<p>The I<sup>2</sup>C serial interface is optional and allows for dynamically controlling the output voltage, slew rate of the output voltage change, switching-current limit threshold, switching frequency, and forced PWM mode operation. The I<sup>2</sup>C-programmed settings have priority over the R<sub>SEL</sub> decoded settings.</p>
+<p>The MAX77857 is available in a 2.83mm x 2.03mm, 35-bump and 31-bump wafer-level package (WLP) and a 3.5mm x 3.5mm, 16-lead Flip Chip QFN package (FC2QFN).</p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->USB Power Delivery (USB-PD) OTG</li><li><!--02-->Qualcomm<sup>®</sup> Quick Charge<sup><span style="font-size: 10.8333px;">TM</span></sup></li><li><!--03-->USB V<sub>BUS</sub> Supply and DRP (Dual Role Power) Ports</li><li><!--04-->DSLR, DSLR Lens</li><li><!--05-->Display Power</li><li><!--06-->Up to 3-Cell Li-Ion Battery Applications</li><li><!--07-->Notebook Computer, Tablet PC</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77857.html" name="MAX77857_ead0fd22-e4b2-42d1-abfe-7d173a3226e7">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77857.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77958</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Standalone USB Type-C and USB Power Delivery Controller</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77958.html"> MAX77958 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10441.png?rev=2c86c5076dbd433e80a997b3e718fd96"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77958 is a robust solution for USB Type-C CC detection and power delivery (PD) protocol implementation. It detects connected accessories or devices by using Type-C CC detection and USB PD messaging. The IC protects against overvoltage and overcurrent, and detects moisture and prevents corrosion on the USB Type-C connector. The IC also has a D+/D- USB switch and BC1.2 detection to support legacy USB standards. It contains V<sub>CONN</sub> switches for USB PD and an enable pin for an external V<sub>CONN</sub> boost or buck converter. When the USB PD negotiation is complete, the IC configures an alternate mode setting for external multiplexers.</p>
+<p>The IC is compliant with USB Type-C Specification Release 1.3 and PD 3.0. It can be customized easily without affecting the compliance.</p>
+<p>The IC has an I<sup>2</sup>C master that can read and write to other devices in the system so that its firmware can configure related devices without the main processor's assistance. For example, it can configure an external charger based on BC1.2 detection, CC detection, and PD communication.</p>
+<p>The IC has an interrupt output pin to report event detection and status changes. It also has an I<sup>2</sup>C interface that the system can use to read/write and configure internal registers.</p>
+<p>The IC has nine configurable GPIOs that can be used for detection, as interrupts, and as the enable/disable pin for external devices, or as ADC inputs.</p>
+<p>The IC is available in a 3.10mm x 2.65mm, 0.5mm pitch, wafer-level package (WLP).</p>
+<p>The IC is a highly customizable Power Delivery controller solution. Contact Analog Devices to check how the MAX77958 can be used for customer-specific use cases.</p>
+<p><strong>Applications</strong></p>
+<ul>
+<li>Smartphones</li>
+<li>Tablets</li>
+<li>Cameras</li>
+<li>Game Players</li>
+<li>Power Banks</li>
+<li>Industrial Equipment PoE to USB Type-C Adapters</li>
+<li>Handheld Devices</li>
+<li>Portable Devices</li>
+<li>Monitors</li>
+<li>Healthcare and Medical Devices</li>
+<li>Other USB Type-C Devices</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77958.html" name="MAX77958_50ae1673-50ae-48b9-84b4-45a8842fd66b">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77958.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Hearable and Wearable Solutions</li>
+<li>Smart Home Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAX77932C</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">8A Dual-Phase Switched-Capacitor Converter</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="https://www.analog.com/en/products/max77932c.html"> MAX77932C </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/maxim-product/10631.png?rev=8cd74788a25343f2913dffdf708f4123"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAX77932C is a standalone, dual-phase switched-capacitor converter with integrated power switches that delivers 8A output current and divides the input voltage by two. The IC is suitable for applications that utilize 2S Li+ batteries while powering circuitry that operates at 1S-equivalent voltage. It is also suitable for applications migrating from 1S to 2S battery configurations. The IC simplifies this migration by converting the 2S battery voltage to 1S-equivalent output and allows designers to preserve the existing downstream 1S power architecture.<br/>
+<br/>
+The inductorless switched-capacitor converter topology of the IC shrinks the overall footprint and reduces the maximum height of the circuit. Its high switching frequency, up to 1.5MHz, reduces the size and number of capacitors required, further minimizing the solution footprint. The IC ensures safe operation with integrated overvoltage, undervoltage, overcurrent, and thermal protection, and also minimizes EMI with built-in frequency dithering. In addition to the small solution size, lower EMI, and protection features, the ICs class-leading peak efficiency of 98.5% simplifies thermal design and makes it ideal for consumer, medical, and industrial applications.<br/>
+<br/>
+The IC features an I<sup>2</sup>C compatible, 2-wire serial interface consisting of a bidirectional serial data line (SDA) and a serial clock line (SCL). The IC supports SCL clock rates up to 3.4MHz. The converter parameters such as OCP, OVLO or UVLO thresholds, switching frequency, soft-start current, and duration are easily adjustable through the I<sup>2</sup>C interface. The IC consumes a low quiescent current of 30μA when operating and 4μA in shutdown. The IC is available in a tiny, lead-free 0.4mm pitch, 2.4mm x 2.8mm 42-pin wafer-level package (WLP).<br/></p><p></p><p><strong>Applications</strong></p><ul><li><!--01-->Smartphones and Tablets</li><li><!--02-->Ultrabook Computers</li><li><!--03-->Chromebooks</li><li><!--04-->DSLR and Mirrorless Cameras</li><li><!--05-->Power Banks</li><li><!--06-->2S Li+ Battery Applications</li><li><!--07-->Smartphone Direct Charging</li><li><!--08-->Portable Printers</li><li><!--09-->Portable Gaming Devices</li><li><!--10-->Mobile Point-of-Sale (mPOS) Devices</li><li><!--11-->Two-Way Radios</li></ul>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77932c.html" name="MAX77932C_0ff28bcc-3584-46df-96a6-43633d280bc6">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="https://www.analog.com/en/products/max77932c.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Home Theater and Gaming Solutions</li>
+</ul>
+<h4>Intelligent Building Solutions</h4>
+<ul>
+<li>Automatic Identification and Data Capture (AIDC) Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="seemore-bar visible-desktop">
+<div class="container">
+<div>
+<div class="options-widget" data-less="See Less" data-more="See All">
+<a>See All</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row adi-accordion-comp adi-generic-tables">
+<div class="container">
+<div class="adi-accordion alternate-state" data-expand-accordion="false">
+<div class="row">
+<div class="accordion-title pavillion-heading">
+<div class="container">
+<div class="section-heading">
+<h3>Featured Reference Designs</h3>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAXREFDES179</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Multicell USB-C PD Charging with Fuel Gauge Platform</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/reference-designs/MAXREFDES179.html"> MAXREFDES179 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/reference-design-maxim-images/maxrefdes179/maxrefdes179-diagram.jpg?rev=b7041453ab194b5896a0c87346629577&amp;sc_lang=en"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+<p>The MAXREFDES179 reference design board is a standalone 27W/45W USB type-C PD fast-charger, fuel-gauge, and protection solution for 2S Li+ batteries. It also provides 8A output at a voltage of 1S very efficiently to power systems with power management integrated circuits (PMICs) designed for 1S voltages.</p>
+<p>The MAXREFDES179 allows the easy evaluation of the USB-C PD controller, buck-boost charger, fuel gauge with integrated protection, and 2S-to-1S switched-capacitor converter.</p>
+<p>The MAX77958 is a complete solution to detect the USB type-C CC and implement the PD protocol. The MAX77960/MAX77961 is a 27W/45W wide-input buck-boost charger with integrated field-effect transistors (FETs) for 2S Li+ batteries. The MAX77932 is a dual-phase switched-capacitor converter with integrated power switches that delivers 8A output current and divides the input voltage by two. The MAX77932 also simplifies the migration by converting the 2S battery voltage to 1S-equivalent output and preserves the existing downstream 1S power architecture. The MAX17320 is a fuel-gauge IC with a protector and SHA-256 authentication for two to four series lithium-ion/polymer batteries. The fuel gauge uses the ModelGauge m5 algorithm that automatically compensates for cell aging, temperature, and discharge rate, and provides accurate state-of-charge (SOC) in milliampere-hours (mAh) or percentage (%) over a wide range of operating conditions to protect the battery.</p>
+<p>The graphical user interface (GUI) is Windows-based. A register-based interface exercises the features of the MAX77932, MAX77958, MAX77960/MAX77961, and MAX17320.</p>
+<p>The design files, firmware, and software are available in the Design Resources tab. The board is also available for purchase.</p>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/reference-designs/MAXREFDES179.html" name="MAXREFDES179_d2ac97de-ac1c-49bb-b212-cba04f7169a2">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/reference-designs/MAXREFDES179.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77932c.html" name="MAX77932C_0ff28bcc-3584-46df-96a6-43633d280bc6">
+MAX77932C						                                            </a>
+</h4>
+<p>8A Dual-Phase Switched-Capacitor Converter</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77958.html" name="MAX77958_50ae1673-50ae-48b9-84b4-45a8842fd66b">
+MAX77958						                                            </a>
+</h4>
+<p>Standalone USB Type-C and USB Power Delivery Controller</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77960.html" name="MAX77960_5b8e32e0-b444-407b-bcc1-74893119d3de">
+MAX77960						                                            </a>
+</h4>
+<p>25V<sub>IN</sub> 3A/6A<sub>OUT</sub> USB-C Buck-Boost Charger with Integrated FETs for 2S/3S Li-Ion Batteries</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77961.html" name="MAX77961_d5774884-820f-49e3-a47c-70229aba7a88">
+MAX77961						                                            </a>
+</h4>
+<p>25V<sub>IN</sub> 3A/6A<sub>OUT</sub> USB-C Buck-Boost Charger with Integrated FETs for 2S/3S Li-Ion Batteries</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max17320.html" name="MAX17320_6e67625e-6987-4f9a-a6b1-1f9de5ed9961">
+MAX17320						                                            </a>
+</h4>
+<p>2S-4S ModelGauge m5 EZ Fuel Gauge with Protector, Internal Self-Discharge Detection, and SHA-256 Authentication</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Personal Electronics Solutions</li>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+</ul>
+<h4>Industrial Automation</h4>
+<ul>
+<li>Predictive Maintenance Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="section-bar">
+<div class="container">
+<div class="section-heading pavillion-section-heading collapsed">
+<h3>MAXREFDES1261</h3>
+<span class="eval-design-type setion-bar-items textblock" data-char="110" data-less="" data-more="">Asset Tracker Power Management Platform</span>
+<span class="eval-design-pin setion-bar-items"></span>
+<span class="eval-design-frequency setion-bar-items"></span>
+<span><a class="close-icon" href="#">X</a><a class="expand-icon" href="#">+</a></span>
+</div>
+</div>
+</div>
+<div class="product-content" style="display: none;">
+<div class="row list-item">
+<h3> <a href="/en/resources/reference-designs/MAXREFDES1261.html"> MAXREFDES1261 </a></h3>
+<div class="col-md-12 clearfix">
+<div class="col-md-4">
+<img loading="lazy" src="/en/_/media/analog/en/reference-design-maxim-images/maxrefdes1261/maxrefdes1261.png?rev=658ee0cfd8f249658e8ca0f7c142f9b2"/>
+</div>
+<div class="col-md-8 clearfix">
+<div class="clearfix">
+<div class="col-md-12">
+<div class="row offset-block">
+<div class="textblock" data-char="200" data-less="Read Less.." data-more="Read More..">
+                                                                The MAXREFDES01261 is a reference design for the asset tracker application based on the Analog<sup>®</sup> solution. This reference design is a power management platform for the asset tracker, which includes the MAX77640, MAX32660, and MAX77827 . This design demonstrates a small-size, low-power, highly effective, highly accurate, and flexible power management system.
+                                                            </div>
+</div>
+</div>
+</div>
+<a class="btn btn-primary" href="/en/resources/reference-designs/MAXREFDES1261.html" name="MAXREFDES1261_13f9e10f-0d78-4daa-b924-40c81bfb7b2c">
+                                                    View Detailed Information
+                                                </a>
+<a class="btn btn-primary" href="/en/resources/reference-designs/MAXREFDES1261.html?order=1">View Pricing</a>
+</div>
+</div>
+<div class="col-md-4">
+<h3>Applicable Parts</h3>
+<div class="mobilelink-application-box" data-rows="5">
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77827.html" name="MAX77827_e7031c8f-436c-4dd9-977c-1f26aaebcd76">
+MAX77827						                                            </a>
+</h4>
+<p>5.5V Input, 1.8A/3.1A Switch Buck-Boost Converter with 6μA I<sub>Q</sub></p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77840.html" name="MAX77840_29291c6f-3d14-4a22-97a2-ed3eb8916313">
+MAX77840						                                            </a>
+</h4>
+<p>3A Buck Charger with ModelGauge m5 Fuel Gauge and USB BC1.2 Detection</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max77640.html" name="MAX77640_148ccff6-dbdc-4d9e-a772-dcfc686094fb">
+MAX77640						                                            </a>
+</h4>
+<p>Ultra-Low Power PMIC with 3-Output SIMO, 150mA LDO, and Power Sequencer</p>
+</div>
+<div class="list-view-row">
+<h4>
+<a href="https://www.analog.com/en/products/max32660.html" name="MAX32660_464049ee-6c8c-46cf-af6f-bf87003a6ce7">
+MAX32660						                                            </a>
+</h4>
+<p>Tiny, Ultra-Low-Power Arm Cortex-M4 Processor with FPU-Based Microcontroller (MCU) with 256KB Flash and 96KB SRAM</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 clearfix">
+<div class="offset-block">
+<h3>Applications</h3>
+<h4>Consumer Technology Solutions</h4>
+<ul>
+<li>Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions</li>
+<li>Personal Electronics Solutions</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="component SolutionProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionReferenceDesignProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionEvaluationBoardsCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionSoftwareProductCard">
+<div class="component-content">
+</div>
+</div>
+<article class="solution-resources app-js__solution-resources">
+<div class="vertical"></div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+</article>
+<!-- developer-tools-resources component : start -->
+<article class="developer-tools-resources app-js__developer-tools-resources">
+<div class="developer-tools-resources__container">
+<div class="vertical"></div>
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+<div class="developer-tools-resources__content">
+<div class="developer-tools-resources__left">
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+<!-- developer-tools-resources component : end -->
+<div class="component Solution-Image-component">
+<div class="component-content">
+</div>
+</div>
+<article class="explore-solutions app-js__explore-solutions">
+<div class="vertical"></div>
+<div></div>
+<div></div>
+<div class="horizontal"></div>
+</article>
+<article class="thought-leadership app-js__thought-leadership">
+<div class="vertical"></div>
+<div class="horizontal"></div>
+<div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+<!-- Learn More component : start -->
+<article class="learn-more-carousel app-js__learn-more-carousel">
+<div class="vertical"></div>
+<div class="global-carousel-grid app-js__global-carousel-grid">
+<div class="global-carousel-grid__header">
+<div class="global-carousel-grid__header__main">
+<div class="global-carousel-grid__header__main__icon">
+<img alt="carousel title icon" class="" height="32" src="/en/_/media/project/analogweb/analogweb/media-resources/numbers-line.svg?rev=d9758f57b8804951876604f2a76d555c&amp;la=en&amp;h=32&amp;w=32&amp;hash=2EF847812B40543B9BD21B7BB5DAFD3D" width="32"> </img></div>
+<div class="global-carousel-grid__header__main__title">
+<h2 class="global-carousel-grid__header__main__signal title-Large" level="2" role="heading">Training and Support</h2>
+</div>
+</div>
+<p class="body-medium global-carousel-grid__header__main__description">Trainings and Tutorials</p>
+</div>
+<div class="global-carousel-grid__cards">
+<div class="global-carousel-grid__owl-slider owl-slider cardCount">
+<div class="owl-carousel arrows global-carousel-grid__count" data-desktopcount="4" data-mobilecount="1.1" id="carousel">
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="6319992624112">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="Thumbnail Image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/webcast.svg?rev=3c0a40d3bf12459787ac0ae94d905a13">
+<button aria-controls="videoModal" aria-haspopup="dialog" aria-label="Don't Let a Low Battery Eat Into Your Playtime play" class="play-btn slider-container__slider-play-btn" id="openModalButton" tabindex="0">
+<img alt="play button" class="play-btn-img" height="40" loading="lazy" src="/en/_/media/project/analogweb/analogweb/media-center/play-icon.svg?rev=eac9f94973ea4b24bd2afb852d1a6f95&amp;la=en&amp;h=40&amp;w=40&amp;hash=6AAA7CF93094BE81684D5F1C33ECD9F1" width="40">
+</img></button>
+</img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Video</p>
+<p class="body-extra-small date">
+                                                                    Feb 8, 2023
+                                                                </p>
+<span class="body-extra-small time-stamp">03:17</span>
+</div>
+<p class="subtitle-medium thumbnail-para">Don't Let a Low Battery Eat Into Your Playtime</p>
+</div>
+</div>
+<a aria-label="More Details about Don't Let a Low Battery Eat Into Your Playtime-Opens up in a new window" class="button-medium more-details" href="/en/resources/media-center/videos/6319992624112.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/webcast.svg?rev=1e4eb525cf6f44c1ac21eff3c14f5558&amp;la=en&amp;hash=4BE6DEAA8A6D492DFC2594CA9C6E9420"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Webcast</p>
+<p class="body-extra-small date">
+                                                                    Jan 13, 2022
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Spread the Word: This Is the Power of Silence</p>
+</div>
+</div>
+<a aria-label="More Details about Spread the Word: This Is the Power of Silence-Opens up in a new window" class="button-medium more-details" href="https://ez.analog.com/webinar/c/e/57" target="_blank">
+                                                            More Details
+
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/media-center/redirect-pcp.svg?rev=141bdab11b364a5084b4d669a4e13b90&amp;la=en&amp;h=24&amp;w=24&amp;hash=C8AEDF01B1F37BCD1A9F4417DCE33E2E" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Technical Articles</p>
+<p class="body-extra-small date">
+                                                                    Jul 14, 2021
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Switched-Capacitor Converter Simplifies Migration from 1S to 2S Battery Architectures</p>
+</div>
+</div>
+<a aria-label="More Details about Switched-Capacitor Converter Simplifies Migration from 1S to 2S Battery Architectures-Opens up in a new window" class="button-medium more-details" href="/en/resources/technical-articles/switchedcapacitor-converter-simplifies-migration-from-1s-to-2s-battery-architectures.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Technical Articles</p>
+<p class="body-extra-small date">
+                                                                    Mar 5, 2021
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Buck-Boost Enables High Power Density and Higher System Efficiency for Systems with Back-Up Battery</p>
+</div>
+</div>
+<a aria-label="More Details about Buck-Boost Enables High Power Density and Higher System Efficiency for Systems with Back-Up Battery-Opens up in a new window" class="button-medium more-details" href="/en/resources/technical-articles/buckboost-enables-high-power-density-and-higher-system-efficiency-for-systems-with-backup-battery.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Technical Articles</p>
+<p class="body-extra-small date">
+                                                                    Aug 29, 2019
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Accurate Fuel Gauging Without Battery Characterization Using ModelGauge m5 EZ Algorithm</p>
+</div>
+</div>
+<a aria-label="More Details about Accurate Fuel Gauging Without Battery Characterization Using ModelGauge m5 EZ Algorithm-Opens up in a new window" class="button-medium more-details" href="/en/resources/technical-articles/accurate-fuel-gauging-without-battery-characterization-using-modelgauge-m5-ez-algorithm.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Technical Articles</p>
+<p class="body-extra-small date">
+                                                                    May 28, 2019
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">How to Shrink Your USB Type-C Battery Charger</p>
+</div>
+</div>
+<a aria-label="More Details about How to Shrink Your USB Type-C Battery Charger-Opens up in a new window" class="button-medium more-details" href="/en/resources/technical-articles/how-to-shrink-your-usb-typec-battery-charger.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"> </img></div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Design Notes Page</p>
+<p class="body-extra-small date">
+                                                                    Mar 26, 2019
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">How to Choose a Power Path Selector</p>
+</div>
+</div>
+<a aria-label="More Details about How to Choose a Power Path Selector-Opens up in a new window" class="button-medium more-details" href="/en/resources/design-notes/how-to-choose-a-power-path-selector.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"> </img></a>
+</div>
+</div>
+</div>
+</div>
+<div class="global-carousel-grid__videomodal modal-closed">
+<article class="videoplayer-modal app-js__videoplayer-modal" id="videoModal">
+<div class="videoplayer-modal__container">
+<div class="videoplayer-modal__container__header">
+<div class="modal-title" id="modalTitle">
+<h4 class="modal-title__title title-medium"></h4>
+<div class="modal-title__date-desktop web-title-medium-grey"></div>
+<div class="modal-title__date-mobile body-medium-greyscale"></div>
+</div>
+<button aria-label="Close" autofocus="" class="modal-closebtn" id="modal-closebtn" role="button" tabindex="0">
+<img alt="close icon" class="" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8&amp;la=en&amp;h=24&amp;w=24&amp;hash=55A6B8EDA6E4D57A78802D5595C3BB65" tabindex="-1" width="24"/>
+</button>
+</div>
+<div class="videoplayer-modal__container__video">
+<video class="video-js modal-video videoplayer-modal__videoSelector" controls="" data-account="706011717001" data-application-id="" data-embed="default" data-player="AQ1ZKQZJE" data-video-id="" data-video-name="" id="modalVideoPlayerGlobalCarouselGrid" style="width: 100%; top: 0px; bottom: 0px; right: 0px; left: 0px;"></video>
+</div>
+<div class="videoplayer-modal__container__footer">
+<a aria-label="Learn More" class="video-more-details" href="#" tabindex="0">
+<div class="button-medium-dark">Learn More</div>
+<img alt="arrow" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/videomodalicons/arrow.svg?rev=9c5ad9ab95944554859def6942dd73f9&amp;la=en&amp;h=16&amp;w=16&amp;hash=4C8E74B6AD0305F10E71BAB1200CB1FF" tabindex="-1" width="16"/> </a>
+<div class="video-right-btns">
+<button aria-label="Add to My Analog button: Opens a dialog box" class="videoplayer-modal__add-btn video-action-btn video-add-link add-to-myanalog-modal-media-center" href="javascript:void(0)" role="button" tabindex="0">
+<img alt="add btn" class="" height="20" loading="lazy" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=20&amp;w=20&amp;hash=B84533356A2B50B5332D8FAEE20E37C3" tabindex="-1" width="20"/>
+<span class="button-medium-dark">Add to my Analog</span>
+</button>
+<div class="share-button app-js__share-button">
+<button aria-expanded="false" class="button-medium-dark share-button__btn">
+<img alt="share btn" class="" height="20" loading="lazy" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/share.svg?rev=59634a920d324493a1858e374fa50e68&amp;la=en&amp;h=20&amp;w=20&amp;hash=3220C31CD03ACB654CBDED95B447CDDD" tabindex="-1" width="20"/>                                                        Share
+                                                    </button>
+<div class="share-button__dropdown" role="list">
+<div class="share-button__dropdown__btn body-small share-button__copy-btn" role="listitem">Copy Link</div>
+<div class="share-button__dropdown__btn body-small share-button__mail-btn" data-subject="Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions" role="listitem">Send to Mail </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</article> <!-- Learn More component : end -->
+</div>
+</div>
+</div>
+<div class="component Solution-FilesAndDownloads">
+<div class="component-content">
+</div>
+</div>
+<div>
+<div class="component Solution-GetSupport">
+<div class="component-content">
+<article class="adi-support app-js__adi-support">
+<div class="adi-support__content" style="background-image: url(
+    /en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-bg.png?rev=3ce51334aac04d9a95ab6dffb8ddca61 )">
+<h2 class="title-extraSmall">ADI Support</h2>
+<p class="body-medium adi-support__content__para">Let us know what you need help with, and we will share the best answers from the ADI knowledge database. </p>
+<a class="adi-support__content__link" href="https://ez.analog.com/search" rel="noopener noreferrer" target="_blank"><img alt="button icon" class="" height="24" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-info.svg?rev=c0577a0c95684088b637b22ca123fcb6&amp;la=en&amp;h=24&amp;w=24&amp;hash=06CB6030E70EB494EFC8D52ED380A4D9" width="24"/> <p class="button-medium-blue">Get Help</p>
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</article>
+<script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions","itemId":"965525e6-82df-48e7-b3b4-fee6958b3d0d","pageUrl":"https://www.analog.com/en/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html","pageCategory":"Industry Solutions L3 Page","previousPageUrl":null,"pageType":"Industry Solutions L3 Page","isProduct":false}};
+    </script>
+<script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+<script id="add-to-myanalog-hbs-template" type="text/x-handlebars-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+<script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+<div id="add-to-myanalog-container">
+<article class="add-to-myanalog-modal app-js__add-to-myanalog-modal" data-add-to-my-analog-api="{{addToMyAnalogAPI}}" data-artifact-api="{{artifactAPI}}" data-body-data="{{bodyData}}" data-class-name="{{className}}" data-create-project-api="{{createProjectAPI}}" data-is-table-product="{{isTableProduct}}" data-modal-added-icon="{{modalAddedIcon}}" data-modal-error-icon="{{modalErrorIcon}}" data-translations-api="{{translationsAPI}}" id="add-to-myanalog-modal-apis">
+<div class="add-to-myanalog-modal__container">
+<div aria-label="{{dropdownTitle}} Modal" class="modal-container">
+<div class="modal-container__header">
+<div class="modal-container__header__title">
+<img alt="modal bookmark icon" class="modal-container__header__title__icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f" width="24"/>
+<h2 class="modal-container__header__title__text title-extraSmall">{{modalTitle}}</h2>
+</div>
+<img alt="modal close icon" aria-label="Close Modal" class="modal-container__header__close" height="24" loading="lazy" role="button" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8" tabindex="0" width="24"/>
+</div>
+<div class="modal-container__content__error__content" role="alert">
+</div>
+<div class="modal-container__content">
+<p class="modal-container__content__description body-medium-inverse">{{modalDescription}}</p>
+<div class="modal-container__content__products">
+<h2 class="modal-container__content__products__title body-small">{{dropdownTitle}}</h2>
+<div class="modal-container__content__products__dropdown-container">
+<div class="dropdown-wrapper">
+<div class="dropdown-wrapper__input-container">
+<input aria-autocomplete="list" aria-expanded="false" aria-label="{{dropdownTitle}}" class="body-small dropdown-wrapper__input-container__box" role="combobox" tabindex="0" type="text" value="{{defaultSelectedText}}"/>
+<span class="dropdown-wrapper__input-container__down-arrow" id="arrow-input-dropdown">
+<img alt="input down arrow" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142" width="24"/>
+</span>
+<p aria-atomic="true" aria-live="assertive" class="sr-only" data-navigate-text="Navigate into the list items using tab key" id="dropdown-aria-label" role="alert"></p>
+<p aria-atomic="true" aria-live="assertive" class="sr-only sr-only-input" data-navigate-text="Use Down arrow key to open the drodpown" id="input-aria-label" role="alert"></p>
+</div>
+<div class="dropdown-wrapper__content" id="dropdownContent">
+<ul class="dropdown-content__lists" data-default-selected-text="{{defaultSelectedText}}" data-new-project-plus-icon="{{newProjectPlusIcon}}" data-new-project-text="{{newProjectText}}" data-project-names="{{projectNames}}" role="listbox">
+<li aria-label="{{defaultSelectedText}}" role="button" tabindex="0">
+<span class="body-small dropdown-content__list__border">{{defaultSelectedText}}</span>
+</li>
+                                            {{#each projectNames}}
+                                            <li aria-label="{{name}}" role="button" tabindex="0"><span class="body-small dropdown-content__list__border">{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li aria-label="{{newProjectText}}" class="dropdown-content__list__new-product" role="button" tabindex="0">
+<img alt="plus icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" width="24"/>
+<span class="body-small">{{newProjectText}}</span>
+</li>
+                                            {{/if}}
+                                        </ul>
+</div>
+</div>
+</div>
+</div>
+                        {{#if toggleButtonDescription}}
+                        <div class="modal-container__content__toggle-button-container">
+<div class="modal-container__content__toggle-button-container__wrapper">
+<label aria-checked="false" aria-label="Toggle Button for {{toggleButtonDescription}}" class="toggle-button-wrapper" tabindex="0">
+<input class="toggle-button-wrapper__box" id="add-to-myanalog-toggle-button" tabindex="-1" type="checkbox"/>
+<span class="toggle-button-wrapper__slider"></span>
+</label>
+<div class="modal-container__content__toggle-button-container__wrapper__text body-medium">{{toggleButtonDescription}}</div>
+</div>
+</div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class="modal-container__content__new-project-container">
+<div class="modal-container__content__new-project-container__wrapper">
+<h3 class="modal-container__content__new-project-container__wrapper__title subtitle-small">
+                                    {{newProjectTitle}}
+                                </h3>
+<div class="modal-container__content__new-project-container__wrapper__name">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__name__text" for="">{{newProjectNameText}}</label>
+<input aria-invalid="false" aria-label="{{newProjectNameText}}" class="modal-container__content__new-project-container__wrapper__name__input body-small" type="text"/>
+<div class="modal-container__content__new-project-container__wrapper__name__error">
+<img class="modal-container__content__new-project-container__wrapper__name__error__icon" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c" width="16"/>
+<p class="modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall">{{projectNameErrorText}}</p>
+</div>
+</div>
+<div class="modal-container__content__new-project-container__wrapper__description">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__description__text" for="">{{newProjectDescriptionText}}</label>
+<input aria-label="{{newProjectDescriptionText}}" class="modal-container__content__new-project-container__wrapper__description__input body-small" type="text"/>
+</div>
+</div>
+</div>
+                        {{/if}}
+                    </div>
+<div class="modal-container__footer">
+<div class="modal-container__footer__button">
+<button aria-label="{{cancelButtonText}}" class="modal-container__footer__button__cancel button-medium" role="button">
+                                {{cancelButtonText}}
+                            </button>
+<button aria-label="{{confirmButtonText}}" class="modal-container__footer__button__confirm button-medium" role="button">
+                                {{confirmButtonText}}
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- /#content -->
+<!-- #footer -->
+<footer role="contentinfo">
+<div class="container-fluid" id="footer">
+<div class="row">
+<div>
+<adi-footer></adi-footer>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+<!-- /#wrapper -->
+<script defer="" src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+<script async="" src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+<script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-page-applications.bundle.js"></script>
+<div class="legacy-component">
+<script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal" id="image-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div class="modal" id="adi-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade product-modal modal-video-window" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Modal title</h4>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+</div>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/solutionsl1page.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l3solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2techsolutionspage.bundle.js"></script>
+<script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+<div class="rte-control">
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal image-rte-modal" id="image-rte-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+</div>
+<script src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB" type="text/javascript"></script></body>
+</html>

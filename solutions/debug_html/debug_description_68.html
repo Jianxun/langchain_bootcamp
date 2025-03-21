@@ -1,0 +1,1598 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<!-- *** FE html start -->
+<meta charset="utf-8"/>
+<title>Power and Battery Management Solutions for Smart Homes | Analog Devices</title>
+<meta content="follow, index" name="robots">
+<meta content="Analog Devices battery management technologies enable longer device run times and fast, safe charging for the smart home. Our ModelGauge m5 fuel gauge algorithm provides the highest accuracy state-of-" name="description"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="yes" name="mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="no-referrer-when-downgrade" name="referrer">
+<meta content="86a60d9bcaab43f0" name="yandex-verification"/>
+<meta content="aVOSmh5Dsd1VpzYMM3a_ZvOQcjP9G5GDlvU-atf48ss" name="google-site-verification"/>
+<meta content="cSddD8r1N7" name="baidu-site-verification"/>
+<meta content="381E86BC7EF76D19F9365D26D8BFCD35" name="msvalidate.01"/>
+<link href="https://www.analog.com/en/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html" hreflang="en-US" rel="alternate"/>
+<link href="https://www.analog.com/cn/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="https://www.analog.com/jp/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html" hreflang="ja-JP" rel="alternate"/>
+<link href="https://www.analog.com/en/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html" rel="canonical"/>
+<script>!function (e, a, n, t) { var i = e.head; if (i) { if (a) return; var o = e.createElement("style"); o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o), setTimeout(function () { o.parentNode && o.parentNode.removeChild(o) }, t) } }(document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 3000);</script>
+<script type="text/javascript">
+        var datalayer = {"device":{"browser":"","type":""},"page":{"details":{"part":{"applicableParts":null,"categories":null,"id":null,"lifeCycle":null,"markets":null,"name":null,"type":null}},"meta":{"breadcrumbs":null,"id":null,"journey":null,"language":null,"pathname":null,"persona":null,"publishDate":null,"title":null,"taxonomy":null,"type":null}},"user":{"cart":{"purchaseID":"","sampleID":"","transactionID":""},"email":"","loggedIn":false,"blocked":false,"memberStatus":false}};
+    </script>
+<link href="https://www.analog.com/media/favicon/favicon.ico" rel="icon"/>
+<link href="https://www.analog.com/media/favicon/apple_favicon.png" rel="apple-touch-icon"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-152x152.png " rel="apple-touch-icon" sizes="152x152"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-iphone-retina-180x180.png " rel="apple-touch-icon" sizes="180x180"/>
+<link href="https://www.analog.com/media/favicon/adi-icon-ipad-retina-167x167.png " rel="apple-touch-icon" sizes="167x167"/>
+<link href="https://assets2.analog.com/cms-assets/images/images/adi-favicon.svg" rel="shortcut icon">
+<link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="stylesheet"/></noscript>
+<style>
+        :root {
+            --cta-color: #fff;
+            --cta-background: #1c1c1c;
+        }
+    </style>
+<!-- Font-awesome -->
+<!-- Latest compiled and minified CSS -->
+<!-- Optional theme -->
+<!-- owl-slider -->
+<!-- Algolia Instant Search Theme -->
+<!-- Autocomplete Theme -->
+<!-- Latest compiled and minified JavaScript -->
+<link as="style" href="https://assets2.analog.com/cms-assets/css/app.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/app.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles//vendor.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/common.bundle.css" rel="stylesheet"/></noscript>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-common.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/legacy/styles/legacy-applications.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error400page.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/error500page.bundle.css" rel="stylesheet"/>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/solutionsl1page.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l3solutionspage.bundle.css" rel="stylesheet"/></noscript>
+<link as="style" href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+<noscript><link href="https://assets2.analog.com/cms-assets/css/pages/styles/l2techsolutionspage.bundle.css" rel="stylesheet"/></noscript>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/analog-vendor.js"></script>
+<link href="https://assets2.analog.com/cms-assets/css/pages/styles/rte-editor-control.bundle.css" rel="stylesheet"/>
+<link href="https://assets2.analog.com/header-footer/index.css" rel="stylesheet" type="text/css"/>
+<script defer="" src="https://assets2.analog.com/header-footer/index.js" type="module"></script>
+<script async="" src="https://assets.adobedtm.com/bc68b7886092/25785b612092/launch-715705770daf.min.js"></script>
+<!-- *** FE html end -->
+</link></meta></meta></meta></head>
+<body class="default-device bodyclass" data-comp-prefix="app-js__" data-show-legacy-div-wrapper="True">
+<!-- #wrapper -->
+<div class="page-wrap" id="wrapper">
+<!-- #header -->
+<header>
+<div class="container-fluid" id="header">
+<div class="row">
+<div>
+<adi-header>
+<adi-account></adi-account>
+</adi-header>
+<adi-menu divided="">
+<adi-cart slot="buttons"></adi-cart>
+<adi-search slot="drawer">
+<div slot="search"></div>
+<div slot="results"></div>
+</adi-search>
+</adi-menu>
+<adi-dispatch></adi-dispatch>
+</div>
+</div>
+</div>
+</header>
+<!-- /#header -->
+<!-- #content -->
+<main class="main-content content" id="main" role="main" tabindex="-1">
+<div class="container-fluid" id="content">
+<div class="row">
+<div>
+<div class="component Global-Breadcrumb">
+<script type="application/ld+json">
+            {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.analog.com/en/index.html"},{"@type":"ListItem","position":2,"name":"Solutions Overview","item":"https://www.analog.com/en/solutions.html"},{"@type":"ListItem","position":3,"name":"Consumer Technology","item":"https://www.analog.com/en/solutions/consumer.html"},{"@type":"ListItem","position":4,"name":"Smart Home Solutions","item":"https://www.analog.com/en/solutions/consumer/smart-home.html"},{"@type":"ListItem","position":5,"name":"Power and Battery Management for Smart Homes","item":"https://www.analog.com/en/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html"}]};
+        </script>
+<div class="component-content">
+<!-- Breadcrumb component : start -->
+<article class="breadcrumb app-js__breadcrumb">
+<div aria-label="Breadcrumb" class="breadcrumb__container" role="navigation">
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/index.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Home</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Solutions Overview</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Consumer Technology</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+<a class="breadcrumb__container__section_item text-underline" href="/en/solutions/consumer/smart-home.html">
+<span aria-current="page" class="breadcrumb__container__section_item">Smart Home Solutions</span>
+</a>
+</div>
+<div class="breadcrumb__container__section body-small">
+Power and Battery Management for Smart Homes
+
+
+                            </div>
+</div>
+</article>
+<!-- Previous page link component : start -->
+<article class="previous-page-link app-js__previous-page-link">
+<a class="previous-page-link__link button-small" href="/en/solutions/consumer/smart-home.html">
+<span class="previous-page-link__icon">
+<img alt="left arrow" class="previous-page-link__arrow-left" height="16" src="https://www.analog.com/en/_/media/project/analogweb/analogweb/global/chevron-left-s.png?as=0&amp;dmc=0&amp;iar=0&amp;thn=0&amp;udi=0&amp;rev=c50da4dd134a41a28db3d68c9b26e721&amp;la=en&amp;h=16&amp;w=16&amp;hash=12C65D8611F1448B9E07B6645A314CD5" width="16"/> </span>
+<span class="previous-page-link__label">
+Back to Smart Home Solutions
+
+                            </span>
+</a>
+</article>
+<!-- Previous page link component : end -->
+<div class="horizontal">
+</div>
+</div>
+</div>
+<div class="component Solution-Overview">
+<div class="component-content">
+<article class="industry-solutionsl1-description app-js__industry-solutionsl1-description">
+<div class="industry-solutionsl1-description__container industry-solutionsl1-description__transparent" data-show-less="Show Less" data-show-more="Show More">
+<img alt="banner background image" class="industry-solutionsl1-description__container-image" src="/en/_/media/project/analogweb/analogweb/solutionpageimages/industry-solutions-l3-page.png?rev=98ce5de8111d4fbfbfcdb929e969c401&amp;la=en&amp;h=908&amp;w=2720&amp;hash=2FBEAECAE410AB14F72D16BD2E049FB0"/> <div class="industry-solutionsl1-description__category_header">
+<h1 class="industry-solutionsl1-description__category_title web-title component-title" id="category-detail">
+                                    Power and Battery Management Solutions for Smart Homes
+                                </h1>
+<div class="horizontal"></div>
+</div>
+<div class="industry-solutionsl1-description__container_content">
+<div class="industry-solutionsl1-description__category solution-header-content">
+<div class="adi-rte">
+<p> Analog Devices’ battery management technologies enable longer device run times and fast, safe charging for the smart home. Our ModelGauge™ m5 fuel gauge algorithm provides the highest accuracy state-of-charge reporting with no need for battery characterization.<br/>
+<br/>
+Our USB Type-C chargers offer single-chip solutions with backward compatibility to legacy USB systems. AccuCharge™ technology integrates the fuel gauge into the charger to improve charging accuracy and simplify charge management.<br/>
+<br/>
+Our power management solutions optimize power and size for internet of things (IoT)-connected devices. Our DC-to-DC converters offer the highest power density, extremely low quiescent current, and the highest efficiency across the entire load range. Options for multi-rail/multiphase outputs and small packaging provide flexible solutions for smart home designs. </p>
+</div>
+<div class="industry-solutionsl1-description__button-center">
+<a class="industry-solutionsl1-description__showMoreBtn button-medium" href="javascript:void(0)">Show More</a>
+<img alt="Arrow image" class="industry-solutionsl1-description__showmore-arrow" src="/en/_/media/project/analogweb/analogweb/solutions-overview/chevron-down-white.svg?rev=7a6c987b562b4f71b6949e30b9fed900&amp;la=en&amp;hash=5FFFC28A78F4F08669F6DEA4AC52AC26"/> </div>
+</div>
+<div class="industry-solutionsl1-description__categoryallparts_btn">
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!-- Value and Benefits Container Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"></div>
+<div class="value-prop-component__content-wrapper">
+<!-- Value and Benefits Component : start -->
+<article class="value-and-benefits app-js__value-and-benefits">
+<article class="value-prop-component app-js__value-prop-component solutions">
+<div class="vertical"> </div>
+<div class="value-prop-component__content-wrapper">
+<div class="value-prop-component__solutions-header valueandBenfitsSection content-header variation-header">
+<h3 class="content-title title-large">Value and Benefits</h3>
+<p class="body-medium content-para value-para"> Unlock the full capacity of lithium-ion batteries or address green energy-efficiency requirements with our power and battery management solutions. We offer best-in-class battery fuel gauge ICs, comprehensive lithium-ion protection technology, and switched-capacitor converters with up to 98% efficiency. Our smart home solutions leverage ultralow quiescent current to maximize runtime, standby, shelf life, and overall battery longevity. In addition, our low-power power management ICs (PMICs) enable low operating current, high-efficiency power conversion, and compact form factors that are critical for space-constrained applications that run on small batteries or power-efficient mains-powered devices.</p>
+</div>
+<div class="benefits-section-container">
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Enables low operating current and high-efficiency power conversion</p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Maximizes runtime, standby, shelf life, and battery longevity</p>
+</div>
+<div class="benefits-section">
+<img alt="thumbsupImg" class="thumbsup-bg" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsupimg.svg?rev=dca79d0f72c24520a504af30ebe7c51e"/>
+<img alt="Benefits" class="thumbsup-img" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/thumbsup.svg?rev=76a2a8426d94432fa522cd6ef70993b1"/>
+<p class="title-extraSmall benefits-para">Offers best-in-class efficiency of up to 98%</p>
+</div>
+</div>
+</div>
+</article>
+</article> <!-- Value and Benefits Component : end -->
+<div class="component Value-Prop">
+<div class="component-content">
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+</article>
+<!-- Value and Benefits Container Component : end -->
+<div class="component SolutionL2PageProductCard">
+<div class="component-content">
+<article class="tech-solutions-resources app-js__tech-solutions-resources">
+<div class="vertical"></div>
+<div class="tech-solutions-resources__header">
+<div class="tech-solutions-resources__header__icon">
+<img alt="carousel title icon" height="32px" src="/en/_/media/project/analogweb/analogweb/icons/placeholder-icon-set.png?rev=4dcbe392551a4e0f89412cf85b7b60bc&amp;la=en&amp;h=32&amp;w=32&amp;hash=17B61782BFF82566034EEC45039F42C6" width="32px"/> </div>
+<div class="tech-solutions-resources__header__title">
+<p class="title-Large">Solution Resources</p>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="component SolutionProductCard">
+<div class="component-content">
+<article class="tech-solutions-resources app-js__tech-solutions-resources">
+<div class="vertical"></div>
+<div class="tech-solutions-resources__cards-section">
+<div class="tech-solutions-resources__cards-section__card">
+<h2 class="title-extraSmall tech-solutions-resources__cards-section__card__title">Hardware Products</h2>
+<div class="tech-solutions-resources__container__desktop" data-show-card-count="3">
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/max17320-simplified-block-diagram.png?rev=32db6a1a1f7c472aa1afa0c72214da31&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=3E2547C4E802E4CE89FF6A6BA01CEBBD" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max17320.html">
+                                                                    MAX17320
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    2S-4S ModelGauge m5 EZ Fuel Gauge with Protector, Internal Self-Discharge Detection, and SHA-256 Authentication
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max17320.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max17320" data-product="max17320" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/max17332-simplified-block-diagram.png?rev=1b127aea90ed41b8a76c56c8b619c5e4&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=E1EABAF96AE1CA1B5D6823D9B8385828" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max17332.html">
+                                                                    MAX17332
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    AccuCharge + ModelGauge m5 EZ 1-Cell Charger, Fuel Gauge, and Protector
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max17332.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-MAX17332" data-product="MAX17332" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/10828.png?rev=a74f8272aeef449caf16bc9eb004d025&amp;h=100px&amp;w=100px&amp;hash=8FD1EC6FDD66B6F4F7BCE0DB2640E614" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77540.html">
+                                                                    MAX77540
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    16V<sub>IN</sub>/6A, Dual-Phase High-Efficiency Buck Converter
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77540.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77540" data-product="max77540" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/max77857-simplified-application-circuit.png?rev=b6b6429935da4086a1761470a0c402f5&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=4D1DFAF2C737F6932C452FA2C61B9A5F" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77857.html">
+                                                                    MAX77857
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    2.5V to 16V Input, 7A Switching Current High-Efficiency Buck-Boost Converter
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77857.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77857" data-product="max77857" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/10631.png?rev=8cd74788a25343f2913dffdf708f4123&amp;h=100px&amp;w=100px&amp;hash=349C7E92F5FB9BA6C23B4F8CE0C39201" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77932c.html">
+                                                                    MAX77932C
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    8A Dual-Phase Switched-Capacitor Converter
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77932c.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77932c" data-product="max77932c" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/maxim-product/10441.png?rev=2c86c5076dbd433e80a997b3e718fd96&amp;h=100px&amp;w=100px&amp;hash=0D4FED149646740BBF2F9FEC4BC54AD3" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77958.html">
+                                                                    MAX77958
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    Standalone USB Type-C and USB Power Delivery Controller
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77958.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77958" data-product="max77958" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div aria-label="Expands to show details about Hardware Products" class="tech-solutions-resources__show-more-container" data-show-less="Show Less" data-show-more="Show More" role="button" tabindex="0">
+<p class="button-medium-dark tech-solutions-resources__show-more-container__text">Show More</p>
+<img alt="Arrow image" class="tech-solutions-resources__show-more-container__arrow" height="24px" src="/en/_/media/project/analogweb/analogweb/global/icon-left-(1).svg?rev=fd385c90e2cf4716ae9a8c8d20e6b8e3&amp;la=en&amp;h=24&amp;w=24&amp;hash=A302DF48F94BAAA11877AF223F27157A" width="24px"/> </div>
+<div class="tech-solutions-resources__container__mobile">
+<div class="owl-carousel arrows slider-container__tech-solutions-resources-mobile" data-mobilecount="1.1" id="tech-solutions-resources-mobile">
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/max17320-simplified-block-diagram.png?rev=32db6a1a1f7c472aa1afa0c72214da31&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=3E2547C4E802E4CE89FF6A6BA01CEBBD" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max17320.html">
+                                                                        MAX17320
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        2S-4S ModelGauge m5 EZ Fuel Gauge with Protector, Internal Self-Discharge Detection, and SHA-256 Authentication
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max17320.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max17320" data-product="max17320" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/max17332-simplified-block-diagram.png?rev=1b127aea90ed41b8a76c56c8b619c5e4&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=E1EABAF96AE1CA1B5D6823D9B8385828" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max17332.html">
+                                                                        MAX17332
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        AccuCharge + ModelGauge m5 EZ 1-Cell Charger, Fuel Gauge, and Protector
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max17332.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-MAX17332" data-product="MAX17332" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/10828.png?rev=a74f8272aeef449caf16bc9eb004d025&amp;h=100px&amp;w=100px&amp;hash=8FD1EC6FDD66B6F4F7BCE0DB2640E614" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77540.html">
+                                                                        MAX77540
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        16V<sub>IN</sub>/6A, Dual-Phase High-Efficiency Buck Converter
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77540.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77540" data-product="max77540" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/max77857-simplified-application-circuit.png?rev=b6b6429935da4086a1761470a0c402f5&amp;sc_lang=en&amp;h=100px&amp;w=100px&amp;hash=4D1DFAF2C737F6932C452FA2C61B9A5F" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77857.html">
+                                                                        MAX77857
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        2.5V to 16V Input, 7A Switching Current High-Efficiency Buck-Boost Converter
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77857.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77857" data-product="max77857" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/10631.png?rev=8cd74788a25343f2913dffdf708f4123&amp;h=100px&amp;w=100px&amp;hash=349C7E92F5FB9BA6C23B4F8CE0C39201" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77932c.html">
+                                                                        MAX77932C
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        8A Dual-Phase Switched-Capacitor Converter
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77932c.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77932c" data-product="max77932c" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class='"buy-sample-product-card__container__header__image-wrapper__image' height="100px" src="/en/_/media/analog/en/maxim-product/10441.png?rev=2c86c5076dbd433e80a997b3e718fd96&amp;h=100px&amp;w=100px&amp;hash=0D4FED149646740BBF2F9FEC4BC54AD3" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/products/max77958.html">
+                                                                        MAX77958
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        Standalone USB Type-C and USB Power Delivery Controller
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/products/max77958.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max77958" data-product="max77958" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="legacy-component">
+<div class="row vertical-tab adi-scd-isc" data-less="See Less Rows" data-more="See More Rows" data-rows="4" id="rd-signalchains">
+<script data-locale="en" data-name="AdiISC" data-path="/packages/isc" src="https://assets2.analog.com/js/adi/adi.isc-7.js" type="text/javascript"></script>
+<div class="section-bar band" data-enhanced-view="false" id="Signal_Chains">
+<div class="container">
+<div class="row">
+<div class="">
+<div class="section-heading clearfix pavillion-heading">
+<h3>Signal Chains</h3>
+<h3>(2)</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="options-bar" data-listshown-default="2">
+<div class="container">
+<div class="row">
+<div>
+<ul class="list-unstyled options-list options-list-campaign tabAccordion hidden-xs">
+<li>
+<a data-target="ISC-0670" data-toggle="tab" href="#">
+<h3>Home Exercise Bike</h3>
+</a>
+</li>
+<li>
+<a data-target="ISC-0697" data-toggle="tab" href="#">
+<h3>Bicycle Power Meter</h3>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="seemore-bar visible-desktop">
+<div class="container">
+<div>
+<div class="options-widget" data-less="See Less " data-more="See All ">
+<a href="#">See Less </a>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="product-section">
+<div class="tab-header">
+<h3 id="signalChaintitle"></h3>
+<div class="textpager pavillion-textpager"></div>
+</div>
+<div class="nav-direction nav-prev nav-dir prev">&lt;  Prev</div>
+<div class="nav-direction nav-next nav-dir next">Next   &gt;</div>
+<span class="popup-label-span">Click on a part in the diagram below</span>
+<div class="bx-wrapper" id="waveformGenerator">
+<div class="popUp">
+<h3>
+<span class="popup-header-label">Interactive Signal Chains</span>
+<span class="popUp-header"> <img loading="lazy" src="/lib/img/round_close.png"/></span>
+</h3>
+<div><span class="popup-label-body">Click on the part for more details</span></div>
+<div class="image-container">
+<img loading="lazy" src="/lib/img/signalchainarrow.png"/>
+</div>
+</div>
+</div>
+<div class="scd-noPartsSelected">
+</div>
+</div>
+</div>
+</div>
+<div id="scd-view-renderer"></div>
+<script id="scd-view" type="text/x-handlebars-template">
+                    <div class="scd-partsSelected">
+                        <div class="container">
+                            <div class=''>
+                                {{#if title}}
+                                <div class="scd-partTitle">{{title}} <span><a href="#" class="close-icon">X</a><a href="#" class="expand-icon">+</a></span></div>
+                                {{/if}}
+                                {{#if tables}}
+                                {{#each tables}}
+                                <div class="scd-partTable table-responsive">
+                                    {{#if title}}
+                                    <div class="scd-tablename">{{title}}</div>
+                                    {{/if}}
+                                    <table class="table">
+                                        {{#if columns}}
+                                        <tr>
+                                            {{#each columns}}
+                                            <th>
+                                                {{external_name}}
+                                                {{#if defaultUOM}}
+                                                <br>
+                                                {{simplifyTyp defaultUOM}}
+                                                {{/if}}
+                                            </th>
+                                            {{/each}}
+                                        </tr>
+                                        {{/if}}
+                                        {{#if rows}}
+                                        {{#each rows}}
+                                        <tr class="scd-part-row">
+                                            {{#each this}}
+                                            {{#if url}}
+                                            <td><a href="{{url}}" target="_blank">{{displayValue}}</a></td>
+                                            {{else}}
+                                            <td>{{displayValue}}</td>
+                                            {{/if}}
+                                            {{/each}}
+                                        </tr>
+                                        {{/each}}
+                                        {{/if}}
+                                        {{#if columns}}
+                                        <tfoot class="hide">
+                                            <tr>
+                                                <td colspan="{{columns.length}}" class="text-center"><a href="#" class="less"></a></td>
+                                            </tr>
+                                        </tfoot>
+                                        {{/if}}
+                                    </table>
+                                </div>
+                                {{/each}}
+                                {{/if}}
+                            </div>
+                        </div>
+                        {{#if linkset}}
+                        {{#with linkset}}
+                        {{#if links}}
+                        <div class="scd-linksets">
+                            <div class="container">
+                                <div class="">
+                                    {{#if title}}
+                                    <div class="scd-linkset-title">{{title}}</div>
+                                    {{/if}}
+                                    <div class="scd-linkset-links">
+                                        {{#each links}}
+                                        <a class="btn btn-primary scd-linkset-link" href="{{url}}" target="_blank">{{text}}</a>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{/with}}
+                        {{/if}}
+                    </div>
+                </script>
+</div>
+</div>
+<div class="component SolutionReferenceDesignProductCard">
+<div class="component-content">
+</div>
+</div>
+<div class="component SolutionEvaluationBoardsCard">
+<div class="component-content">
+<article class="tech-solutions-resources app-js__tech-solutions-resources">
+<div class="vertical"></div>
+<div class="tech-solutions-resources__cards-section">
+<div class="tech-solutions-resources__cards-section__card">
+<h2 class="title-extraSmall tech-solutions-resources__cards-section__card__title">Evaluation Boards</h2>
+<div class="tech-solutions-resources__container__desktop" data-show-card-count="3">
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/solutions/default/image_unavailable_01.png?rev=c29f2d04550549ccac047a757d27469f&amp;la=en&amp;h=370&amp;w=555&amp;hash=B1EF0C4B416ED2BAFE54F6E13D53A6DE" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max17330x2evkit.html">
+                                                                    MAX17330X2EVKIT
+                                                                </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                    Evaluation Kit for the MAX17330
+                                                                </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max17330x2evkit.html?order=1" target="_blank">
+                                                                    Sample and Buy
+                                                                </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max17330x2evkit" data-product="max17330x2evkit" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div aria-label="Expands to show details about Evaluation Boards" class="tech-solutions-resources__show-more-container" data-show-less="Show Less" data-show-more="Show More" role="button" tabindex="0">
+<p class="button-medium-dark tech-solutions-resources__show-more-container__text">Show More</p>
+<img alt="Arrow image" class="tech-solutions-resources__show-more-container__arrow" height="24px" src="/en/_/media/project/analogweb/analogweb/global/icon-left-(1).svg?rev=fd385c90e2cf4716ae9a8c8d20e6b8e3&amp;la=en&amp;h=24&amp;w=24&amp;hash=A302DF48F94BAAA11877AF223F27157A" width="24px"/> </div>
+<div class="tech-solutions-resources__container__mobile">
+<div class="owl-carousel arrows slider-container__tech-solutions-resources-mobile" data-mobilecount="1.1" id="tech-solutions-resources-mobile">
+<article class="buy-sample-product-card app-js__buy-sample-product-card">
+<div class="buy-sample-product-card__container">
+<div class="buy-sample-product-card__container__header">
+<div class="buy-sample-product-card__container__header__image-wrapper">
+<img alt="buy sample product image" class="buy-sample-product-card__container__header__image-wrapper__image" height="100px" src="/en/_/media/analog/en/solutions/default/image_unavailable_01.png?rev=c29f2d04550549ccac047a757d27469f&amp;la=en&amp;h=370&amp;w=555&amp;hash=B1EF0C4B416ED2BAFE54F6E13D53A6DE" width="100px"/> </div>
+<div class="buy-sample-product-card__container__header__product-details">
+<a class="buy-sample-product-card__container__header__product-details__title title-extraSmall" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max17330x2evkit.html">
+                                                                        MAX17330X2EVKIT
+                                                                    </a>
+<div class="buy-sample-product-card__container__header__product-details__description body-medium">
+                                                                        Evaluation Kit for the MAX17330
+                                                                    </div>
+</div>
+</div>
+<div class="buy-sample-product-card__container__footer">
+<div class="buy-sample-product-card__container__footer__buttons">
+<a class="buy-sample-product-card__container__footer__buttons__add-to-cart button-medium-inverse" href="/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/max17330x2evkit.html?order=1" target="_blank">
+                                                                        Sample and Buy
+                                                                    </a>
+<button aria-label="Add to My Analog button: Opens a dialog box" class="buy-sample-product-card__container__footer__buttons__save add-to-myanalog-modal-table-products-max17330x2evkit" data-product="max17330x2evkit" role="button">
+<img alt="save icon" height="24px" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=92DCBF73D447D45D136D600BB1501029" width="24px"/> </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="component SolutionSoftwareProductCard">
+<div class="component-content">
+</div>
+</div>
+<article class="solution-resources app-js__solution-resources">
+<div class="vertical"></div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+</div>
+</div>
+</article>
+<!-- developer-tools-resources component : start -->
+<article class="developer-tools-resources app-js__developer-tools-resources">
+<div class="developer-tools-resources__container">
+<div class="vertical"></div>
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+<div class="developer-tools-resources__content">
+<div class="developer-tools-resources__left">
+<div class="component component-content">
+<div class="component-content">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="horizontal"></div>
+</article>
+<!-- developer-tools-resources component : end -->
+<div class="component Solution-Image-component">
+<div class="component-content">
+</div>
+</div>
+<article class="explore-solutions app-js__explore-solutions">
+<div class="vertical"></div>
+<div></div>
+<div></div>
+<div class="horizontal"></div>
+</article>
+<article class="thought-leadership app-js__thought-leadership">
+<div class="vertical"></div>
+<div class="horizontal"></div>
+<div>
+<div class="component GlobalCarousel">
+<div class="component-content">
+<!-- Learn More component : start -->
+<article class="learn-more-carousel app-js__learn-more-carousel">
+<div class="vertical"></div>
+<div class="global-carousel-grid app-js__global-carousel-grid">
+<div class="global-carousel-grid__header">
+<div class="global-carousel-grid__header__main">
+<div class="global-carousel-grid__header__main__icon">
+<img alt="carousel title icon" class="" height="32" src="/en/_/media/project/analogweb/analogweb/media-resources/numbers-line.svg?rev=d9758f57b8804951876604f2a76d555c&amp;la=en&amp;h=32&amp;w=32&amp;hash=2EF847812B40543B9BD21B7BB5DAFD3D" width="32"/> </div>
+<div class="global-carousel-grid__header__main__title">
+<h2 class="global-carousel-grid__header__main__signal title-Large" level="2" role="heading">Training and Support</h2>
+</div>
+</div>
+<p class="body-medium global-carousel-grid__header__main__description">Trainings and Tutorials</p>
+</div>
+<div class="global-carousel-grid__cards">
+<div class="global-carousel-grid__owl-slider owl-slider cardCount">
+<div class="owl-carousel arrows global-carousel-grid__count" data-desktopcount="4" data-mobilecount="1.1" id="carousel">
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/webcast.svg?rev=1e4eb525cf6f44c1ac21eff3c14f5558&amp;la=en&amp;hash=4BE6DEAA8A6D492DFC2594CA9C6E9420"/> </div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Webcast</p>
+<p class="body-extra-small date">
+                                                                    Sep 11, 2024
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Improve Lifetime of Your Small Battery Driven IoT System</p>
+</div>
+</div>
+<a aria-label="More Details about Improve Lifetime of Your Small Battery Driven IoT System-Opens up in a new window" class="button-medium more-details" href="/en/education/education-library/Webcasts/power-battery-management-improve-lifetime.html" target="_blank">
+                                                            More Details
+
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/media-center/redirect-pcp.svg?rev=141bdab11b364a5084b4d669a4e13b90&amp;la=en&amp;h=24&amp;w=24&amp;hash=C8AEDF01B1F37BCD1A9F4417DCE33E2E" tabindex="-1" width="24px"/> </a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/webcast.svg?rev=1e4eb525cf6f44c1ac21eff3c14f5558&amp;la=en&amp;hash=4BE6DEAA8A6D492DFC2594CA9C6E9420"/> </div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Webcast</p>
+<p class="body-extra-small date">
+                                                                    Feb 14, 2022
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Simplifying Battery Management Complexity with AccuCharge™︎</p>
+</div>
+</div>
+<a aria-label="More Details about Simplifying Battery Management Complexity with AccuCharge™︎-Opens up in a new window" class="button-medium more-details" href="/en/education/education-library/Webcasts/power-battery-management-simplify.html" target="_blank">
+                                                            More Details
+
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/media-center/redirect-pcp.svg?rev=141bdab11b364a5084b4d669a4e13b90&amp;la=en&amp;h=24&amp;w=24&amp;hash=C8AEDF01B1F37BCD1A9F4417DCE33E2E" tabindex="-1" width="24px"/> </a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/webcast.svg?rev=1e4eb525cf6f44c1ac21eff3c14f5558&amp;la=en&amp;hash=4BE6DEAA8A6D492DFC2594CA9C6E9420"/> </div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Webcast</p>
+<p class="body-extra-small date">
+                                                                    Jan 24, 2022
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Spread the Word: This Is the Power of Silence</p>
+</div>
+</div>
+<a aria-label="More Details about Spread the Word: This Is the Power of Silence-Opens up in a new window" class="button-medium more-details" href="/en/education/education-library/Webcasts/power-battery-management-spread-word.html" target="_blank">
+                                                            More Details
+
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/media-center/redirect-pcp.svg?rev=141bdab11b364a5084b4d669a4e13b90&amp;la=en&amp;h=24&amp;w=24&amp;hash=C8AEDF01B1F37BCD1A9F4417DCE33E2E" tabindex="-1" width="24px"/> </a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"/> </div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Technical Articles</p>
+<p class="body-extra-small date">
+                                                                    Aug 29, 2019
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">Accurate Fuel Gauging Without Battery Characterization Using ModelGauge m5 EZ Algorithm</p>
+</div>
+</div>
+<a aria-label="More Details about Accurate Fuel Gauging Without Battery Characterization Using ModelGauge m5 EZ Algorithm-Opens up in a new window" class="button-medium more-details" href="/en/resources/technical-articles/accurate-fuel-gauging-without-battery-characterization-using-modelgauge-m5-ez-algorithm.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"/> </a>
+</div>
+<div class="item global-carousel-grid__card">
+<div class="global-carousel-grid__card-content">
+<div class="media-card__container__media-player global-carousel-grid__card__media-player" data-add-link="https://google.com" data-share-link="https://google.com" data-video-player="">
+<div class="media-card__container__media-player__thumbnail thumbnail-ishover">
+<img alt="thumbnail image" class="thumbnail-img" loading="lazy" src="/en/_/media/project/analogweb/analogweb/default-images/technical-documentation.svg?rev=ba9b0f83b23740ce8f2c0b1417ba13cf&amp;la=en&amp;hash=4D8C3F92083E5AAB75150418995ABAE7"/> </div>
+</div>
+<div>
+<div class="global-carousel-grid__media-header">
+<p class="overline thumbnail-title">Design Notes Page</p>
+<p class="body-extra-small date">
+                                                                    Jan 30, 2018
+                                                                </p>
+<span class="body-extra-small time-stamp"></span>
+</div>
+<p class="subtitle-medium thumbnail-para">How to Fuel Gauge Lithium-Ion Batteries Without Battery Characterization with ModelGauge m5 EZ</p>
+</div>
+</div>
+<a aria-label="More Details about How to Fuel Gauge Lithium-Ion Batteries Without Battery Characterization with ModelGauge m5 EZ-Opens up in a new window" class="button-medium more-details" href="/en/resources/design-notes/how-to-fuel-gauge-lithiumion-batteries-without-battery-characterization-with-modelgauge-m5-ez.html">
+                                                            More Details
+<img alt="more-details-link" class="more-details-link" height="24px" src="/en/_/media/project/analogweb/analogweb/related-resources/link-pcp.svg?rev=07c2a566314649ba8d7466b089ad3d41&amp;la=en&amp;h=24px&amp;w=24px&amp;hash=DCBB5A2FB67B2EEB3F5A15EDBA5855A7" tabindex="-1" width="24px"/> </a>
+</div>
+</div>
+</div>
+</div>
+<div class="global-carousel-grid__videomodal modal-closed">
+<article class="videoplayer-modal app-js__videoplayer-modal" id="videoModal">
+<div class="videoplayer-modal__container">
+<div class="videoplayer-modal__container__header">
+<div class="modal-title" id="modalTitle">
+<h4 class="modal-title__title title-medium"></h4>
+<div class="modal-title__date-desktop web-title-medium-grey"></div>
+<div class="modal-title__date-mobile body-medium-greyscale"></div>
+</div>
+<button aria-label="Close" autofocus="" class="modal-closebtn" id="modal-closebtn" role="button" tabindex="0">
+<img alt="close icon" class="" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8&amp;la=en&amp;h=24&amp;w=24&amp;hash=55A6B8EDA6E4D57A78802D5595C3BB65" tabindex="-1" width="24"/>
+</button>
+</div>
+<div class="videoplayer-modal__container__video">
+<video class="video-js modal-video videoplayer-modal__videoSelector" controls="" data-account="706011717001" data-application-id="" data-embed="default" data-player="AQ1ZKQZJE" data-video-id="" data-video-name="" id="modalVideoPlayerGlobalCarouselGrid" style="width: 100%; top: 0px; bottom: 0px; right: 0px; left: 0px;"></video>
+</div>
+<div class="videoplayer-modal__container__footer">
+<a aria-label="Learn More" class="video-more-details" href="#" tabindex="0">
+<div class="button-medium-dark">Learn More</div>
+<img alt="arrow" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/videomodalicons/arrow.svg?rev=9c5ad9ab95944554859def6942dd73f9&amp;la=en&amp;h=16&amp;w=16&amp;hash=4C8E74B6AD0305F10E71BAB1200CB1FF" tabindex="-1" width="16"/> </a>
+<div class="video-right-btns">
+<button aria-label="Add to My Analog button: Opens a dialog box" class="videoplayer-modal__add-btn video-action-btn video-add-link add-to-myanalog-modal-media-center" href="javascript:void(0)" role="button" tabindex="0">
+<img alt="add btn" class="" height="20" loading="lazy" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/addtoanalog.svg?rev=d8474a9f56c74571963823342646618c&amp;la=en&amp;h=20&amp;w=20&amp;hash=B84533356A2B50B5332D8FAEE20E37C3" tabindex="-1" width="20"/>
+<span class="button-medium-dark">Add to my Analog</span>
+</button>
+<div class="share-button app-js__share-button">
+<button aria-expanded="false" class="button-medium-dark share-button__btn">
+<img alt="share btn" class="" height="20" loading="lazy" src="/en/_/media/project/analogweb/analogweb/pdpbuystack/share.svg?rev=59634a920d324493a1858e374fa50e68&amp;la=en&amp;h=20&amp;w=20&amp;hash=3220C31CD03ACB654CBDED95B447CDDD" tabindex="-1" width="20"/>                                                        Share
+                                                    </button>
+<div class="share-button__dropdown" role="list">
+<div class="share-button__dropdown__btn body-small share-button__copy-btn" role="listitem">Copy Link</div>
+<div class="share-button__dropdown__btn body-small share-button__mail-btn" data-subject="Power and Battery Management Solutions for Smart Homes" role="listitem">Send to Mail </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</article> <!-- Learn More component : end -->
+</div>
+</div>
+</div>
+<div class="component Solution-FilesAndDownloads">
+<div class="component-content">
+</div>
+</div>
+<div>
+<div class="component Solution-GetSupport">
+<div class="component-content">
+<article class="adi-support app-js__adi-support">
+<div class="adi-support__content" style="background-image: url(
+    /en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-bg.png?rev=3ce51334aac04d9a95ab6dffb8ddca61 )">
+<h2 class="title-extraSmall">ADI Support</h2>
+<p class="body-medium adi-support__content__para">Let us know what you need help with, and we will share the best answers from the ADI knowledge database. </p>
+<a class="adi-support__content__link" href="https://ez.analog.com/search" rel="noopener noreferrer" target="_blank"><img alt="button icon" class="" height="24" src="/en/_/media/project/analogweb/analogweb/industry-solutions-l3-media/support-info.svg?rev=c0577a0c95684088b637b22ca123fcb6&amp;la=en&amp;h=24&amp;w=24&amp;hash=06CB6030E70EB494EFC8D52ED380A4D9" width="24"/> <p class="button-medium-blue">Get Help</p>
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</article>
+<script type="text/javascript">
+
+    var analyticsObject = {"pageInformation":{"pageName":"Power and Battery Management Solutions for Smart Homes","itemId":"4922c3b5-53d2-4578-aec4-db04e197db1e","pageUrl":"https://www.analog.com/en/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html","pageCategory":"Industry Solutions L3 Page","previousPageUrl":null,"pageType":"Industry Solutions L3 Page","isProduct":false}};
+    </script>
+<script>
+        let userLoggedState = false;
+        try {
+            const savedAuthToken = localStorage.getItem('active-tokens');
+            if (savedAuthToken) {
+                const activeTokenObject = JSON.parse(savedAuthToken);
+                if (activeTokenObject && activeTokenObject['my'] && activeTokenObject['my']['token']) {
+                    var base64Url = activeTokenObject['my']['token'].split('.')[1]
+                    var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                    var jsonPayload = decodeURIComponent(
+                        atob(base64)
+                            .split('')
+                            .map(function (c) {
+                                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                            })
+                            .join('')
+                    )
+                }
+                const decodedToken = JSON.parse(jsonPayload)
+                const currentTimestamp = Math.floor(Date.now() / 1000);
+                if (!(decodedToken.exp && currentTimestamp > decodedToken.exp)) {
+                    userLoggedState = true;
+                }
+            } else {
+                const tempAuthStatusKey = 'isAuthenticated';
+                const cookies = document.cookie.split( '; ' );
+                const cookieOptions = 'domain=.analog.com; path=/; secure;';
+	            const tempAuthStatus = cookies.find( ( cookie ) => cookie.includes( tempAuthStatusKey ) )
+                                             ?.slice( ( tempAuthStatusKey.length + 1 ) ) || null;
+        	    
+        	    // Updating 'isLoggedIn' only for the first page visit post login redirect
+        	    if ( tempAuthStatus ) {
+            		userLoggedState = tempAuthStatus === 'true';
+
+                    // Delete 'isAuthenticated' cookie
+                    document.cookie = `${tempAuthStatusKey}=; expires=${new Date().toUTCString()}; ${cookieOptions}`;
+        	    }
+        	}
+        }
+        catch (error) {
+            console.log(error)
+        }
+        const localAnalyticsObject = window.analyticsObject;
+
+        if (localAnalyticsObject && localAnalyticsObject?.pageInformation) {
+            const isPDPPage = localAnalyticsObject?.pageInformation?.isProduct || false;
+            const pageViewObject = {
+				"event": "pageview"
+			};
+
+            let commonBreadCrumb = '';
+            const breadcrumbListSections = document.querySelectorAll('.breadcrumb__container__section');
+            breadcrumbListSections?.forEach((DomElement, indexOfDomElement) => {
+                const itemText = DomElement.querySelector(".breadcrumb__container__section_item")
+                const dropdownText = DomElement.querySelector(".breadcrumb__container__section_dropdown-item")
+                let breadcrumbText = "";
+                if (itemText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + itemText.textContent.trim();
+                } else if (dropdownText) {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + dropdownText.textContent.trim();
+                } else {
+                    breadcrumbText = ((indexOfDomElement === 0) ? "" : (breadcrumbText + "|")) + DomElement.textContent.trim();
+                }
+                commonBreadCrumb = commonBreadCrumb + breadcrumbText;
+            });
+            if (isPDPPage) {
+                const productLifeCycle = document.querySelector('.recently-viewed-flag');
+                pageViewObject.productInfo = {
+                    eventName: 'Product View',
+                    productListItems: []
+                };
+                pageViewObject.productInfo.productListItems.push({
+                    productLifeCycle: productLifeCycle ? productLifeCycle.textContent.trim().toUpperCase() : '',
+                    productBreadCrumb: '',
+                    SKU: ''
+                })
+                pageViewObject.productInfo.productListItems[0].productBreadCrumb = commonBreadCrumb;
+                pageViewObject.productInfo.productListItems[0].SKU = commonBreadCrumb.split("|").reverse()[0];
+            } else {
+                pageViewObject.productInfo = {};
+            }
+            const url = localAnalyticsObject?.pageInformation?.pageUrl
+            let previousPageName = localAnalyticsObject?.pageInformation?.previousPageUrl;
+            if (previousPageName) {
+                previousPageName = previousPageName.split('.html')[0];
+                previousPageName = previousPageName.split('/').reverse()[0];
+            }
+            const category = url?.split('/');
+            category.shift();
+            category.splice(0, 2);
+            pageViewObject.pageInfo = {
+                "pageName": localAnalyticsObject?.pageInformation?.pageName,
+                "pageCategory": localAnalyticsObject?.pageInformation?.pageCategory,
+                "pageURL": localAnalyticsObject?.pageInformation?.pageUrl,
+                "pageType": localAnalyticsObject?.pageInformation?.pageType,
+                "pageBreadCrumb": commonBreadCrumb,
+                "previousPageName": previousPageName,
+                "previousPageUrl": localAnalyticsObject?.pageInformation?.previousPageUrl,
+                "pageEvents": '',
+                "siteSection1": category[1],
+                "siteSection2": category[2] ? category[2] : '',
+                "siteSection3": category[3] ? category[3] : '',
+                "siteSection4": category[4] ? category[4] : '',
+                "siteSection5": category[5] ? category[5] : '',
+                "sitecoreItemID": localAnalyticsObject?.pageInformation?.itemId
+            };
+            pageViewObject.siteInfo = {
+                "siteLanguage": category[0]
+            };
+            pageViewObject.userInfo = {
+                "userType": '',
+                "isLoggedIn": userLoggedState
+            }
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            window.adobeDataLayer.push(pageViewObject);
+			window.adobeDataLayer.reverse();
+            console.log(window.adobeDataLayer);
+        }
+    </script>
+<script id="add-to-myanalog-hbs-template" type="text/x-handlebars-template">
+        <article id='add-to-myanalog-modal-apis'
+                 class='add-to-myanalog-modal app-js__add-to-myanalog-modal'
+                 data-class-name='{{className}}'
+                 data-translations-api='{{translationsAPI}}'
+                 data-modal-added-icon='{{modalAddedIcon}}'
+                 data-modal-error-icon='{{modalErrorIcon}}'
+                 data-add-to-my-analog-api='{{addToMyAnalogAPI}}'
+                 data-artifact-api='{{artifactAPI}}'
+                 data-create-project-api='{{createProjectAPI}}'
+                 data-body-data='{{bodyData}}'
+                 data-is-table-product='{{isTableProduct}}'>
+            <div class='add-to-myanalog-modal__container'>
+                <div class='modal-container'  aria-label="{{dropdownTitle}} Modal">
+                    <div class='modal-container__header'>
+                        <div class='modal-container__header__title'>
+                            <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f"
+                                 width='24'
+                                 height='24'
+                                 loading="lazy"
+                                 class='modal-container__header__title__icon'
+                                 alt='modal bookmark icon' />
+                            <h2 class='modal-container__header__title__text title-extraSmall'>{{modalTitle}}</h2>
+                        </div>
+                        <img src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8"
+                             alt='modal close icon'
+                             width='24'
+                             height='24'
+                             loading="lazy"
+                             class='modal-container__header__close'
+                             aria-label="Close Modal" role="button" tabindex="0" />
+                    </div>
+                    <div class='modal-container__content__error__content' role="alert">
+                    </div>
+                    <div class='modal-container__content'>
+                        <p class='modal-container__content__description body-medium-inverse'>{{modalDescription}}</p>
+
+                        <div class='modal-container__content__products'>
+                            <h2 class='modal-container__content__products__title body-small'>{{dropdownTitle}}</h2>
+                            <div class='modal-container__content__products__dropdown-container'>
+                                <div class='dropdown-wrapper'>
+                                    <div class='dropdown-wrapper__input-container'>
+                                        <input type='text'
+                                               value='{{defaultSelectedText}}'
+                                               class='body-small dropdown-wrapper__input-container__box' aria-expanded="false" role="combobox" tabindex="0" aria-label="{{dropdownTitle}}" aria-autocomplete="list" />
+                                        <span id='arrow-input-dropdown'
+                                              class='dropdown-wrapper__input-container__down-arrow'>
+                                            <img src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142"
+                                                 alt='input down arrow'
+                                                 loading="lazy"
+                                                 width='24'
+                                                 height='24' />
+                                        </span>
+                                        <p id="dropdown-aria-label" class="sr-only" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Navigate into the list items using tab key"></p>
+                                        <p id="input-aria-label" class="sr-only sr-only-input" aria-live="assertive" role="alert" aria-atomic="true" data-navigate-text="Use Down arrow key to open the drodpown"></p>
+                                    </div>
+                                    <div id='dropdownContent' class='dropdown-wrapper__content'>
+                                        <ul class='dropdown-content__lists'
+                                            data-default-selected-text='{{defaultSelectedText}}'
+                                            data-new-project-plus-icon='{{newProjectPlusIcon}}'
+                                            data-new-project-text='{{newProjectText}}'
+                                            data-project-names='{{projectNames}}'
+                                             role="listbox">
+                                            <li role="button" tabindex="0" aria-label="{{defaultSelectedText}}">
+                                                <span class='body-small dropdown-content__list__border'>{{defaultSelectedText}}</span>
+                                            </li>
+                                            {{#each projectNames}}
+                                            <li role="button" tabindex="0" aria-label="{{name}}"><span class='body-small dropdown-content__list__border'>{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li class='dropdown-content__list__new-product' role="button" tabindex="0" aria-label="{{newProjectText}}">
+                                                <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" alt='plus icon' width='24' height='24' loading="lazy" />
+                                                <span class='body-small'>{{newProjectText}}</span>
+                                            </li>
+                                            {{/if}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{#if toggleButtonDescription}}
+                        <div class='modal-container__content__toggle-button-container'>
+                            <div class='modal-container__content__toggle-button-container__wrapper'>
+                                <label class='toggle-button-wrapper'
+                                       tabindex="0"
+                                       aria-label="Toggle Button for {{toggleButtonDescription}}"
+                                       aria-checked="false">
+                                    <input type='checkbox'
+                                           id='add-to-myanalog-toggle-button'
+                                           class='toggle-button-wrapper__box'
+                                           tabindex="-1" />
+                                    <span class='toggle-button-wrapper__slider'></span>
+                                </label>
+                                <div class='modal-container__content__toggle-button-container__wrapper__text body-medium'>{{toggleButtonDescription}}</div>
+                            </div>
+                        </div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class='modal-container__content__new-project-container'>
+                            <div class='modal-container__content__new-project-container__wrapper'>
+                                <h3 class='modal-container__content__new-project-container__wrapper__title subtitle-small'>
+                                    {{newProjectTitle}}
+                                </h3>
+                                <div class='modal-container__content__new-project-container__wrapper__name'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__name__text'>{{newProjectNameText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectNameText}}"
+                                            aria-invalid="false"
+                                           class='modal-container__content__new-project-container__wrapper__name__input body-small' />
+                                    <div class='modal-container__content__new-project-container__wrapper__name__error'>
+                                        <img src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c"
+                                             width='16'
+                                             height='16'
+                                             loading="lazy"
+                                             class='modal-container__content__new-project-container__wrapper__name__error__icon' />
+                                        <p class='modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall'>{{projectNameErrorText}}</p>
+                                    </div>
+                                </div>
+                                <div class='modal-container__content__new-project-container__wrapper__description'>
+                                    <label for=''
+                                           class='body-small-greyscale modal-container__content__new-project-container__wrapper__description__text'>{{newProjectDescriptionText}}</label>
+                                    <input type='text'
+                                           aria-label="{{newProjectDescriptionText}}"
+                                           class='modal-container__content__new-project-container__wrapper__description__input body-small' />
+                                </div>
+                            </div>
+                        </div>
+                        {{/if}}
+                    </div>
+                    <div class='modal-container__footer'>
+                        <div class='modal-container__footer__button'>
+                            <button aria-label="{{cancelButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__cancel button-medium'>
+                                {{cancelButtonText}}
+                            </button>
+                            <button aria-label="{{confirmButtonText}}"
+                                    role="button"
+                                    class='modal-container__footer__button__confirm button-medium'>
+                                {{confirmButtonText}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </script>
+<script type="text/javascript">
+        window.addToMyAnalogCommonJSON = {
+            "modalTitle": "Add to myAnalog",
+            "modalCloseIcon": "/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8",
+            "modalBookmarkIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f",
+            "inputDownArrowIcon": "/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142",
+            "cancelButtonText": "Cancel",
+            "confirmButtonText": "Confirm",
+            "modalAddedIcon":"/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-added.svg?rev=dae85b8e8998417da6b147854d31ec51",
+            "modalErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c",
+            "translationsAPI": "translations?pageId=a89dc8dd3e864dd39c826c1b3c679be1&amp;languageCode=en"
+        }
+        var addToMyAnalogProductJSON = {
+            "toggleButtonDescription": "Receive PCN/PDN notifications for all part models.",
+            "modalDescription": "Add product to the Products section of myAnalog (to receive notifications), to an existing project or to a new project.",
+            "dropdownTitle": "Add product to",
+            "addToMyAnalogAPI": ["POST", "products"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "defaultSelectedText": "Products on myAnalog",
+            "newProjectTitle": "Create New Project",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectNameText": "Project Name",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogArticleJSON = {
+            "modalDescription": "Add article to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add article to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "artifactAPI": ["POST", "project/${projectID}/artifact"],
+            "defaultSelectedText": "Resources on myAnalog",
+            "createProjectAPI": ["POST", "project"],
+            "newProjectText": "New Project",
+            "newProjectTitle": "Create New Project",
+            "newProjectNameText": "Project Name",
+            "newProjectPlusIcon": "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06",
+            "newProjectDescriptionText": "Description",
+            "projectNameErrorIcon":  "/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-error.svg?rev=107ad58f138e44a382fad8143d5a83f2",
+            "projectNameErrorText": "The Project Name is already taken. Try giving a different name.",
+            "projectNames": [
+                {
+                    "name": "Dummmy Name 1"
+                }
+            ],
+        }
+        var addToMyAnalogProductAlertJSON = {
+            "modalDescription": "Add product alert to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add product alert to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogMediaJSON = {
+            "modalDescription": "Add media to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add media to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+        var addToMyAnalogPressReleaseJSON = {
+            "modalDescription": "Add press release to the Resources section of myAnalog, to an existing project or to a new project.",
+            "dropdownTitle": "Add press release to",
+            "addToMyAnalogAPI": ["POST", "bookmarks"],
+            "defaultSelectedText": "Resources on myAnalog",
+        }
+    </script>
+<div id="add-to-myanalog-container">
+<article class="add-to-myanalog-modal app-js__add-to-myanalog-modal" data-add-to-my-analog-api="{{addToMyAnalogAPI}}" data-artifact-api="{{artifactAPI}}" data-body-data="{{bodyData}}" data-class-name="{{className}}" data-create-project-api="{{createProjectAPI}}" data-is-table-product="{{isTableProduct}}" data-modal-added-icon="{{modalAddedIcon}}" data-modal-error-icon="{{modalErrorIcon}}" data-translations-api="{{translationsAPI}}" id="add-to-myanalog-modal-apis">
+<div class="add-to-myanalog-modal__container">
+<div aria-label="{{dropdownTitle}} Modal" class="modal-container">
+<div class="modal-container__header">
+<div class="modal-container__header__title">
+<img alt="modal bookmark icon" class="modal-container__header__title__icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-bookmark.svg?rev=a3ca34e1e7fb492a8486be300d9b702f" width="24"/>
+<h2 class="modal-container__header__title__text title-extraSmall">{{modalTitle}}</h2>
+</div>
+<img alt="modal close icon" aria-label="Close Modal" class="modal-container__header__close" height="24" loading="lazy" role="button" src="/en/_/media/project/analogweb/analogweb/videomodalicons/modal-close-icon.svg?rev=3118d8d7637e43d48516217b5de375a8" tabindex="0" width="24"/>
+</div>
+<div class="modal-container__content__error__content" role="alert">
+</div>
+<div class="modal-container__content">
+<p class="modal-container__content__description body-medium-inverse">{{modalDescription}}</p>
+<div class="modal-container__content__products">
+<h2 class="modal-container__content__products__title body-small">{{dropdownTitle}}</h2>
+<div class="modal-container__content__products__dropdown-container">
+<div class="dropdown-wrapper">
+<div class="dropdown-wrapper__input-container">
+<input aria-autocomplete="list" aria-expanded="false" aria-label="{{dropdownTitle}}" class="body-small dropdown-wrapper__input-container__box" role="combobox" tabindex="0" type="text" value="{{defaultSelectedText}}"/>
+<span class="dropdown-wrapper__input-container__down-arrow" id="arrow-input-dropdown">
+<img alt="input down arrow" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/contactadi/arrowimg.svg?rev=682c7547b6084fa5a1bfa14c688e5142" width="24"/>
+</span>
+<p aria-atomic="true" aria-live="assertive" class="sr-only" data-navigate-text="Navigate into the list items using tab key" id="dropdown-aria-label" role="alert"></p>
+<p aria-atomic="true" aria-live="assertive" class="sr-only sr-only-input" data-navigate-text="Use Down arrow key to open the drodpown" id="input-aria-label" role="alert"></p>
+</div>
+<div class="dropdown-wrapper__content" id="dropdownContent">
+<ul class="dropdown-content__lists" data-default-selected-text="{{defaultSelectedText}}" data-new-project-plus-icon="{{newProjectPlusIcon}}" data-new-project-text="{{newProjectText}}" data-project-names="{{projectNames}}" role="listbox">
+<li aria-label="{{defaultSelectedText}}" role="button" tabindex="0">
+<span class="body-small dropdown-content__list__border">{{defaultSelectedText}}</span>
+</li>
+                                            {{#each projectNames}}
+                                            <li aria-label="{{name}}" role="button" tabindex="0"><span class="body-small dropdown-content__list__border">{{name}}</span></li>
+                                            {{/each}}
+                                            {{#if newProjectText}}
+                                            <li aria-label="{{newProjectText}}" class="dropdown-content__list__new-product" role="button" tabindex="0">
+<img alt="plus icon" height="24" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/part-updates-modal-plus.svg?rev=92e1fe6fd6d846ee8c6a037e7a3aec06" width="24"/>
+<span class="body-small">{{newProjectText}}</span>
+</li>
+                                            {{/if}}
+                                        </ul>
+</div>
+</div>
+</div>
+</div>
+                        {{#if toggleButtonDescription}}
+                        <div class="modal-container__content__toggle-button-container">
+<div class="modal-container__content__toggle-button-container__wrapper">
+<label aria-checked="false" aria-label="Toggle Button for {{toggleButtonDescription}}" class="toggle-button-wrapper" tabindex="0">
+<input class="toggle-button-wrapper__box" id="add-to-myanalog-toggle-button" tabindex="-1" type="checkbox"/>
+<span class="toggle-button-wrapper__slider"></span>
+</label>
+<div class="modal-container__content__toggle-button-container__wrapper__text body-medium">{{toggleButtonDescription}}</div>
+</div>
+</div>
+                        {{/if}}
+                        {{#if newProjectTitle}}
+                        <div class="modal-container__content__new-project-container">
+<div class="modal-container__content__new-project-container__wrapper">
+<h3 class="modal-container__content__new-project-container__wrapper__title subtitle-small">
+                                    {{newProjectTitle}}
+                                </h3>
+<div class="modal-container__content__new-project-container__wrapper__name">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__name__text" for="">{{newProjectNameText}}</label>
+<input aria-invalid="false" aria-label="{{newProjectNameText}}" class="modal-container__content__new-project-container__wrapper__name__input body-small" type="text"/>
+<div class="modal-container__content__new-project-container__wrapper__name__error">
+<img class="modal-container__content__new-project-container__wrapper__name__error__icon" height="16" loading="lazy" src="/en/_/media/project/analogweb/analogweb/addtomyanalog/add-to-myanalog-error.svg?rev=59f82523eb254771a702ad10fe29cb8c" width="16"/>
+<p class="modal-container__content__new-project-container__wrapper__name__error__text body-extraSmall">{{projectNameErrorText}}</p>
+</div>
+</div>
+<div class="modal-container__content__new-project-container__wrapper__description">
+<label class="body-small-greyscale modal-container__content__new-project-container__wrapper__description__text" for="">{{newProjectDescriptionText}}</label>
+<input aria-label="{{newProjectDescriptionText}}" class="modal-container__content__new-project-container__wrapper__description__input body-small" type="text"/>
+</div>
+</div>
+</div>
+                        {{/if}}
+                    </div>
+<div class="modal-container__footer">
+<div class="modal-container__footer__button">
+<button aria-label="{{cancelButtonText}}" class="modal-container__footer__button__cancel button-medium" role="button">
+                                {{cancelButtonText}}
+                            </button>
+<button aria-label="{{confirmButtonText}}" class="modal-container__footer__button__confirm button-medium" role="button">
+                                {{confirmButtonText}}
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- /#content -->
+<!-- #footer -->
+<footer role="contentinfo">
+<div class="container-fluid" id="footer">
+<div class="row">
+<div>
+<adi-footer></adi-footer>
+</div>
+</div>
+</div>
+</footer>
+<!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+<!-- /#wrapper -->
+<script defer="" src="https://players.brightcove.net/706011717001/AQ1ZKQZJE_default/index.min.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/rte-editor-control.bundle.js"></script>
+<script async="" src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-plugin.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/app.bundle.js"></script>
+<script src="https://assets2.analog.com/lib/scripts/plugins/bootstrap-slider.min.js"></script>
+<!-- Latest compiled and minified JS -->
+<!-- Legacy - vendor Dependencies -->
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-common.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/legacy/scripts/legacy-page-applications.bundle.js"></script>
+<div class="legacy-component">
+<script id="image-modal-template" type="text/x-handlebars-template">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="control-icons">
+                        <li>
+                            {{#if data_download}}
+                            <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{else}}
+                            <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                                <span id="downbutton" class="icon-download"></span>
+                            </a>
+                            {{/if}}
+                        </li>
+                        <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+                    </ul>
+                    <br />
+                    <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+                    <br />
+                </div>
+
+            </script>
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal" id="image-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+<div class="modal" id="adi-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade product-modal modal-video-window" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">
+<span aria-hidden="true">×</span>
+<span class="sr-only">Close</span>
+</button>
+<h4 class="modal-title">Modal title</h4>
+</div>
+<div class="modal-body">
+</div>
+</div>
+</div>
+</div>
+<script id="html5Videoplayer" type="text/x-handlebars-template">
+                <div class="deferred-video-player"
+                     data-account="{{accountid}}"
+                     data-application-id
+                     data-controls
+                     data-embed="{{embed}}"
+                     data-player="{{playerid}}"
+                     data-video-id="{{videoid}}">
+                    <i class="fa fa-spinner fa-spin fa-2x"></i>
+                </div>
+            </script>
+</div>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/solutionsl1page.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l3solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2solutionspage.bundle.js"></script>
+<script src="https://assets2.analog.com/cms-assets/js/pages/scripts/l2techsolutionspage.bundle.js"></script>
+<script id="image-rte-modal-template" type="text/x-handlebars-template">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="image-label">{{{title}}}</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="control-icons">
+                <li>
+                    {{#if data_download}}
+                    <a class="downloadimagelink" href="{{data_download}}" download="{{data_download}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{else}}
+                    <a class="downloadimagelink" href="{{src}}" download="{{src}}">
+                        <span id="downbutton" class="icon-download"></span>
+                    </a>
+                    {{/if}}
+                </li>
+                <li><a class="print pull-right"><span class="icon-print"></span></a></li>
+            </ul>
+            <br />
+            <img alt="{{{title}}}" class="img-responsive" title="{{{title}}}" src="{{src}}" loading="lazy" />
+            <br />
+        </div>
+    </script>
+<div class="rte-control">
+<div aria-hidden="true" aria-labelledby="product-modal" class="modal fade product-modal image-rte-modal" id="image-rte-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content"></div>
+</div>
+</div>
+</div>
+<script src="/6Kfdo7LPOo/bn/4NaLwini/1DEE6fwtLtVNf1/RhRKT3wpKgg/YHVzOw/Z3aTQB" type="text/javascript"></script></body>
+</html>
