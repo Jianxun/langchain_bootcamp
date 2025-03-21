@@ -9,6 +9,7 @@ from datetime import datetime
 import asyncio
 import sys
 import difflib
+import streamlit as st
 
 # Load environment variables
 load_dotenv()
@@ -248,51 +249,34 @@ class AIAssistant:
         try:
             self._request_counter += 1
             request_id = self._request_counter
-            debug_print(f"Starting conversation analysis for instruction update (Request #{request_id})")
-            # Convert conversation history to a readable format
-            formatted_history = "\n\n".join([
-                f"{'User' if msg['role'] == 'user' else 'Assistant'}: {msg['content']}"
-                for msg in conversation_history[-10:]  # Last 5 conversation rounds
-            ])
+            debug_print(f"Processing background instruction update (Request #{request_id})")
             
-            debug_print(f"Analyzing conversation history (Request #{request_id})", formatted_history)
-            
-            # Get conversation summary and update suggestions
+            # Format messages for conversation analysis
             messages = self.summary_prompt.format_messages(
-                conversation_history=formatted_history,
-                current_context=self.session_context  # Pass current session context
+                current_context=self.session_context,
+                conversation_history=str(conversation_history[-10:])  # Last 5 conversation rounds
             )
             
-            # Use non-streaming version for background task
-            debug_print(f"Generating update suggestions from conversation (Request #{request_id})")
+            # Get update suggestions
             response = await self.llm.ainvoke(messages)
-            debug_print(f"Received response from LLM (Request #{request_id})")
+            debug_print(f"Received update suggestions (Request #{request_id})", response.content)
             
-            # Update session context with the suggestions
-            if response.content:
-                debug_print(f"Raw LLM response for update suggestions (Request #{request_id})", response.content)
-                if "UPDATE SUGGESTIONS:" in response.content:
-                    debug_print(f"Found valid update suggestions, applying updates... (Request #{request_id})")
-                    update_completed = False
-                    async for chunk in self.update_instructions(response.content):
-                        debug_print(f"Update progress (Request #{request_id})", chunk)
-                        if "Session context updated successfully!" in chunk:
-                            update_completed = True
-                    
-                    if update_completed:
-                        debug_print(f"Update completed successfully, triggering UI refresh (Request #{request_id})")
-                        # Import here to avoid circular imports
-                        import streamlit as st
-                        if "last_instruction_update" in st.session_state:
-                            st.session_state.last_instruction_update = datetime.now()
-                            # Queue a rerun
-                            st.rerun()
-                else:
-                    debug_print(f"No actionable updates found in suggestions - Response did not contain UPDATE SUGGESTIONS marker (Request #{request_id})")
+            # Only proceed if there are actual updates
+            if "No updates needed." not in response.content:
+                # Use the explicit update mechanism for consistency
+                async for chunk in self.update_instructions(response.content):
+                    # We don't yield the chunks since this is a background task
+                    continue
+                
+                # Update Streamlit session state if available
+                if "last_instruction_update" in st.session_state:
+                    st.session_state.last_instruction_update = datetime.now()
+                    # Force a rerun to refresh the UI with new context
+                    st.rerun()
             else:
-                debug_print(f"No updates suggested from conversation analysis - Empty response (Request #{request_id})")
+                debug_print(f"No updates needed (Request #{request_id})")
                 
         except Exception as e:
             debug_print(f"Error in _update_instructions_from_conversation (Request #{request_id}): {str(e)}")
             import traceback
-            debug_print(f"Full error traceback (Request #{request_id})", traceback.format_exc()) 
+            debug_print("Error traceback", traceback.format_exc()) 

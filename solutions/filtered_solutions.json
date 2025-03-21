@@ -1,0 +1,1840 @@
+[
+  {
+    "title": "Aerospace and Defense Systems",
+    "description": "Todays advanced defense systems in radar, communications, avionics, defense electronics, and much more demand the best in system-level performance and security.",
+    "link": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/aerospace.jpg?rev=7d407bd0664d4934be9c74f6c4afb393&la=en&h=211&w=351&hash=CCAB5B8E44A712EBFEF3AC5792B2D93E",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Aerospace and Defense Radar Systems",
+        "description": "Analog Devices incomparable RF and microwave technologies create uncompromising radar systems performance. The high resolution of our ADC/DAC products and the precision of our clock and synthesizer mo",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/aerospace-and-defense-radar-systems.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/radar-systems-spot.jpg?rev=d497a8a3646a44c9a4e5b8bf58cb58ae&sc_lang=en&la=en&h=211&w=351&hash=FA68189B5A27B234231A99C3EDEA1C24",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Radar System Solutions",
+            "description": "Analog Devices comprehensive portfolio of RF, digitizer, and signal processing solutions enable the construction of the highest performance, lowest power radar systems with any architecture and in any",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/aerospace-and-defense-radar-systems/aerospace-and-defense-radar-systems-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/radar-systems-solution-spot.jpg?rev=1a6c3b4800064e038155d91e54473e2a&sc_lang=en&la=en&h=211&w=351&hash=0CDA0CE5BAD80210EF686A4959775D93",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/aerospace-and-defense-radar-systems.html"
+          }
+        ]
+      },
+      {
+        "title": "Avionic Systems",
+        "description": "Analog Devices offers a broad range of avionics solutions to elevate your next innovations in guidance, navigation, flight control, data acquisition, power distribution, engine control, and motor cont",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/avionics-spot.jpg?rev=5baed57d0a4b4cfc8c29e62f0c0d755d&sc_lang=en&la=en&h=211&w=351&hash=C20206A49BD747C402FB9CEA5B800432",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Air Data, Altitude, Heading Reference Systems (ADAHRS)",
+            "description": "Analog Devices provides all necessary components to complement precision data converters and provides a complete solution in the form of a µModule using heterogeneous integration and system in package",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/air-data-altitude-heading-reference-adahrs.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/air-data-altitude-heading-reference-spot.jpg?rev=7e2efddc810b458fbee5d5c187e5757f&sc_lang=en&la=en&h=211&w=351&hash=70681E3183C5D1E1A171734687B3B697",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          },
+          {
+            "title": "Aircraft Communication Systems",
+            "description": "Analog Devices offers a comprehensive portfolio of aircraft communications solutions for commercial and military avionics. We support discrete and integrated RF and mmW signal chains for airborne comm",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/aircraft-communication.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/aircraft-communication-spot.jpg?rev=40cc952dfe8e4c2ebe8eedb6a96105e4&sc_lang=en&la=en&h=211&w=351&hash=478505B0F9A16DD637A755D4AAFDB8DF",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          },
+          {
+            "title": "eVTOL, Battery Management Systems (BMS), and Power Solutions",
+            "description": "Storage batteries are now an important part of commercial avionics, whether they are used as a backup for electronic flight systems, as starting auxiliary power units, or in new eVTOL applications.",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/evtol-bms-and-power.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/evtol-bms-and-power-spot.jpg?rev=ffc6d2f839cd465bb02ed9cf3ad5ff14&sc_lang=en&la=en&h=211&w=351&hash=28E3250982876F198AB651618EC89DBF",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          },
+          {
+            "title": "Flight Management Systems (FMS) and Engine Control Solutions",
+            "description": "Analog Devices flight management and high-temperature engine control solutions ensure the highest accuracy and performance at the lowest power and weight for avionics applications. We provide an unriv",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/flight-management-and-engine-control.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/flight-management-and-engine-spot.jpg?rev=abeafdc3fa1c40ecb09afc71b59477fa&sc_lang=en&la=en&h=211&w=351&hash=DD942272C1FA589049EA9EF7743798A7",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          },
+          {
+            "title": "Inflight Entertainment Solutions",
+            "description": "Inflight entertainment solutions provide a mix of interactive 4K content to seatback monitors with support for integrated streamed content to and from passengers personal entertainment devices (PEDs).",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/inflight-entertainment.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/inflight-entertainment-spot.jpg?rev=b3112e3a3f144202bb9f468de0aaeecf&sc_lang=en&la=en&h=211&w=351&hash=9B530FE1B8CDDCC3E42AEB60E7AE7C1E",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          },
+          {
+            "title": "NextGen Weather Radar (NEXRAD) Solutions",
+            "description": "Analog Devices offers a full lineup of X-band signal chain componentsfrom the RF front end to integrated data convertersto support modern phased-array weather radar solutions. We provide access to and",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics/next-gen-weather-radar.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/next-gen-weather-radar-spot.jpg?rev=83b555098d274a988f19ec9143445638&sc_lang=en&la=en&h=211&w=351&hash=56219AE6A17F5B5EAC7510E071DFE85A",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/avionics.html"
+          }
+        ]
+      },
+      {
+        "title": "Electronic Surveillance and Countermeasures",
+        "description": "Electronic surveillance and protection systems help mitigate the impact of interfering emitters. We support technological advances in this area with continuous development of state-of-the-art RF/micro",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/electronic-surveillance-and-countermeasures.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/electronic-surveillance-spot.jpg?rev=0c98594ecb1d456593321873b88643a0&sc_lang=en&la=en&h=211&w=351&hash=43C052728C2A22651E53EA7ECF2F4AF6",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Electronic Surveillance and Countermeasure Solutions",
+            "description": "Effective electronic surveillance measures are critical to monitoring the electromagnetic spectrum and acting appropriately on friendly or hostile devices transmitting or receiving electromagnetic sig",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/electronic-surveillance-and-countermeasures/electronic-surveillance-and-countermeasures-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/ecm-complete-solution-spot.jpg?rev=f803552205ea4a56bf40fcb905b065e7&sc_lang=en&la=en&h=211&w=351&hash=01FE3482ED38E0DF6B6237E3EF36F449",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/electronic-surveillance-and-countermeasures.html"
+          }
+        ]
+      },
+      {
+        "title": "High Reliability AQEC and COTS Solutions",
+        "description": "ADI’s high reliability AQEC and COTS products empower customers to develop advanced Aerospace and Defense systems achieving the highest levels of performance.",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/high-reliability-aqec-cots-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/analog/en/solutions/high-reliability-aqec-cots-solutions/airplane-runway-landing-thumbnail.png?rev=76a781905c064e8aaaa31a87e16da4d4&sc_lang=en&la=en&h=211&w=351&hash=E5FC4C44A6E3111CDE050F93E3C35235",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Enhanced Product Listing",
+            "description": "Our Enhanced Products Program provides a commercial-off-the-shelf (COTS) solution for high reliability applications without the additional costs and challenges of custom designed parts.",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/high-reliability-aqec-cots-solutions/enhanced-product-listing.html",
+            "image_url": "https://www.analog.com/en/_/media/analog/en/solutions/high-reliability-aqec-cots-solutions/satellitecirclingearth.png?rev=2be74b813e4e4d8ab4316d9d94bbdfa6&sc_lang=en&la=en&h=211&w=351&hash=0FC111A627D186D778A3885CDCFBF2C6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/high-reliability-aqec-cots-solutions.html"
+          }
+        ]
+      },
+      {
+        "title": "Integrated Microwave Assemblies (IMA)",
+        "description": "Analog Devices can integrate at any level to help you attain optimal performance, SWaP, and reliability. With complete control of the process from the bare die to the manufacturing of key components,",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/integrated-microwave-assemblies.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Integrated Microwave Assemblies (IMA) Solutions",
+            "description": "As the cadence of electronic threats facing the warfighter continues to rapidly increase, Analog Devices recognizes next-generation electronic solutions to counter these threats must provide wide band",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/integrated-microwave-assemblies/integrated-microwave-assemblies-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/ima-complete-solution-spot.jpg?rev=a92753860b0545d09cea2880aeffe455&sc_lang=en&la=en&h=211&w=351&hash=8B1FDD27D1208B3D6280974890DDB3CF",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/integrated-microwave-assemblies.html"
+          }
+        ]
+      },
+      {
+        "title": "Military Communication Solutions",
+        "description": "Performance requirements are increasing for secure military communications equipment, and Analog Devices is continuously innovating to stay ahead of whats possible. Our technologies for handheld, man-",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/military-communications-spot.jpg?rev=67b75a0cacc64cd2b9c3b20704f7415e&sc_lang=en&la=en&h=211&w=351&hash=FD6F03DC07AF8A77C62BFA7096981E44",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Tactical Radio Systems",
+            "description": "The Analog Devices RadioVerse family of narrow-band and wide-band software-defined radio transceivers provides 30 MHz to 6 GHz frequency coverage and 12 kHz to 40 MHz channel bandwidthsthe first of it",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications/tactical-radio.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/tactical-radio-spot.jpg?rev=c6bfc00e3783459a8e0713762831bf17&sc_lang=en&la=en&h=211&w=351&hash=B90815DEC850098C7FCF7F3EBC0626C9",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications.html"
+          },
+          {
+            "title": "Satellite Solutions for Military Communications",
+            "description": "Analog Devices supports discrete and integrated RF and mmW signal chains for mobile satcom (BGAN and VSAT), ground stations, and airborne applications across all frequencies from legacy VHF/UHF to V b",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications/satellite-communications.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/satellite-communications-spot.jpg?rev=c957a6d2901641adbfc86b5744b4da5e&sc_lang=en&la=en&h=211&w=351&hash=8F8F6926749384655AF3705DDC9139CE",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications.html"
+          },
+          {
+            "title": "Military 5G Solutions",
+            "description": "5G wireless introduces low-latency, ubiquitous, high-speed data connectivity with higher throughput. It also creates interoperability between disparate systems, allowing legacy technology to mesh seam",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications/5g-in-the-battlefield.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/5g-in-the-battlefield-spot.jpg?rev=efb28db4565e4745afc1822aeb51bacd&sc_lang=en&la=en&h=211&w=351&hash=4429E83BFFBC90E6363E71D8F3A220BF",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications.html"
+          },
+          {
+            "title": "Software Defined Radio (SDR) Solutions for Military Communications",
+            "description": "The Analog Devices RadioVerse family includes agile transceivers that are system-on-chip radio solutions to bring simplicity to the design of robust, high-performance SDRs. Our solutions include ADI R",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications/software-defined-radio-sdr-for-military-communications.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/radar-systems-solution-spot.jpg?rev=1a6c3b4800064e038155d91e54473e2a&sc_lang=en&la=en&h=211&w=351&hash=0CDA0CE5BAD80210EF686A4959775D93",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/military-communications.html"
+          }
+        ]
+      },
+      {
+        "title": "Missiles and Precision Munitions",
+        "description": "As global defense agencies become more reliant on precision weapons, the quality, performance, and design of signal chains are becoming even more mission critical. Analog Devices signal chain design e",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/missiles-and-precision-munitions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/missiles-and-precision-munitions-spot.jpg?rev=12ba259aa34c4b92b43639e9d4529877&sc_lang=en&la=en&h=211&w=351&hash=DCD2145568AD65E150BC266DA07E9733",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Missiles and Precision Munitions Solutions",
+            "description": "Analog Devices is committed to supporting the warfighter. We join with defense industry partners to create modern, high-performance, integrated electronics solutions for the newest generation of missi",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/missiles-and-precision-munitions/missiles-and-precision-munitions-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/missiles-munitions-solution-spot.jpg?rev=3061e3b7d25b4ab899b7b34684776aab&sc_lang=en&la=en&h=211&w=351&hash=C8430F8F91ABC5C521D16EB0B93FB6B4",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/missiles-and-precision-munitions.html"
+          }
+        ]
+      },
+      {
+        "title": "mmWave Sensing and Imaging",
+        "description": "From airports to shopping malls, there is a growing need for early, accurate, and fast threat detection. Our millimeter wave (mmWave) imaging delivers wide frequency range, fast switching time, scalab",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/mmwave-imaging-and-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/mmwave-imaging-and-sensing-spot.jpg?rev=54634fe8df2c42fa8297c7038d79b4e6&sc_lang=en&la=en&h=211&w=351&hash=4E9BDFBBCDA470D8C734EB861F2EA513",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "mmWave Sensing and Imaging Solutions",
+            "description": "Analog Devices imaging chipset for walkthrough body scanning delivers a scalable, high-performance, highly integrated solution to quickly and simply move your design from development to prototype to h",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/mmwave-imaging-and-sensing/mmwave-imaging-and-sensing-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/mmwave-solution-spot.jpg?rev=09c631f8d38a459595c5a1b3cdaad39f&sc_lang=en&la=en&h=211&w=351&hash=A10750FCFC03B91BCF533490C4C7E89F",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/mmwave-imaging-and-sensing.html"
+          }
+        ]
+      },
+      {
+        "title": "Phased Array Technology",
+        "description": "Phased-array technology uses an arrangement of antennas that allows the beam to be aimed in various directions electronically, overcoming the limited speed and reliability problems of a mechanically s",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/phased-array.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/phased-array-spot.jpg?rev=43eb9e38a18a4450861ff7bcf05f7300&sc_lang=en&la=en&h=211&w=351&hash=0E4D9D53484B32F0B0F2D162CF8B4DD5",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Phased Array Solutions",
+            "description": "Speed to market, size, and ease of integration are more critical than ever. Analog Devices gives you everything you need to simplify architecture and accelerate design. Having access to the industrys",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/phased-array/phased-array-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/phased-array-solution-spot.jpg?rev=f63559b813804116a164740d1b245dd1&sc_lang=en&la=en&h=211&w=351&hash=D9462312C440E821DEB7D6B2C6D993E8",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/phased-array.html"
+          }
+        ]
+      },
+      {
+        "title": "Space Technology",
+        "description": "Analog Devices has a rich, 50+ year history of delivering robust, space-qualified products and space technology solutions that help innovative companies get to LEO and GEO orbit faster. With QMLV-cert",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/space.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/space-technology-spot.jpg?rev=6603dbc447554498b92b4ed574328dad&sc_lang=en&la=en&h=211&w=351&hash=6E28F7BC3A441E96DCF956838056EB02",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Space Technology Complete Solutions",
+            "description": "With more than 50 years of experience in space technology, Analog Devices innovations cover the full trajectory of space missions. Our broad portfolio, from traditional to commercial space, helps you",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/space/space-technology-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/aerospace/space-technology-solution-spot.jpg?rev=23af690a18804176acdaf7ad8cd635bc&sc_lang=en&la=en&h=211&w=351&hash=1B6477B658EDC730BF2CBE0FCE1B65B5",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/space.html"
+          }
+        ]
+      },
+      {
+        "title": "Unmanned Aerial Vehicles (UAV)",
+        "description": "As drone aircraft evolve beyond traditional ISR applications to a combination of ISR and strike capabilities, the potential sub-applications of Unmanned Aerial Vehicles (UAV) continue to expand along",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/unmanned-aerial-vehicle-system.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/aerospace/unmanned-aerial-vehicle-spot.jpg?rev=03567bc7a732449da6130beaaafa0968&sc_lang=en&la=en&h=211&w=351&hash=49F8BE2A629B7EC96B9BDF251C37CBDC",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+        "sub_solutions": [
+          {
+            "title": "Unmanned Aerial Vehicle (UAV) Systems",
+            "description": "UAVs have moved beyond traditional ISR applications to become a centerpiece of next-generation strike aircraft planning. These collaborative aircraft have a need for high-accuracy stabilization, navig",
+            "link": "https://www.analog.com/en/solutions/aerospace-and-defense/unmanned-aerial-vehicle-system/unmanned-aerial-vehicle-uav-systems-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/analog/en/applications-by-market/aerospace/unmanned-aerial-vehicles/uav-solution-spot.jpg?rev=1db0191f6e2f4fa480d6d99ec4c2ee4d&sc_lang=en&la=en&h=211&w=351&hash=719B072B12110DDCE20F7557BB1CC571",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense/unmanned-aerial-vehicle-system.html"
+          }
+        ]
+      },
+      {
+        "title": "Government Research and Engineering",
+        "description": "From advanced sensing to flexible edge processing, from components and boards to specially packaged SiPs and system modules, ADI’s transformative signal chain solutions accelerate modernization and wa",
+        "link": "https://www.analog.com/en/solutions/aerospace-and-defense/government-research-and-engineering.html",
+        "image_url": "https://www.analog.com/en/_/media/analog/en/applications-by-market/aerospace/aerodef-govt.webp?rev=c034d74240db423598f021e1db12815f&sc_lang=en&la=en&h=341&w=512&hash=D3C693ADC9EC38C0FC3B91E3CF58B256",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/aerospace-and-defense.html"
+      }
+    ]
+  },
+  {
+    "title": "Automotive Solutions",
+    "description": "By leveraging technologies across automotive electrification, digital cabin, networking and connectivity, our solutions enable safer mobility, and feature rich cabins and more efficient EVs. Our innov",
+    "link": "https://www.analog.com/en/solutions/automotive.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/automotive.jpg?rev=221748682c824c8faeff55ab6f67ae8e&la=en&h=211&w=351&hash=A202D6E93B41946C2F41F1DA853C2175",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Advanced Driver Assistance Systems (ADAS) and Safety Solutions",
+        "description": "Analog Devices innovations for ADAS solutions are aimed at enabling efficient and precise operations, reducing design complexity, and accelerating your time to market. We deliver precision sensing, in",
+        "link": "https://www.analog.com/en/solutions/automotive/adas-and-safety.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/automotive/automotive-adas-and-safety.jpg?rev=ce1b2fbbafea4a87936907da04abe68f&sc_lang=en&la=en&h=211&w=351&hash=2B9E61850B297DDA4C5D714BDC280971",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/automotive.html",
+        "sub_solutions": [
+          {
+            "title": "Advanced Driver Assistance Systems (ADAS) Camera Solutions",
+            "description": "ADAS cameras transmit vital information about vehicle surroundings to the ADAS processor to inform and deploy vehicle safety systems when necessary.  Analog Devices high-performance power and high ban",
+            "link": "https://www.analog.com/en/solutions/automotive/adas-and-safety/adas-camera.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/adas-and-safety-adas-camera.jpg?rev=aee0631d723c4ebe8f41abc22de83ce9&sc_lang=en&la=en&h=211&w=351&hash=B5E96C5C346194DCEBB1395192165255",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/adas-and-safety.html"
+          },
+          {
+            "title": "Advanced Driver Assistance Systems (ADAS) Sensor Fusion ECU Solutions",
+            "description": "An ECU also known as an electronic control module (ECM)is an embedded system within an automobile that controls one or more of the electrical systems, functioning as the vehicles brain for automotive",
+            "link": "https://www.analog.com/en/solutions/automotive/adas-and-safety/adas-sensor-fusion-ecu.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/adas-and-safety-adas-sensor-fusion-ecu.jpg?rev=d5a456e9efd145e697fc06a7bd46760a&sc_lang=en&la=en&h=211&w=351&hash=57B522D0709780ABED60557103417FBC",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/adas-and-safety.html"
+          },
+          {
+            "title": "Driver and Occupant Monitoring Systems (DMS, OMS)",
+            "description": "DMS and OMS, also referred to as cabin monitoring systems, are critical to combat driving distractions and improve safety within the vehicle. DMS/OMS uses sensors to analyze driver alertness, provide",
+            "link": "https://www.analog.com/en/solutions/automotive/adas-and-safety/driver-and-occupant-monitoring-systems-dms-oms.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/adas-and-safety-driver-and-occupant-monitoring-systems.jpg?rev=9a49b07db5f54529ae863201a7d17ae1&sc_lang=en&la=en&h=211&w=351&hash=8B2BB9ED264E7D2816378ADD15A6353A",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/adas-and-safety.html"
+          }
+        ]
+      },
+      {
+        "title": "Automotive Display and Lighting Solutions",
+        "description": "Analog Devices solutions for automotive lighting focus on incorporating state-of-the-art switching technology, LED dimming, safety, and smart functionalities to reduce cost and ease design constraints",
+        "link": "https://www.analog.com/en/solutions/automotive/automotive-lighting.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/automotive/automotive-automotive-lighting.jpg?rev=a7e2e8358ba64bca9fc54d1a4289bd2c&sc_lang=en&la=en&h=211&w=351&hash=4B9CC5276E180FD9514CDA4C2248278F",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/automotive.html",
+        "sub_solutions": [
+          {
+            "title": "Automotive Exterior Lighting Solutions",
+            "description": "Analog Devices exterior lighting LED drivers and matrix managers incorporate state-of-the-art switching technology with LED dimming and safety to reduce cost and ease design constraints. Our solutions",
+            "link": "https://www.analog.com/en/solutions/automotive/automotive-lighting/exterior-lighting.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/automotive-lighting-exterior-lighting.jpg?rev=bc138088d7994bc9bed1cc559e7fd1f6&sc_lang=en&la=en&h=211&w=351&hash=ADAD131586EE39E1875AC80B7AD0CAC3",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/automotive-lighting.html"
+          }
+        ]
+      },
+      {
+        "title": "Automotive Ethernet Connectivity",
+        "description": "Extending automotive Ethernet connectivity to the edge is a key enabler of in-vehicle networking required for next-generation zonal architectures and software-defined vehicles. Analog Devices, Inc. (A",
+        "link": "https://www.analog.com/en/solutions/automotive/automotive-ethernet-connectivity.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-cluster-display-and-rear-seat-entertainment.jpg?rev=98033bab963240b6b7f6ad26a8617970&sc_lang=en&la=en&h=211&w=351&hash=824A7067AB9075D1DE8D57CEA7E9D152",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/automotive.html",
+        "sub_solutions": [
+          {
+            "title": "10BASE-T1S Ethernet to Edge Bus (E2BTM)",
+            "description": "10BASE-T1S Ethernet to Edge Bus (E2B) solutions from ADI provide low complexity, high flexibility edge node implementation for automotive applications.",
+            "link": "https://www.analog.com/en/solutions/automotive/automotive-ethernet-connectivity/10base-t1s-ethernet-edge-bus.html",
+            "image_url": "https://www.analog.com/en/_/media/analog/en/solutions/automotive-ethernet/automotive-ethernet-connectivity-221.jpg?rev=0545a430d1734294a95893d710f3f621&sc_lang=en&la=en&h=211&w=351&hash=CB4C2E58126F339EE9642B285ABD0AC7",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/automotive-ethernet-connectivity.html"
+          },
+          {
+            "title": "10BASE-T1S MAC-PHY Solutions",
+            "description": "MAC-PHY devices are high-performance Ethernet physical layer (PHY) devices with integrated media access controllers (MAC), ideal for supporting next-generation electrical/electronic (E/E) automotive a",
+            "link": "https://www.analog.com/en/solutions/automotive/automotive-ethernet-connectivity/10base-t1s-mac-phy-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/analog/en/solutions/automotive-ethernet/automotive-ethernet-connectivity-222.jpg?rev=8ecc21c7f2bb483280fc249447b30ad4&sc_lang=en&la=en&h=211&w=351&hash=189CBCBEC26871F87C45C5CFDB5E4239",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/automotive-ethernet-connectivity.html"
+          }
+        ]
+      },
+      {
+        "title": "Cabin Experience and Infotainment Solutions",
+        "description": "Analog Devices innovations for the automotive cabin enable a more immersive, personalized, and safer mobility experience. Our solutions leverage power management ICs, high-performance DSPs, a broad po",
+        "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/automotive/automotive-cabin-experience-and-infotainment.jpg?rev=3c4033a457c444c5b5788b63595306d3&sc_lang=en&la=en&h=211&w=351&hash=A984BCF40A209AAC596FBE64A9E73EF0",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/automotive.html",
+        "sub_solutions": [
+          {
+            "title": "Rear Seat Entertainment and Cluster Display Solutions",
+            "description": "Analog Devices offers a wide range of innovative analog ICs that significantly enhance the performance of automotive infotainment systems and instrument clusters to satisfy growing consumer demand for",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/cluster-display-and-rear-seat-entertainment.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-cluster-display-and-rear-seat-entertainment.jpg?rev=98033bab963240b6b7f6ad26a8617970&sc_lang=en&la=en&h=211&w=351&hash=824A7067AB9075D1DE8D57CEA7E9D152",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          },
+          {
+            "title": "Head-Unit and Cockpit ECU Solutions",
+            "description": "Automotive head units and cockpit ECU must continuously evolve to integrate more features and increase performance. Analog Devices solutions meet the industrys demand for rapid innovation and rigorous",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/head-unit-and-cockpit-ecu.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-head-unit-and-cockpit-ecu.jpg?rev=ce2a64e6997c47d885ac8b88eeb1741d&sc_lang=en&la=en&h=211&w=351&hash=3B6A18258C09CC9FA4C543495F7F7AA6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          },
+          {
+            "title": "Premium Audio Amplifier Solutions",
+            "description": "Premium audio amplifiers play an important role in the processing and routing of audio-centric signals to various Class-D amplifiers, subwoofers, and remote tuners in a vehicle. Premium audio amplifie",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/premium-audio-amplifiers.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-premium-audio-amplifiers.jpg?rev=64138a74d0004b9eb71606236a543f1a&sc_lang=en&la=en&h=211&w=351&hash=31B3251FF1F6AB3F83E37F501067FAFE",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          },
+          {
+            "title": "Telematics, eCall, and Networking Solutions",
+            "description": "The automotive telematics control unit (TCU) provides advanced, connected in-vehicle services, such as networking and automotive audio bus (A2B) for eCall, while also enabling vehicles to meet new saf",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/telematics-ecall-and-networking.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-telematics-ecall-and-networking.jpg?rev=613aba4d010341d891c00bc7b2cacf43&sc_lang=en&la=en&h=211&w=351&hash=12C9D0D7326ED2DFFAEC272274B75150",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          },
+          {
+            "title": "Voice and Acoustic Signal Processing Solutions",
+            "description": "Analog Devices understands that an immersive, in-cabin audio experience is one of the primary differentiators in purchasing a car.  From infotainment to hands-free communication, with a person or with",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/voice-and-acoustic-signal-processing.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-voice-and-acoustic-signal-processing.jpg?rev=ffc6215e536c4095b289c737239b49e9&sc_lang=en&la=en&h=211&w=351&hash=CFEF2AD1D6AEBCEDA7C778D9ECF55A27",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          },
+          {
+            "title": "Automotive Display Solutions",
+            "description": "Analog Devices offers state-of-the-art automotive display solutions to enable you to build innovative and cost-effective display systems. Our direct- and matrix-drive solutions, deliver ASIL-B capabil",
+            "link": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment/display.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/cabin-experience-and-infotainment-display.jpg?rev=ae5307582d21437baa898168f11c0018&sc_lang=en&la=en&h=211&w=351&hash=2FDEE4526B14D1BF7A212D8B39A67CEB",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/cabin-experience-and-infotainment.html"
+          }
+        ]
+      },
+      {
+        "title": "Electrification and Powertrain Solutions",
+        "description": "At Analog Devices, we collaborate with our customers to redefine how the electric mobility ecosystem can create and deliver incremental value to the electric vehicle (EV) owner. Our breakthrough innov",
+        "link": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/automotive/automotive-electrification-and-powertrain.jpg?rev=44fcd1c316f04617bb8d63b3efb34b9c&sc_lang=en&la=en&h=211&w=351&hash=613BA11E0FD00DCBE9AE41FC40012945",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/automotive.html",
+        "sub_solutions": [
+          {
+            "title": "Automotive Battery Management Systems",
+            "description": "A battery management system (BMS) closely monitors and manages the state of charge and state of health of a multicell battery string. For the large, high-voltage battery packs in EVs, accurate monitor",
+            "link": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain/battery-management-systems-bms.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/electrification-and-powertrain-battery-management-systems.jpg?rev=8bba9464118d491fbfde31f3ab0f8ce7&sc_lang=en&la=en&h=211&w=351&hash=BE11C0432BCA738CE35BA230994ECEF6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain.html"
+          },
+          {
+            "title": "Electric Vehicle Powertrain Solutions",
+            "description": "Our solutions for the electric powertrain consist of three main systems: the traction inverter (or e-drive), the on-board charging system (OBC), and the DC-to-DC converter. By leveraging new, wideband",
+            "link": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain/electric-powertrain-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/automotive/electrification-and-powertrain-electric-powertrain-systems.jpg?rev=8f4cf9b3da6e4987947aac47de10ecfe&sc_lang=en&la=en&h=211&w=351&hash=8BCBF0DB052C6D533C884F51A858A8D3",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain.html"
+          },
+          {
+            "title": "Leading the Intelligent Edge of Vehicle Electrification",
+            "description": "A battery management system (BMS) closely monitors and manages the state of charge and state of health of a multicell battery string. For the large, high-voltage battery packs in EVs, accurate monitor",
+            "link": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain/battery-management-systems-bms.html",
+            "image_url": "",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/automotive/electrification-and-powertrain.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Consumer Technology Solutions",
+    "description": "Analog Devices enhances human sensory experiences by developing innovations that change the way we live, work, and interact.",
+    "link": "https://www.analog.com/en/solutions/consumer.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/consumer.jpg?rev=c15ab3ccdb014faeb30ec0b23c24320d&la=en&h=211&w=351&hash=4A89A24B016CF3A91979C82D244548F7",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Hearable and Wearable Solutions",
+        "description": "Analog Devices provides innovative solutions for high-fidelity audio, long battery life, and advanced processing to enhance the user experience for hearable and wearable applications such as TWS earbu",
+        "link": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/consumer/consumer-hearables-and-wearables.jpg?rev=24623c4448d74ce586de1ea7150d28ed&sc_lang=en&la=en&h=211&w=351&hash=8F973568165B626868DE6F774B4F0166",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/consumer.html",
+        "sub_solutions": [
+          {
+            "title": "Audio Solutions for Hearables and Wearables",
+            "description": "Low-power audio is becoming a popular alternative to power-hungry visual displays on battery-powered devices, such as hearables and wearables. With extensive history and expertise in high-fidelity aud",
+            "link": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables/audio-complete-solution-for-hearables-and-wearables.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/hearables-and-wearables-audio-complete-solution-for-hearables-and-wearables.jpg?rev=eaa47add005248cd80c9d20b146858f6&sc_lang=en&la=en&h=211&w=351&hash=2E6BBCDA84E73B4D5999CB90034421E5",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html"
+          },
+          {
+            "title": "Power and Battery Management Solutions for Hearables and Wearables",
+            "description": "Analog Devices battery management technologies support optimal battery health, safety, and longevity for hearable and wearable solutions. Our solutions offer excellent noise performance, improved char",
+            "link": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables/power-and-battery-management-complete-solution-for-hearables-and-wearables.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/hearables-and-wearables-power-and-battery-management.jpg?rev=72dd9fe581964a5daad10e5bc780f61a&sc_lang=en&la=en&h=211&w=351&hash=193FD58050E90EE51B5583A1B266CC5C",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html"
+          },
+          {
+            "title": "Extended Reality (XR) Solution for Edge Devices",
+            "description": "Extended Reality (XR)* Devices are the gatekeepers between the physical and digital worlds. With one foot in the local network and one foot in the cloud, XR devices at the edge are essential hardware",
+            "link": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables/extended-reality-xr-solutions-for-edge-devices.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/hearables-and-wearables-xr-solutions-for-edge-devices.jpg?rev=f95f75e3e5af4fa6adef4580395da590&sc_lang=en&la=en&h=211&w=351&hash=C88B77831825AA626D3E0F378192E055",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html"
+          },
+          {
+            "title": "Wearable Vital Signs Monitoring Solutions",
+            "description": "Analog Devices provides a range of discrete and integrated signal chain products that are ideal for wearable MCUs and health sensors. Our wearable solutions for vital signs monitoring (VSM) and health",
+            "link": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables/wearable-vital-signs-monitoring-for-hearables-and-wearables.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/hearables-and-wearables-wearable-vsm.jpg?rev=603db55b9ecc4cb4afacdfe652a25b08&sc_lang=en&la=en&h=211&w=351&hash=8FB30524D861E10CAB8D83C4CB0A3B16",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/hearables-and-wearables.html"
+          }
+        ]
+      },
+      {
+        "title": "Home Theater and Gaming Solutions",
+        "description": "Analog Devices offers best-in-class performance for home theater and gaming solutions. The latest HDMI 2.1 video technology, lowest audio decoder latency on SHARC processors, deterministic audio, and",
+        "link": "https://www.analog.com/en/solutions/consumer/home-theater-and-gaming.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/consumer/consumer-home-theater-and-gaming.jpg?rev=60de4106d39c4706a9811521154db1a2&sc_lang=en&la=en&h=211&w=351&hash=C732D1C4CE2C67E6F10AAEEDD5D4ADEA",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/consumer.html",
+        "sub_solutions": [
+          {
+            "title": "Home Theater and Gaming Audio Video Solutions",
+            "description": "The home theater and gaming industry is continuously pushing the envelope for performance. Higher-resolution screens and advanced immersive audio formats require new technology to deliver seamless and",
+            "link": "https://www.analog.com/en/solutions/consumer/home-theater-and-gaming/audio-video-complete-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/home-theater-and-gaming-audio-video-complete-solution.jpg?rev=516052024f8c4beda26f11366ee41667&sc_lang=en&la=en&h=211&w=351&hash=93F88DCC8F21F248DFEB393857D4E59D",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/home-theater-and-gaming.html"
+          }
+        ]
+      },
+      {
+        "title": "Personal Electronics Solutions",
+        "description": "Personal electronics is a large and diverse market that encompasses devices such as smartphones and tablets, hearables and wearables, computers and laptops, and other portable, battery-powered consume",
+        "link": "https://www.analog.com/en/solutions/consumer/personal-electronics.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/consumer/consumer-personal-electronics.jpg?rev=feb7208efa694777bf4d07c91e544688&sc_lang=en&la=en&h=211&w=351&hash=6A2569E6A819778177A20E02CBC5930B",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/consumer.html",
+        "sub_solutions": [
+          {
+            "title": "Personal Electronics Audio Solutions",
+            "description": "Analog Devices audio solutions harness technological breakthroughs that are ideal for micro speaker designs. Learn how Dynamic Speaker Management (DSM) can add a competitive edge to your personal audi",
+            "link": "https://www.analog.com/en/solutions/consumer/personal-electronics/audio-complete-solution-for-personal-electronics.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/personal-electronics-audio-for-personal-electronics.jpg?rev=ad366e7858134c46ac06846826e37b76&sc_lang=en&la=en&h=211&w=351&hash=D59DA2C97466F361DFBFB6286C3EE2AD",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/personal-electronics.html"
+          },
+          {
+            "title": "Low Power and High Security Solutions for Personal Electronics",
+            "description": "Analog Devices offers ultralow power microcontroller units (MCUs) that are ideal for IoT and edge devices, with generous embedded memories so you can design smarter, smaller personal electronics witho",
+            "link": "https://www.analog.com/en/solutions/consumer/personal-electronics/low-power-and-high-security-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/personal-electronics-ulp-and-high-security.jpg?rev=22cb3faf407d42feab408b32fe0f87e8&sc_lang=en&la=en&h=211&w=351&hash=940B711AF8D692EEE75C1E0228646077",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/personal-electronics.html"
+          },
+          {
+            "title": "Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions",
+            "description": "Fast charging, longer runtime, and extended battery lifetime have become baseline expectations for personal electronics that run on battery power. Analog Devices innovates power solutions that support",
+            "link": "https://www.analog.com/en/solutions/consumer/personal-electronics/ulp-space-saving-power-and-battery-management.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/personal-electronics-space-saving-power-bms.jpg?rev=fc06d068743147fba2fd660cb1e0a2ef&sc_lang=en&la=en&h=211&w=351&hash=43C9B779E5206C1DDEE6DEDC782A59C1",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/personal-electronics.html"
+          }
+        ]
+      },
+      {
+        "title": "Smart Home Solutions",
+        "description": "Smart home is a large and growing market that enables the digitization of the home, making it safer, more enjoyable, and more automated through technologies such as connected appliances, security came",
+        "link": "https://www.analog.com/en/solutions/consumer/smart-home.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/consumer/consumer-smart-home.jpg?rev=bdd76d5e71db4fcc82f15a0fc250aaa9&sc_lang=en&la=en&h=211&w=351&hash=1F6C6E702EFB39FE5495AF4A91B35715",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/consumer.html",
+        "sub_solutions": [
+          {
+            "title": "Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes",
+            "description": "Analog Devices low power artificial intelligence (AI) microcontroller units (MCUs) combine microcontroller class hardware with low-power AI hardware to allow applications to perform at the level of so",
+            "link": "https://www.analog.com/en/solutions/consumer/smart-home/low-power-mcus-and-iot.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/smart-home-ultra-low-power-mcus.jpg?rev=beb5316034dc4fc5a7af8471a5963d34&sc_lang=en&la=en&h=211&w=351&hash=E7E8F090EDCE96430D31884547C7184E",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/smart-home.html"
+          },
+          {
+            "title": "Low Power (LP), Scalable, High Fidelity Audio Solutions for Smart Homes",
+            "description": "Speaker amplifiers from Analog Devices combine superior sonic quality with technological breakthroughs. Our Dynamic Speaker Management (DSM) smart amplifiers combine high-performance current and volta",
+            "link": "https://www.analog.com/en/solutions/consumer/smart-home/low-power-scalable-high-fidelity-audio.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/smart-home-low-power-high-fidelity-audio.jpg?rev=0559b873d2a0480cabb7543052743119&sc_lang=en&la=en&h=211&w=351&hash=A803519167218F82DA8AA2EBBF8623DA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/smart-home.html"
+          },
+          {
+            "title": "Power and Battery Management Solutions for Smart Homes",
+            "description": "Analog Devices battery management technologies enable longer device run times and fast, safe charging for the smart home. Our ModelGauge m5 fuel gauge algorithm provides the highest accuracy state-of-",
+            "link": "https://www.analog.com/en/solutions/consumer/smart-home/power-and-battery-management-for-smart-homes.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/smart-home-power-and-battery-management.jpg?rev=36ad42b555844dd0ae9b456f0b301805&sc_lang=en&la=en&h=211&w=351&hash=B37209A013D85A2F9B99431606DF7B85",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/smart-home.html"
+          }
+        ]
+      },
+      {
+        "title": "Unified Communications (UC) and ProAV",
+        "description": "Analog Devices has been at the forefront of developing technologies that enable professional-grade, high-quality, high-performance audio and video solutions. Our wide range of products and platforms a",
+        "link": "https://www.analog.com/en/solutions/consumer/unified-communications-and-proav.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/consumer/consumer-unified-communications-and-proav.jpg?rev=98dc9486ae5544aba1eaad2fbe83921f&sc_lang=en&la=en&h=211&w=351&hash=7BFEE33722D416C6335F23CC1E06CA5F",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/consumer.html",
+        "sub_solutions": [
+          {
+            "title": "Unified Communications (UC) and ProAV Solutions",
+            "description": "Conferencing technology is advancing at a rapid pace. The need for high-quality and low-latency performance has never been greater as we find new and better ways to communicate and collaborate on a gl",
+            "link": "https://www.analog.com/en/solutions/consumer/unified-communications-and-proav/unified-communications-and-proav-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/consumer/unified-communications-and-proav-unified-comms-complete-solution.jpg?rev=8532b5c3ee254ad2bb173d10cc9a5ad9&sc_lang=en&la=en&h=211&w=351&hash=8CC523E985B83D0ED950B6B5680C1E46",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/consumer/unified-communications-and-proav.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Center Solutions",
+    "description": "Increases in data center compute performance, storage density, and throughput are driving the need for higher energy efficiency, increased power density, and higher bandwidth low-latency optical conne",
+    "link": "https://www.analog.com/en/solutions/data-center.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/data-center.jpg?rev=af057a1c0fd94e06b0be14576182cbd1&la=en&h=211&w=351&hash=E7EE6271254B7E107CC57596571DE06C",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "AI Accelerators",
+        "description": "AI accelerators are high-performance, massively parallel deep learning (DL) neural network computation machines that are specifically designed for efficiently processing artificial intelligence (AI) w",
+        "link": "https://www.analog.com/en/solutions/data-center/ai-accelerators.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/data-center/data-center-ai-accelerators.jpg?rev=d36f8c2acc484ca8b8071a28a8c7068c&sc_lang=en&la=en&h=211&w=351&hash=D981D1D2C4F889E934DE7B685E5B0982",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/data-center.html",
+        "sub_solutions": [
+          {
+            "title": "AI Accelerator Solutions",
+            "description": "Analog Devices has power management solutions for AI accelerators from the data center to the edge, with industry-leading solutions that enable high-performance hardware accelerator design.",
+            "link": "https://www.analog.com/en/solutions/data-center/ai-accelerators/ai-accelerators-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/data-center/ai-accelerators-ai-accelerators-complete-solution.jpg?rev=cb490cc9f8034349957b3a70f1de3f06&sc_lang=en&la=en&h=211&w=351&hash=EED79AED20D66B5E0CA932F4DFC77117",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/data-center/ai-accelerators.html"
+          }
+        ]
+      },
+      {
+        "title": "Server Equipment",
+        "description": "As server equipment evolves to meet rising workloads from 5G, social networks, media, cloud computing, and emerging artificial intelligence applications, data center managers are looking at operationa",
+        "link": "https://www.analog.com/en/solutions/data-center/server-equipment.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/data-center/data-center-server-equipment.jpg?rev=87ffc0283c4443859abdd379549c6585&sc_lang=en&la=en&h=211&w=351&hash=2D18E0D2B6CEA8A0DFE7135DE3C01E9B",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/data-center.html",
+        "sub_solutions": [
+          {
+            "title": "Server Equipment Solutions",
+            "description": "Analog Devices innovation empowers data centers to conquer the constraints of space and energy efficiency, seamlessly navigating the increasing demand for compute power while prioritizing green and su",
+            "link": "https://www.analog.com/en/solutions/data-center/server-equipment/server-equipment-complete-solution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/data-center/server-equipment-server-equipment-complete-solution.jpg?rev=12a4d63670414d0e8cb3b5606cd96b0e&sc_lang=en&la=en&h=211&w=351&hash=F32CAA2FFC9E8F4FC8496758CF8F000C",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/data-center/server-equipment.html"
+          }
+        ]
+      },
+      {
+        "title": "Optical Networking Solutions",
+        "description": "Analog Devices optical networking solutions address a wide range of applications in data center, enterprise, and telecom markets. They enable power efficient and small form factor optical modules to s",
+        "link": "https://www.analog.com/en/solutions/data-center/optical-networking.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/data-center/data-center-optical-networking.jpg?rev=67511ecb34374bd38d9965266e093929&sc_lang=en&la=en&h=211&w=351&hash=4D61179E3C8B685E4070D05143328884",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/data-center.html",
+        "sub_solutions": [
+          {
+            "title": "Data Center Control Solutions for Optical Systems and Modules",
+            "description": "Analog Devices optical control solutions, including precision integrated controllers, converters, high-voltage convertors, linear amplifiers, and log amps enable our customers design of higher data ra",
+            "link": "https://www.analog.com/en/solutions/data-center/optical-networking/control-solutions-for-optical-systems-and-modules.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/data-center/optical-networking-control-solutions-for-optical-systems-and-modules.jpg?rev=503dedcc624243ff8c27b5145ebcb40d&sc_lang=en&la=en&h=211&w=351&hash=263108600A75E517A41014F7393AB9CE",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/data-center/optical-networking.html"
+          },
+          {
+            "title": "Data Center Power Solutions for Optical Systems and Modules",
+            "description": "Analog Devices optical power solutions, including thermoelectric cooler (TEC) controllers, load switches, POL, regulators, and power micro modules enable customers to design power-efficient and compac",
+            "link": "https://www.analog.com/en/solutions/data-center/optical-networking/power-solutions-for-optical-systems-and-modules.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/data-center/optical-networking-power-solutions-for-optical-systems-and-modules.jpg?rev=e8dcb0b26d344dfa95e60edc7312cfe1&sc_lang=en&la=en&h=211&w=351&hash=AB5088F1E974A56387CB6A3FE733D3F8",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/data-center/optical-networking.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Energy Solutions",
+    "description": "Our solutions for energy management, energy storage, and power conversion are helping accelerate the transition to the clean energy grid. By leveraging innovations in precision sensing, signal convers",
+    "link": "https://www.analog.com/en/solutions/energy.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/energy.jpg?rev=53c4899293d342d0b476728c2ffcbcb0&la=en&h=211&w=351&hash=A21782E9B62B1A5CB232FEA1810A7B2E",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Energy Storage Solutions",
+        "description": "Energy storage is an essential enabler of renewable energy generation, providing a stable supply of energy when needed by supplementing the intermittent characteristics of renewable energy sources. An",
+        "link": "https://www.analog.com/en/solutions/energy/energy-storage-power-conversion.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/energy/energy-energy-storage.jpg?rev=bc23a6cc8d0441518f0e3f7e3f908315&sc_lang=en&la=en&h=211&w=351&hash=475AB482D7DEEC16A4F6742E41CD1EBF",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/energy.html",
+        "sub_solutions": [
+          {
+            "title": "Energy Storage Systems",
+            "description": "Our ESS solutions enable reliably achievable applications such as peak shaving, self-consumption optimization, and backup power in the event of outages.  For battery ESS, our technology-leading Batter",
+            "link": "https://www.analog.com/en/solutions/energy/energy-storage-power-conversion/energy-storage-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/energy-storage-energy-storage-systems.jpg?rev=b03cac833f9444bab3a0c2135867ec88&sc_lang=en&la=en&h=211&w=351&hash=EE4317EAC9640B60F92CF256155888FA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/energy-storage-power-conversion.html"
+          }
+        ]
+      },
+      {
+        "title": "EV Charging Solutions",
+        "description": "View ADI's portfolio of EV charging solutions propelling the distribution, management, and accessibility of infrastructure equipment to power EV evolution.",
+        "link": "https://www.analog.com/en/solutions/energy/ev-charging-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/energy/ev-charging-solutions.jpg?rev=67de457d7b68494284fa6e71a8f61099&sc_lang=en&la=en&h=211&w=351&hash=627415FAD9D094D84EFAF57781F2D7BE",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/energy.html",
+        "sub_solutions": [
+          {
+            "title": "EVSE Systems",
+            "description": "View Analog Devices' broad portfolio of customizable devices and technology ideal for both AC and DC electric vehicle supply equipment (EVSE) systems.",
+            "link": "https://www.analog.com/en/solutions/energy/ev-charging-solutions/evse-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/evse-systems.jpg?rev=62507caa0678407b81508e931f313295&sc_lang=en&la=en&h=211&w=351&hash=F37F6A515C803A57A9BF7512103293F1",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/ev-charging-solutions.html"
+          },
+          {
+            "title": "Security Solutions for EVSE",
+            "description": "View ADI's electric vehicle supply equipment (EVSE) security solutions for AC and DC systems according to open charge point protocol (OCPP) specifications.",
+            "link": "https://www.analog.com/en/solutions/energy/ev-charging-solutions/security-solutions-evse.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/evse-processing-and-communication.jpg?rev=ecad499c68e24fdc8c8d529f06db00a8&sc_lang=en&la=en&h=211&w=351&hash=8EF616B0C873D0676D935E3C1E098094",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/ev-charging-solutions.html"
+          },
+          {
+            "title": "Smart Metering Technology for EVSE",
+            "description": "Learn more about Analog Devices' portfolio of next-gen smart metering solutions fine-tuned for applications in electric vehicle supply equipment (EVSE).",
+            "link": "https://www.analog.com/en/solutions/energy/ev-charging-solutions/smart-metering-technology-evse.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/evse-metering.jpg?rev=5deeaa79077a4e53acc67ab751adf30e&sc_lang=en&la=en&h=211&w=351&hash=DE42A0AEF43884C11264D50F47FC910A",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/ev-charging-solutions.html"
+          }
+        ]
+      },
+      {
+        "title": "Renewable Energy Generation Solutions",
+        "description": "Analog Devices solutions power the transition to efficient, reliable, and safe renewable energy generation from wind and solar.   We provide reference solutions that accelerate your development and en",
+        "link": "https://www.analog.com/en/solutions/energy/renewable-generation.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/energy/energy-renewable-generation.jpg?rev=21e9fe749a6e4f009100f17d9f5af374&sc_lang=en&la=en&h=211&w=351&hash=444D8E324CA35F70B222251ADA837C72",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/energy.html",
+        "sub_solutions": [
+          {
+            "title": "Solar Inverter Solutions",
+            "description": "Solar inverter platforms are continually advancing to enhance system efficiencies, find the optimal balance between size and power output, bolster reliability, and uphold stringent safety standards. T",
+            "link": "https://www.analog.com/en/solutions/energy/renewable-generation/solar-inverters.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/renewable-generation-solar-inverters.jpg?rev=dcb695571cd1442fb3e0fb6e05a56bc9&sc_lang=en&la=en&h=211&w=351&hash=B3FBA005174F986252F80DED17C2257F",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/renewable-generation.html"
+          },
+          {
+            "title": "Wind Turbine Solutions",
+            "description": "Analog Devices offers a wide range of high-performance data acquisition and signal processing technologies which are used in wind turbines around the world.",
+            "link": "https://www.analog.com/en/solutions/energy/renewable-generation/wind-turbines.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/renewable-generation-wind-turbines.jpg?rev=70cb269ed4d84811aa7b9f37ee14da96&sc_lang=en&la=en&h=211&w=351&hash=4E66C8BA0A7FCC67013EEDAA651CE2A9",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/renewable-generation.html"
+          }
+        ]
+      },
+      {
+        "title": "Smart Grid Infrastructure Solutions",
+        "description": "In the coming decades, the electricity grid is poised to experience substantial transformations fueled by evolving energy policies, environmental considerations, and technological advancements. These",
+        "link": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/energy/energy-smart-grid-infrastructure.jpg?rev=4a330a9f9ca84b80aa3c88e1797834ea&sc_lang=en&la=en&h=211&w=351&hash=7041AFCD8C90091220647BA6FA328453",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/energy.html",
+        "sub_solutions": [
+          {
+            "title": "Power Quality Monitoring Solutions",
+            "description": "Insights gained from power quality monitoring are key to the addition of more renewable energy on the electrical grid as well as its stability, but also to protecting end equipment from critical failu",
+            "link": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure/power-quality-monitoring.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/smart-grid-infrastructure-power-quality-monitoring.jpg?rev=e9c48abde37440af9b98bec540ae99d9&sc_lang=en&la=en&h=211&w=351&hash=6509597B0B09CB053B143A4145106CC9",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure.html"
+          },
+          {
+            "title": "Smart Meter Technology",
+            "description": "Analog Devices is a pioneer in smart energy metering solutions. Our energy measurement ICs are ideal for measuring active energy (kWh), apparent energy (kVA), reactive energy (kVAR), rms, and a variet",
+            "link": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure/smart-meters.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/smart-grid-infrastructure-smart-meters.jpg?rev=91fc4cdd24ba4c06b15c52a03f9a5d1e&sc_lang=en&la=en&h=211&w=351&hash=28EF0ED22B0E0CE163892FD5DB44E24C",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure.html"
+          },
+          {
+            "title": "Energy Transmission and Distribution Solutions",
+            "description": "Renewables, microgrids, electric vehicles, and other energy trends are putting greater emphasis on the efficiency and reliability of transmission and distribution lines around the world.  Analog Devic",
+            "link": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure/transmission-distribution.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/energy/smart-grid-infrastructure-transmission-distribution.jpg?rev=303a7a2367354bc895d408671e7a0b4d&sc_lang=en&la=en&h=211&w=351&hash=902454C85DFCEAE0230402DAB1967C08",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/energy/smart-grid-infrastructure.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Healthcare Solutions",
+    "description": "We are at the forefront of an ecosystem that is driving healthcare forward to deliver life-changing innovations for all. Domain expertise combined with a comprehensive technology portfolio enables sol",
+    "link": "https://www.analog.com/en/solutions/healthcare.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Diabetes Monitoring and Diagnostic Solutions",
+        "description": "Diabetes technology enables individuals who suffer from diabetes to manage their condition while enjoying full quality of life. Diabetes is a chronic metabolic disorder caused by inadequate production",
+        "link": "https://www.analog.com/en/solutions/healthcare/diabetes-technology.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/healthcare/diabetes-technology-spot.jpg?rev=adc71d57007549cca862f58f4d820720&sc_lang=en&la=en&h=211&w=351&hash=23AFB58B0DF3BFAA603B2FA90F688FA6",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Blood Glucose Meter Solutions",
+            "description": "A blood glucose meter (BGM) is a handheld device used by individuals with diabetes to measure the level of glucose in their blood and determine whether they need to administer insulin to help balance",
+            "link": "https://www.analog.com/en/solutions/healthcare/diabetes-technology/blood-glucose-meter.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/diabetes-technology-blood-glucose-monitoring.jpg?rev=1cb5cf954c0340dbace0bd5704216909&sc_lang=en&la=en&h=211&w=351&hash=4172C8626440FADE45B1AEC92CB07778",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/diabetes-technology.html"
+          },
+          {
+            "title": "Continuous Glucose Monitor (CGM) Solutions",
+            "description": "Individuals with diabetes must continuously monitor their blood glucose levels to help them decide when to take the medication that they need to manage their condition. Until recently, this was common",
+            "link": "https://www.analog.com/en/solutions/healthcare/diabetes-technology/continuous-glucose-monitor.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/diabetes-technology-continuous-glucose-monitoring.jpg?rev=f797aff532764cd6b177e8e33de14dda&sc_lang=en&la=en&h=211&w=351&hash=60D786C86C2DC19F3494525C60344E03",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/diabetes-technology.html"
+          },
+          {
+            "title": "Insulin Pump Solutions",
+            "description": "Design a smart body-worn insulin pump that offers real-time monitoring and a highly accurate, continuous rate of insulin delivery by leveraging Analog Devices broad portfolio of sensor and signal-cond",
+            "link": "https://www.analog.com/en/solutions/healthcare/diabetes-technology/insulin-pump.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/diabetes-technology-insulin-pump.jpg?rev=8efde34dd16a46d3932d82719f0f86d6&sc_lang=en&la=en&h=211&w=351&hash=8745D03C30E42513380C765F669D6DC8",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/diabetes-technology.html"
+          }
+        ]
+      },
+      {
+        "title": "In Vitro Diagnostic Solutions",
+        "description": "In vitro diagnostics (IVD) are tests performed on samples that have been removed from the body for analysis. These tests can detect the presence of disease or infection, or alternatively can be used t",
+        "link": "https://www.analog.com/en/solutions/healthcare/in-vitro-diagnostics.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/healthcare/in-vitro-diagnostics-spot.jpg?rev=e03d9c3e7eca4e4da7599a98bb8f9941&sc_lang=en&la=en&h=211&w=351&hash=6CE7A4D85E61A3705E860C92AB82F56A",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Central Laboratory Diagnostic Systems",
+            "description": "Central laboratory diagnostic equipment is a category of specialized medical devices and instruments used in clinical laboratories or central diagnostic facilities. These pieces of equipment are cruci",
+            "link": "https://www.analog.com/en/solutions/healthcare/in-vitro-diagnostics/central-laboratory-diagnostic-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/in-vitro-diagnostics-central-laboratory-diagnostic-systems.jpg?rev=75b67215627e44968b8c9aeec6f50f7a&sc_lang=en&la=en&h=211&w=351&hash=9156992E0D86BFC536372507797BF946",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/in-vitro-diagnostics.html"
+          },
+          {
+            "title": "Point of Care (PoC) Diagnostic Solutions",
+            "description": "PoC diagnostics technology enables decentralized testing for infectious diseases, STDs, and more. The ability to perform rapid tests outside the clinical laboratory can provide a faster time to diagno",
+            "link": "https://www.analog.com/en/solutions/healthcare/in-vitro-diagnostics/point-of-care-poc-diagnostics.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/in-vitro-diagnostics-point-of-care-diagnostics.jpg?rev=d078135110dc4a1aba5d2e649a2cadbf&sc_lang=en&la=en&h=211&w=351&hash=EA1F2FC4288BB47D351D1856592CEE14",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/in-vitro-diagnostics.html"
+          }
+        ]
+      },
+      {
+        "title": "Medical Imaging Solutions",
+        "description": "For over 40 years, Analog Devices has been a collaborator with and leading technology supplier to the medical imaging industry with solutions for all modalities, including computed tomography (CT), di",
+        "link": "https://www.analog.com/en/solutions/healthcare/medical-imaging.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/healthcare/medical-imaging-spot.jpg?rev=7aa0dc9703e841b4b3a31d2641e2c7ab&sc_lang=en&la=en&h=211&w=351&hash=0F3F161431BE19FA98CB45F6978A6309",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Computed Tomography Solutions",
+            "description": "Computed Tomography (CT) is one of the most important medical imaging modalities. By rotating an x-ray source and high-performance detectors around the body, CT machines can create cross-sectional ima",
+            "link": "https://www.analog.com/en/solutions/healthcare/medical-imaging/computed-tomography.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/medical-imaging-computed-tomography.jpg?rev=04f6872549434a9d88313f0b38c16839&sc_lang=en&la=en&h=211&w=351&hash=F0AD3E3FE08F0ABD2D5834759A8062F5",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/medical-imaging.html"
+          },
+          {
+            "title": "Digital X-Ray Solutions",
+            "description": "The digital x-ray system is an indispensable tool in modern screening and diagnostic imaging. It is widely used in mammography, fluoroscopy, dental, and general radiography, such as chest x-rays and m",
+            "link": "https://www.analog.com/en/solutions/healthcare/medical-imaging/digital-xray.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/medical-imaging-digital-x-ray.jpg?rev=9ee6515f88584d14ad1ab1942acf0538&sc_lang=en&la=en&h=211&w=351&hash=19F2BC87AF8E4D7541EC20DB360881FB",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/medical-imaging.html"
+          },
+          {
+            "title": "Ultrasound Solutions",
+            "description": "Medical ultrasound imaging modality uses high-frequency mechanical sound waves to view inside the body. Ultrasound imaging is a non-ionizing, real-time modality that allows clinicians to interrogate b",
+            "link": "https://www.analog.com/en/solutions/healthcare/medical-imaging/ultrasound.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/medical-imaging-ultrasound.jpg?rev=7c7a055b7ae54b389190e38e9d6dcd78&sc_lang=en&la=en&h=211&w=351&hash=7EC11CD25D5B9CE85A7B42E9AD5630AA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/medical-imaging.html"
+          }
+        ]
+      },
+      {
+        "title": "Therapy Device Solutions for Healthcare",
+        "description": "Therapy devices provide support and treatment for both critical care and long-term chronic disease. They must operate in ways that are safe and accurate while providing convenient solutions for both t",
+        "link": "https://www.analog.com/en/solutions/healthcare/therapy-devices.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/healthcare/therapy-devices-spot.jpg?rev=779b6c221b524243afa70728a12565d3&sc_lang=en&la=en&h=211&w=351&hash=4158CB881B6BC0EF4CC39E085E667E61",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Infusion Pump Systems",
+            "description": "Infusion pump technology administers fluids, medications, and nutrients into a patient's circulatory system in a controlled manner. They come in various types, including large-volume, syringe, enteral",
+            "link": "https://www.analog.com/en/solutions/healthcare/therapy-devices/infusion-pump-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/therapy-devices-infusion-pump-systems.jpg?rev=30ee0958bc2a44a192e2b377cd32dae9&sc_lang=en&la=en&h=211&w=351&hash=9F66E98E80BC92E36E5795FA7AB34CE6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/therapy-devices.html"
+          },
+          {
+            "title": "Healthcare Ventilator Systems",
+            "description": "Modern ventilators are electromechanical systems designed to supply a seamless and precise mixture of regulated air-oxygen supply levels, providing all or partial breathing assistance to patients at s",
+            "link": "https://www.analog.com/en/solutions/healthcare/therapy-devices/ventilator-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/therapy-devices-ventilator-systems.jpg?rev=150b438418f64444a12403ea55121073&sc_lang=en&la=en&h=211&w=351&hash=664682035816B324FBB837D9691F15D6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/therapy-devices.html"
+          }
+        ]
+      },
+      {
+        "title": "Vital Signs Monitoring Solutions",
+        "description": "Analog Devices vital signs monitoring solutions are powered by a range of integrated and discrete sensor and signal-conditioning technology solutions for portable, wearable, and bedside monitoring sys",
+        "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/healthcare/vital-signs-monitor-spot.jpg?rev=1fcd3f3fa82648cd9a28783816fd10bc&sc_lang=en&la=en&h=211&w=351&hash=C1C3C493DFE8D22AC4F118EF6EAD666C",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Activity Tracking and Fall Detection Solutions",
+            "description": "Analog Devices solutions for activity tracking and fall detection utilize our ultralow power accelerometer technology. Our portfolio of accelerometers leads the industry in power, noise, and bandwidth",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/activity-tracking-and-fall-detection.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-activity-tracking-and-fall-detection.jpg?rev=8197ecb727de4dcfab0112b0268b84fd&sc_lang=en&la=en&h=211&w=351&hash=E16CB6C5F0AB5B28363B439D12630609",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Body Composition, Hydration, and Bioimpedance Analysis Solutions",
+            "description": "Analog Devices bioimpedance analysis application solutions are powered by our high-precision, highly programmable impedance-to-digital converters, which enable intracellular detection for various bioi",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/body-comp-hydration-bio-impedance-analysis.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-body-composition-hydration-bioimpedance-analysis.jpg?rev=1ae7a02954494398af01519cbaf60836&sc_lang=en&la=en&h=211&w=351&hash=B742E0EBB45E80C277C0A2901AB312F5",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Body Temperature Measurement Solutions",
+            "description": "Design a smart body-worn wearable that offers real-time temperature monitoring of the skin by leveraging Analog Devices broad portfolio of sensor and signal-conditioning technology solutions for preci",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/temperature-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-temperature-measurement.jpg?rev=911b484455e24dfb9d9a584f2e2679ef&sc_lang=en&la=en&h=211&w=351&hash=D753F636689192D31E4CD1A43FE342DB",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Electroencephalogram (EEG) Measurement Solutions",
+            "description": "Analog Devices electroencephalogram (EEG) application solutions are powered by low-noise signal chain products that deliver results with the highest precision and resolution. Our best-in-class ADCs an",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/eeg-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-electroencephalogram-measurement.jpg?rev=2c836e2ab5664dc0bc690ea21ea38e75&sc_lang=en&la=en&h=211&w=351&hash=7A7998EFE7BBB6C95AA1EA9FE4DD622E",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Electrocardiogram (ECG) Measurement Solutions",
+            "description": "Analog Devices electrocardiogram (ECG) measurement application solutions include a wide range of discrete and integrated signal chain products with low-power, low-noise, and multichannel capabilities.",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/electrocardiogram-ecg-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-electrocardiogram-measurement.jpg?rev=14dc119028e14cd185fa1dfb3daa6f47&sc_lang=en&la=en&h=211&w=351&hash=6D0D29083C757E3585580AD740BAE18D",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Non-Invasive Blood Pressure (NIBP) Solutions",
+            "description": "Analog Devices noninvasive blood pressure (NIBP) application offerings include integrated signal chain products and discrete products, the latter of which we recommend for traditional cuff-based solut",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/non-invasive-blood-pressure.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-non-invasive-blood-pressure.jpg?rev=aadeb033fa0a4e0fa42943adc19d66b9&sc_lang=en&la=en&h=211&w=351&hash=B7C840E55E8E76D42885E1755F7F695A",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Oxygen Saturation (SpO2) Measurement Solutions",
+            "description": "Analog Devices oxygen saturation (SpO2) measurement application products are powered by low power, integrated optical sensing, and transmitting technology.   These signal chains have enhanced programm",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/oxygen-saturation-spo2-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-oxygen-saturation-measurement.jpg?rev=c2b7e44973984fd0b292bf761431b157&sc_lang=en&la=en&h=211&w=351&hash=9E3C20F0289C1757FBDC8FFC44B032FA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Respiration Rate Measurement Solutions",
+            "description": "Analog Devices offers a variety of signal chain components and integrated solutions to convert thoracic impedance changes into respiration rate measurements. Select solutions allow flexible chest elec",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/respiration-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-respiration-rate-measurement.jpg?rev=e09d53cb3f90432d936e67c362e3a15f&sc_lang=en&la=en&h=211&w=351&hash=07305311F398BBCAA21BE1B60A955732",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          },
+          {
+            "title": "Wearable Health Monitor Solutions",
+            "description": "Analog Devices optical, impedance, bio-potential, and motion sensor technologies and signal conditioning expertise empower you to design the most innovative wearable health monitoring devices, such as",
+            "link": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/wearable-health-monitor.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/healthcare/vital-signs-measurements-wearable-health-monitor.jpg?rev=b2ccdf43b3954d54b00ffc1cc8fc9188&sc_lang=en&la=en&h=211&w=351&hash=01CB3065DE8587CA0415757C674CE3A6",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/healthcare/vital-signs-measurements.html"
+          }
+        ]
+      },
+      {
+        "title": "Applicable Industry Solutions",
+        "description": "Analog Devices partners with customers to instrument the future. Leveraging industry-leading capabilities, we enable technological advances, further scientific discovery, and improve quality of life.",
+        "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/resource-library/numbers-line.svg?rev=69a93bb137974aebb68fbff313800d1b&la=en&hash=6A20E4A9AFFE8DD48AEA9F11B0395DED",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/healthcare.html",
+        "sub_solutions": [
+          {
+            "title": "Analytical Instruments",
+            "description": "Accurate, high-confidence detection, identification, and characterization in analytical and life sciences instrumentation depends on diverse sensing capabilities and high-performance electronics. Anal",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/analytical-instruments.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-analytical-instruments.jpg?rev=8f39d530624646e9bfd262845f40c0eb&sc_lang=en&la=en&h=211&w=351&hash=E017F3A400359D240B0091F22795F70F",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Automated Test Equipment",
+            "description": "For production IC test applications that demand high-performance, cost-effective solutions, Analog Devices offers leading-edge integrated pin electronics (PE), device power supplies (DPS), and paramet",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/automated-test-equipment.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-automated-test-equipment.jpg?rev=4b91774aa2e34e35baef63a9bcc95deb&sc_lang=en&la=en&h=211&w=351&hash=A41941362A8DF6193F3FE7F4D58DA892",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Automotive Testing Solutions",
+            "description": "At Analog Devices, we believe If its not tested, it doesnt work. Our automotive testing solutions are designed to validate the next breakthroughs and drive innovation forward by ensuring the device un",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/automotive-testing.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-automotive-testing.jpg?rev=ddd8c3f6ce42497986bedce8ba16c0c2&sc_lang=en&la=en&h=211&w=351&hash=6697AB71862A45E5D6B09643F5F3B98F",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Battery Formation and Testing",
+            "description": "As demand continues to grow for electric vehicles (EVs), so too does the need for batteries. However, producing batteries is time-consuming, creating a supply bottleneck. And it is cost-intensive, res",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/battery-formation-and-test.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-battery-formation-and-test.jpg?rev=076a9e07f5e54fdc8032761947ada50b&sc_lang=en&la=en&h=211&w=351&hash=7D4F5321C8395C45789CBAE1A5986CD2",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Electronic Test and Measurement Solutions",
+            "description": "Advances in wired and wireless communication technology, autonomous vehicles, energy storage, AI/ML, and cloud-connected sensors that help form the Internet of Things (IoT) are all driving the demand",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/electronic-test-and-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-electronic-test-and-measurement.jpg?rev=bdf9e81ca2164421951807c39fe490ae&sc_lang=en&la=en&h=211&w=351&hash=A675E88D3AC33E58C64FF53703F84422",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Environmental Measurement Solutions",
+            "description": "Instrumenting our environment has never been more important. Whether increasing the spatial resolution of the monitoring network or optimizing workflows in lab-grade analysis, Analog Devices platforms",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/environmental-measurement.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-environmental-measurement.jpg?rev=b8a3590986234604868bc61d519666e2&sc_lang=en&la=en&h=211&w=351&hash=E185E3EE4B93B318BF6054AE116ABD54",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Science Lab Equipment and Automation Solutions",
+            "description": "A smoothly operating lab requires reliable everyday tools, precise coordination, and increased throughput to mitigate workflow bottlenecks. With Analog Devices precision measurement signal chain leade",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement/science-lab-equipment-and-automation.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/instrumentation/instrumentation-and-measurement-science-lab-equipment-and-automation.jpg?rev=d8eae1ec63fe48a9bf8988a05138935b&sc_lang=en&la=en&h=211&w=351&hash=C78B9C0F458F2807D717EA2A06D4CB59",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          },
+          {
+            "title": "Access Dedicated Page",
+            "description": "Analog Devices partners with customers to instrument the future. Leveraging industry-leading capabilities, we enable technological advances, further scientific discovery, and improve quality of life.",
+            "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html",
+            "image_url": "https://assets2.analog.com/cms-assets/images/images/chevron-down-s-black.svg",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Industrial Automation",
+    "description": "Through superior innovation and a premier technology franchise, Analog Devices is increasing productivity across factory floors and process plants, enabling personalized output with flexible manufactu",
+    "link": "https://www.analog.com/en/solutions/industrial-automation.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/industrial.jpg?rev=a0df66acdb504147b1192e6e2955e983&la=en&h=211&w=351&hash=06C1DA5891EF75912171C5554D8B04CC",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Industrial Connectivity Technology",
+        "description": "Engineering an intelligent, connected automation environment where all equipment seamlessly collects and shares information is central to the industrial internet of things (IIoT) vision. Industrial co",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-connectivity-technology.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-industrial-connectivity-technology.jpg?rev=a6083d7f3885411eb452be6ee884f96c&sc_lang=en&la=en&h=211&w=351&hash=4C2CCA486E13E5CE5131AEEDCDCE47B6",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Industrial Wired Connectivity Solutions",
+            "description": "Today, wired connectivity technology still dominates the industrial landscape. Legacy serial interfaces are deployed extensively in existing factory networks to ensure uninterrupted, high-performance",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-connectivity-technology/industrial-wired-connectivity-technology.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-connectivity-technology-industrial-wired-connectivity-technology.jpg?rev=da8ca7ec064a4bebb6e1101188d3d9e5&sc_lang=en&la=en&h=211&w=351&hash=EF6B174E2E5B5029D7FFCCF98FC5F1C9",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-connectivity-technology.html"
+          },
+          {
+            "title": "Industrial Wireless Connectivity Solutions",
+            "description": "In industrial applications, no single wireless technology is king. Low-bandwidth and low-power technologies are best for meter deployments with occasional connectivity needs. In contrast, for autonomo",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-connectivity-technology/industrial-wireless-connectivity.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-connectivity-technology-industrial-wireless-connectivity-technology.jpg?rev=3377b3289c7240828b6501f8b111cb01&sc_lang=en&la=en&h=211&w=351&hash=26D17FCA8B4DC69998749AD4B10B9DDC",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-connectivity-technology.html"
+          }
+        ]
+      },
+      {
+        "title": "Industrial Power Supply Solutions",
+        "description": "Typical, modern, industrial processes need a variety of industrial power supplies, including high-power AC/DC and DC/DC converters, and industrial UPS. Analog Devices has a rich legacy and deep domain",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-power-supplies.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-industrial-power-supplies.jpg?rev=bf689b7c74c549c0b602edb7cf1935ee&sc_lang=en&la=en&h=211&w=351&hash=7143CF1F905863106E0D6DF14FD20057",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Uninterruptable Power Supply Solutions",
+            "description": "Industrial UPSs provide backup power to maximize uptime in smart manufacturing during utility power failure or in heavy utility load conditions. They also provide protection against power-related issu",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-power-supplies/uninterruptible-power-supplies.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-power-supplies-uninterruptable-power-supplies.jpg?rev=85b38ee2a8b34366b2ad04e9e87d006d&sc_lang=en&la=en&h=211&w=351&hash=EFA2AA6A8D3DE8F4A4875F32B4D5ECC5",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-power-supplies.html"
+          }
+        ]
+      },
+      {
+        "title": "Industrial Robotics Solutions",
+        "description": "Industrial robotics is becoming smarter, more collaborative, and better positioned to handle complex tasks on the factory floor, with and without human intervention. Analog Devices is enabling this re",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-robotics.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-industrial-robotics.jpg?rev=02d7b0db3bdb4a42a0491b4d92f2f38e&sc_lang=en&la=en&h=211&w=351&hash=BA20A0F7DC1D3FE8C3906A52B73A5BAA",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Mobile Robotics Solutions",
+            "description": "The evolving smart factory is deploying mobile robotics alongside humans at an accelerating pace. To ensure safety, productivity, and longevity in the smart factory of the future, this mobile robotic",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-robotics/mobile-robotics.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-robotics-mobile-robotics.jpg?rev=2326e5e6376f45ffae7b4f69e65f3627&sc_lang=en&la=en&h=211&w=351&hash=687ADD6D553E967E8EB7BC66C6F030CB",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-robotics.html"
+          },
+          {
+            "title": "Mounted (Fixed) Robotics Solutions",
+            "description": "Mounted (fixed) robotics, or multi-axis systems, incorporate high-performance technologies to support the end system solution used in modern manufacturing installations. Examples of mounted robots inc",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-robotics/mounted-fixed-robotics.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-robotics-mounted-robotics.jpg?rev=1ac072f684924e6a8f6f05f881a9c4d5&sc_lang=en&la=en&h=211&w=351&hash=85BDC53F788DEEEB88428971AC0E9534",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-robotics.html"
+          }
+        ]
+      },
+      {
+        "title": "Industrial Sensors and Field Instrument Solutions",
+        "description": "Automation is a key part of all factory and process environments. Industrial sensing and field instrument solutions from Analog Devices are playing an integral role in enabling the transition to a dig",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-industrial-sensors-and-field-instruments.jpg?rev=dcf5fd0a9c6d4f6a882a82f67a9781e9&sc_lang=en&la=en&h=211&w=351&hash=2B7851262C5ED378AF21C8A3206B7F9A",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Field Instrument Systems",
+            "description": "Analog Devices field instruments combine sensors, actuators, intelligent processing, and robust communications for the harshest of environments. These intelligent edge devices play a critical role in",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments/field-instuments.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-sensors-and-field-instruments-field-instruments.jpg?rev=cb0cda3e1e3949b4a71f1463c1db76bb&sc_lang=en&la=en&h=211&w=351&hash=756517D347690970FF7C00BB07254312",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments.html"
+          },
+          {
+            "title": "Smart Factory IO - Link Master Solutions",
+            "description": "IO-Link is at the heart of the manufacturing revolution, with the IO-Link master as an intrinsic piece, bringing intelligence to the edge with its ability to transform traditional sensors into smart o",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments/smart-factory-io-link-master.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-sensors-and-field-instruments-smart-factory-io-link-master.jpg?rev=685812c63e1b453cbea195866d2d7219&sc_lang=en&la=en&h=211&w=351&hash=341EDC9486C9CA07784E14D66FFD9AE8",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments.html"
+          },
+          {
+            "title": "Smart Factory IO - Link Sensor Actuator Solutions",
+            "description": "Smart factory sensors and actuators facilitate better decision making to support flexible and readily optimized manufacturing processes. Analog Devices' IO-Link technology transforms traditional senso",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments/smart-factory-io-link-sensor-actuator.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/industrial-sensors-and-field-instruments-smart-factory-io-link-sensor-actuator.jpg?rev=caea9abaabee474683fede0304ff5220&sc_lang=en&la=en&h=211&w=351&hash=E97B90542DB38ACD68E7A0C106D78536",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/industrial-sensors-and-field-instruments.html"
+          }
+        ]
+      },
+      {
+        "title": "Intelligent Motion Control",
+        "description": "Intelligent motion control combines precision feedback, advanced sensing, high performance control, and seamless connectivity to deliver deterministic motion solutions that enable highly flexible and",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/intelligent-motion-control.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-intelligent-motion-control.jpg?rev=ce98b79a286c424488f3011d7595bfd4&sc_lang=en&la=en&h=211&w=351&hash=409476C3907FB262E0E87A06E0476003",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Motor Drive Solutions",
+            "description": "By controlling motor speed, a variable speed drive can significantly improve the motors efficiency, leading to energy savings, increased productivity, and extended equipment lifetime. Analog Devices p",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/intelligent-motion-control/motor-drive.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/intelligent-motion-control-motor-drive.jpg?rev=f7922ccf495f4f30a4b64fbefbcae9f5&sc_lang=en&la=en&h=211&w=351&hash=48FB4EAB54FF56D6D661A1A4239705F4",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/intelligent-motion-control.html"
+          },
+          {
+            "title": "Position Encoder Systems",
+            "description": "Position encoders, also called motor encoders, enable precise position and torque control for advanced motion control applications in the factory of tomorrow. Analog Devices precise position encoders",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/intelligent-motion-control/position-encoders.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/intelligent-motion-control-position-encoders.jpg?rev=0741205087e3456caec8bb16e1006688&sc_lang=en&la=en&h=211&w=351&hash=6ABBAA5CAA4EAC6EB413959D9D8D5549",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/intelligent-motion-control.html"
+          }
+        ]
+      },
+      {
+        "title": "Predictive Maintenance Solutions",
+        "description": "Condition-based monitoring (CbM) is defined as a predictive maintenance strategy that continuously monitors the condition of assets using different types of sensors and uses the data extracted from se",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/predictive-maintenance.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-predictive-maintenance.jpg?rev=943a9ae5f8cc429da6b1081ed55c1ecf&sc_lang=en&la=en&h=211&w=351&hash=DDFD8F0D60DBBB3A6362056B58E17B2D",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Wired Asset Health Monitoring Solutions",
+            "description": "Analog Devices wired asset health monitoring solutions portfolio includes a comprehensive suite of technologies and development platforms to empower designers to bring their solutions to market quickl",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/predictive-maintenance/wired-asset-health-monitoring-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/predictive-maintenance-wired-asset-health-monitoring-solutions.jpg?rev=6a6bb5ed8fc646d2802cf959f91cfab4&sc_lang=en&la=en&h=211&w=351&hash=C4ECB09B7FBA59055590C6811380779A",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/predictive-maintenance.html"
+          },
+          {
+            "title": "Wireless Asset Health Monitoring Solutions",
+            "description": "Analog Devices offers a full suite of solutions to precisely measure, connect, secure, and develop condition-based monitoring solutions, as well as capture valuable operational insights. Our broad por",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/predictive-maintenance/wireless-asset-health-monitoring-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/predictive-maintenance-wireless-asset-health-monitoring-solutions.jpg?rev=ad01b01c3fd142d282af05d9cb5821a7&sc_lang=en&la=en&h=211&w=351&hash=4C92A71BBEBE8CD400C27F386E05FAA4",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/predictive-maintenance.html"
+          }
+        ]
+      },
+      {
+        "title": "Programmable Logic Controllers (PLC) and Distributed Control Systems (DCS)",
+        "description": "The transition to Industry 4.0 requires a partner with deep industrial expertise and a strong history of bringing revolutionary technology advances to the industrial market. Analog Devices is already",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-plc-and-dcs.jpg?rev=17658de12954450ba9eb3f2b4c59b9a8&sc_lang=en&la=en&h=211&w=351&hash=3300281A101520D1511B4D03F1CAD789",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Analog Input/Output Module Solutions",
+            "description": "Industry 4.0 trends of digitization and optimization (flexible factory) require more compact form factors to accommodate higher channel counts. Analog Devices' portfolio includes integrated products t",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs/analog-input-output-module.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/plc-and-dcs-analog-input-output-module.jpg?rev=7b3481f69f024157bd170a015dcc9337&sc_lang=en&la=en&h=211&w=351&hash=C1AEE21989BFCA5358BB30BE6540B5AC",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs.html"
+          },
+          {
+            "title": "Remote Input/Output Module Solutions",
+            "description": "Digitization and agile automation trends require more data and insights delivered through greater instrumentation of equipment that can be connected more easily by remote I/O modules. Analog Devices p",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs/remote-input-output-module.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/plc-and-dcs-remote-input-output-module.jpg?rev=dab78605594b41b9a70920f5d1605288&sc_lang=en&la=en&h=211&w=351&hash=B92447B827005BF626D5523110B514D1",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs.html"
+          },
+          {
+            "title": "Universal Input/Output Module Solutions",
+            "description": "Flexibility, and being able to pivot manufacturing facilities, is becoming increasingly important with the growing demand for customized products. Software configurable I/O (SWIO) technology provides",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs/universal-input-output-module.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/plc-and-dcs-universal-input-output-module.jpg?rev=382adc20495a45dfa902e614aef6bd73&sc_lang=en&la=en&h=211&w=351&hash=71ECD5007D8429C92F62D8FC9F986DDE",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/programmable-logic-controllers-plc-and-distributed-control-systems-dcs.html"
+          }
+        ]
+      },
+      {
+        "title": "Safety and Protection Systems",
+        "description": "The safety and productivity of processes, people, and automation equipment plays an important role in all industrial automation applications. Electrical and functional safety are key components, and A",
+        "link": "https://www.analog.com/en/solutions/industrial-automation/safety-and-protection-systems.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/iat/industrial-automation-technology-safety-and-protection-systems.jpg?rev=988fa45c7cb34972968685be19dcab28&sc_lang=en&la=en&h=211&w=351&hash=95E49F3F1EB5330064190AE5C6DD54DE",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-automation.html",
+        "sub_solutions": [
+          {
+            "title": "Industrial Functional Safety Solutions",
+            "description": "Automation isnt smart if it isnt safe. Functional safety is playing an important role in Industry 4.0  not just because safety is an essential element of the future factory, but because functional saf",
+            "link": "https://www.analog.com/en/solutions/industrial-automation/safety-and-protection-systems/industrial-functional-safety.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/iat/safety-and-protection-systems-industrial-functional-safety.jpg?rev=86fdcae49a544bf9941f73f99e35ecbe&sc_lang=en&la=en&h=211&w=351&hash=F55C27BC3E9096CA265F3AF6C15D1E74",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/industrial-automation/safety-and-protection-systems.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Instrumentation and Measurement Solutions",
+    "description": "Analog Devices partners with customers to instrument the future. Leveraging industry-leading capabilities, we enable technological advances, further scientific discovery, and improve quality of life.",
+    "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/instrumentation.jpg?rev=de992de2068946b4928ef9267ca7823c&la=en&h=211&w=351&hash=63765DDE3C8DB13C4FEBC4B77C93C7AE",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html"
+  },
+  {
+    "title": "Intelligent Building Solutions",
+    "description": "Buildings throughout the world are experiencing unprecedented growth in safer, more energy-efficient, and sustainable structures. Analog Devices solutions for intelligent buildings are at the forefron",
+    "link": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/intelligent-buildings.jpg?rev=1d47da75d04c4b91ba4df6c7198591c4&la=en&h=211&w=351&hash=7BC97F144AF03F0ED6E7407616EA82CF",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Building Fire Safety and Surveillance Solutions",
+        "description": "Fire safety and surveillance solutions can save lives. As buildings become more intelligent, its important to ensure the best assets of a buildingthe people inside itare protected. Analog Devices offe",
+        "link": "https://www.analog.com/en/solutions/intelligent-buildings/fire-safety-and-surveillance.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/intelligent-buildings/intelligent-buildings-fire-safety-and-surveillance.jpg?rev=a703e2b6ebac467fbf4629195d88db4b&sc_lang=en&la=en&h=211&w=351&hash=AE708AC72F91EBC3690834AC303BCB74",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+        "sub_solutions": [
+          {
+            "title": "Smoke Detection Systems",
+            "description": "Analog Devices offers a solution that combines analog front-end, dual wavelength LEDs, and photodiodes into a small package, greatly simplifying the optical design and reducing the smoke detector foot",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/fire-safety-and-surveillance/smoke-detection.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/fire-safety-and-surveillance-smoke-detection.jpg?rev=500dc0a9eda349d0b11699a48b20ddb8&sc_lang=en&la=en&h=211&w=351&hash=3D7010ED8004BFAB39B05FD23AC1E60D",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/fire-safety-and-surveillance.html"
+          },
+          {
+            "title": "Surveillance Camera Solutions",
+            "description": "Increasing urbanization has placed a greater need for the deployment of security and surveillance solutions across our cities, homes, and workplaces. For example, commercial buildings need to provide",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/fire-safety-and-surveillance/surveillance-cameras.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/fire-safety-and-surveillance-surveillance-cameras.jpg?rev=3ccfbb8ddf47452e8900389f0bb9f256&sc_lang=en&la=en&h=211&w=351&hash=6EA83186F4457C0FB7B36963C88EAD19",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/fire-safety-and-surveillance.html"
+          }
+        ]
+      },
+      {
+        "title": "Building Logistics and Retail Automation Solutions",
+        "description": "Most of todays warehouse and distribution centers operate at only 80% to 85% efficiency. Logistics automation can help reduce and resolve issues like missorted products, which currently must cycle bac",
+        "link": "https://www.analog.com/en/solutions/intelligent-buildings/logistics-and-retail-automation.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/intelligent-buildings/intelligent-buildings-logistics-and-retail-automation.jpg?rev=e2828d2ab391462f98939c762e842aa8&sc_lang=en&la=en&h=211&w=351&hash=509E0C5D55FD73C476693B221FABF3BF",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+        "sub_solutions": [
+          {
+            "title": "Automatic Identification and Data Capture (AIDC) Solutions",
+            "description": "Automatic identification and data capture (AIDC) barcode scanning devices are widely used for real-time inventory tracking within logistics, transportation, and warehouse and retail automation. They c",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/logistics-and-retail-automation/automatic-identification-and-data-capture.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/logistics-and-retail-automation-automatic-identification-and-data-capture.jpg?rev=10687361b0664f8aace4a318006c22d1&sc_lang=en&la=en&h=211&w=351&hash=A19D51D200A2CBB040D9214203B55EB0",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/logistics-and-retail-automation.html"
+          },
+          {
+            "title": "Point of Sale (POS) Systems",
+            "description": "Point of Sale (POS) systems are used everywhere in the payment industry. Regardless of payment type, all POS payments need similar security authentication featuresend-end encryption algorithms and phy",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/logistics-and-retail-automation/point-of-sale-systems.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/logistics-and-retail-automation-point-of-sale-systems.jpg?rev=c16b8172d0854c7a8bbde97ecb8e8a9f&sc_lang=en&la=en&h=211&w=351&hash=B62D6DA91177DEB4C9A8DC76CB0EEB30",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/logistics-and-retail-automation.html"
+          }
+        ]
+      },
+      {
+        "title": "Smart Building Automation Systems",
+        "description": "Building automation systems maximize comfort, safety, and energy efficiency at a scalable level. To obtain peak operating performance from HVAC to lighting, a complex and reliable network of accurate",
+        "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/intelligent-buildings/intelligent-buildings-building-automation-systems.jpg?rev=1d339856041b4f46a996a4e8a4a7163c&sc_lang=en&la=en&h=211&w=351&hash=CA0C024C9B9877CE4B4A1B7F28A5AE73",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+        "sub_solutions": [
+          {
+            "title": "Building Automation Controllers and Network Solutions",
+            "description": "Building controllers enable the adoption of new technologies to achieve sustainability, health, and productivity goals in modern intelligent buildings. Analog Devices brings IP connectivity to intelli",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems/building-automation-controllers-and-networks.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-automation-systems-building-automation-controllers-and-networks.jpg?rev=07788c76f7f64084885d14603c6e9b5b&sc_lang=en&la=en&h=211&w=351&hash=0CDF2C29940055250385DD656E582943",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems.html"
+          },
+          {
+            "title": "Building Lighting Technology Solutions",
+            "description": "Lighting technology is critical to maximizing human well-being, comfort, and productivity in the built environment. Because its everywhere, it also makes the perfect platform for upgrading small and m",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems/lighting-technology-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-automation-systems-lighting-technology-solutions.jpg?rev=ae7fe04d30a7487d89b2ccd7f58b29ec&sc_lang=en&la=en&h=211&w=351&hash=E8B150549E4007930309C6966687A695",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems.html"
+          },
+          {
+            "title": "Building Technology Power Solutions",
+            "description": "Low energy consumption and sustainability are key goals for any intelligent buildings, and thus building technology power solutions that can help meet these targets are paramount. Analog Devices deliv",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems/building-technology-power-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-automation-systems-building-technology-power-solutions.jpg?rev=70b0e0c4a9214c199d3508bf2de21e8f&sc_lang=en&la=en&h=211&w=351&hash=021CB825095FA411F791DDD818DAA0AB",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-automation-systems.html"
+          }
+        ]
+      },
+      {
+        "title": "Smart Building Sustainability Solutions",
+        "description": "Building sustainability, or healthy building, is all about creating conditions within a building to make it a safe, pleasant, and productive environment. Regulations will increasingly protect the safe",
+        "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-sustainability.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/intelligent-buildings/intelligent-buildings-building-sustainability.jpg?rev=8e12465de8cd4a15a00ee535bc593cb7&sc_lang=en&la=en&h=211&w=351&hash=41D67212C550CA1A9ADF4617E63807FD",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+        "sub_solutions": [
+          {
+            "title": "Environmental Building Monitoring Solutions",
+            "description": "Monitoring environmental conditions such as the quality of water or the presence of gas in the air within a building requires the use of many specialized sensors for identification of target elements.",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-sustainability/environmental-monitoring.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-sustainability-environmental-monitoring.jpg?rev=d05fd301e216464bb16bd1fac13b49d9&sc_lang=en&la=en&h=211&w=351&hash=9F8C29E7717A0156BD42100E63DD1452",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-sustainability.html"
+          }
+        ]
+      },
+      {
+        "title": "Smart Building Utilities Solutions",
+        "description": "Every building in the world needs to operate more efficiently and sustainably. ADIs solutions for connectivity, power delivery, and efficient actuation help these goals become reality.",
+        "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-utilities.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/intelligent-buildings/intelligent-buildings-building-utilities.jpg?rev=5a6a50cf4272465e8d94e71c8295ad5a&sc_lang=en&la=en&h=211&w=351&hash=ADF2C54CDAD84646DB8FF3383C68E94C",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+        "sub_solutions": [
+          {
+            "title": "Building Energy Technology Solutions",
+            "description": "Understanding how energy is consumed within a building enables the occupier of the building management system to make decisions that optimize the power consumption in real time. Our mSure technology c",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-utilities/energy-technology.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-utilities-energy-technology.jpg?rev=a614857404994c6d963420d8a05eecc0&sc_lang=en&la=en&h=211&w=351&hash=F20FF90EA6598DE1FC8E5388B57897DA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-utilities.html"
+          },
+          {
+            "title": "HVAC System Technology",
+            "description": "Todays sophisticated buildings require HVAC systems technologies with unprecedented levels of energy efficiency, safety, and comfort. To obtain peak operating performance in all these areas simultaneo",
+            "link": "https://www.analog.com/en/solutions/intelligent-buildings/building-utilities/hvac-system-technology.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/intelligent-buildings/building-utilities-hvac-systems-technologies.jpg?rev=4816b202b3974f5a9e518eb142330f49&sc_lang=en&la=en&h=211&w=351&hash=E21B9D818FA51EEA1697FD43049B67FA",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/intelligent-buildings/building-utilities.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wireless Communication Solutions",
+    "description": "Virtually every wireless call, text, and download today passes through an Analog Devices IC. Our extensive portfolio covers the entire RF spectrum and provides high-quality, reliable, cost-efficient s",
+    "link": "https://www.analog.com/en/solutions/wireless-communications.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/wireless.jpg?rev=3f0df5e573df4c32adfa3e3d97d0565e&la=en&h=211&w=351&hash=6E927BB1A484D9C9964C8CB524903595",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Wireless Infrastructure Solutions",
+        "description": "Analog Devices cemented its reputation as a leader in wireless infrastructure by creating the technologies that enabled the first small cells and the roll out of 5G mMIMO. With technology solutions th",
+        "link": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l2-images/wireless-comms/wireless-communications-wireless-infrastructure.jpg?rev=fc8e0c0173254899979e52c0a412e08d&sc_lang=en&la=en&h=211&w=351&hash=EC78E4B074C52057A6979B63C3D313C6",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/wireless-communications.html",
+        "sub_solutions": [
+          {
+            "title": "4G / 5G Radio Unit Systems",
+            "description": "Analog Devices core technologies and domain expertise help customers plan, design, and create unprecedented high-performance communication systems across the globe.  Our Radio Unit (RU) design platfor",
+            "link": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure/4g-5g-radio-units.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/wireless-comms/wireless-infrastructure-4g-5g-radio-units.jpg?rev=e1cb2cea57fe40e2ad936479b9f6e8ae&sc_lang=en&la=en&h=211&w=351&hash=9C4A34A9B3C045EA6C0C0553B321FFAD",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure.html"
+          },
+          {
+            "title": "mmWave Communication Solutions",
+            "description": "5G millimeter wave (mmWave) unlocks unprecedented capacity and ultralow latency by leveraging frequencies above 24 GHz for wireless communications. Our portfolio of 5G mmWave solutions breaks the curr",
+            "link": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure/mmwave-communications.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/wireless-comms/wireless-infrastructure-mmwave-communications.jpg?rev=e359e6f93583429ea5e7d6e8170cb798&sc_lang=en&la=en&h=211&w=351&hash=65E7CE1ED803013C32A128B0E2378928",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure.html"
+          },
+          {
+            "title": "E-Band Radio Solutions",
+            "description": "Our mmW E-band radio backhaul chipset solutions expand 5G networks across a variety of environments, from dense urban centers to remote rural areas. E-band is an ideal solution for buildings where con",
+            "link": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure/e-band-radio-solutions.html",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/l3-images/wireless-comms/wireless-infrastructure-e-band-radio-solutions.jpg?rev=e6778f9c95d047c2923ce2575fc70ffd&sc_lang=en&la=en&h=211&w=351&hash=638D31DD741CBA7F4CC5840372B1FC16",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/wireless-communications/wireless-infrastructure.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "A2B Audio Bus",
+    "description": "Analog's Audio Bus (A2B) offers many advantages such as superior audio quality. Learn more about it and the challenges it solves.",
+    "link": "https://www.analog.com/en/solutions/a2b-audio-bus.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/explore-a2b-audio-bus.jpg?rev=2acc17fa2915482d86ffd69f31860629&sc_lang=en&la=en&h=211&w=351&hash=662B161403BC414C0D0E359B9D838BBE",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "A2B Audio Bus",
+        "description": "A2B is a high bandwidth (50Mbps), low latency (50s), bidirectional digital audio bus capable of transporting I2S/TDM/PDM data and SPI/I2C control information together with clock and power (up to 50W)",
+        "link": "https://www.analog.com/en/solutions/a2b-audio-bus/a2b-audio-bus-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/a2b-spotlight-l1.jpg?rev=5ab3ddcaf2aa4359b6ddeea28907a76f&sc_lang=en&la=en&h=211&w=351&hash=0143C9744C7A59DF4A7192CA79FD9F2A",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/a2b-audio-bus.html"
+      }
+    ]
+  },
+  {
+    "title": "ADI OtoSense™ Predictive Maintenance Solutions",
+    "description": "ADI OtoSense Smart Motor Sensor is a full turnkey sensor hardware and advanced analytics software solution for condition-based monitoring. It doesnt require expert analysis or wires and gateways. With",
+    "link": "https://www.analog.com/en/solutions/otosense.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html"
+  },
+  {
+    "title": "Dynamic Speaker Management (DSM) Solutions",
+    "description": "Dynamic Speaker Management (DSM) is an audio solution that combines high-performance speaker amplifiers with our patented DSM algorithms to create louder and richer sound in space-constrained speaker",
+    "link": "https://www.analog.com/en/solutions/dynamic-speaker-management.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/dynamic-speaker-management.jpg?rev=333ff56a426e43cc917ae4ee88621505&sc_lang=en&la=en&h=211&w=351&hash=BBE1C233331A515753553EA5F9AD50D6",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html"
+  },
+  {
+    "title": "Gallium Nitride (GaN) Technology",
+    "description": "The higher power density of gallium nitride (GaN) means higher power in a smaller footprint, fewer components, smaller systems, and less weightcontributing to more reliable and more efficient systems.",
+    "link": "https://www.analog.com/en/solutions/gan.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gan-gallium-nitride.jpg?rev=3cf05638db084bc581d3ad6fa3a18772&sc_lang=en&la=en&h=211&w=351&hash=520E08146147AD97837A54A3B711B065",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Gallium Nitride (GaN) Solutions in Power",
+        "description": "GaN enables greater power densitymore power for the same spacebut these technologies add new challenges and requirements to provide fast overcurrent protected systems and robust operation. Analog Devi",
+        "link": "https://www.analog.com/en/solutions/gan/gan-solutions-in-power.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gan-gallium-nitride.jpg?rev=3cf05638db084bc581d3ad6fa3a18772&sc_lang=en&la=en&h=211&w=351&hash=520E08146147AD97837A54A3B711B065",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/gan.html"
+      },
+      {
+        "title": "Gallium Nitride (GaN) Solutions in Radio Frequency (RF)",
+        "description": "GaN power amplifiers provide high output power in a compact footprint coupled with high efficiency, resulting in reduced heat dissipation, greater overall system efficiency, and reduced system design",
+        "link": "https://www.analog.com/en/solutions/gan/gan-solutions-in-rf.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/gan-solutions-in-rf-spot.jpg?rev=418213133c0745f8809336ab15d00ce0&sc_lang=en&la=en&h=211&w=351&hash=C8E4F641CE2B202E12E4F30D15A703E0",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/gan.html"
+      }
+    ]
+  },
+  {
+    "title": "Gigabit Multimedia Serial Link (GMSL) Technology",
+    "description": "Gigabit Multimedia Serial Link (GMSL) from Analog Devices is a cost-efficient, simple, and scalable SerDes technology. It is designed to achieve a new level of performance for high-speed video links.",
+    "link": "https://www.analog.com/en/solutions/gigabit-mulitimedia-serial-link.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gigabit-multimedia-serial-link.jpg?rev=ff22a04ee4dd4e06b2da1d2cc805a8f1&sc_lang=en&la=en&h=211&w=351&hash=894B51D177D7280D4347D1E81C62D12F",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Gigabit Multimedia Serial Link (GMSL) Solutions",
+        "description": "Cameras and displays are constantly growing in numbers and image quality, requiring higher data rates for video transport. Analog Devices GMSLTM is supporting these trends and simplifying the system a",
+        "link": "https://www.analog.com/en/solutions/gigabit-mulitimedia-serial-link/gigabit-multimedia-serial-link-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gmsl-solutions-spot.jpg?rev=43e973c61b6f4720932ce1dda2b192c8&sc_lang=en&la=en&h=211&w=351&hash=5A21BDC5C77F476B72A1E3411B52334D",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/gigabit-mulitimedia-serial-link.html"
+      }
+    ]
+  },
+  {
+    "title": "Industrial Vision Technology",
+    "description": "As industrial automation advances towards autonomy, it is imperative that machines can perceive their environment with accuracy, reliability, and safety to effectively perform their tasks. Analog Devi",
+    "link": "https://www.analog.com/en/solutions/industrial-vision.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/industrial-vision.jpg?rev=2eabef413cf841e38632503239b1f1a2&sc_lang=en&la=en&h=211&w=351&hash=BDAF556F4856DE1478E91FBA302BA7EC",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "3D Time of Flight (ToF)",
+        "description": "3D Time of Flight (ToF) technology refers to non-scanning LIDAR (light detection and ranging) implementations that use high-power optical pulses in durations of nanoseconds to measure the depth inform",
+        "link": "https://www.analog.com/en/solutions/industrial-vision/3d-time-of-flight.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/3d-time-of-flight-solutions-spot.jpg?rev=6a06f36582104932a34c848bee5afd18&sc_lang=en&la=en&h=211&w=351&hash=E3DA0E5FC50410D6165641B2FB69F764",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/industrial-vision.html"
+      }
+    ]
+  },
+  {
+    "title": "Power Solutions",
+    "description": "See how ADI is building power semiconductor solutions that bring safe and reliable innovation to diverse markets while meeting lower energy consumption objectives.",
+    "link": "https://www.analog.com/en/solutions/power-solutions.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/powersolutions-spotlight-l0.jpg?rev=6c8520494a2f4cf599ec00648b8faeb1&sc_lang=en&la=en&h=211&w=351&hash=511DC2139252C601F89778A347737DDF",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Digital Power Technology",
+        "description": "Digital power technology combines ADI’s renowned power solutions with programmability and telemetry to address critical issues in edge intelligence, predictive maintenance, renewable energy, higher po",
+        "link": "https://www.analog.com/en/solutions/power-solutions/digital-power-technology.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/digital-power-technology.jpg?rev=93cf453075d64dae9e31bcc3f9edea3a&sc_lang=en&la=en&h=211&w=351&hash=A3544E2B494A2E556E69A6F2B6BF9F9C",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "Industrial Battery Powered Solutions",
+        "description": "Designing for battery chemistry, performance, battery life, heat, and size requires a system-level power management strategy. ADI offers a variety of products to support industrial power battery imple",
+        "link": "https://www.analog.com/en/solutions/power-solutions/industrial-battery-powered-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/images/videoimages/en/video-still-6328034281112.jpg?rev=8d34afbbbef944eb9084ba5a49dffd32&sc_lang=en&la=en&h=211&w=351&hash=5C4EDD71FC0E63072D2329162C5137B3",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "nanoPower Solutions",
+        "description": "Our nanoPower Technology solutions deliver state-of-the-art architecture and efficiencies through extended run time, less heat dissipation, and smaller form factors.",
+        "link": "https://www.analog.com/en/solutions/power-solutions/nanopower-technology-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/nanopower-technology-solutions-spot.jpg?rev=e93a076312254a3b8a019e0dbf262552&sc_lang=en&la=en&h=211&w=351&hash=92108102E2F0205D64084D3EE3806B12",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "Robust Power Solutions",
+        "description": "ADI’s robust power solutions deliver reliable, efficient, high-density power for demanding applications such as Industrial Automation, Aerospace & Defense, Automotive, and Digital Healthcare.",
+        "link": "https://www.analog.com/en/solutions/power-solutions/robust-power-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/robust-power-solutions.jpg?rev=17ed0d2a178c48de8b27e9511512c0e7&sc_lang=en&la=en&h=211&w=351&hash=C488873227E55E59DD981C2CCA6EB4A2",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "Silent Switcher Technology Solutions",
+        "description": "The low noise Silent Switcher architecture with ultralow EMI increases system performance and efficiency, while delivering higher power density in small design footprints.",
+        "link": "https://www.analog.com/en/solutions/power-solutions/silent-switcher-technology-solutions.html",
+        "image_url": "https://www.analog.com/en/_/media/analog/en/technologies/power-solutions/silent-switcher/silent-switcher-solutions-image.png?rev=b32b392745504218ababd2e11581c516&sc_lang=en&la=en&h=211&w=351&hash=9B2B51D712A3B6315B9FB71226222A10",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "μModule Power Technology",
+        "description": "μModule power technology simplifies implementation, verification and manufacturing of complex circuits by integrating the power function into a compact package.",
+        "link": "https://www.analog.com/en/solutions/power-solutions/umodule-power-technology.html",
+        "image_url": "https://www.analog.com/en/_/media/analog/en/technologies/power-solutions/umodule-power-technology/circuit-board-l2-tile-image.jpg?rev=d275cccf9e194cc2bbbed2b933187a6e&sc_lang=en&la=en&h=211&w=351&hash=ED935C6314A28B76D40B0DB3E70C82C7",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      },
+      {
+        "title": "&mu;Module Power Technology",
+        "description": "μModule power technology simplifies implementation, verification and manufacturing of complex circuits by integrating the power function into a compact package.",
+        "link": "https://www.analog.com/en/solutions/power-solutions/umodule-power-technology.html",
+        "image_url": "https://www.analog.com/en/_/media/analog/en/technologies/power-solutions/umodule-power-technology/circuit-board-l2-tile-image.jpg?rev=d275cccf9e194cc2bbbed2b933187a6e&sc_lang=en&la=en&h=211&w=351&hash=ED935C6314A28B76D40B0DB3E70C82C7",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/power-solutions.html"
+      }
+    ]
+  },
+  {
+    "title": "Precision Technology Solutions",
+    "description": "Precision technology signal chains allow for easy navigation between various design trade-offs to create the optimum end-solution by application. With more than 50 years of insight and expertise, Anal",
+    "link": "https://www.analog.com/en/solutions/precision-technology.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Isolated Gate Driver Solutions",
+        "description": "Isolated gate drive and sense signal chains combine robust switch control and scalable multichannel monitoring into a flexible solution covering a range of AC/DC and DC/AC applications. These signal c",
+        "link": "https://www.analog.com/en/solutions/precision-technology/isolated-gate-drive-and-sense.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision Current Sensing and Amplifier Solutions",
+        "description": "Precision current sensing signal chains offer a wide range of accurate, robust, and industry-proven current measurement solutions that can be adopted in all environments to measure current in low, med",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-current-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/precision-current-sensing-spot.jpg?rev=bef2bedae1264ab386cc06457ff80d96&sc_lang=en&la=en&h=211&w=351&hash=0A56AC30AF8C98EA78D07A5ED07D1C8A",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision High Voltage Solutions",
+        "description": "Analog Devices precision high-voltage signal chains combine precision high-voltage amplifiers, high-voltage digital-to-analog converters (DACs), difference amplifiers, and matched resistor networks. D",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-high-voltage.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/precision-high-voltage-spot.jpg?rev=10afaa4a726b40639bf628652e72566a&sc_lang=en&la=en&h=211&w=351&hash=7EEABF879E48F6AB759884B7A4DFFBD1",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision Low Power Solutions",
+        "description": "Analog Devices precision low-power signal chains are designed and optimized for battery-powered, power-sensitive, or small footprint applications. We combine precision amplifiers, voltage references,",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-low-power.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/precision-low-power-spot.jpg?rev=78cc3bf0774044828988661ba2ce8adb&sc_lang=en&la=en&h=211&w=351&hash=73691FA18A93B45C58401C8FE40E8670",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision Medium Bandwidth Solutions",
+        "description": "Precision medium bandwidth signal chains cover a large range of applications from the smallest perturbation of the electrical grid to the loudest roar of a jet engine. These are solutions that demand",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-medium-bandwidth.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/precision-medium-bandwidth-spot.jpg?rev=623ccdceb9274b9099d53e433716fc31&sc_lang=en&la=en&h=211&w=351&hash=D594FBC9F808815451D7BDD96F295795",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision Narrow Bandwidth Solutions",
+        "description": "Analog Devices offers precision narrow bandwidth signal chains that focus on optimizing the performance of systems where the signals of interest are in the range of DC to approximately 10 kHz. These s",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-narrow-bandwidth.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      },
+      {
+        "title": "Precision Wide Bandwidth Solutions",
+        "description": "Precision wide bandwidth signal chains bring the insight and flexibility needed to optimize application-specific parameters for measurement and drive solutions. While ensuring the necessary accuracy,",
+        "link": "https://www.analog.com/en/solutions/precision-technology/precision-wide-bandwidth.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/precision-technology.html"
+      }
+    ]
+  },
+  {
+    "title": "Radio Frequency (RF) Solutions",
+    "description": "Our RF solutions unlock the entire wireless spectrum, enabling the lowest-latency communication links and the most sensitive sensors, meeting the challenges of the future in communications, aerospace",
+    "link": "https://www.analog.com/en/solutions/rf-technology.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/rf.jpg?rev=f957c06598e345f981f4fb731039a7a1&sc_lang=en&la=en&h=211&w=351&hash=BAACBBB0440E9E049B06E077E6D564A9",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html"
+  },
+  {
+    "title": "Security Solutions",
+    "description": "Making Trust Visible   ADI puts security first in everything we do, with security solutions that set expectations for trust, and future-proof your business against evolving threats. We are committed t",
+    "link": "https://www.analog.com/en/solutions/security.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/security-solutions.jpg?rev=a82feeb7beba4a499a1a30bf4fbfeb28&sc_lang=en&la=en&h=211&w=351&hash=F7DE769F34F0B787B3E3DFB7B73E707F",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Trusted Edge",
+        "description": "ADI Assure is a suite of products that provides robust protection against security threats to deliver a persistent state of assurance. With our trusted edge solutions, your security boundary is closer",
+        "link": "https://www.analog.com/en/solutions/security/trusted-edge.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/trusted-edge-spot.jpg?rev=d0387fd0c64d41d09b3fd500720c6624&sc_lang=en&la=en&h=211&w=351&hash=E5919511C52AEA9B89B4264E9F9B8EE5",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/security.html"
+      }
+    ]
+  },
+  {
+    "title": "Sensor Interface Solutions",
+    "description": "Designing measurement solutions is complicated. High-performance signal conditioning is critical to the performance of any technology that interacts with the physical world. Whether you are measuring",
+    "link": "https://www.analog.com/en/solutions/sensor-interfaces.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/sensor-interfaces.jpg?rev=50699d3762c04ef3a84a82cbe96aa4e5&sc_lang=en&la=en&h=211&w=351&hash=5A2C4C0EADD3AFA37A0D0530371FE6B9",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "Current Sensing Solutions",
+        "description": "Analog Devices current measurement signal chain solutions detail a variety of precise, robust solutions for accurately measuring currents in all environments. From monitoring phase currents in motors,",
+        "link": "https://www.analog.com/en/solutions/sensor-interfaces/current-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/current-sensing-spot.jpg?rev=7532d92daa974571bc12602a2c1f4a47&sc_lang=en&la=en&h=211&w=351&hash=63F2733D37EF517AF093D5E346F6B07E",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/sensor-interfaces.html"
+      },
+      {
+        "title": "Position Sensing Solutions",
+        "description": "Position sensors are widely used in closed-loop mechanical control systems across a wide variety of industries including automotive, industrial automation, process control, and military and aerospace.",
+        "link": "https://www.analog.com/en/solutions/sensor-interfaces/position-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/position-sensing-spot.jpg?rev=a4478b68fac04986b83db5db512024a9&sc_lang=en&la=en&h=211&w=351&hash=EFB6235C9CC43DBA3E9A3F11763960FD",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/sensor-interfaces.html"
+      },
+      {
+        "title": "Temperature Sensing Solutions",
+        "description": "Analog Devices broad portfolio of temperature sensing solutions includes a wealth of signal chains, integrated sensor-to-bits solutions, and discrete technologies to jump-start your design.  Our therm",
+        "link": "https://www.analog.com/en/solutions/sensor-interfaces/temperature-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/temperature-sensing-spot.jpg?rev=63ee18976e8745fc95cc4881acbff379&sc_lang=en&la=en&h=211&w=351&hash=54465A4C393DA609E06702845B47A565",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/sensor-interfaces.html"
+      },
+      {
+        "title": "Vibration Sensing Solutions",
+        "description": "Vibration sensing is a critical measurement modality and the key predictive variable used to monitor and detect potential issues within rotating equipment. Early in the life cycle, these vibrations te",
+        "link": "https://www.analog.com/en/solutions/sensor-interfaces/vibration-sensing.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/vibration-sensing-spot.jpg?rev=245e906cdaf4431097dcd87f20c32937&sc_lang=en&la=en&h=211&w=351&hash=F33E49973B173C5FCBE292D41CA36F10",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/sensor-interfaces.html"
+      }
+    ]
+  },
+  {
+    "title": "SmartMesh Technology",
+    "description": "SmartMesh wireless sensor networking products are chips and pre-certified PCB modules complete with mesh networking software, enabling sensors to communicate in tough Industrial Internet of Things (Io",
+    "link": "https://www.analog.com/en/solutions/smartmesh.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/smartmesh.jpg?rev=7c13921bfc564437b2e2090bc53e0a3c&sc_lang=en&la=en&h=211&w=351&hash=93619DBCD80C34CF50997518BE312637",
+    "depth": 0,
+    "parent_url": "https://www.analog.com/en/solutions.html",
+    "sub_solutions": [
+      {
+        "title": "SmartMesh IP Solutions",
+        "description": "A SmartMesh IP network consists of a highly scalable self-forming multi-hop mesh of wireless nodes, known as motes, which collect and relay data, and a network manager that monitors and manages networ",
+        "link": "https://www.analog.com/en/solutions/smartmesh/smartmesh-ip.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/smartmesh-ip-solutions-spot.jpg?rev=86d7a5d40e814d43b98026477c5bf66e&sc_lang=en&la=en&h=211&w=351&hash=B7BDFABD3F01D2079BB47EF44BCD52AE",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/smartmesh.html",
+        "sub_solutions": [
+          {
+            "title": "ADI Support",
+            "description": "",
+            "link": "https://www.analog.com/en/solutions/smartmesh/\\media\\en\\news-marketing-collateral\\solutions-bulletins-brochures\\SmartMesh_Ad.pdf",
+            "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/product/pdf-vector.svg?rev=987e964f81dc401093014c70e4961515&la=en&h=16px&w=16px&hash=CAA77CB77FEB4052BD13032EE8E0E0CF",
+            "depth": 2,
+            "parent_url": "https://www.analog.com/en/solutions/smartmesh/smartmesh-ip.html"
+          }
+        ]
+      },
+      {
+        "title": "SmartMesh WirelessHART Solutions",
+        "description": "Now available with breakthrough Eterna SoC technology, SmartMesh WirelessHART products are designed for the harshest industrial environments, where low power, reliability, resilience, and scalability",
+        "link": "https://www.analog.com/en/solutions/smartmesh/smartmesh-wirelesshart.html",
+        "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/l2-technology/smartmesh-wirelesshart-solutions-spot.jpg?rev=8aa6ecdeb3db4360865f9fed1007fbb8&sc_lang=en&la=en&h=211&w=351&hash=B25BEDB0B2C2C8C755C123C3FEEC244F",
+        "depth": 1,
+        "parent_url": "https://www.analog.com/en/solutions/smartmesh.html"
+      }
+    ]
+  }
+]

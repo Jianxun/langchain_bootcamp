@@ -1,0 +1,282 @@
+{
+  "Aerospace and Defense Systems": {
+    "Aerospace and Defense Radar Systems": {
+      "Radar System Solutions": {}
+    },
+    "Avionic Systems": {
+      "Air Data, Altitude, Heading Reference Systems (ADAHRS)": {},
+      "Aircraft Communication Systems": {},
+      "eVTOL, Battery Management Systems (BMS), and Power Solutions": {},
+      "Flight Management Systems (FMS) and Engine Control Solutions": {},
+      "Inflight Entertainment Solutions": {},
+      "NextGen Weather Radar (NEXRAD) Solutions": {}
+    },
+    "Electronic Surveillance and Countermeasures": {
+      "Electronic Surveillance and Countermeasure Solutions": {}
+    },
+    "High Reliability AQEC and COTS Solutions": {
+      "Enhanced Product Listing": {}
+    },
+    "Integrated Microwave Assemblies (IMA)": {
+      "Integrated Microwave Assemblies (IMA) Solutions": {}
+    },
+    "Military Communication Solutions": {
+      "Tactical Radio Systems": {},
+      "Satellite Solutions for Military Communications": {},
+      "Military 5G Solutions": {},
+      "Software Defined Radio (SDR) Solutions for Military Communications": {}
+    },
+    "Missiles and Precision Munitions": {
+      "Missiles and Precision Munitions Solutions": {}
+    },
+    "mmWave Sensing and Imaging": {
+      "mmWave Sensing and Imaging Solutions": {}
+    },
+    "Phased Array Technology": {
+      "Phased Array Solutions": {}
+    },
+    "Space Technology": {
+      "Space Technology Complete Solutions": {}
+    },
+    "Unmanned Aerial Vehicles (UAV)": {
+      "Unmanned Aerial Vehicle (UAV) Systems": {}
+    },
+    "Government Research and Engineering": {}
+  },
+  "Automotive Solutions": {
+    "Advanced Driver Assistance Systems (ADAS) and Safety Solutions": {
+      "Advanced Driver Assistance Systems (ADAS) Camera Solutions": {},
+      "Advanced Driver Assistance Systems (ADAS) Sensor Fusion ECU Solutions": {},
+      "Driver and Occupant Monitoring Systems (DMS, OMS)": {}
+    },
+    "Automotive Display and Lighting Solutions": {
+      "Automotive Exterior Lighting Solutions": {}
+    },
+    "Automotive Ethernet Connectivity": {
+      "10BASE-T1S Ethernet to Edge Bus (E2BTM)": {},
+      "10BASE-T1S MAC-PHY Solutions": {}
+    },
+    "Cabin Experience and Infotainment Solutions": {
+      "Rear Seat Entertainment and Cluster Display Solutions": {},
+      "Head-Unit and Cockpit ECU Solutions": {},
+      "Premium Audio Amplifier Solutions": {},
+      "Telematics, eCall, and Networking Solutions": {},
+      "Voice and Acoustic Signal Processing Solutions": {},
+      "Automotive Display Solutions": {}
+    },
+    "Electrification and Powertrain Solutions": {
+      "Automotive Battery Management Systems": {},
+      "Electric Vehicle Powertrain Solutions": {},
+      "Leading the Intelligent Edge of Vehicle Electrification": {}
+    }
+  },
+  "Consumer Technology Solutions": {
+    "Hearable and Wearable Solutions": {
+      "Audio Solutions for Hearables and Wearables": {},
+      "Power and Battery Management Solutions for Hearables and Wearables": {},
+      "Extended Reality (XR) Solution for Edge Devices": {},
+      "Wearable Vital Signs Monitoring Solutions": {}
+    },
+    "Home Theater and Gaming Solutions": {
+      "Home Theater and Gaming Audio Video Solutions": {}
+    },
+    "Personal Electronics Solutions": {
+      "Personal Electronics Audio Solutions": {},
+      "Low Power and High Security Solutions for Personal Electronics": {},
+      "Ultra Low Power (ULP), Space-Saving Power and Battery Management Solutions": {}
+    },
+    "Smart Home Solutions": {
+      "Ultra Low Power (ULP) MCUs and IoT Security Solutions for Smart Homes": {},
+      "Low Power (LP), Scalable, High Fidelity Audio Solutions for Smart Homes": {},
+      "Power and Battery Management Solutions for Smart Homes": {}
+    },
+    "Unified Communications (UC) and ProAV": {
+      "Unified Communications (UC) and ProAV Solutions": {}
+    }
+  },
+  "Data Center Solutions": {
+    "AI Accelerators": {
+      "AI Accelerator Solutions": {}
+    },
+    "Server Equipment": {
+      "Server Equipment Solutions": {}
+    },
+    "Optical Networking Solutions": {
+      "Data Center Control Solutions for Optical Systems and Modules": {},
+      "Data Center Power Solutions for Optical Systems and Modules": {}
+    }
+  },
+  "Energy Solutions": {
+    "Energy Storage Solutions": {
+      "Energy Storage Systems": {}
+    },
+    "EV Charging Solutions": {
+      "EVSE Systems": {},
+      "Security Solutions for EVSE": {},
+      "Smart Metering Technology for EVSE": {}
+    },
+    "Renewable Energy Generation Solutions": {
+      "Solar Inverter Solutions": {},
+      "Wind Turbine Solutions": {}
+    },
+    "Smart Grid Infrastructure Solutions": {
+      "Power Quality Monitoring Solutions": {},
+      "Smart Meter Technology": {},
+      "Energy Transmission and Distribution Solutions": {}
+    }
+  },
+  "Healthcare Solutions": {
+    "Diabetes Monitoring and Diagnostic Solutions": {
+      "Blood Glucose Meter Solutions": {},
+      "Continuous Glucose Monitor (CGM) Solutions": {},
+      "Insulin Pump Solutions": {}
+    },
+    "In Vitro Diagnostic Solutions": {
+      "Central Laboratory Diagnostic Systems": {},
+      "Point of Care (PoC) Diagnostic Solutions": {}
+    },
+    "Medical Imaging Solutions": {
+      "Computed Tomography Solutions": {},
+      "Digital X-Ray Solutions": {},
+      "Ultrasound Solutions": {}
+    },
+    "Therapy Device Solutions for Healthcare": {
+      "Infusion Pump Systems": {},
+      "Healthcare Ventilator Systems": {}
+    },
+    "Vital Signs Monitoring Solutions": {
+      "Activity Tracking and Fall Detection Solutions": {},
+      "Body Composition, Hydration, and Bioimpedance Analysis Solutions": {},
+      "Body Temperature Measurement Solutions": {},
+      "Electroencephalogram (EEG) Measurement Solutions": {},
+      "Electrocardiogram (ECG) Measurement Solutions": {},
+      "Non-Invasive Blood Pressure (NIBP) Solutions": {},
+      "Oxygen Saturation (SpO2) Measurement Solutions": {},
+      "Respiration Rate Measurement Solutions": {},
+      "Wearable Health Monitor Solutions": {}
+    },
+    "Applicable Industry Solutions": {
+      "Analytical Instruments": {},
+      "Automated Test Equipment": {},
+      "Automotive Testing Solutions": {},
+      "Battery Formation and Testing": {},
+      "Electronic Test and Measurement Solutions": {},
+      "Environmental Measurement Solutions": {},
+      "Science Lab Equipment and Automation Solutions": {},
+      "Access Dedicated Page": {}
+    }
+  },
+  "Industrial Automation": {
+    "Industrial Connectivity Technology": {
+      "Industrial Wired Connectivity Solutions": {},
+      "Industrial Wireless Connectivity Solutions": {}
+    },
+    "Industrial Power Supply Solutions": {
+      "Uninterruptable Power Supply Solutions": {}
+    },
+    "Industrial Robotics Solutions": {
+      "Mobile Robotics Solutions": {},
+      "Mounted (Fixed) Robotics Solutions": {}
+    },
+    "Industrial Sensors and Field Instrument Solutions": {
+      "Field Instrument Systems": {},
+      "Smart Factory IO - Link Master Solutions": {},
+      "Smart Factory IO - Link Sensor Actuator Solutions": {}
+    },
+    "Intelligent Motion Control": {
+      "Motor Drive Solutions": {},
+      "Position Encoder Systems": {}
+    },
+    "Predictive Maintenance Solutions": {
+      "Wired Asset Health Monitoring Solutions": {},
+      "Wireless Asset Health Monitoring Solutions": {}
+    },
+    "Programmable Logic Controllers (PLC) and Distributed Control Systems (DCS)": {
+      "Analog Input/Output Module Solutions": {},
+      "Remote Input/Output Module Solutions": {},
+      "Universal Input/Output Module Solutions": {}
+    },
+    "Safety and Protection Systems": {
+      "Industrial Functional Safety Solutions": {}
+    }
+  },
+  "Instrumentation and Measurement Solutions": {},
+  "Intelligent Building Solutions": {
+    "Building Fire Safety and Surveillance Solutions": {
+      "Smoke Detection Systems": {},
+      "Surveillance Camera Solutions": {}
+    },
+    "Building Logistics and Retail Automation Solutions": {
+      "Automatic Identification and Data Capture (AIDC) Solutions": {},
+      "Point of Sale (POS) Systems": {}
+    },
+    "Smart Building Automation Systems": {
+      "Building Automation Controllers and Network Solutions": {},
+      "Building Lighting Technology Solutions": {},
+      "Building Technology Power Solutions": {}
+    },
+    "Smart Building Sustainability Solutions": {
+      "Environmental Building Monitoring Solutions": {}
+    },
+    "Smart Building Utilities Solutions": {
+      "Building Energy Technology Solutions": {},
+      "HVAC System Technology": {}
+    }
+  },
+  "Wireless Communication Solutions": {
+    "Wireless Infrastructure Solutions": {
+      "4G / 5G Radio Unit Systems": {},
+      "mmWave Communication Solutions": {},
+      "E-Band Radio Solutions": {}
+    }
+  },
+  "A2B Audio Bus": {
+    "A2B Audio Bus": {}
+  },
+  "ADI OtoSense™ Predictive Maintenance Solutions": {},
+  "Dynamic Speaker Management (DSM) Solutions": {},
+  "Gallium Nitride (GaN) Technology": {
+    "Gallium Nitride (GaN) Solutions in Power": {},
+    "Gallium Nitride (GaN) Solutions in Radio Frequency (RF)": {}
+  },
+  "Gigabit Multimedia Serial Link (GMSL) Technology": {
+    "Gigabit Multimedia Serial Link (GMSL) Solutions": {}
+  },
+  "Industrial Vision Technology": {
+    "3D Time of Flight (ToF)": {}
+  },
+  "Power Solutions": {
+    "Digital Power Technology": {},
+    "Industrial Battery Powered Solutions": {},
+    "nanoPower Solutions": {},
+    "Robust Power Solutions": {},
+    "Silent Switcher Technology Solutions": {},
+    "μModule Power Technology": {},
+    "&mu;Module Power Technology": {}
+  },
+  "Precision Technology Solutions": {
+    "Isolated Gate Driver Solutions": {},
+    "Precision Current Sensing and Amplifier Solutions": {},
+    "Precision High Voltage Solutions": {},
+    "Precision Low Power Solutions": {},
+    "Precision Medium Bandwidth Solutions": {},
+    "Precision Narrow Bandwidth Solutions": {},
+    "Precision Wide Bandwidth Solutions": {}
+  },
+  "Radio Frequency (RF) Solutions": {},
+  "Security Solutions": {
+    "Trusted Edge": {}
+  },
+  "Sensor Interface Solutions": {
+    "Current Sensing Solutions": {},
+    "Position Sensing Solutions": {},
+    "Temperature Sensing Solutions": {},
+    "Vibration Sensing Solutions": {}
+  },
+  "SmartMesh Technology": {
+    "SmartMesh IP Solutions": {
+      "ADI Support": {}
+    },
+    "SmartMesh WirelessHART Solutions": {}
+  }
+}

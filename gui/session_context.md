@@ -1,6 +1,6 @@
 # Session Context
-Version: 1.0.3
-Last Updated: 2024-03-21 11:00:00
+Version: 1.1.1
+Last Updated: 2024-03-22 15:00:00
 
 ## User Information
 - Name: Jason
@@ -9,13 +9,12 @@ Last Updated: 2024-03-21 11:00:00
 - Occupation: Circuit Designer
 
 ## Project Context
-- Application: TBD
-- Specifications: TBD
+- Application: Class-D amplifier design
+- Specifications: 80W
 
 ## Technical Feedback
 Document the technical feedback to the user here in bullet points.
 
-**Update History:**
-- 2024-03-21 11:00:00: Updated user's name from Jack to Jason based on user's input.
-- 2024-03-21 10:30:00: Updated user's name from Jason to Jack based on user's input.
-- 2024-03-21 10:00:00: Updated user's name from Bob to Jason based on user's input.
+**Changes:**
+- Updated user's name from "Bob" to "Jason" as per user's input during the conversation.
+- Updated project specifications from "40W" to "80W" as per user's update during the conversation.

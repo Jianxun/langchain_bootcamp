@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Aerospace and Defense Systems",
+    "description": "Today’s advanced defense systems in radar, communications, avionics, defense electronics, and much more demand the best in system-level performance and security.",
+    "link": "https://www.analog.com/en/solutions/aerospace-and-defense.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/aerospace.jpg?rev=7d407bd0664d4934be9c74f6c4afb393&la=en&h=211&w=351&hash=CCAB5B8E44A712EBFEF3AC5792B2D93E"
+  },
+  {
+    "title": "Automotive Solutions",
+    "description": "By leveraging technologies across automotive electrification, digital cabin, networking and connectivity, our solutions enable safer mobility, and feature rich cabins and more efficient EVs. Our innovations in precision sensing, edge processing, and software and wireless technologies empower actionable insights at the intelligent edge to transform the vehicle into an intelligence center.",
+    "link": "https://www.analog.com/en/solutions/automotive.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/automotive.jpg?rev=221748682c824c8faeff55ab6f67ae8e&la=en&h=211&w=351&hash=A202D6E93B41946C2F41F1DA853C2175"
+  },
+  {
+    "title": "Consumer Technology Solutions",
+    "description": "Analog Devices enhances human sensory experiences by developing innovations that change the way we live, work, and interact.",
+    "link": "https://www.analog.com/en/solutions/consumer.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/consumer.jpg?rev=c15ab3ccdb014faeb30ec0b23c24320d&la=en&h=211&w=351&hash=4A89A24B016CF3A91979C82D244548F7"
+  },
+  {
+    "title": "Data Center Solutions",
+    "description": "Increases in data center compute performance, storage density, and throughput are driving the need for higher energy efficiency, increased power density, and higher bandwidth low-latency optical connectivity. Analog Devices’ innovative data center solutions are designed to maximize efficiency, density, and reliability. We provide cutting-edge, all-encompassing solutions that include industry-leading power management systems for high-density servers, storage, and networking setups, optical control solutions, sensor solutions for data center infrastructure development, and more. Our offerings cater to data centers of all sizes, spanning from edge to hyperscale, ensuring top-tier performance throughout.",
+    "link": "https://www.analog.com/en/solutions/data-center.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/data-center.jpg?rev=af057a1c0fd94e06b0be14576182cbd1&la=en&h=211&w=351&hash=E7EE6271254B7E107CC57596571DE06C"
+  },
+  {
+    "title": "Energy Solutions",
+    "description": "Our solutions for energy management, energy storage, and power conversion are helping accelerate the transition to the clean energy grid. By leveraging innovations in precision sensing, signal conversion, isolation, edge processing, and power management technologies, we enable a wide range of applications from renewables to microgrids and commercial grade energy storage to grid infrastructure.",
+    "link": "https://www.analog.com/en/solutions/energy.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/energy.jpg?rev=53c4899293d342d0b476728c2ffcbcb0&la=en&h=211&w=351&hash=A21782E9B62B1A5CB232FEA1810A7B2E"
+  },
+  {
+    "title": "Healthcare Solutions",
+    "description": "We are at the forefront of an ecosystem that is driving healthcare forward to deliver life-changing innovations for all. Domain expertise combined with a comprehensive technology portfolio enables solutions that can lead to better healthcare outcomes.",
+    "link": "https://www.analog.com/en/solutions/healthcare.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3"
+  },
+  {
+    "title": "Industrial Automation",
+    "description": "Through superior innovation and a premier technology franchise, Analog Devices is increasing productivity across factory floors and process plants, enabling personalized output with flexible manufacturing, and producing intelligent edge insights that reduce raw material usage and energy consumption. As a trusted advisor, we work hand-in-hand with our customers to co-create easily adopted solutions, enable digital transformation, and build a sustainable industrial future.",
+    "link": "https://www.analog.com/en/solutions/industrial-automation.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/industrial.jpg?rev=a0df66acdb504147b1192e6e2955e983&la=en&h=211&w=351&hash=06C1DA5891EF75912171C5554D8B04CC"
+  },
+  {
+    "title": "Instrumentation and Measurement Solutions",
+    "description": "Analog Devices partners with customers to instrument the future. Leveraging industry-leading capabilities, we enable technological advances, further scientific discovery, and improve quality of life. We deliver complete solutions from antenna-to-bits and measurement-to-information.",
+    "link": "https://www.analog.com/en/solutions/instrumentation-and-measurement.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/instrumentation.jpg?rev=de992de2068946b4928ef9267ca7823c&la=en&h=211&w=351&hash=63765DDE3C8DB13C4FEBC4B77C93C7AE"
+  },
+  {
+    "title": "Intelligent Building Solutions",
+    "description": "Buildings throughout the world are experiencing unprecedented growth in safer, more energy-efficient, and sustainable structures. Analog Devices’ solutions for intelligent buildings are at the forefront of unlocking insights for the smart building digital transformation.",
+    "link": "https://www.analog.com/en/solutions/intelligent-buildings.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/intelligent-buildings.jpg?rev=1d47da75d04c4b91ba4df6c7198591c4&la=en&h=211&w=351&hash=7BC97F144AF03F0ED6E7407616EA82CF"
+  },
+  {
+    "title": "Wireless Communication Solutions",
+    "description": "Virtually every wireless call, text, and download today passes through an Analog Devices IC. Our extensive portfolio covers the entire RF spectrum and provides high-quality, reliable, cost-efficient solutions for cellular wireless infrastructure, point-to-point communications, portable radios, private networks, and non-terrestrial networks.",
+    "link": "https://www.analog.com/en/solutions/wireless-communications.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/industry-overview-images/wireless.jpg?rev=3f0df5e573df4c32adfa3e3d97d0565e&la=en&h=211&w=351&hash=6E927BB1A484D9C9964C8CB524903595"
+  },
+  {
+    "title": "A2B Audio Bus",
+    "description": "Analog Devices’ A2B is a simple, flexible, and lightweight solution for audio connectivity, targeting automotive, consumer, smart building, and emerging applications. A2B is a high-bandwidth, bidirectional, digital audio bus that enables next-gen audio and acoustic applications.",
+    "link": "https://www.analog.com/en/solutions/a2b-audio-bus.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/explore-a2b-audio-bus.jpg?rev=2acc17fa2915482d86ffd69f31860629&sc_lang=en&la=en&h=211&w=351&hash=662B161403BC414C0D0E359B9D838BBE"
+  },
+  {
+    "title": "ADI OtoSense™ Predictive Maintenance Solutions",
+    "description": "ADI OtoSense™ Smart Motor Sensor is a full turnkey sensor hardware and advanced analytics software solution for condition-based monitoring. It doesn’t require expert analysis or wires and gateways. With nine mechanical and electrical faults detected, it is quick and easy to deploy.",
+    "link": "https://www.analog.com/en/solutions/otosense.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3"
+  },
+  {
+    "title": "Dynamic Speaker Management (DSM) Solutions",
+    "description": "Dynamic Speaker Management™ (DSM) is an audio solution that combines high-performance speaker amplifiers with our patented DSM algorithms to create louder and richer sound in space-constrained speaker applications.  \n\nDSM smart amplifiers use current and voltage (IV) feedback in combination with our speaker protection algorithms to push maximum loudness and bass response without exceeding the excursion or thermal limits of the speaker.",
+    "link": "https://www.analog.com/en/solutions/dynamic-speaker-management.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/dynamic-speaker-management.jpg?rev=333ff56a426e43cc917ae4ee88621505&sc_lang=en&la=en&h=211&w=351&hash=BBE1C233331A515753553EA5F9AD50D6"
+  },
+  {
+    "title": "Gallium Nitride (GaN) Technology",
+    "description": "The higher power density of gallium nitride (GaN) means higher power in a smaller footprint, fewer components, smaller systems, and less weight—contributing to more reliable and more efficient systems.  \n\nAnalog Devices’ breadth and depth of expertise in GaN device design and support combined with our deep domain knowledge makes us the ideal partner for realizing the benefits of GaN technology.",
+    "link": "https://www.analog.com/en/solutions/gan.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gan-gallium-nitride.jpg?rev=3cf05638db084bc581d3ad6fa3a18772&sc_lang=en&la=en&h=211&w=351&hash=520E08146147AD97837A54A3B711B065"
+  },
+  {
+    "title": "Gigabit Multimedia Serial Link (GMSL) Technology",
+    "description": "Gigabit Multimedia Serial Link (GMSL) from Analog Devices is a cost-efficient, simple, and scalable SerDes technology. It is designed to achieve a new level of performance for high-speed video links. It provides reliable transport of high-resolution digital video for camera and display-based applications, including autonomy, infotainment, safety, and monitoring. With millions of GMSL links found today on-road from over 25 automotive manufacturers, our solution enables emerging applications across industrial, consumer, healthcare, aerospace, and instrumentation markets.",
+    "link": "https://www.analog.com/en/solutions/gigabit-mulitimedia-serial-link.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/gigabit-multimedia-serial-link.jpg?rev=ff22a04ee4dd4e06b2da1d2cc805a8f1&sc_lang=en&la=en&h=211&w=351&hash=894B51D177D7280D4347D1E81C62D12F"
+  },
+  {
+    "title": "Industrial Vision Technology",
+    "description": "As industrial automation advances towards autonomy, it is imperative that machines can perceive their environment with accuracy, reliability, and safety to effectively perform their tasks. Analog Devices’ 3D vision technology provides mm depth accuracy over a wide dynamic range, enabling machinery such as fixed and mobile robots to perform the tasks of navigating, identifying, and positioning with the required levels of autonomy.",
+    "link": "https://www.analog.com/en/solutions/industrial-vision.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/industrial-vision.jpg?rev=2eabef413cf841e38632503239b1f1a2&sc_lang=en&la=en&h=211&w=351&hash=BDAF556F4856DE1478E91FBA302BA7EC"
+  },
+  {
+    "title": "Power Solutions",
+    "description": "Analog Devices, Inc. (ADI) builds solutions that allow power electronics system designers to bring safe and reliable innovation to diverse markets, including industrial, communications, automotive, healthcare, data center, aerospace and defense, and more. ADI’s power semiconductors provide a foundation to help designers meet lower energy consumption objectives and reduce the collective impact of next-generation system innovation.",
+    "link": "https://www.analog.com/en/solutions/power-solutions.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/powersolutions-spotlight-l0.jpg?rev=6c8520494a2f4cf599ec00648b8faeb1&sc_lang=en&la=en&h=211&w=351&hash=511DC2139252C601F89778A347737DDF"
+  },
+  {
+    "title": "Precision Technology Solutions",
+    "description": "Precision technology signal chains allow for easy navigation between various design trade-offs to create the optimum end-solution by application. With more than 50 years of insight and expertise, Analog Devices can help you accelerate technology selection and implementation with our complete precision technology signal chains. Combining the proper tools, purpose-developed knowledge bases, and customizable solutions, our precision technology signal chains enable easy adaptation. Each signal chain allows for simple tailoring to suit unique application needs.\n\nFrom sensor to bits, find and tailor solutions that are optimized for demanding applications in electrification, automotive, digital health, instrumentation, smart industry, energy and sustainability, and any high precision signal chain.",
+    "link": "https://www.analog.com/en/solutions/precision-technology.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/media-play.svg?rev=120b1908746f49259b3ca61722f82d84&la=en&hash=5B93BC605B4372B197699EA9D40253D3"
+  },
+  {
+    "title": "Radio Frequency (RF) Solutions",
+    "description": "Our RF solutions unlock the entire wireless spectrum, enabling the lowest-latency communication links and the most sensitive sensors, meeting the challenges of the future in communications, aerospace and defense, autonomous mobility, and more.",
+    "link": "https://www.analog.com/en/solutions/rf-technology.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/rf.jpg?rev=f957c06598e345f981f4fb731039a7a1&sc_lang=en&la=en&h=211&w=351&hash=BAACBBB0440E9E049B06E077E6D564A9"
+  },
+  {
+    "title": "Security Solutions",
+    "description": "Protecting the integrity of data is vital. Analog Devices provides trusted security solutions that begin at the device level, where the data is born. By rooting identity in hardware, in tandem with secure computing capabilities, our security solutions enable a chain of trust, from the edge to the cloud.",
+    "link": "https://www.analog.com/en/solutions/security.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/security-solutions.jpg?rev=a82feeb7beba4a499a1a30bf4fbfeb28&sc_lang=en&la=en&h=211&w=351&hash=F7DE769F34F0B787B3E3DFB7B73E707F"
+  },
+  {
+    "title": "Sensor Interface Solutions",
+    "description": "Designing measurement solutions is complicated. High-performance signal conditioning is critical to the performance of any technology that interacts with the physical world. Whether you are measuring temperature, the human body, light, chemical reactions, weight, or position, it’s critical to be confident in the measurements on which your technology, algorithm, and data are built. Because each sensor type comes with its own challenges, Analog Devices has a variety of tools, reference designs, and signal chains organized by measurement type to give you a head start on your next design.",
+    "link": "https://www.analog.com/en/solutions/sensor-interfaces.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/sensor-interfaces.jpg?rev=50699d3762c04ef3a84a82cbe96aa4e5&sc_lang=en&la=en&h=211&w=351&hash=5A2C4C0EADD3AFA37A0D0530371FE6B9"
+  },
+  {
+    "title": "SmartMesh Technology",
+    "description": "SmartMesh® wireless sensor networking products are chips and pre-certified PCB modules complete with mesh networking software, enabling sensors to communicate in tough Industrial Internet of Things (IoT) environments.\n\nAnalog Devices’ SmartMesh embedded products are the industry's lowest power and most reliable standards-based wireless sensor networking (WSN) products. SmartMesh products are field proven, with thousands of customer networks deployed in 120 countries. By delivering >99.999% data reliability in tough RF environments, SmartMesh wireless mesh networks are entrusted by industrial IoT solution providers to deliver critical sensor and control data reliably for many years without requiring intervention.",
+    "link": "https://www.analog.com/en/solutions/smartmesh.html",
+    "image_url": "https://www.analog.com/en/_/media/project/analogweb/analogweb/solutions-overview/technology-overview-images/smartmesh.jpg?rev=7c13921bfc564437b2e2090bc53e0a3c&sc_lang=en&la=en&h=211&w=351&hash=93619DBCD80C34CF50997518BE312637"
+  }
+]
