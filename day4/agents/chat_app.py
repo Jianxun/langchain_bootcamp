@@ -1,18 +1,25 @@
 import streamlit as st
-import asyncio
-from demo import ADIEngineerAgent
+from vector_store import query_product_vector_store
+from langchain_openai import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.tools import Tool
+from langchain.agents import AgentExecutor, create_openai_functions_agent
+from langchain.schema import SystemMessage, HumanMessage, AIMessage
 import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Initialize session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
-if "agent" not in st.session_state:
-    st.session_state.agent = ADIEngineerAgent()
 
 # Set page config
 st.set_page_config(
-    page_title="ADI Engineer Agent",
-    page_icon="🔧",
+    page_title="ADI Product Expert",
+    page_icon="🔍",
     layout="wide"
 )
 
@@ -38,22 +45,59 @@ st.markdown("""
 .chat-message .message-content {
     margin-top: 0.5rem;
 }
-.json-viewer {
-    background-color: #f8f9fa;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-family: monospace;
-    white-space: pre-wrap;
-}
 </style>
 """, unsafe_allow_html=True)
 
 # Title and description
-st.title("🔧 ADI Engineer Agent")
+st.title("🔍 ADI Product Expert")
 st.markdown("""
-This agent helps you explore ADI solutions and recommend products based on your technical requirements.
-Ask questions about products, solutions, or technical specifications.
+Chat with an AI expert to find the right ADI products for your needs.
 """)
+
+# Initialize LLM and agent
+if "llm" not in st.session_state:
+    st.session_state.llm = ChatOpenAI(
+        temperature=0.7,
+        model="gpt-4"
+    )
+
+# Create tools for the agent
+tools = [
+    Tool(
+        name="query_product_vector_store",
+        func=query_product_vector_store,
+        description="""Use this tool to search for ADI products. 
+        Input should be a natural language query about the product you're looking for.
+        Returns product information in markdown format."""
+    )
+]
+
+# Create the agent
+if "agent" not in st.session_state:
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", """You are an ADI Product Expert assistant. Your role is to help users find the right ADI products for their needs.
+        You have access to a product search tool that can find ADI products based on user queries.
+        
+        When a user asks about products:
+        1. Use the query_product_vector_store tool to search for relevant products
+        2. Analyze the results and provide a helpful response
+        3. If needed, ask follow-up questions to better understand the user's requirements
+        
+        Always be professional and technical in your responses."""),
+        ("human", "{input}"),
+        ("ai", "{agent_scratchpad}")
+    ])
+    
+    st.session_state.agent = create_openai_functions_agent(
+        llm=st.session_state.llm,
+        tools=tools,
+        prompt=prompt
+    )
+    st.session_state.agent_executor = AgentExecutor(
+        agent=st.session_state.agent,
+        tools=tools,
+        verbose=True
+    )
 
 # Display chat messages
 for message in st.session_state.messages:
@@ -67,7 +111,7 @@ for message in st.session_state.messages:
         """, unsafe_allow_html=True)
 
 # Chat input
-if prompt := st.chat_input("What would you like to know about ADI products?"):
+if prompt := st.chat_input("What kind of ADI product are you looking for?"):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
@@ -82,66 +126,20 @@ if prompt := st.chat_input("What would you like to know about ADI products?"):
         """, unsafe_allow_html=True)
 
     # Process the query
-    with st.spinner("Processing your request..."):
+    with st.spinner("Thinking..."):
         try:
-            # Run the agent
-            result = asyncio.run(st.session_state.agent.run(prompt))
-            
-            # Format the response
-            response = "Here's what I found:\n\n"
-            
-            # Add requirements
-            response += "**Requirements:**\n"
-            response += f"- Application Area: {result['requirements']['application_area']}\n"
-            for req in result['requirements']['requirements']:
-                response += f"- {req['parameter']}: {req['min']} to {req['max']} {req['unit']}\n"
-            
-            # Add matching products
-            if result['products']:
-                response += "\n**Matching Products:**\n"
-                for product in result['products']:
-                    response += f"- {product['name']} ({product['id']})\n"
-                    response += f"  Description: {product['description']}\n"
-                    response += f"  Features: {', '.join(product['features'])}\n"
-                    response += f"  Applications: {', '.join(product['applications'])}\n"
-                    response += f"  Datasheet: [{product['datasheet_url']}]({product['datasheet_url']})\n"
-            
-            # Add matching solutions
-            if result['solutions']:
-                response += "\n**Matching Solutions:**\n"
-                for solution in result['solutions']:
-                    response += f"- {solution['name']} ({solution['id']})\n"
-                    response += f"  Description: {solution['description']}\n"
-                    response += "  Products:\n"
-                    for product in solution['products']:
-                        response += f"  - {product['name']} ({product['role']})\n"
-                    response += "  Reference Designs:\n"
-                    for design in solution['reference_designs']:
-                        response += f"  - [{design['name']}]({design['url']})\n"
-            
-            # Add parameter analysis
-            if result['analysis']['validation']:
-                response += "\n**Parameter Analysis:**\n"
-                for product_id, validation in result['analysis']['validation'].items():
-                    response += f"- {product_id}:\n"
-                    for param, details in validation.items():
-                        response += f"  - {param}: {details['message']}\n"
-            
-            # Add compatibility status
-            if result['analysis']['compatibility']:
-                response += "\n**Compatibility Status:**\n"
-                for product_id, status in result['analysis']['compatibility'].items():
-                    response += f"- {product_id}: {status['message']}\n"
+            # Get response from the agent
+            response = st.session_state.agent_executor.invoke({"input": prompt})
             
             # Add assistant message to chat history
-            st.session_state.messages.append({"role": "assistant", "content": response})
+            st.session_state.messages.append({"role": "assistant", "content": response["output"]})
             
             # Display assistant message
             with st.container():
                 st.markdown(f"""
                 <div class="chat-message assistant">
                     <div class="message-content">
-                        {response}
+                        {response["output"]}
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
@@ -155,19 +153,21 @@ if prompt := st.chat_input("What would you like to know about ADI products?"):
 with st.sidebar:
     st.header("About")
     st.markdown("""
-    The ADI Engineer Agent helps you:
-    - Find products based on technical requirements
-    - Explore complete solutions
-    - Access reference designs
-    - Analyze parameter compatibility
+    This is an AI-powered assistant that helps you find the right ADI products for your needs.
+    You can ask questions about:
+    - Product specifications
+    - Application requirements
+    - Technical features
+    - Integration details
     """)
     
     st.header("Example Queries")
     st.markdown("""
-    Try asking about:
-    - "I need an instrumentation amplifier for a sensor interface with 3.3V supply"
-    - "Looking for a solution for a precision measurement system with 5V supply"
-    - "Find an amplifier with temperature range -40°C to 85°C"
+    Try asking:
+    - "I need an instrumentation amplifier for a sensor interface"
+    - "What's the best ADC for a low power application?"
+    - "Can you recommend a temperature sensor with I2C interface?"
+    - "What are the key features of the AD8422?"
     """)
     
     if st.button("Clear Chat"):
