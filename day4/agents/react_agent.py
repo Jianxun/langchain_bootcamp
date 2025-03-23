@@ -16,6 +16,7 @@ import os
 from dotenv import load_dotenv
 import sys
 import asyncio
+import time
 from pathlib import Path
 from langchain_community.utilities import WikipediaAPIWrapper
 
@@ -40,6 +41,9 @@ class SearchTool(BaseTool):
     def _run(self, query: str, run_manager: Optional[CallbackManagerForToolRun] = None) -> str:
         """Execute the search tool."""
         try:
+            # Add delay between searches to avoid rate limiting
+            time.sleep(2)
+            
             # Get multiple results for better coverage
             results = search_with_retry(query, max_results=5)
             if not results:
@@ -74,6 +78,8 @@ class SearchTool(BaseTool):
                     # Create Wikipedia API wrapper only when needed
                     wikipedia = WikipediaAPIWrapper(top_k_results=2)
                     for query in wiki_queries:
+                        # Add delay between Wikipedia API calls
+                        time.sleep(1)
                         wiki_content = wikipedia.run(query)
                         if wiki_content:
                             formatted_results.append(f"\nWikipedia Content for '{query}':")

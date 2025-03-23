@@ -5,7 +5,7 @@ import sys
 import time
 from duckduckgo_search import DDGS
 
-def search_with_retry(query, max_results=10, max_retries=3):
+def search_with_retry(query, max_results=10, max_retries=3, base_delay=2):
     """
     Search using DuckDuckGo and return results with URLs and text snippets.
     
@@ -13,6 +13,7 @@ def search_with_retry(query, max_results=10, max_retries=3):
         query (str): Search query
         max_results (int): Maximum number of results to return
         max_retries (int): Maximum number of retry attempts
+        base_delay (int): Base delay in seconds between retries
     """
     for attempt in range(max_retries):
         try:
@@ -32,8 +33,10 @@ def search_with_retry(query, max_results=10, max_retries=3):
         except Exception as e:
             print(f"ERROR: Attempt {attempt + 1}/{max_retries} failed: {str(e)}", file=sys.stderr)
             if attempt < max_retries - 1:  # If not the last attempt
-                print(f"DEBUG: Waiting 1 second before retry...", file=sys.stderr)
-                time.sleep(1)  # Wait 1 second before retry
+                # Exponential backoff with jitter
+                delay = base_delay * (2 ** attempt) + (time.time() % 1)
+                print(f"DEBUG: Waiting {delay:.1f} seconds before retry...", file=sys.stderr)
+                time.sleep(delay)
             else:
                 print(f"ERROR: All {max_retries} attempts failed", file=sys.stderr)
                 raise

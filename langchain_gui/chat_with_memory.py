@@ -83,41 +83,36 @@ async def process_message_stream(user_input: str) -> str:
 
 # Main UI
 st.title("🤖 LangChain Chat")
-
-# Initialize chat history in session state if not exists
-if "messages" not in st.session_state:
-    st.session_state.messages = [
-        SystemMessage(content="You are a helpful AI assistant. Be concise and clear in your responses.")
-    ]
-
-# Display chat messages
-for message in st.session_state.messages:
-    if isinstance(message, SystemMessage):
-        continue  # Skip system messages in display
-    with st.chat_message("user" if isinstance(message, HumanMessage) else "assistant"):
-        st.write(message.content)
-
-# Chat input
-if prompt := st.chat_input("What's on your mind?"):
-    # Add user message to chat history
-    user_message = HumanMessage(content=prompt)
-    st.session_state.messages.append(user_message)
-    with st.chat_message("user"):
-        st.write(prompt)
-    
-    # Get AI response with streaming
-    with st.chat_message("assistant"):
-        response = asyncio.run(process_message_stream(prompt))
-        st.session_state.messages.append(AIMessage(content=response))
-
-# Add a small footer with a clear button
 with st.container():
-    col1, col2 = st.columns([6, 1])
+    col1, col2 = st.columns([1, 1])
+
+    with col1:
+        st.write("Hello")
     with col2:
-        if st.button("Clear Chat"):
-            st.session_state.buffer_memory.clear()
-            st.session_state.summary_memory.clear()
+        # Initialize chat history in session state if not exists
+        if "messages" not in st.session_state:
             st.session_state.messages = [
                 SystemMessage(content="You are a helpful AI assistant. Be concise and clear in your responses.")
             ]
-            st.rerun() 
+
+        # Create a dedicated container for all messages
+        with st.container():
+            # Display chat messages
+            for message in st.session_state.messages:
+                if isinstance(message, SystemMessage):
+                    continue  # Skip system messages in display
+                with st.chat_message("user" if isinstance(message, HumanMessage) else "assistant"):
+                    st.write(message.content)
+
+            # Chat input
+            if prompt := st.chat_input("What's on your mind?"):
+                # Add user message to chat history
+                user_message = HumanMessage(content=prompt)
+                st.session_state.messages.append(user_message)
+                with st.chat_message("user"):
+                    st.write(prompt)
+                
+                # Get AI response with streaming
+                with st.chat_message("assistant"):
+                    response = asyncio.run(process_message_stream(prompt))
+                    st.session_state.messages.append(AIMessage(content=response))
